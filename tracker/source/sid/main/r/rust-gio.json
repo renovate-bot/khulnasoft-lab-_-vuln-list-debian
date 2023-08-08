@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-gio-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-bitflags-1+default-dev \u003c!nocheck\u003e, librust-futures-channel-0.3+default-dev \u003c!nocheck\u003e, librust-futures-core-0.3-dev \u003c!nocheck\u003e, librust-futures-io-0.3+default-dev \u003c!nocheck\u003e, librust-futures-util-0.3-dev \u003c!nocheck\u003e, librust-gio-sys-0.17+default-dev \u003c!nocheck\u003e, librust-glib-0.17+default-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev \u003c!nocheck\u003e, librust-once-cell-1+default-dev \u003c!nocheck\u003e, librust-pin-project-lite-0.2+default-dev \u003c!nocheck\u003e, librust-smallvec-1+default-dev \u003c!nocheck\u003e, librust-thiserror-1+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "e815739089105698c918afb687dfd31765c55ff064d83755abc1ebb250f9f2bb 2858 rust-gio_0.17.10-1.dsc a6973e92937cf98689b6a054a9e56c657ed4ff76de925e36fc331a15f0c5d30a 211583 rust-gio_0.17.10.orig.tar.gz bb3a8178809354f23991296d93994052fbcb63650f43b0f46fed275356a3eb78 3372 rust-gio_0.17.10-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-gio"
+  ],
+  "Files": [
+    "04810cd0cce81ef06a126349b0f9f7e2 2858 rust-gio_0.17.10-1.dsc 17224a7b36dcf89ad15812e299bc35bc 211583 rust-gio_0.17.10.orig.tar.gz 5b993a453739544f5d1da9f1c3505c05 3372 rust-gio_0.17.10-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gtk-rs.org/"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-gio"
+  ],
+  "Package-List": [
+    "librust-gio-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-futures-0.3+default-dev, librust-futures-util-0.3+default-dev, librust-futures-util-0.3+io-dev, librust-gir-format-check-0.1+default-dev, librust-serial-test-0.9+default-dev"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@riseup.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gio"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/gio]"
+  ],
+  "Version": [
+    "0.17.10-1"
+  ]
+}

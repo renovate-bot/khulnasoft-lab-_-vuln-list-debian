@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-mitogen, ansible-mitogen"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-mock \u003c!nocheck\u003e, python3-psutil \u003c!nocheck\u003e, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "8569fdb54151fe394ac89ee2829825ffe328709f3cedcc07064ef7bf40b5bcaa 1791 python-mitogen_0.3.4-1.dsc 691172eb9f9a3951c2a1756844fcec931bf0e80ae0a6e84ccd58158b8bbfd365 1263550 python-mitogen_0.3.4.orig.tar.gz 5e984f83e82018e0a3d0c93fdb1027f88c39bc40bcf0554cf65c94b5ffd006f6 9484 python-mitogen_0.3.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-mitogen"
+  ],
+  "Files": [
+    "d54945bc4203cafc9f9f8b4fc3826d81 1791 python-mitogen_0.3.4-1.dsc 400741d400b9407922bff404b51cce14 1263550 python-mitogen_0.3.4.orig.tar.gz 4a4cd8b0e3782857aeb1e2d590d46984 9484 python-mitogen_0.3.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/mitogen-hq/mitogen/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-mitogen"
+  ],
+  "Package-List": [
+    "ansible-mitogen deb python optional arch=all python3-mitogen deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-python"
+  ],
+  "Testsuite-Triggers": [
+    "python3-mock, python3-psutil"
+  ],
+  "Uploaders": [
+    "Antoine Beaupré \u003canarcat@debian.org\u003e, Emmanuel Arias \u003cemmanuelarias30@gmail.com\u003e, Richard Laager \u003crlaager@debian.org\u003e, Stefano Rivera \u003cstefanor@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-mitogen"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-mitogen.git"
+  ],
+  "Version": [
+    "0.3.4-1"
+  ]
+}

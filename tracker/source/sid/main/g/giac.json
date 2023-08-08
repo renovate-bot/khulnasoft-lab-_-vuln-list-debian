@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "amd64 arm64 armel armhf i386 mips64el mipsel riscv64 all"
+  ],
+  "Binary": [
+    "libgiac0, libgiac-dev, xcas, giac-doc"
+  ],
+  "Build-Depends": [
+    "automake, bison, debhelper-compat (= 13), flex, libfltk1.3-dev, libfontconfig-dev, libgl2ps-dev, libglu1-mesa-dev, libgmp3-dev, libgsl-dev, libjpeg-dev, libmpfi-dev, libmpfr-dev, libntl-dev, libpari-dev, libpng-dev, libreadline-dev, libtool, libxext-dev, libxft-dev, libxinerama-dev, patch, python3, texinfo, zlib1g-dev"
+  ],
+  "Build-Depends-Indep": [
+    "hevea \u003c!nodoc\u003e, imagemagick \u003c!nodoc\u003e, latex2html \u003c!nodoc\u003e, libjs-codemirror \u003c!nodoc\u003e, libjs-mathjax \u003c!nodoc\u003e, texlive-binaries \u003c!nodoc\u003e, texlive-font-utils \u003c!nodoc\u003e, texlive-lang-all \u003c!nodoc\u003e, texlive-latex-recommended \u003c!nodoc\u003e, texlive-pstricks \u003c!nodoc\u003e, texlive-science \u003c!nodoc\u003e, xauth \u003c!nodoc\u003e, xvfb \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "22040e8f094dc8472aec5b17adcc68bb35237410187349cacf58840c1432518e 3038 giac_1.9.0.57+dfsg2-1.dsc a3a9e6b8285e96e2890d3036400466359ac98562bc1c94a9afe77f5be449edd4 30462632 giac_1.9.0.57+dfsg2.orig.tar.xz c8a92d777d8889e59c1f6f06b66eff4812a199ab0b6a73a0f0d95bb0d3c8278a 21764 giac_1.9.0.57+dfsg2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/giac"
+  ],
+  "Files": [
+    "45a37d838db5801d5e0cf4a79b3b3b31 3038 giac_1.9.0.57+dfsg2-1.dsc 23dcac6e63753052d67277dda2af6c56 30462632 giac_1.9.0.57+dfsg2.orig.tar.xz 1b172f9df5b45a2a15d2316e876c3124 21764 giac_1.9.0.57+dfsg2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www-fourier.ujf-grenoble.fr/~parisse/giac.html"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "giac"
+  ],
+  "Package-List": [
+    "giac-doc deb doc optional arch=all libgiac-dev deb libdevel optional arch=amd64,arm64,armel,armhf,i386,mips64el,mipsel,riscv64 libgiac0 deb libs optional arch=amd64,arm64,armel,armhf,i386,mips64el,mipsel,riscv64 xcas deb science optional arch=amd64,arm64,armel,armhf,i386,mips64el,mipsel,riscv64"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Ximin Luo \u003cinfinity0@debian.org\u003e, Gilles Filippini \u003cpini@debian.org\u003e, Ileana Dumitrescu \u003cileanadumi95@protonmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/giac"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/giac.git"
+  ],
+  "Version": [
+    "1.9.0.57+dfsg2-1"
+  ]
+}

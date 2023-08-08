@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-trybuild-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-basic-toml-0.1+default-dev \u003c!nocheck\u003e, librust-glob-0.3+default-dev \u003c!nocheck\u003e, librust-once-cell-1+default-dev (\u003e= 1.9-~~) \u003c!nocheck\u003e, librust-serde-1+default-dev (\u003e= 1.0.166-~~) \u003c!nocheck\u003e, librust-serde-derive-1+default-dev (\u003e= 1.0.166-~~) \u003c!nocheck\u003e, librust-serde-json-1+default-dev (\u003e= 1.0.99-~~) \u003c!nocheck\u003e, librust-termcolor-1+default-dev (\u003e= 1.0.4-~~) \u003c!nocheck\u003e, librust-dissimilar-dev"
+  ],
+  "Checksums-Sha256": [
+    "25d7c4291e3190788dee6364ad9d69dc9471c76547c5413a5c42fec629d358ca 2596 rust-trybuild_1.0.81-1.dsc 04366e99ff743345622cd00af2af01d711dc2d1ef59250d7347698d21b546729 40162 rust-trybuild_1.0.81.orig.tar.gz e5e354b4d96316a091a08b19da6098d48a5bf8906aba21664c98efb79d09da7b 3164 rust-trybuild_1.0.81-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-trybuild"
+  ],
+  "Files": [
+    "e2e6ee187738307fb3b79b9453ae13ea 2596 rust-trybuild_1.0.81-1.dsc 006f63ce29bdfd0dcb3cdc99b0bf57b9 40162 rust-trybuild_1.0.81.orig.tar.gz 836b7b8ce9ca665f28a80dc3d0248c3d 3164 rust-trybuild_1.0.81-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-trybuild"
+  ],
+  "Package-List": [
+    "librust-trybuild-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-automod-1+default-dev"
+  ],
+  "Uploaders": [
+    "Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/trybuild"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/trybuild]"
+  ],
+  "Version": [
+    "1.0.81-1"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "fluster"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pandoc \u003c!nodoc\u003e, pybuild-plugin-pyproject, python3-all, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "2665a5db5df0b542cc58c9a2da1371f33f81504e3eac9d2df662ef84eb386b08 2195 fluster_1.0.1+git20230606.0c9a7db-1.dsc 76fdfc22e46abfdccf22c4576b2468fc8cd396c615a9704f1bfe5e33503c286a 100600 fluster_1.0.1+git20230606.0c9a7db.orig.tar.xz 064be12fbc14fc015be20805f1bcd9374dd3c6309a9bb0239a5f02a4bddf6293 4732 fluster_1.0.1+git20230606.0c9a7db-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/fluster"
+  ],
+  "Files": [
+    "70d17a7f0f7b53c7b056055dfaecddfb 2195 fluster_1.0.1+git20230606.0c9a7db-1.dsc 4a55f0aea62c239fd0fe538aef8fd507 100600 fluster_1.0.1+git20230606.0c9a7db.orig.tar.xz c8a060364687a06d5b0ef51cb9ebb022 4732 fluster_1.0.1+git20230606.0c9a7db-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/fluendo/fluster"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "fluster"
+  ],
+  "Package-List": [
+    "fluster deb video optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Christopher Obbard \u003cchris.obbard@collabora.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/fluster"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/fluster.git"
+  ],
+  "Version": [
+    "1.0.1+git20230606.0c9a7db-1"
+  ]
+}

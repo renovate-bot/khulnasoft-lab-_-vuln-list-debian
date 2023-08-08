@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-github-iglou-eu-go-wildcard-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-golang, golang-any"
+  ],
+  "Checksums-Sha256": [
+    "34a57338a407c9f4f4a4af7069933cd87840b14a34f232d18cb497476e464ec3 2350 golang-github-iglou-eu-go-wildcard_2.0.1-1.dsc 7cccb217a3a423124e157920ea6d970fa7446e6978b4f728aee9dc50004cbc9b 8845 golang-github-iglou-eu-go-wildcard_2.0.1.orig.tar.gz a050d54602ac39754d7816c7f1f6f8f90b733253c93e64c9852292771bcd252d 2216 golang-github-iglou-eu-go-wildcard_2.0.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-iglou-eu-go-wildcard"
+  ],
+  "Files": [
+    "1c2808759c80c0dc642ec4a1ffe3fb5d 2350 golang-github-iglou-eu-go-wildcard_2.0.1-1.dsc f7df0fcfa8e8cd70d585d8b8e8da86f5 8845 golang-github-iglou-eu-go-wildcard_2.0.1.orig.tar.gz c4548e7cceae37ef2876bfe908849ebf 2216 golang-github-iglou-eu-go-wildcard_2.0.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/IGLOU-EU/go-wildcard"
+  ],
+  "Homepage": [
+    "https://github.com/IGLOU-EU/go-wildcard"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-iglou-eu-go-wildcard"
+  ],
+  "Package-List": [
+    "golang-github-iglou-eu-go-wildcard-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Francisco Vilmar Cardoso Ruviaro \u003cvilmar@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-github-iglou-eu-go-wildcard"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-github-iglou-eu-go-wildcard.git"
+  ],
+  "Version": [
+    "2.0.1-1"
+  ]
+}

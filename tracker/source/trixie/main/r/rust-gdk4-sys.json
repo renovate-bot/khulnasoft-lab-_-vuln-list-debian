@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-gdk4-sys-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-cairo-sys-rs-0.17+default-dev \u003c!nocheck\u003e, librust-gdk-pixbuf-sys-0.17+default-dev \u003c!nocheck\u003e, librust-gio-sys-0.17+default-dev \u003c!nocheck\u003e, librust-glib-sys-0.17+default-dev \u003c!nocheck\u003e, librust-gobject-sys-0.17+default-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev \u003c!nocheck\u003e, librust-pango-sys-0.17+default-dev \u003c!nocheck\u003e, librust-pkg-config-0.3+default-dev (\u003e= 0.3.24-~~) \u003c!nocheck\u003e, librust-system-deps-6+default-dev \u003c!nocheck\u003e, libgtk-4-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "a3697b9482b39012a283dfdfad8bbda18b191c9d01537212d8bf01090d23a27c 2706 rust-gdk4-sys_0.6.3-1.dsc 1bc92aa1608c089c49393d014c38ac0390d01e4841e1fedaa75dbcef77aaed64 64159 rust-gdk4-sys_0.6.3.orig.tar.gz 1e1d0b75dd585cd1911075fe22f9269f6e3782f15b77b6e9d3a3a49b1616c95a 3080 rust-gdk4-sys_0.6.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-gdk4-sys"
+  ],
+  "Files": [
+    "85c663cff9dc75e5f415c67a19697885 2706 rust-gdk4-sys_0.6.3-1.dsc ce68029a1ac6e4ec0d3b86b8b93c10c7 64159 rust-gdk4-sys_0.6.3.orig.tar.gz fbabc5dbda067321d177e9f99a4d9897 3080 rust-gdk4-sys_0.6.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://gtk-rs.org/"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-gdk4-sys"
+  ],
+  "Package-List": [
+    "librust-gdk4-sys-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-shell-words-1+default-dev, librust-tempfile-3+default-dev"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@riseup.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gdk4-sys"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/gdk4-sys]"
+  ],
+  "Version": [
+    "0.6.3-1"
+  ]
+}

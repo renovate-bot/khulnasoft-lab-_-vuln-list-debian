@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-rcgen-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-pem-1+default-dev \u003c!nocheck\u003e, librust-ring-0.16+default-dev \u003c!nocheck\u003e, librust-time-0.3-dev (\u003e= 0.3.6-~~) \u003c!nocheck\u003e, librust-yasna-0.5+default-dev (\u003e= 0.5.2-~~) \u003c!nocheck\u003e, librust-yasna-0.5+std-dev (\u003e= 0.5.2-~~) \u003c!nocheck\u003e, librust-yasna-0.5+time-dev (\u003e= 0.5.2-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "20f1f4b2585710dc9c6b4d6b28562812a901bc006a4d8b10f53a749ee45e5f71 2531 rust-rcgen_0.11.1-2.dsc 4954fbc00dcd4d8282c987710e50ba513d351400dbdd00e803a05172a90d8976 44262 rust-rcgen_0.11.1.orig.tar.gz d01592d781929ac07fd98e7ff41dcc46b0374a302763f43f3fc000313fb8174c 11956 rust-rcgen_0.11.1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-rcgen"
+  ],
+  "Files": [
+    "fdbd4584759a5d50584888782a449304 2531 rust-rcgen_0.11.1-2.dsc 41b5bf4ca3cda64fe8026f97f54a16f9 44262 rust-rcgen_0.11.1.orig.tar.gz eaed1ba0cfb8fcd0d4140557610e70f3 11956 rust-rcgen_0.11.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-rcgen"
+  ],
+  "Package-List": [
+    "librust-rcgen-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-openssl-0.10+default-dev, librust-rand-0.8+default-dev, librust-webpki-0.22+default-dev, librust-webpki-0.22+std-dev"
+  ],
+  "Uploaders": [
+    "Emanuele Rocca \u003cema@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rcgen"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/rcgen]"
+  ],
+  "Version": [
+    "0.11.1-2"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libppx-bin-prot-ocaml-dev, libppx-bin-prot-ocaml"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), ocaml-nox, ocaml-dune, libbase-ocaml-dev (\u003e= 0.14), libppxlib-ocaml-dev (\u003e= 0.11.0), libppx-here-ocaml-dev (\u003e= 0.14), libbin-prot-ocaml-dev (\u003e= 1:0.14), dh-ocaml"
+  ],
+  "Checksums-Sha256": [
+    "cec2a2cc15bfd4c14cc3e48ac374ee87c511aff9218911db5d7572d287bafaa0 2252 ppx-bin-prot_0.16.0-1.dsc 4a6463fb398d5f6476563e10a8ebbe22f0bbb1496022145d59e593a4ae2cbbed 37632 ppx-bin-prot_0.16.0.orig.tar.gz 34b6b102bca874f0559bb8a4235b57faceac42707e7e4d6f711f67c421395ae7 2528 ppx-bin-prot_0.16.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/ppx-bin-prot"
+  ],
+  "Files": [
+    "16b77dec71618c187bc4021283e8077f 2252 ppx-bin-prot_0.16.0-1.dsc f591ce5a270b6568064e440c8c8153fe 37632 ppx-bin-prot_0.16.0.orig.tar.gz 83c45eb8854b6abba4a54c46747cd983 2528 ppx-bin-prot_0.16.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/janestreet/ppx_bin_prot"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "ppx-bin-prot"
+  ],
+  "Package-List": [
+    "libppx-bin-prot-ocaml deb ocaml optional arch=any libppx-bin-prot-ocaml-dev deb ocaml optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Stéphane Glondu \u003cglondu@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/ppx-bin-prot"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/ppx-bin-prot.git"
+  ],
+  "Version": [
+    "0.16.0-1"
+  ]
+}

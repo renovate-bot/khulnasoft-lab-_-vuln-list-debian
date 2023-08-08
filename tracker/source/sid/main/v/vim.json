@@ -1,0 +1,71 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "vim-common, vim-gui-common, vim-runtime, vim-doc, vim-tiny, vim, vim-gtk3, vim-nox, vim-motif, vim-athena, xxd"
+  ],
+  "Build-Conflicts": [
+    "autoconf2.13"
+  ],
+  "Build-Depends": [
+    "autoconf, cscope \u003c!nocheck\u003e, debhelper-compat (= 13), libacl1-dev, libcanberra-dev, libgpmg1-dev [linux-any], libgtk-3-dev, liblua5.2-dev, libmotif-dev, libperl-dev, libselinux1-dev [linux-any], libsodium-dev, libncurses-dev, libtool-bin \u003c!nocheck\u003e, lua5.2, procps \u003c!nocheck\u003e, python3-dev, ruby [!alpha !ia64] \u003c!pkg.vim.noruby\u003e, ruby-dev [!alpha !ia64] \u003c!pkg.vim.noruby\u003e, tcl-dev"
+  ],
+  "Build-Depends-Indep": [
+    "docbook-utils, docbook-xml, ghostscript, lynx, pdf2svg"
+  ],
+  "Checksums-Sha256": [
+    "611e2b38514a71727ef0a4d704eb0255364c918abd45abb5d75089331dde17f3 3177 vim_9.0.1672-1.dsc 9dbe5fee14c0c2ad2c818000a499bfb4839b2f5de820519df559c6e6cd2ca217 11171484 vim_9.0.1672.orig.tar.xz cc40d70aa7b393d36288cc307417781099f8ccde07e0f92f5b8e715f1e2647ed 186668 vim_9.0.1672-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "ab3e2b49dd5efe0bac0bccd0fb292e48f7caede1 debian archive/debian/2%9.0.1672-1 https://git.dgit.debian.org/vim"
+  ],
+  "Directory": [
+    "pool/main/v/vim"
+  ],
+  "Files": [
+    "b6b42ecd42085db638763b6d8c0bc9fb 3177 vim_9.0.1672-1.dsc aca26021b2cf4fe34afde152d82cc376 11171484 vim_9.0.1672.orig.tar.xz 59a7428e6adf173517ae445a31220df7 186668 vim_9.0.1672-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.vim.org/"
+  ],
+  "Maintainer": [
+    "Debian Vim Maintainers \u003cteam+vim@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "vim"
+  ],
+  "Package-List": [
+    "vim deb editors optional arch=any vim-athena deb oldlibs optional arch=all vim-common deb editors important arch=all vim-doc deb doc optional arch=all vim-gtk3 deb editors optional arch=any vim-gui-common deb editors optional arch=all vim-motif deb editors optional arch=any vim-nox deb editors optional arch=any vim-runtime deb editors optional arch=all vim-tiny deb editors important arch=any xxd deb editors optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "editors"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "cscope, procps, python3"
+  ],
+  "Uploaders": [
+    "James McCoy \u003cjamessan@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/vim-team/vim"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/vim-team/vim.git"
+  ],
+  "Version": [
+    "2:9.0.1672-1"
+  ]
+}

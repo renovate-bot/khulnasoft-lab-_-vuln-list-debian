@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "last-align"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), help2man, python3-pil, zlib1g-dev, libsimde-dev, debhelper"
+  ],
+  "Checksums-Sha256": [
+    "48b085a89231919d7509677a33ea87296ea198ea6452f1d066fff6685f9272e0 2139 last-align_1460-1.dsc 5bbe9299403c715eaef24efbee973ccb5717291634bbca21136e523a49f23cc2 1343988 last-align_1460.orig.tar.xz 5fabe65f8b4ca2acbed60dcefa16b0c8c543a165d4b9b8b0f59b50ed66335bb2 17456 last-align_1460-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/last-align"
+  ],
+  "Files": [
+    "fa07c44bc040592d09e2a8b918a90e98 2139 last-align_1460-1.dsc 6677f20f967b6eef039bc23db7411a79 1343988 last-align_1460.orig.tar.xz a5dd93371d576926b6549d8fa24e23a5 17456 last-align_1460-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.com/mcfrith/last"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "last-align"
+  ],
+  "Package-List": [
+    "last-align deb science optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "science"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-pil"
+  ],
+  "Uploaders": [
+    "Charles Plessy \u003cplessy@debian.org\u003e, Andreas Tille \u003ctille@debian.org\u003e, Nilesh Patra \u003cnilesh@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/last-align"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/last-align.git"
+  ],
+  "Version": [
+    "1460-1"
+  ]
+}

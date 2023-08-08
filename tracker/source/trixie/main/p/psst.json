@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "i386 amd64"
+  ],
+  "Binary": [
+    "psst"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 13), debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "a07e343dadf417c20a6ec94b6e39211121919976b6559102c7b9294b0c97c123 1695 psst_1.0-5.dsc 507d734f6e3b112e943934cb473537428e23e386c5160e8521720da0f0eb461c 23944 psst_1.0.orig.tar.xz a32bae6b6c4b0320f05d453f96e7ff92c7055ba1b853e3dd77835132ba95aaff 4012 psst_1.0-5.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/psst"
+  ],
+  "Files": [
+    "6c7354956317d001b14413ecfeee4cfc 1695 psst_1.0-5.dsc b82d898fbf2be9ddda92d8185924c896 23944 psst_1.0.orig.tar.xz a9782caaeaa73032034a83043a0a945c 4012 psst_1.0-5.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/intel/psst"
+  ],
+  "Maintainer": [
+    "Colin Ian King \u003ccolin.i.king@gmail.com\u003e"
+  ],
+  "Package": [
+    "psst"
+  ],
+  "Package-List": [
+    "psst deb devel optional arch=i386,amd64"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Version": [
+    "1.0-5"
+  ]
+}

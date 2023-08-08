@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "debian-installer-12-netboot-amd64, debian-installer-12-netboot-arm64, debian-installer-12-netboot-armel, debian-installer-12-netboot-armhf, debian-installer-12-netboot-i386, debian-installer-12-netboot-mips64el, debian-installer-12-netboot-mipsel, debian-installer-12-netboot-ppc64el"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), wget, debian-archive-keyring, gpgv, dctrl-tools"
+  ],
+  "Checksums-Sha256": [
+    "fff1fc88bd1f72bd6f893baf7159eefeb5105a8f13ad6e130c167b378820a780 2584 debian-installer-netboot-images_20230607+deb12u1.dsc 149f26deb305684d280a05282d70e5fa3f7ae61d196f38e2ccb3f624ac5aff5b 8080 debian-installer-netboot-images_20230607+deb12u1.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/debian-installer-netboot-images"
+  ],
+  "Files": [
+    "61d9af5153cebe369fa85203b6157c83 2584 debian-installer-netboot-images_20230607+deb12u1.dsc 1695762ad61bb91deaabb918f75d10c9 8080 debian-installer-netboot-images_20230607+deb12u1.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Debian Install System Team \u003cdebian-boot@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "debian-installer-netboot-images"
+  ],
+  "Package-List": [
+    "debian-installer-12-netboot-amd64 deb misc optional arch=all debian-installer-12-netboot-arm64 deb misc optional arch=all debian-installer-12-netboot-armel deb misc optional arch=all debian-installer-12-netboot-armhf deb misc optional arch=all debian-installer-12-netboot-i386 deb misc optional arch=all debian-installer-12-netboot-mips64el deb misc optional arch=all debian-installer-12-netboot-mipsel deb misc optional arch=all debian-installer-12-netboot-ppc64el deb misc optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Uploaders": [
+    "Cyril Brulebois \u003ckibi@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/installer-team/debian-installer-netboot-images"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/installer-team/debian-installer-netboot-images.git"
+  ],
+  "Version": [
+    "20230607+deb12u1"
+  ]
+}

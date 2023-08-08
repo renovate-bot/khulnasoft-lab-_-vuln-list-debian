@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libfrei0r-ocaml, libfrei0r-ocaml-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-buildinfo, ocaml-nox, dh-ocaml, frei0r-plugins-dev, ocaml-dune, libdune-ocaml-dev, pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "6b297403823a081ba1e3a7f7a756efedaa3baafbbdc39f25aac2e68a23b529dd 1876 ocaml-frei0r_0.1.2-2.dsc f6c22e7c9426cfadd1f20f9ee7970b1b5b7546588a872f89f8d8296f7e7bcb08 15357 ocaml-frei0r_0.1.2.orig.tar.gz f50a8cccf7b1769a51954aa083e7e166620617390cdf8c42ec10b8e8bb30089d 2528 ocaml-frei0r_0.1.2-2.debian.tar.xz"
+  ],
+  "Dgit": [
+    "7f1fab7c25cf856ccfc2fb08fe6d15f3393718e5 debian archive/debian/0.1.2-2 https://git.dgit.debian.org/ocaml-frei0r"
+  ],
+  "Directory": [
+    "pool/main/o/ocaml-frei0r"
+  ],
+  "Files": [
+    "cc3db44425f0caefd9dc337cf8970dc6 1876 ocaml-frei0r_0.1.2-2.dsc 90e06952937864c98386db6ca2472cb6 15357 ocaml-frei0r_0.1.2.orig.tar.gz 9b55a4fca3a60229187aed8d028f58ff 2528 ocaml-frei0r_0.1.2-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/savonet/ocaml-frei0r"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "ocaml-frei0r"
+  ],
+  "Package-List": [
+    "libfrei0r-ocaml deb ocaml optional arch=any libfrei0r-ocaml-dev deb ocaml optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/ocaml-frei0r"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/ocaml-frei0r.git"
+  ],
+  "Version": [
+    "0.1.2-2"
+  ]
+}

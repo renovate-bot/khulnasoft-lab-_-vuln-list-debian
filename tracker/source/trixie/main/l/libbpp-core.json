@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libbpp-core-dev, libbpp-core4"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, d-shlibs"
+  ],
+  "Checksums-Sha256": [
+    "9926b24948057f0ec72bb6f1b8bf3f2b96e84f9010daee28c7f7e050030e9931 2123 libbpp-core_2.4.1-10.dsc 1150b8ced22cff23dd4770d7c23fad11239070b44007740e77407f0d746c0af6 361311 libbpp-core_2.4.1.orig.tar.gz 5285ead53cc9346fb224d7dae485d08abbb58e263d24448a46432cd4f20af4c1 33068 libbpp-core_2.4.1-10.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libb/libbpp-core"
+  ],
+  "Files": [
+    "b8b4fe69adf0f4e24b6fde0c768c577c 2123 libbpp-core_2.4.1-10.dsc 25040b547ca63e57cb79de5815ef2584 361311 libbpp-core_2.4.1.orig.tar.gz be4933d111ec55e7fb7f25fe64d39190 33068 libbpp-core_2.4.1-10.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://biopp.univ-montp2.fr/wiki/index.php/Main_Page"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libbpp-core"
+  ],
+  "Package-List": [
+    "libbpp-core-dev deb libdevel optional arch=any libbpp-core4 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Julien Dutheil \u003cjulien.dutheil@univ-montp2.fr\u003e, Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/libbpp-core"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/libbpp-core.git"
+  ],
+  "Version": [
+    "2.4.1-10"
+  ]
+}

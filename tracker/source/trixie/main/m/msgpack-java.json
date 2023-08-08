@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libmsgpack-java"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), default-jdk, maven-debian-helper (\u003e= 2.1)"
+  ],
+  "Build-Depends-Indep": [
+    "junit4, libcommons-math3-java (\u003e= 3.6.1), libjackson2-databind-java"
+  ],
+  "Checksums-Sha256": [
+    "016c10c08f8429426a05ee8bb883f34aae3291e3ae9eb669ddbb233c0abe3887 2104 msgpack-java_0.9.4-1.dsc 02e5abc8c8d411391a65f57518ea9754b8bef96bf92b8c21e7e1f2abaa6cfb8b 104320 msgpack-java_0.9.4.orig.tar.xz 758902b0643a2ff1d7b3b5c16384daf6ec444edced4812f07d3fa59e21894b8c 5120 msgpack-java_0.9.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/msgpack-java"
+  ],
+  "Files": [
+    "61fcfb03aba86a4a5fd2121a6cdd38f5 2104 msgpack-java_0.9.4-1.dsc b65ca30b0895dcd0cb65b8457230f6ff 104320 msgpack-java_0.9.4.orig.tar.xz 3075a3e9f9e8ad61b2067e91e2a1e455 5120 msgpack-java_0.9.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://msgpack.org"
+  ],
+  "Maintainer": [
+    "Debian Java Maintainers \u003cpkg-java-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "msgpack-java"
+  ],
+  "Package-List": [
+    "libmsgpack-java deb java optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Uploaders": [
+    "Andrius Merkys \u003cmerkys@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/java-team/msgpack-java"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/java-team/msgpack-java.git"
+  ],
+  "Version": [
+    "0.9.4-1"
+  ]
+}

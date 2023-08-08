@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "virtnbdbackup"
+  ],
+  "Build-Depends": [
+    "dh-python, python3-setuptools, python3-all, debhelper (\u003e= 10), python3-libnbd, python3-libvirt, python3-lxml, python3-paramiko, python3-lz4, python3-tqdm"
+  ],
+  "Checksums-Sha256": [
+    "0da868f9b15ce4b9eba7e02b7aea7c0610407866424e928762f900aba71ea1cd 1901 virtnbdbackup_1.9.28-1.dsc 0384f4d3a72c11c5a9d34cdd4738fedfc9584117403b1351cb6b0fc9a75994b4 80431 virtnbdbackup_1.9.28.orig.tar.gz 90abcb13e0050dd1ff51f87b601080cdd218fabf6e0af77233253ef8eca48838 1936 virtnbdbackup_1.9.28-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/v/virtnbdbackup"
+  ],
+  "Files": [
+    "72a08fa6c5eb04390749794bfd3942a9 1901 virtnbdbackup_1.9.28-1.dsc db1c67820ee948d8dfb494101049f983 80431 virtnbdbackup_1.9.28.orig.tar.gz 6c0f49a19020f42e2ce5267050805d5e 1936 virtnbdbackup_1.9.28-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/abbbi/virtnbdbackup/"
+  ],
+  "Maintainer": [
+    "Michael Ablassmeier \u003cabi@debian.org\u003e"
+  ],
+  "Package": [
+    "virtnbdbackup"
+  ],
+  "Package-List": [
+    "virtnbdbackup deb admin optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Version": [
+    "1.9.28-1"
+  ]
+}

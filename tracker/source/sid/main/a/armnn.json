@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "amd64 arm64 armhf i386 mipsel mips64el ppc64el"
+  ],
+  "Binary": [
+    "libarmnn22, libarmnn-dev, libarmnntfliteparser22, libarmnntfliteparser-dev, python3-pyarmnn, libarmnn-cpuacc-backend22, libarmnnaclcommon22, libarmnn-cpuref-backend22, libarmnn-gpuacc-backend22"
+  ],
+  "Build-Depends": [
+    "libboost-test-dev (\u003e= 1.64), libboost-system-dev (\u003e= 1.64), libboost-filesystem-dev (\u003e= 1.64), libboost-log-dev (\u003e= 1.64), libboost-program-options-dev (\u003e= 1.64), cmake, debhelper-compat (= 12), valgrind, libflatbuffers-dev, libarm-compute-dev [arm64 armhf], swig (\u003e= 4.0.1-5), dh-python, python3-all, python3-setuptools, python3-dev, python3-numpy, xxd, flatbuffers-compiler, chrpath"
+  ],
+  "Checksums-Sha256": [
+    "a190ad41f96b72eacd625b48a1a3937fa158569ef0d4859911cf825033d43173 3203 armnn_20.08-13.dsc e834f4ed5ed138ea6c66ea37ec11208af9803271656be16abd426f74287d1189 4485544 armnn_20.08.orig.tar.xz ed6c971d6f8b7866349183727e8640ed4d83954fb09434dd9978fe0a65e7b204 20228 armnn_20.08-13.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/armnn"
+  ],
+  "Files": [
+    "4012ac7e6425e791825ad55b543053e9 3203 armnn_20.08-13.dsc 14a2e1618f7853f831f5fa278c3e250d 4485544 armnn_20.08.orig.tar.xz 1713049e1d6775310964dbe442a56859 20228 armnn_20.08-13.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Francis Murtagh \u003cfrancis.murtagh@arm.com\u003e"
+  ],
+  "Package": [
+    "armnn"
+  ],
+  "Package-List": [
+    "libarmnn-cpuacc-backend22 deb devel optional arch=arm64 libarmnn-cpuref-backend22 deb devel optional arch=amd64,arm64,armhf,i386,mipsel,mips64el,ppc64el libarmnn-dev deb devel optional arch=amd64,arm64,armhf,i386,mipsel,mips64el,ppc64el libarmnn-gpuacc-backend22 deb devel optional arch=armhf,arm64 libarmnn22 deb devel optional arch=amd64,arm64,armhf,i386,mipsel,mips64el,ppc64el libarmnnaclcommon22 deb devel optional arch=armhf,arm64 libarmnntfliteparser-dev deb devel optional arch=amd64,arm64,armhf,i386,mipsel,mips64el,ppc64el libarmnntfliteparser22 deb devel optional arch=amd64,arm64,armhf,i386,mipsel,mips64el,ppc64el python3-pyarmnn deb devel optional arch=amd64,arm64,armhf,i386,mipsel,mips64el,ppc64el"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "g++"
+  ],
+  "Uploaders": [
+    "Wookey \u003cwookey@debian.org\u003e, Emanuele Rocca \u003cema@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/deeplearning-team/armnn"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/deeplearning-team/armnn.git"
+  ],
+  "Version": [
+    "20.08-13"
+  ]
+}

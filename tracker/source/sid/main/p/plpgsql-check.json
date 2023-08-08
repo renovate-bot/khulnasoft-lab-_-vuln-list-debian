@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "postgresql-15-plpgsql-check"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libicu-dev, postgresql-all (\u003e= 217~)"
+  ],
+  "Checksums-Sha256": [
+    "575a8e7bd920655d3abf74ae2a35061d0935a10ff0066e1cf00c41d16de7913f 2132 plpgsql-check_2.3.4-1.dsc 67de99541f6acdcbf3f4e837f8b4d7069981648526b26e1ca5999ce97dd285bc 275060 plpgsql-check_2.3.4.orig.tar.gz 11a1af3233f0c6d54a2679770331174a60f325a935d47990b4cd851be584f866 3320 plpgsql-check_2.3.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/plpgsql-check"
+  ],
+  "Files": [
+    "45b15e6de9454d16192a5cb2e7768d56 2132 plpgsql-check_2.3.4-1.dsc 78fb50dfbc44aab88a11278160d55033 275060 plpgsql-check_2.3.4.orig.tar.gz ecfc9286d71f4e9cb32587911865449f 3320 plpgsql-check_2.3.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/okbob/plpgsql_check"
+  ],
+  "Maintainer": [
+    "Debian PostgreSQL Maintainers \u003cteam+postgresql@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "plpgsql-check"
+  ],
+  "Package-List": [
+    "postgresql-15-plpgsql-check deb database optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "make"
+  ],
+  "Uploaders": [
+    "Stefan Hühner \u003cstefan.huehner@openbravo.com\u003e, Christoph Berg \u003cmyon@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/postgresql/plpgsql-check"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/postgresql/plpgsql-check.git"
+  ],
+  "Version": [
+    "2.3.4-1"
+  ]
+}

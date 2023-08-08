@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "gnumed-server"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3"
+  ],
+  "Build-Depends-Indep": [
+    "po-debconf"
+  ],
+  "Checksums-Sha256": [
+    "754a7ca77f8dfb8a6995ff70332c64f2f0115517cf38de796702bf985fdee572 2083 gnumed-server_22.24-1.dsc 912efd24ef7e5df4ecec8c5a5eb590b337ee551f36644010fc29d79f768daa0e 14267368 gnumed-server_22.24.orig.tar.gz 68ae33702743f99f74b4ee5a59ea8ef7508f98bad405a649e001cc1c7f679296 11388 gnumed-server_22.24-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gnumed-server"
+  ],
+  "Files": [
+    "db76aac92ed24e95470b7858c154aa41 2083 gnumed-server_22.24-1.dsc 0ebe75d76e0fc93dfb3df2616c6921eb 14267368 gnumed-server_22.24.orig.tar.gz 5b8cc321a9fde9fff1c228cbb249e1f9 11388 gnumed-server_22.24-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.gnumed.de"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "gnumed-server"
+  ],
+  "Package-List": [
+    "gnumed-server deb misc optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e, Sebastian Hilbert \u003csebastian.hilbert@gmx.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/gnumed-server"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/gnumed-server.git"
+  ],
+  "Version": [
+    "22.24-1"
+  ]
+}

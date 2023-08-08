@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-url-dev, librust-url+serde-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-form-urlencoded-1+default-dev (\u003e= 1.2.0-~~) \u003c!nocheck\u003e, librust-idna-0.3+default-dev \u003c!nocheck\u003e, librust-percent-encoding-2+default-dev (\u003e= 2.3.0-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "aa31133779d2075a3e9ea3d2e78b15c5b2e14232d0d20635f84b8942c1a7d500 2412 rust-url_2.4.0-1.dsc 50bff7831e19200a85b17131d085c25d7811bc4e186efdaf54bbd132994a88cb 75670 rust-url_2.4.0.orig.tar.gz 88b2a5b19bf4f00d65557f0503dd72d3ae64b0f52e048004c5b1c983c6240e43 3996 rust-url_2.4.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-url"
+  ],
+  "Files": [
+    "e86040ba8e46e8dc7ef7ab7f1ed1ebb6 2412 rust-url_2.4.0-1.dsc 6b4795777b514c43887096313cd7ad7d 75670 rust-url_2.4.0.orig.tar.gz f34c567631da9556cc4359ca3f5c1ce1 3996 rust-url_2.4.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-url"
+  ],
+  "Package-List": [
+    "librust-url+serde-dev deb rust optional arch=any librust-url-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-serde-json-1+default-dev"
+  ],
+  "Uploaders": [
+    "Paride Legovini \u003cparide@debian.org\u003e, Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/url"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/url]"
+  ],
+  "Version": [
+    "2.4.0-1"
+  ]
+}

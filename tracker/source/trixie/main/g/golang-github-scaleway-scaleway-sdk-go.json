@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-github-scaleway-scaleway-sdk-go-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any, golang-github-dnaeon-go-vcr-dev (\u003e= 1.0.0), golang-yaml.v2-dev"
+  ],
+  "Checksums-Sha256": [
+    "e094e0d186b6ee291825cb4a523941cefdfe987f6baf6abd57d2354fe4fc4b1c 2527 golang-github-scaleway-scaleway-sdk-go_1.0.0~beta19-1.dsc 8733df0017a9a5effc56abf0a2cd654f47533410c8cceaa9dd0e495a66d26759 520353 golang-github-scaleway-scaleway-sdk-go_1.0.0~beta19.orig.tar.gz b496b4b109c8a4cc1806e339503e0f1d043bbd680ddbc79ea0250cc2d66345d3 2276 golang-github-scaleway-scaleway-sdk-go_1.0.0~beta19-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-scaleway-scaleway-sdk-go"
+  ],
+  "Files": [
+    "7241ebee608c843b8208ae4994838b67 2527 golang-github-scaleway-scaleway-sdk-go_1.0.0~beta19-1.dsc e0caf69f3e8f1f39107279c7453ffacf 520353 golang-github-scaleway-scaleway-sdk-go_1.0.0~beta19.orig.tar.gz bae90d7684a86349d7c48691044d7f40 2276 golang-github-scaleway-scaleway-sdk-go_1.0.0~beta19-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/scaleway/scaleway-sdk-go"
+  ],
+  "Homepage": [
+    "https://github.com/scaleway/scaleway-sdk-go"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-scaleway-scaleway-sdk-go"
+  ],
+  "Package-List": [
+    "golang-github-scaleway-scaleway-sdk-go-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Daniel Swarbrick \u003cdswarbrick@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-github-scaleway-scaleway-sdk-go"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-github-scaleway-scaleway-sdk-go.git"
+  ],
+  "Version": [
+    "1.0.0~beta19-1"
+  ]
+}

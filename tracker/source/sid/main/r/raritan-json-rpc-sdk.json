@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-raritan-json-rpc, raritan-json-rpc-doc, libraritan-rpc-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, perl, python3, python3-setuptools, python3-uritools"
+  ],
+  "Checksums-Sha256": [
+    "18655214d5125abaac2ad9bc679bad34d951d20156bbfd073d7e4dd8de13b9e2 2329 raritan-json-rpc-sdk_4.0.41+ds-1.dsc a1481b8431814c7baa618d60034f1dd6fe10735181f0ca237cf2516af9addedd 1665684 raritan-json-rpc-sdk_4.0.41+ds.orig.tar.xz 288fe351815513272d1d19b803ce512615b2945e514381dc9f881ac14d98bf84 16768 raritan-json-rpc-sdk_4.0.41+ds-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/raritan-json-rpc-sdk"
+  ],
+  "Files": [
+    "b143a6484563dd44246a6c52183c84f5 2329 raritan-json-rpc-sdk_4.0.41+ds-1.dsc c8f091d976ec314439cbc3427c8a4642 1665684 raritan-json-rpc-sdk_4.0.41+ds.orig.tar.xz d3656df926ad35edd7a75c6982fbff7f 16768 raritan-json-rpc-sdk_4.0.41+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.raritan.com/support/product/pdu-g2"
+  ],
+  "Maintainer": [
+    "Carsten Schoenert \u003cc.schoenert@t-online.de\u003e"
+  ],
+  "Package": [
+    "raritan-json-rpc-sdk"
+  ],
+  "Package-List": [
+    "libraritan-rpc-perl deb perl optional arch=all python3-raritan-json-rpc deb python optional arch=all raritan-json-rpc-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "pkg-perl-autopkgtest"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/tijuca/raritan-json-rpc-sdk"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/tijuca/raritan-json-rpc-sdk.git"
+  ],
+  "Version": [
+    "4.0.41+ds-1"
+  ]
+}

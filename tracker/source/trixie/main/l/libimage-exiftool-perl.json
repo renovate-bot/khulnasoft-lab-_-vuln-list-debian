@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libimage-exiftool-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "libarchive-zip-perl \u003c!nocheck\u003e, libcompress-raw-lzma-perl \u003c!nocheck\u003e, libio-compress-brotli-perl \u003c!nocheck\u003e, libunicode-linebreak-perl \u003c!nocheck\u003e, perl"
+  ],
+  "Checksums-Sha256": [
+    "d99778519cf459dc91e544108dc35c0133a68e4baa2ed10aca31e16b99187187 2621 libimage-exiftool-perl_12.64+dfsg-1.dsc 522b8811083fe7feeb7737d569aa6346bd229381c07c2162f0204cdbdfc54130 3512852 libimage-exiftool-perl_12.64+dfsg.orig.tar.xz 0d4b2a815b74d8534862f40ce422fa904cac6bb1c0389922e6aaa79452dba1e2 11508 libimage-exiftool-perl_12.64+dfsg-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "d7fc72d8cd0d5f2632036378f672702a44a8e338 debian archive/debian/12.64+dfsg-1 https://git.dgit.debian.org/libimage-exiftool-perl"
+  ],
+  "Directory": [
+    "pool/main/libi/libimage-exiftool-perl"
+  ],
+  "Files": [
+    "1c392c9d4761ab682db9f7e737877ad9 2621 libimage-exiftool-perl_12.64+dfsg-1.dsc 73abf2ecc83a13b4adb392aa69a42991 3512852 libimage-exiftool-perl_12.64+dfsg.orig.tar.xz dff3b6b349060270154ac7d6c3c0bd49 11508 libimage-exiftool-perl_12.64+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://exiftool.org/"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libimage-exiftool-perl"
+  ],
+  "Package-List": [
+    "libimage-exiftool-perl deb perl optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "perl"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "Mari Wang \u003cmariwan@ifi.uio.no\u003e, gregor herrmann \u003cgregoa@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libimage-exiftool-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libimage-exiftool-perl.git"
+  ],
+  "Version": [
+    "12.64+dfsg-1"
+  ]
+}

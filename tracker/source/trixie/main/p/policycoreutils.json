@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "policycoreutils, newrole"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), gawk, gettext, libaudit-dev, libcap-ng-dev, libpam0g-dev, libselinux1-dev (\u003e= 3.5), libsemanage-dev (\u003e= 3.5), libsepol-dev (\u003e= 3.5)"
+  ],
+  "Checksums-Sha256": [
+    "31d9fe8082840899074a9c35e437df0dd4926f8c4d29771e5867f0abe1193a11 2150 policycoreutils_3.5-1.dsc 78453e1529fbbf800e88860094d555e781ce1fba11a7ef77b5aabb43e1173276 775639 policycoreutils_3.5.orig.tar.gz ff519f094b639c69aa0c4e60e9016f28b0e60b31d4d96a11f41b5d7c6a7a52b9 981 policycoreutils_3.5.orig.tar.gz.asc c9321e050affc6c440a808d1e3a4682d1cdde712f545920578f49ff3054ce78e 37916 policycoreutils_3.5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/policycoreutils"
+  ],
+  "Files": [
+    "13b4fffa0d8423e83181c7895ca94feb 2150 policycoreutils_3.5-1.dsc 0cd7aa417b0419033ba4fa6484eca1eb 775639 policycoreutils_3.5.orig.tar.gz 06f5dc8810489f5fd0aa1e2223bfe6eb 981 policycoreutils_3.5.orig.tar.gz.asc 9dbd41c90861f3ceee8e5077bf664e16 37916 policycoreutils_3.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://selinuxproject.org"
+  ],
+  "Maintainer": [
+    "Debian SELinux maintainers \u003cselinux-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "policycoreutils"
+  ],
+  "Package-List": [
+    "newrole deb utils optional arch=linux-any policycoreutils deb utils optional arch=linux-any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Laurent Bigonville \u003cbigon@debian.org\u003e, Russell Coker \u003crussell@coker.com.au\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/selinux-team/policycoreutils"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/selinux-team/policycoreutils.git"
+  ],
+  "Version": [
+    "3.5-1"
+  ]
+}

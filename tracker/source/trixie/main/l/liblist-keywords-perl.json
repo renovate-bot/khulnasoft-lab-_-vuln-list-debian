@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "liblist-keywords-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libextutils-cbuilder-perl, libmodule-build-perl, libtest2-suite-perl (\u003e= 0.000148) \u003c!nocheck\u003e, libxs-parse-keyword-perl (\u003e= 0.35), perl-xs-dev, perl:native"
+  ],
+  "Checksums-Sha256": [
+    "bc360212ea140572ff1a250cf8ed38334090518ba46c84564530abed20e86f37 2525 liblist-keywords-perl_0.11-1.dsc cab7922eae44b96fc2430aa10b2e726036605928d4e4fdf7e9c7b6ca32d4c64c 29604 liblist-keywords-perl_0.11.orig.tar.gz b4abe9662943258852306a091c60f76961c34cbb2f80d9829fea412e42cc25c8 1700 liblist-keywords-perl_0.11-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "76c89104cd8f2b3acd1ca4944977dca5bc81f950 debian archive/debian/0.11-1 https://git.dgit.debian.org/liblist-keywords-perl"
+  ],
+  "Directory": [
+    "pool/main/libl/liblist-keywords-perl"
+  ],
+  "Files": [
+    "7d7ab19f754f415e2a01cbbd83ca5345 2525 liblist-keywords-perl_0.11-1.dsc 71b6536ed83adef993e97a17877e9191 29604 liblist-keywords-perl_0.11.orig.tar.gz af7231797b48aa838ec12c7326052c07 1700 liblist-keywords-perl_0.11-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/List-Keywords"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "liblist-keywords-perl"
+  ],
+  "Package-List": [
+    "liblist-keywords-perl deb perl optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "gregor herrmann \u003cgregoa@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/liblist-keywords-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/liblist-keywords-perl.git"
+  ],
+  "Version": [
+    "0.11-1"
+  ]
+}

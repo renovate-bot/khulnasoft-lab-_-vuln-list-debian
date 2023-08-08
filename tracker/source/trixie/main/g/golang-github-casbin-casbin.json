@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-github-casbin-casbin-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-golang, golang-any, golang-github-golang-mock-dev, golang-github-knetic-govaluate-dev (\u003e= 3.0.0+git20171022.9aa4983), golang-github-tidwall-gjson-dev"
+  ],
+  "Checksums-Sha256": [
+    "43a8350b9356d071e824047c67719d3c666714073d2415431cf9e36700961c6d 2386 golang-github-casbin-casbin_2.72.1-1.dsc d7d2b8f7a847e7eec09c005cee4e5018686fd0f8d70341b848389d464a60bbf1 119990 golang-github-casbin-casbin_2.72.1.orig.tar.gz 8c7bbd4751f0219314eadb85b80939395997c7acc1604f5e2c1c44c27d755a11 2252 golang-github-casbin-casbin_2.72.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-casbin-casbin"
+  ],
+  "Files": [
+    "2c0ca7d94ea63911f9d9b7bb59b924a4 2386 golang-github-casbin-casbin_2.72.1-1.dsc 494e2798acae407ba17cfdc93f632ca8 119990 golang-github-casbin-casbin_2.72.1.orig.tar.gz deed10be3e266b3e3af603cec66bbb72 2252 golang-github-casbin-casbin_2.72.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/casbin/casbin"
+  ],
+  "Homepage": [
+    "https://github.com/casbin/casbin"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-casbin-casbin"
+  ],
+  "Package-List": [
+    "golang-github-casbin-casbin-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Mathias Gibbens \u003cgibmat@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-github-casbin-casbin"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-github-casbin-casbin.git"
+  ],
+  "Version": [
+    "2.72.1-1"
+  ]
+}

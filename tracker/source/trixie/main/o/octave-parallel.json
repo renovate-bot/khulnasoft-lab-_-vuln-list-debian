@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "octave-parallel"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-octave (\u003e= 1.2.3), dh-sequence-octave, libgnutls28-dev"
+  ],
+  "Checksums-Sha256": [
+    "c9a9a7bf125beb687a86a1c6271989299985f851d38b61b13fb11d96256c7ed1 2217 octave-parallel_4.0.1-7.dsc ea86535e167351f3214feea4d0524626d07e211d1e84d94cbf230d41b2e01bc1 754426 octave-parallel_4.0.1.orig.tar.gz bf7a025de358231c3016233eb257973955996295f57fbb68216bb33683fbf0bf 10440 octave-parallel_4.0.1-7.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/o/octave-parallel"
+  ],
+  "Files": [
+    "b9a8b10a0eef52c7f6bc4e15ebdf08c2 2217 octave-parallel_4.0.1-7.dsc a19b998ed56ee057bf7d7b4a2dbeeb5a 754426 octave-parallel_4.0.1.orig.tar.gz 276036ce0927bf9c810d484acad4340c 10440 octave-parallel_4.0.1-7.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gnu-octave.github.io/packages/parallel/"
+  ],
+  "Maintainer": [
+    "Debian Octave Group \u003cteam+pkg-octave-team@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "octave-parallel"
+  ],
+  "Package-List": [
+    "octave-parallel deb math optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-octave"
+  ],
+  "Uploaders": [
+    "Thomas Weber \u003ctweber@debian.org\u003e, Rafael Laboissière \u003crafael@debian.org\u003e, Sébastien Villemot \u003csebastien@debian.org\u003e, Mike Miller \u003cmtmiller@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-octave-team/octave-parallel"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-octave-team/octave-parallel.git"
+  ],
+  "Version": [
+    "4.0.1-7"
+  ]
+}

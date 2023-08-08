@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "mmsd-tng"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), meson, libglib2.0-dev, libphonenumber-dev, libmm-glib-dev, libc-ares-dev (\u003e= 1.18.0), libsoup-3.0-dev, mobile-broadband-provider-info"
+  ],
+  "Checksums-Sha256": [
+    "6ad7a7766ee1b8ff6566f6907df7a82c9036c2cdc3e51539138e28790c1b11f5 2214 mmsd-tng_2.4.0-1.dsc 6bc00c32d4a42571786d6cef2592c9d72ea96c6c4c242c8ebabce82e7d200aeb 140485 mmsd-tng_2.4.0.orig.tar.gz d181ff57e86fa9e420232a745a9836d9ececfda64854662517313881b485df0f 3964 mmsd-tng_2.4.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/mmsd-tng"
+  ],
+  "Files": [
+    "5cc7b6975cb2d60adf95129ca9b9eb4f 2214 mmsd-tng_2.4.0-1.dsc c088a16ba4d5977dd5094381ea0f0d38 140485 mmsd-tng_2.4.0.orig.tar.gz 3158b229d69b8802ae9e419163427788 3964 mmsd-tng_2.4.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.com/kop316/mmsd"
+  ],
+  "Maintainer": [
+    "DebianOnMobile Maintainers \u003cdebian-on-mobile-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "mmsd-tng"
+  ],
+  "Package-List": [
+    "mmsd-tng deb comm optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Chris Talbot \u003cchris@talbothome.com\u003e, Evangelos Ribeiro Tzaras \u003cdevrtz-debian@fortysixandtwo.eu\u003e, Federico Ceratto \u003cfederico@debian.org\u003e, Arnaud Ferraris \u003caferraris@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/DebianOnMobile-team/mmsd-tng"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/DebianOnMobile-team/mmsd-tng.git"
+  ],
+  "Version": [
+    "2.4.0-1"
+  ]
+}

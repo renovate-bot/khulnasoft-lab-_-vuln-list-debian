@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-zeroconf"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-poetry-core, python3-setuptools"
+  ],
+  "Build-Depends-Indep": [
+    "python3-async-timeout (\u003e= 4.0.1), python3-ifaddr (\u003e= 0.1.7), python3-pytest, python3-pytest-asyncio, python3-pytest-cov, python3-pytest-timeout, python3-pytest-tornasync"
+  ],
+  "Checksums-Sha256": [
+    "6bb2649b9406b69bc12333471613143a937a25d5ac6b25d0474a35b3f9499554 2377 python-zeroconf_0.71.4-1.dsc b988425f6bd0d4f11f05fa258a6c49d9f9956777e9af00ca98c4ed3f743bd677 144314 python-zeroconf_0.71.4.orig.tar.gz 633909b3badcadfe4b7c05f0de96b82d6b59b554426810797c736ed91e357ed9 6272 python-zeroconf_0.71.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-zeroconf"
+  ],
+  "Files": [
+    "209f226d38879a0275d4e4e07e7cd399 2377 python-zeroconf_0.71.4-1.dsc a8b714f0e1d41c918f472410391eb3d5 144314 python-zeroconf_0.71.4.orig.tar.gz 859c3ccf11e63d31d0ff43107cbe1b08 6272 python-zeroconf_0.71.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/python-zeroconf/python-zeroconf"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-zeroconf"
+  ],
+  "Package-List": [
+    "python3-zeroconf deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Ruben Undheim \u003cruben.undheim@gmail.com\u003e, YOKOTA Hiroshi \u003cyokota.hgml@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-zeroconf"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-zeroconf.git"
+  ],
+  "Version": [
+    "0.71.4-1"
+  ]
+}

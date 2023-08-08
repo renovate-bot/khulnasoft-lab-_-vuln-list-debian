@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "amd64 arm64"
+  ],
+  "Binary": [
+    "fakemachine, golang-github-go-debos-fakemachine-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-golang, golang-any, golang-github-docker-go-units-dev, golang-github-klauspost-compress-dev, golang-github-stretchr-testify-dev, golang-github-surma-gocpio-dev, golang-github-ulikunitz-xz-dev, golang-go-flags-dev, golang-golang-x-sys-dev"
+  ],
+  "Checksums-Sha256": [
+    "14b2dc7b7eb793bbf24ec45c3e01261009c5da3d00b6111b0b04bfe0cbef2fa8 2765 golang-github-go-debos-fakemachine_0.0.5-1.dsc 5e212b2782250e6fd5171aecdc243795ae66c17eceab9bf3ef34fa12949ec608 43023 golang-github-go-debos-fakemachine_0.0.5.orig.tar.gz 326ff62a9fb1133aabeb369b510696c97153ddd1f4a538e42cd3417a39d53b7d 4108 golang-github-go-debos-fakemachine_0.0.5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-go-debos-fakemachine"
+  ],
+  "Files": [
+    "876abb8317186da0357a44bdef7f6a1c 2765 golang-github-go-debos-fakemachine_0.0.5-1.dsc c55b920a487b765189ffada7af0fc8a5 43023 golang-github-go-debos-fakemachine_0.0.5.orig.tar.gz b8d51afcc43257584f886f0059d8bba8 4108 golang-github-go-debos-fakemachine_0.0.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/go-debos/fakemachine"
+  ],
+  "Homepage": [
+    "https://github.com/go-debos/fakemachine"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cpkg-go-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-go-debos-fakemachine"
+  ],
+  "Package-List": [
+    "fakemachine deb devel optional arch=amd64,arm64 golang-github-go-debos-fakemachine-dev deb devel optional arch=amd64"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "golang"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "hello"
+  ],
+  "Uploaders": [
+    "Andrej Shadura \u003candrewsh@debian.org\u003e, Christopher Obbard \u003cchris.obbard@collabora.com\u003e, Héctor Orón Martínez \u003czumbi@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-github-go-debos-fakemachine"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-github-go-debos-fakemachine.git"
+  ],
+  "Version": [
+    "0.0.5-1"
+  ]
+}

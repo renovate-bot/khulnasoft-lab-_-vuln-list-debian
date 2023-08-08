@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libsuperlu6, libsuperlu-dev, libsuperlu-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), gfortran, cmake, libblas-dev | libopenblas-dev | libatlas-base-dev | libblas.so"
+  ],
+  "Checksums-Sha256": [
+    "fe017fa56db00cd490a508e8b91e411428262e4c9273e5708bf2993834037e3b 2226 superlu_6.0.0+dfsg1-2.dsc b75b60e1460104b592e156f56f6be0fa7faf936951b3ad6fefeef9f3e8cf15eb 722112 superlu_6.0.0+dfsg1.orig.tar.xz 96f5a5f97543b99daa385e79689a3d8e446c65c4320e9f4e679723fe2d8d4cd4 6980 superlu_6.0.0+dfsg1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/superlu"
+  ],
+  "Files": [
+    "278d3872d3f738cdd092c1088c3b47c8 2226 superlu_6.0.0+dfsg1-2.dsc 2419185a5774fa9c6fdc88374b4c8489 722112 superlu_6.0.0+dfsg1.orig.tar.xz f954229714af912b54b39648863c26be 6980 superlu_6.0.0+dfsg1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/xiaoyeli/superlu"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "superlu"
+  ],
+  "Package-List": [
+    "libsuperlu-dev deb libdevel optional arch=any libsuperlu-doc deb doc optional arch=all libsuperlu6 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "devel"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Drew Parsons \u003cdparsons@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/superlu"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/superlu.git"
+  ],
+  "Version": [
+    "6.0.0+dfsg1-2"
+  ]
+}

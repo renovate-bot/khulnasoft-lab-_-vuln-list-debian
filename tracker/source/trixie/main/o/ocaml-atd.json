@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libatd-ocaml-dev, libatd-ocaml, libatdgen-ocaml-dev, libatdgen-ocaml, atdts"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), ocaml-nox, ocaml-dune, menhir, libalcotest-ocaml-dev, libcamlp-streams-ocaml-dev, libeasy-format-ocaml-dev, libre-ocaml-dev, libbiniou-ocaml-dev, libyojson-ocaml-dev (\u003e= 2.0.2), python3-jsonschema (\u003e= 4.6.0), libcaml2html-ocaml-dev, libfindlib-ocaml-dev, hevea, camlmix, texlive-latex-extra, dh-ocaml"
+  ],
+  "Checksums-Sha256": [
+    "1b4e5dadecb3ebcac780345e80c425833c46b73e4eaa8b42667ef006cb6767a1 2551 ocaml-atd_2.12.0-1.dsc 0f588de2d9a7a765cb3bf35a2a3f687bca460363efa76e4c9ca167453aa14153 3302788 ocaml-atd_2.12.0.orig.tar.gz bd76aa7fd359fd9ea721f4015ed9a685f2b0111c02ee9ab47c38d2a626176576 8996 ocaml-atd_2.12.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/o/ocaml-atd"
+  ],
+  "Files": [
+    "d8ac0baccf106c67c17a96074c8bd275 2551 ocaml-atd_2.12.0-1.dsc 9415abc04e98b86551f47f1e03ced5ca 3302788 ocaml-atd_2.12.0.orig.tar.gz 734142cf2fddc33fa905f827d2871e46 8996 ocaml-atd_2.12.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ahrefs/atd"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "ocaml-atd"
+  ],
+  "Package-List": [
+    "atdts deb ocaml optional arch=any libatd-ocaml deb ocaml optional arch=any libatd-ocaml-dev deb ocaml optional arch=any libatdgen-ocaml deb ocaml optional arch=any libatdgen-ocaml-dev deb ocaml optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "ocaml"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "ocaml-findlib"
+  ],
+  "Uploaders": [
+    "Stéphane Glondu \u003cglondu@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/ocaml-atd"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/ocaml-atd.git"
+  ],
+  "Version": [
+    "2.12.0-1"
+  ]
+}

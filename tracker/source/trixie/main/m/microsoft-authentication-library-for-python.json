@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-msal"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-mock \u003c!nocheck\u003e, python3-jwt \u003c!nodoc\u003e, python3-setuptools, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-paramlinks \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "39fe85e66f57129f03db350df6e4b9baf9dd8be17af4b7a994d6bc0dbe48fe2b 2575 microsoft-authentication-library-for-python_1.23.0-1.dsc 17febacb24f437d6a080080172ceeea3d3b40148bcda8c34283755e97ef20d47 200842 microsoft-authentication-library-for-python_1.23.0.orig.tar.gz a978d4438a7a90bfb9ec02aa46f8b4846355bb17fea36592e7d19814f389054a 3572 microsoft-authentication-library-for-python_1.23.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/microsoft-authentication-library-for-python"
+  ],
+  "Files": [
+    "3bc215da84908a7df2563eeff3597702 2575 microsoft-authentication-library-for-python_1.23.0-1.dsc 11cf8f859c077a06e0c3bd3aa11c3c74 200842 microsoft-authentication-library-for-python_1.23.0.orig.tar.gz 2aab2b5432923656ecc33443061eb403 3572 microsoft-authentication-library-for-python_1.23.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/AzureAD/microsoft-authentication-library-for-python"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "microsoft-authentication-library-for-python"
+  ],
+  "Package-List": [
+    "python3-msal deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-python"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, python3-all, python3-pytest"
+  ],
+  "Uploaders": [
+    "Luca Boccassi \u003cbluca@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/microsoft-authentication-library-for-python"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/microsoft-authentication-library-for-python.git"
+  ],
+  "Version": [
+    "1.23.0-1"
+  ]
+}

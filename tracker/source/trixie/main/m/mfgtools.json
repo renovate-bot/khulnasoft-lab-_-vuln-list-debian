@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "uuu"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), help2man, libbz2-dev, libzstd-dev, libusb-1.0-0-dev, libssl-dev, pkg-config, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "ead2ebf2c5e0ed5b1fd07abad568346fa93a41a2c1f12612c3efffcbdb5e3a32 2139 mfgtools_1.5.109-1.dsc 5752d97a1e136bc735845d104fed52d73f6e566b3d188b83d4fb54852081e548 167886 mfgtools_1.5.109.orig.tar.gz af648d4039051d823a66802d3ef9c6b5e2e37116cf156e51494e5e583f58ad53 3228 mfgtools_1.5.109-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/mfgtools"
+  ],
+  "Files": [
+    "8970e2df3df6011c3a36a9366df95577 2139 mfgtools_1.5.109-1.dsc 2e2f3fdf290223f4226cf9bf53e6d360 167886 mfgtools_1.5.109.orig.tar.gz 66ea4ceca8004dec413830b3051c609f 3228 mfgtools_1.5.109-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/NXPmicro/mfgtools"
+  ],
+  "Maintainer": [
+    "DebianOnMobile Maintainers \u003cdebian-on-mobile-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "mfgtools"
+  ],
+  "Package-List": [
+    "uuu deb admin optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Henry-Nicolas Tourneur \u003cdebian@nilux.be\u003e, Andreas Henriksson \u003candreas@fatal.se\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/DebianOnMobile-team/mfgtools"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/DebianOnMobile-team/mfgtools.git"
+  ],
+  "Version": [
+    "1.5.109-1"
+  ]
+}

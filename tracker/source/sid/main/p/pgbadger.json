@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "pgbadger"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libjson-xs-perl, libtext-csv-xs-perl"
+  ],
+  "Checksums-Sha256": [
+    "bb30e83f83c107d429dab5f216c02884298caaf911108875b6bdaef1545300bb 2059 pgbadger_12.1-1.dsc 4c2e43b93b72383bfc9a123d5fcda4f74147c1184e1d74c06498973b4b91629e 3041661 pgbadger_12.1.orig.tar.gz ae45bf76843e8ff76da5e1199913640a4c38ff17fbc531a9d7d600ee47c003c3 5992 pgbadger_12.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pgbadger"
+  ],
+  "Files": [
+    "92876f98da4ef8f92e89898c97de0259 2059 pgbadger_12.1-1.dsc a602077e7f5d5bfe19ade2bf85dc4610 3041661 pgbadger_12.1.orig.tar.gz b41275a1826dc0bca8f933e7969c6760 5992 pgbadger_12.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://dalibo.github.io/pgbadger/"
+  ],
+  "Maintainer": [
+    "Debian PostgreSQL Maintainers \u003cteam+postgresql@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "pgbadger"
+  ],
+  "Package-List": [
+    "pgbadger deb database optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Cyril Bouthors \u003ccyb@debian.org\u003e, Christoph Berg \u003cmyon@debian.org\u003e, Adrian Vondendriesch \u003cadrian.vondendriesch@credativ.de\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/postgresql/pgbadger"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/postgresql/pgbadger.git"
+  ],
+  "Version": [
+    "12.1-1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "gnome-user-docs"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-gnome"
+  ],
+  "Build-Depends-Indep": [
+    "yelp-tools, pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "5a9448715a72736eac67520c9564dfd8a13ce75c94d66c609de621c9ebf8cf3b 2164 gnome-user-docs_44.3-2.dsc 94e044082363438bcdbfa8549489ab6ab296a091e8b652f572133fd74db1692c 13364796 gnome-user-docs_44.3.orig.tar.xz a3e1c4ba21d0b712cfa23c6e61190e6e1119260e0d83898a15ae5a66eee4892b 13024 gnome-user-docs_44.3-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gnome-user-docs"
+  ],
+  "Files": [
+    "f9131520b3168914acbc2bb18a4cad5c 2164 gnome-user-docs_44.3-2.dsc 3ce76844f36edb364a4287218c85186a 13364796 gnome-user-docs_44.3.orig.tar.xz 09e3e7e5aaaa17a6af90ee800017b99f 13024 gnome-user-docs_44.3-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://help.gnome.org/users/"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "gnome-user-docs"
+  ],
+  "Package-List": [
+    "gnome-user-docs deb doc optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "gnome"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Gunnar Hjalmarsson \u003cgunnarhj@debian.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Michael Biebl \u003cbiebl@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/gnome-user-docs"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/gnome-user-docs.git"
+  ],
+  "Version": [
+    "44.3-2"
+  ]
+}

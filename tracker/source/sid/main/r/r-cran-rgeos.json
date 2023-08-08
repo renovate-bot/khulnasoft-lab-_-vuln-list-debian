@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-rgeos"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-sp, libgeos-dev"
+  ],
+  "Checksums-Sha256": [
+    "0fe6b89f77d6b3d540a5ccb47700e480431f8171b5b1e9bac4b931d85fe49e7a 2158 r-cran-rgeos_0.6-4-1.dsc 9d03c4de96fd3fad55ff8d1ff8113dcaaa00f15d9d0588e54c9f91751bcede11 290922 r-cran-rgeos_0.6-4.orig.tar.gz aa08a1e3ac6ebea2789fd3ae1a63694538a7472cbb9676dd67b6e55be0c9e1e5 3940 r-cran-rgeos_0.6-4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-rgeos"
+  ],
+  "Files": [
+    "1c256a0bbad4c9761d3746b1286fc84c 2158 r-cran-rgeos_0.6-4-1.dsc 77dedcfc824f70b2544b7e95e9c4c7cf 290922 r-cran-rgeos_0.6-4.orig.tar.gz 460df815853e7836a8f7c387d4c611d4 3940 r-cran-rgeos_0.6-4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=rgeos"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-rgeos"
+  ],
+  "Package-List": [
+    "r-cran-rgeos deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-maps, r-cran-maptools, r-cran-rgdal, r-cran-testthat, r-cran-xml"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-rgeos"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-rgeos.git"
+  ],
+  "Version": [
+    "0.6-4-1"
+  ]
+}

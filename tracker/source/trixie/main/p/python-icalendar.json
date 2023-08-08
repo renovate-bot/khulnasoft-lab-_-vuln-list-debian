@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-icalendar-doc, python3-icalendar"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc, help2man \u003c!nodoc\u003e, pandoc \u003c!nodoc\u003e, pybuild-plugin-pyproject, python3-all, python3-dateutil, python3-hypothesis, python3-pytest, python3-setuptools, python3-sphinx, python3-tz"
+  ],
+  "Checksums-Sha256": [
+    "6487433151d940b0d198daca94fcd9b5314aa694f21ef7064a8c1dd20df99c5a 2441 python-icalendar_5.0.7-1.dsc e9b54cf8893a1400c634c262ef98e6b18dec065f648738b77389448e938d8ce7 86242 python-icalendar_5.0.7.orig.tar.gz e4157a998c37d56fd13874157c57433b1c32afe5e373bfca2348bb0805d3e840 7284 python-icalendar_5.0.7-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-icalendar"
+  ],
+  "Files": [
+    "fa8c30018d46140f767be4a6d36a8993 2441 python-icalendar_5.0.7-1.dsc d2f79a004601911dca099ba87c45e435 86242 python-icalendar_5.0.7.orig.tar.gz 66f2e2e7ef42a1fec8d861ad8f979cba 7284 python-icalendar_5.0.7-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://icalendar.readthedocs.org/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-icalendar"
+  ],
+  "Package-List": [
+    "python-icalendar-doc deb doc optional arch=all python3-icalendar deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Christoph Egger \u003cchristoph@debian.org\u003e, Félix Sipma \u003cfelix+debian@gueux.org\u003e, Jelmer Vernooĳ \u003cjelmer@debian.org\u003e, Jonas Smedegaard \u003cdr@jones.dk\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-icalendar"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-icalendar.git"
+  ],
+  "Version": [
+    "5.0.7-1"
+  ]
+}

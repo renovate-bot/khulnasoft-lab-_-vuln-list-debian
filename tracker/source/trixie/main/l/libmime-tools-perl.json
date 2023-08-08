@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libmime-tools-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "libconvert-binhex-perl \u003c!nocheck\u003e, libmailtools-perl \u003c!nocheck\u003e, libtest-deep-perl \u003c!nocheck\u003e, libtest-pod-perl \u003c!nocheck\u003e, netbase \u003c!nocheck\u003e, perl"
+  ],
+  "Checksums-Sha256": [
+    "35bc1af2a08ce45f66880d2394b7873894733f93aaacf8ed9930cbb4f48f9692 2610 libmime-tools-perl_5.510-2.dsc 1bcfb4ece6ab4a6850ea1c8f3aa7405e233f50885dbdcd7bae546d52ec953cfe 417208 libmime-tools-perl_5.510.orig.tar.gz f6a37350932ae7c47a49268f79b41a6e79e8080f4b75c873719e55d3094d2724 7712 libmime-tools-perl_5.510-2.debian.tar.xz"
+  ],
+  "Dgit": [
+    "757942f751d77dca066a4f382cc08d8aea1dd763 debian archive/debian/5.510-2 https://git.dgit.debian.org/libmime-tools-perl"
+  ],
+  "Directory": [
+    "pool/main/libm/libmime-tools-perl"
+  ],
+  "Files": [
+    "da6936a14c21b224b5e6b0797e505760 2610 libmime-tools-perl_5.510-2.dsc 5f79177746057c8254246f4401ae2411 417208 libmime-tools-perl_5.510.orig.tar.gz feb1c1980c3ae3df933675f520281c3b 7712 libmime-tools-perl_5.510-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/MIME-tools"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libmime-tools-perl"
+  ],
+  "Package-List": [
+    "libmime-tools-perl deb perl optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "perl"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "Niko Tyni \u003cntyni@iki.fi\u003e, Damyan Ivanov \u003cdmn@debian.org\u003e, gregor herrmann \u003cgregoa@debian.org\u003e, Salvatore Bonaccorso \u003ccarnil@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libmime-tools-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libmime-tools-perl.git"
+  ],
+  "Version": [
+    "5.510-2"
+  ]
+}

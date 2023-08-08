@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "js-of-ocaml, libjs-of-ocaml-dev, libjs-of-ocaml, libjs-of-ocaml-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), ocaml, ocaml-odoc \u003c!nodoc\u003e, ocaml-dune (\u003e= 2.5), ocaml-findlib, libfindlib-ocaml-dev, libgraphics-ocaml-dev, libcmdliner-ocaml-dev, libppxlib-ocaml-dev (\u003e= 0.15.0), libyojson-ocaml-dev, libuchar-ocaml-dev, liblwt-ocaml-dev, liblwt-log-ocaml-dev, libtyxml-ocaml-dev (\u003e= 4.3), libreactivedata-ocaml-dev (\u003e= 0.2), libsedlex-ocaml-dev, menhir, libmenhir-ocaml-dev, rsync, dh-ocaml"
+  ],
+  "Checksums-Sha256": [
+    "13d07b5bf75079acc2aee59e1f8948f212ecf9e49b45c11b8f3fe0e077bafba6 2541 js-of-ocaml_5.3.0-1.dsc 4c5507348a650718cc910b2746a4d38e7facabff6e8962146f5c7622fdb4248c 1942166 js-of-ocaml_5.3.0.orig.tar.gz 9262b4f81a8c15b6c4f47b0851bb018fb3d2b5847f6c2cf89432006b51e41642 5864 js-of-ocaml_5.3.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/j/js-of-ocaml"
+  ],
+  "Files": [
+    "52a50fcec54e496febae33716373350d 2541 js-of-ocaml_5.3.0-1.dsc 1e01f0174506b2ba4afaa033a62ba5ca 1942166 js-of-ocaml_5.3.0.orig.tar.gz ce146c288b7c32479483d00d5dfaa91a 5864 js-of-ocaml_5.3.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://ocsigen.org/js_of_ocaml"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "js-of-ocaml"
+  ],
+  "Package-List": [
+    "js-of-ocaml deb ocaml optional arch=any libjs-of-ocaml deb ocaml optional arch=any libjs-of-ocaml-dev deb ocaml optional arch=any libjs-of-ocaml-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "ocaml"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Stéphane Glondu \u003cglondu@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/js-of-ocaml"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/js-of-ocaml.git"
+  ],
+  "Version": [
+    "5.3.0-1"
+  ]
+}

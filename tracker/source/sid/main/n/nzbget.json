@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "nzbget"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libncurses-dev, libssl-dev, libxml2-dev, pkg-config, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "1730c1001b8cb39bf6d96afdd805c3b1d313053841ec322f491b08931311a475 1973 nzbget_21.0+dfsg-3.dsc e8c14e714d5c331e6873d9348579cf89f4584b37243329ed6bf45063a71db8d2 1100340 nzbget_21.0+dfsg.orig.tar.xz 18950634de47e230ccd6c87676cc7a1ae041e1d1645a855fcaf82ffb089cea0f 28364 nzbget_21.0+dfsg-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/n/nzbget"
+  ],
+  "Files": [
+    "eeda6e737bcb61041c798ef52a2a3833 1973 nzbget_21.0+dfsg-3.dsc d5205a01c3c3e774481c47b35423c750 1100340 nzbget_21.0+dfsg.orig.tar.xz 6ba3c84af1ccdfbfd5a71447bfdfd0ef 28364 nzbget_21.0+dfsg-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://nzbget.net"
+  ],
+  "Maintainer": [
+    "Andreas Moog \u003candreas.moog@warperbbs.de\u003e"
+  ],
+  "Package": [
+    "nzbget"
+  ],
+  "Package-List": [
+    "nzbget deb net optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/amoog-guest/nzbget/commits/master"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/amoog-guest/nzbget.git"
+  ],
+  "Version": [
+    "21.0+dfsg-3"
+  ]
+}

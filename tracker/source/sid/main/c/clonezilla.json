@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "clonezilla"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "3a31faa903106bfa322231373e06d0826601c68eede119f01fb1b0b0ed2c5a7b 1871 clonezilla_5.5.5-1.dsc 7c338e68a96bcf2b80d7bb6ffffde0bb4d8406c6946ad32cfd29908934e3debd 921880 clonezilla_5.5.5.orig.tar.xz e292e96771602fe4b27323c6f47e2e8375bb88a8aecfa932db089130fca96e82 4172 clonezilla_5.5.5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/clonezilla"
+  ],
+  "Files": [
+    "4b489d102ab4b3279c8eb1c3bfc0012e 1871 clonezilla_5.5.5-1.dsc ac878a6f0d2b6f53d74ecfffe781a84f 921880 clonezilla_5.5.5.orig.tar.xz c26be77bc9a76546a0e80f6a7b4b07d9 4172 clonezilla_5.5.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://clonezilla.org"
+  ],
+  "Maintainer": [
+    "Georges Khaznadar \u003cgeorgesk@debian.org\u003e"
+  ],
+  "Package": [
+    "clonezilla"
+  ],
+  "Package-List": [
+    "clonezilla deb admin optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/georgesk/clonezilla"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/georgesk/clonezilla.git"
+  ],
+  "Version": [
+    "5.5.5-1"
+  ]
+}

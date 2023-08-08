@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "mkdocstrings-python-handlers"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3-all"
+  ],
+  "Build-Depends-Indep": [
+    "mkdocs-material \u003c!nocheck\u003e, mkdocstrings (\u003e\u003e 0.19.0-1) \u003c!nocheck\u003e, pybuild-plugin-pyproject, python3-griffe (\u003e\u003e 0.24.0) \u003c!nocheck\u003e, python3-pdm-backend, python3-pytest \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "b3e8c93407ec29d4d94bc283d422b489f6d38a5268bbb05cbc7a103699c7d6f3 2535 mkdocstrings-python-handlers_1.2.1-1.dsc 3d812fa2211b0e0b082d6ea37db6c752a7fe254e1dfb7a3d5d950732856b2798 132468 mkdocstrings-python-handlers_1.2.1.orig.tar.gz f876174b5f9560bd224c53a4bbaf78a78e6b65a7b5b6160918d7adae40f630db 4280 mkdocstrings-python-handlers_1.2.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/mkdocstrings-python-handlers"
+  ],
+  "Files": [
+    "6a68648ff04d9d74d0449a6a6d2f9b96 2535 mkdocstrings-python-handlers_1.2.1-1.dsc ef7db4412b7da5fe9441ff7c4e6fd608 132468 mkdocstrings-python-handlers_1.2.1.orig.tar.gz 72e7a1ec2f95e43be005234012ffc501 4280 mkdocstrings-python-handlers_1.2.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/mkdocstrings/python"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "mkdocstrings-python-handlers"
+  ],
+  "Package-List": [
+    "mkdocstrings-python-handlers deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "mkdocs-material, mkdocstrings, python3-all, python3-griffe, python3-pytest"
+  ],
+  "Uploaders": [
+    "Carsten Schoenert \u003cc.schoenert@t-online.de\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/mkdocstrings-python-handlers"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/mkdocstrings-python-handlers.git"
+  ],
+  "Version": [
+    "1.2.1-1"
+  ]
+}

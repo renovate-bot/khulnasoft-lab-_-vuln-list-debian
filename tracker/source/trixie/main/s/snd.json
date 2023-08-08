@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "snd, snd-common, snd-doc, snd-gui-jack, snd-gui-pulse, snd-nox"
+  ],
+  "Build-Depends": [
+    "bzip2, debhelper (\u003e= 13.1), debhelper-compat (= 13), ladspa-sdk, libasound2-dev [linux-any], libfftw3-dev, libgl-dev, libglu-dev, libgsl-dev, libjack-dev, libmotif-dev, libmpc-dev, libpulse-dev, libsamplerate0-dev, libxmu-dev, libxpm-dev, libxt-dev, xutils-dev"
+  ],
+  "Checksums-Sha256": [
+    "9d4c1470628a462f3f8f0a4f24639c71f638cdf09bce92e854e647b121d70518 2664 snd_23.5-1.dsc 65b1abc72e3de011fa4088f6b18014122341b1b3491d7b405512cf545c007103 14715402 snd_23.5.orig.tar.gz 7e3eebd3a54da49b1adadad6abaa3217c03ff4e48753da12740a19707939436d 83524 snd_23.5-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "cba7e291cabfe4e163d4addb08568c934e976f17 debian archive/debian/23.5-1 https://git.dgit.debian.org/snd"
+  ],
+  "Directory": [
+    "pool/main/s/snd"
+  ],
+  "Files": [
+    "c17d61c1fd8c5b564bcc69630e67cad9 2664 snd_23.5-1.dsc 6eb942c44295f531986f2b4e3d609538 14715402 snd_23.5.orig.tar.gz 053f6b3ba9ef3bc841500f589674c2c3 83524 snd_23.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://ccrma.stanford.edu/software/snd/"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "snd"
+  ],
+  "Package-List": [
+    "snd deb sound optional arch=all snd-common deb sound optional arch=all snd-doc deb doc optional arch=all snd-gui-jack deb sound optional arch=any snd-gui-pulse deb sound optional arch=any snd-nox deb sound optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "sound"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "gcc, libc-dev, libc6-dev, python3-numpy, python3-soundfile"
+  ],
+  "Uploaders": [
+    "IOhannes m zmölnig (Debian/GNU) \u003cumlaeute@debian.org\u003e, Dennis Braun \u003csnd@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/snd"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/snd.git"
+  ],
+  "Version": [
+    "23.5-1"
+  ]
+}

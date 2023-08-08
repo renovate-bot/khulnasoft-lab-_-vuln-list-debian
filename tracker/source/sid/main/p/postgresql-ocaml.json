@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libpostgresql-ocaml-dev, libpostgresql-ocaml"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), ocaml-nox, libpq-dev, ocaml-dune, libdune-ocaml-dev, dh-ocaml (\u003e= 1.2)"
+  ],
+  "Checksums-Sha256": [
+    "b13ed121839c7c3e4fac750e7a130249ae67dd38ee23a318521dcfbf48f74b2e 1993 postgresql-ocaml_5.0.0-3.dsc 9ccd405bf2a4811d86995102b0837f07230f30d05ed620b9d05fa66f607ef9d8 47032 postgresql-ocaml_5.0.0.orig.tar.bz2 9ca8a0123464bc841735bf159d9cc58817a51cd446a2c11c353d325aca08e1e7 5424 postgresql-ocaml_5.0.0-3.debian.tar.xz"
+  ],
+  "Dgit": [
+    "87ad5fc887ddb2d0530ea1d6e3fef7253b3f10fd debian archive/debian/5.0.0-3 https://git.dgit.debian.org/postgresql-ocaml"
+  ],
+  "Directory": [
+    "pool/main/p/postgresql-ocaml"
+  ],
+  "Files": [
+    "e1b6388bf371cb144943a06a2c159954 1993 postgresql-ocaml_5.0.0-3.dsc 59ab1f5f99e4d13f2f2c89d4a8da7033 47032 postgresql-ocaml_5.0.0.orig.tar.bz2 9da5e6010946cf677d8a6d3fa60768d4 5424 postgresql-ocaml_5.0.0-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://mmottl.github.io/postgresql-ocaml/"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "postgresql-ocaml"
+  ],
+  "Package-List": [
+    "libpostgresql-ocaml deb ocaml optional arch=any libpostgresql-ocaml-dev deb ocaml optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "ocaml"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Uploaders": [
+    "Stéphane Glondu \u003cglondu@debian.org\u003e, Mehdi Dogguy \u003cmehdi@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/postgresql-ocaml"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/postgresql-ocaml.git"
+  ],
+  "Version": [
+    "5.0.0-3"
+  ]
+}

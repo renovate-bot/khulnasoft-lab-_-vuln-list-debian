@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "kicad-footprints"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake"
+  ],
+  "Checksums-Sha256": [
+    "fce9d35eb6ed5d925d87d72ca9e54efe38b38c0aeb0f8a446019d759e3b26f52 2135 kicad-footprints_7.0.6-1.dsc c5dd0ac6af8ea4ff2cc5bf7c3cdfa2afea8d20719396d3c3b985cf2bd3b82945 23166928 kicad-footprints_7.0.6.orig.tar.xz da97fc67da6282a6cf4cf14ee58d01dcb6ab9a4be6034682dcc36e6be9dc941d 10896 kicad-footprints_7.0.6-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/k/kicad-footprints"
+  ],
+  "Files": [
+    "aa7c3b7db6dbaeb172129207362d5220 2135 kicad-footprints_7.0.6-1.dsc 0b00fcbbfe36265bd6f82eb28f145c9d 23166928 kicad-footprints_7.0.6.orig.tar.xz 29f883619e38b9a8f2e347739cfa1d13 10896 kicad-footprints_7.0.6-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://kicad.github.io/footprints"
+  ],
+  "Maintainer": [
+    "Debian Electronics Team \u003cpkg-electronics-devel@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "kicad-footprints"
+  ],
+  "Package-List": [
+    "kicad-footprints deb electronics optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Carsten Schoenert \u003cc.schoenert@t-online.de\u003e, Jean-Samuel Reynaud \u003cjs.reynaud@gmail.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/electronics-team/KiCad/kicad-footprints/-/tree/debian/sid"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/electronics-team/KiCad/kicad-footprints.git -b debian/sid"
+  ],
+  "Version": [
+    "7.0.6-1"
+  ]
+}

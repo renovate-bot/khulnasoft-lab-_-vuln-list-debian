@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-atk-sys-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-glib-sys-0.17+default-dev \u003c!nocheck\u003e, librust-gobject-sys-0.17+default-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev \u003c!nocheck\u003e, librust-system-deps-6+default-dev \u003c!nocheck\u003e, libatk1.0-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "29743e5fc6fe3dea765d4c1d4d0d76fa33cb416571ba496d4c0d5a928ffe8c85 2447 rust-atk-sys_0.17.0-1.dsc e3bf0a7ca572fbd5762fd8f8cd65a581e06767bc1234913fe1f43e370cff6e90 22807 rust-atk-sys_0.17.0.orig.tar.gz 35efae93274fd67eb1b0e05dc2a09e300cf2be7496fd70f65b91bc78136182c5 3344 rust-atk-sys_0.17.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-atk-sys"
+  ],
+  "Files": [
+    "5e8c6cec9ef20705fb6bd1df0003a935 2447 rust-atk-sys_0.17.0-1.dsc 92e50d4cbeb817e174cc9e504474227d 22807 rust-atk-sys_0.17.0.orig.tar.gz 1c91059f9717a25ea1c080bf539658f8 3344 rust-atk-sys_0.17.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://gtk-rs.org/"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-atk-sys"
+  ],
+  "Package-List": [
+    "librust-atk-sys-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-shell-words-1+default-dev, librust-tempfile-3+default-dev"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@riseup.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/atk-sys"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/atk-sys]"
+  ],
+  "Version": [
+    "0.17.0-1"
+  ]
+}

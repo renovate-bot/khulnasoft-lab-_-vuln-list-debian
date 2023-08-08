@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libplacebo-dev, libplacebo292"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), meson, ninja-build, pkg-config, libavcodec-dev \u003c!nocheck\u003e, libavformat-dev \u003c!nocheck\u003e, libavutil-dev \u003c!nocheck\u003e, liblcms2-dev, libvulkan-dev, glslang-dev, python3, python3-glad (\u003e= 2), python3-jinja2, python3-setuptools, spirv-tools"
+  ],
+  "Checksums-Sha256": [
+    "a76ffef796a42005867e40052309f42e496e7cde41d84a457c214b498dde3c9d 1670 libplacebo_6.292.0-2.dsc 22116cfada2a878407c1da8f60d4b7497137f7fcb625f90e8669422cae8749f0 760300 libplacebo_6.292.0.orig.tar.gz 08409133134a42a2c44c05bce6376974ce459d50ab4342d8d2d3fe32c9caf1a4 9620 libplacebo_6.292.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libp/libplacebo"
+  ],
+  "Files": [
+    "b3be460905610965e67603db681464d8 1670 libplacebo_6.292.0-2.dsc 24d3fade55f90722a213b5c43af85685 760300 libplacebo_6.292.0.orig.tar.gz 868bcf1ef75f670a8e2e7f919511e8ec 9620 libplacebo_6.292.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://code.videolan.org/videolan/libplacebo"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "libplacebo"
+  ],
+  "Package-List": [
+    "libplacebo-dev deb libdevel optional arch=any libplacebo292 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Sebastian Ramacher \u003csramacher@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/libplacebo"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/libplacebo.git"
+  ],
+  "Version": [
+    "6.292.0-2"
+  ]
+}

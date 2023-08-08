@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "i386 amd64"
+  ],
+  "Binary": [
+    "thermald"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 13), debhelper-compat (= 13), autoconf, autoconf-archive, gtk-doc-tools, libupower-glib-dev, liblzma-dev, libevdev-dev, libglib2.0-dev, libdbus-1-dev, libdbus-glib-1-dev, libxml2-dev, systemd"
+  ],
+  "Checksums-Sha256": [
+    "e652f604a5769f7cdef21ca2812725188c19aaba487df44f85b23140579e6603 1917 thermald_2.5.3-3.dsc 7670b47b0126863d80949b84e6a5914c93b20cc248b87402e6a055273125106f 129356 thermald_2.5.3.orig.tar.xz aed266867a3b71c6cadbf0f715363e29dca40ce0d0079f8ed6545288dfb666ef 9464 thermald_2.5.3-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/thermald"
+  ],
+  "Files": [
+    "cc5ffe0514add17ecc76c2b1ef85e88b 1917 thermald_2.5.3-3.dsc edbb710754dcdc50db18b56058665cc6 129356 thermald_2.5.3.orig.tar.xz 27c5b0010103ddc162c336a08e5758dc 9464 thermald_2.5.3-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://01.org/linux-thermal-daemon"
+  ],
+  "Maintainer": [
+    "Colin Ian King \u003ccolin.i.king@gmail.com\u003e"
+  ],
+  "Package": [
+    "thermald"
+  ],
+  "Package-List": [
+    "thermald deb admin optional arch=i386,amd64"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Version": [
+    "2.5.3-3"
+  ]
+}

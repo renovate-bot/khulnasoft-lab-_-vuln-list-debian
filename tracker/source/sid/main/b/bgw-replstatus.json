@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "postgresql-15-bgw-replstatus"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), netcat-openbsd, postgresql-all (\u003e= 217~)"
+  ],
+  "Checksums-Sha256": [
+    "89263fe1ee9fb6eb811435f85ba67b78698db7d1475e02c79332d2334f1323dd 2139 bgw-replstatus_1.0.7-1.dsc dca4e5bfe4eb4769dc7b8b47abac6a8c29c50b769812624414fadbdb5e8d0d9a 6353 bgw-replstatus_1.0.7.orig.tar.gz ab98eda288665126f55a4a7a1406379e4f8e425378064a9cc0e0f2f0300625ec 2560 bgw-replstatus_1.0.7-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/b/bgw-replstatus"
+  ],
+  "Files": [
+    "9e677b7d44fbccd51896b97bdd7c9306 2139 bgw-replstatus_1.0.7-1.dsc ed3e5d3a7558c7d87b039a930a144255 6353 bgw-replstatus_1.0.7.orig.tar.gz bea6a8672811a166d918ac9b1a357a5f 2560 bgw-replstatus_1.0.7-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/mhagander/bgw_replstatus"
+  ],
+  "Maintainer": [
+    "Magnus Hagander \u003cmagnus@hagander.net\u003e"
+  ],
+  "Package": [
+    "bgw-replstatus"
+  ],
+  "Package-List": [
+    "postgresql-15-bgw-replstatus deb database optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "make, netcat-openbsd"
+  ],
+  "Uploaders": [
+    "Debian PostgreSQL Maintainers \u003cteam+postgresql@tracker.debian.org\u003e, Christoph Berg \u003cmyon@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://github.com/mhagander/bgw_replstatus"
+  ],
+  "Vcs-Git": [
+    "https://github.com/mhagander/bgw_replstatus.git"
+  ],
+  "Version": [
+    "1.0.7-1"
+  ]
+}

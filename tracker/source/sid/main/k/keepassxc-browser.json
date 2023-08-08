@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "webext-keepassxc-browser"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), fonts-fork-awesome, libjs-bootstrap5, node-tweetnacl"
+  ],
+  "Checksums-Sha256": [
+    "027a85bb048e910d755da2cec9545a6139c2fd260342f1e736b3319a628875b2 2061 keepassxc-browser_1.8.7+repack1-1.dsc cf5d1e448818c0a8eff85794345e60bbfa3f669c9cf427a7517fa4060fb886b6 391004 keepassxc-browser_1.8.7+repack1.orig.tar.xz ae280f8f680e276efd6879345ecad5ba581c8fb1884abb821c5acc1b52e5db2b 16208 keepassxc-browser_1.8.7+repack1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/k/keepassxc-browser"
+  ],
+  "Files": [
+    "2436644849c182f7b0e228767a05d1e7 2061 keepassxc-browser_1.8.7+repack1-1.dsc 629bad43df078f1f8c37c2e9e2dc50ae 391004 keepassxc-browser_1.8.7+repack1.orig.tar.xz 260a0e083439642d43c3c43cea3dc946 16208 keepassxc-browser_1.8.7+repack1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/keepassxreboot/keepassxc-browser"
+  ],
+  "Maintainer": [
+    "Bruno Kleinert \u003cfuddl@debian.org\u003e"
+  ],
+  "Package": [
+    "keepassxc-browser"
+  ],
+  "Package-List": [
+    "webext-keepassxc-browser deb web optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/fuddl/keepassxc-browser"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/fuddl/keepassxc-browser.git"
+  ],
+  "Version": [
+    "1.8.7+repack1-1"
+  ]
+}

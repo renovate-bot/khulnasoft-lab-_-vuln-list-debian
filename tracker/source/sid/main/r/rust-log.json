@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-log-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "927f42f3d498d9c2375a77449b32792d61ff76c6f91442f28c328192ff4246e7 2196 rust-log_0.4.19-2.dsc b06a4cde4c0f271a446782e3eff8de789548ce57dbc8eca9292c27f4a42004b4 38073 rust-log_0.4.19.orig.tar.gz 185227455e6b8faa77de056d7ffec012344d8df0769e8fda3b82906adb491356 4384 rust-log_0.4.19-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-log"
+  ],
+  "Files": [
+    "c9f24d6f291f7aa330cec7d73be8a10b 2196 rust-log_0.4.19-2.dsc bcaebb6074616f470c9f80e42406836f 38073 rust-log_0.4.19.orig.tar.gz 3330302ac48238b0a44cd6204e6e2bd1 4384 rust-log_0.4.19-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-log"
+  ],
+  "Package-List": [
+    "librust-log-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-rustversion-1+default-dev, librust-serde-1+default-dev, librust-serde-1+derive-dev, librust-serde-test-1+default-dev"
+  ],
+  "Uploaders": [
+    "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/log"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/log]"
+  ],
+  "Version": [
+    "0.4.19-2"
+  ]
+}

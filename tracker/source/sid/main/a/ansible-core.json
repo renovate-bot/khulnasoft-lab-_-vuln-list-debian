@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "ansible-core"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3 (\u003e= 3.9.0~), python3-docutils, python3-jinja2 (\u003e= 3.0.0~), python3-packaging, python3-resolvelib (\u003e= 0.5.3~), python3-resolvelib (\u003c\u003c 1.1.0), python3-setuptools, python3-straight.plugin, python3-yaml (\u003e= 5.1~)"
+  ],
+  "Checksums-Sha256": [
+    "dfd622268f0a1f4c3e76a6719b6b372534761458f31dfabd12568334561d0f5d 3078 ansible-core_2.14.8-1.dsc 637f62c9547023fb4704cd5de1329dc7c02ef9e583cea1c3be2ce6c2fde7739c 11456832 ansible-core_2.14.8.orig.tar.gz 0e91bf01a66814ba0f1a38703fdaeaaf273432fbbcb70bbfb161541fd78dcbc0 19636 ansible-core_2.14.8-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/ansible-core"
+  ],
+  "Files": [
+    "6d74839c2bd77f2faaef4aba14eb462c 3078 ansible-core_2.14.8-1.dsc 2405d672e5257d8256993e1618902ad2 11456832 ansible-core_2.14.8.orig.tar.gz 7836eb9e207c52897d4db33bb49f9fdb 19636 ansible-core_2.14.8-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.ansible.com"
+  ],
+  "Maintainer": [
+    "Lee Garrett \u003cdebian@rocketjump.eu\u003e"
+  ],
+  "Package": [
+    "ansible-core"
+  ],
+  "Package-List": [
+    "ansible-core deb admin optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "git, python3-cryptography, python3-jinja2, python3-mock, python3-passlib, python3-pexpect, python3-pytest, python3-pytest-forked, python3-pytest-mock, python3-pytest-xdist, python3-tz, python3-winrm, python3-yaml"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/ansible-core"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/ansible-core.git"
+  ],
+  "Version": [
+    "2.14.8-1"
+  ]
+}

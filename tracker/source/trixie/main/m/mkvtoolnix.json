@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "mkvtoolnix, mkvtoolnix-gui"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libboost-math-dev, rake, po4a, libbz2-dev, libflac-dev, libmatroska-dev (\u003e= 1.7.1~), libogg-dev, libvorbis-dev, ruby:any, liblzo2-dev, zlib1g-dev, libcurl4-gnutls-dev, pkg-config, libboost-date-time-dev, libpugixml-dev, nlohmann-json3-dev, libboost-filesystem-dev, xsltproc, docbook-xsl, libfmt-dev (\u003e= 8.1.1), autoconf-archive, libcmark-dev (\u003e= 0.28.3~), libdvdread-dev, libutfcpp-dev, libgmp-dev, qt6-base-dev, qt6-svg-dev, qt6-multimedia-dev, libgtest-dev"
+  ],
+  "Checksums-Sha256": [
+    "855a5dc264698f4d041f331f1d3459b5b60ef0e2c8a7f1903ec6845305d51504 2268 mkvtoolnix_78.0-1.dsc 6a50fce8c66c55410e0df2a6952f0bab7a3c92914db7feb285b9f1bb03fcd0d3 11047092 mkvtoolnix_78.0.orig.tar.xz bd6c471f84cc6e3fcefc540854f454986e7ea3e48443376ac44c9954842791f7 8520 mkvtoolnix_78.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/mkvtoolnix"
+  ],
+  "Files": [
+    "8c3e1ab495868a96212b2758f1792155 2268 mkvtoolnix_78.0-1.dsc 4ca1f5e17c1297f9be0ecfca51f8c618 11047092 mkvtoolnix_78.0.orig.tar.xz bf173cd87219afcb5594100a7828dd89 8520 mkvtoolnix_78.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://mkvtoolnix.download/index.html"
+  ],
+  "Maintainer": [
+    "Christian Marillat \u003cmarillat@debian.org\u003e"
+  ],
+  "Package": [
+    "mkvtoolnix"
+  ],
+  "Package-List": [
+    "mkvtoolnix deb graphics optional arch=any mkvtoolnix-gui deb graphics optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "video"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Version": [
+    "78.0-1"
+  ]
+}

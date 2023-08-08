@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "unifont, xfonts-unifont, fonts-unifont, psf-unifont, unifont-bin"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "fontforge-nox | fontforge, xfonts-utils, bdf2psf, libgd-perl, texinfo"
+  ],
+  "Checksums-Sha256": [
+    "f778cb6953380805364609468f566b4943bf5c99918049fbe613cd0f09aaeeeb 2480 unifont_15.0.06-1.dsc 36668eb1326d22e1466b94b3929beeafd10b9838bf3d41f4e5e3b52406ae69f1 40878710 unifont_15.0.06.orig.tar.gz 645e8afc9689ec820392a41c0143ae0366aa6be9c9738422c56ced07e7951e74 833 unifont_15.0.06.orig.tar.gz.asc 331aedb659fc90a69e558388c417af6e9536258fdc3ba23465dce7bfd4466d98 18884 unifont_15.0.06-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/u/unifont"
+  ],
+  "Files": [
+    "968ef820f5dd11e862d501805aedee42 2480 unifont_15.0.06-1.dsc d39857a6490b16dddbb6f5b18a2a2b39 40878710 unifont_15.0.06.orig.tar.gz c8901325924a9bd758de737a5615be66 833 unifont_15.0.06.orig.tar.gz.asc 489cf8557b984a19e99dad3a9a314e07 18884 unifont_15.0.06-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://unifoundry.com/unifont/"
+  ],
+  "Maintainer": [
+    "Debian Fonts Task Force \u003cdebian-fonts@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "unifont"
+  ],
+  "Package-List": [
+    "fonts-unifont deb fonts optional arch=all psf-unifont deb fonts optional arch=all unifont deb fonts optional arch=all unifont-bin deb fonts optional arch=any xfonts-unifont deb fonts optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "fonts"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Hideki Yamane \u003chenrich@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/fonts-team/unifont"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/fonts-team/unifont.git"
+  ],
+  "Version": [
+    "1:15.0.06-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "python3-pygame, python-pygame-doc"
+  ],
+  "Build-Conflicts": [
+    "python3.2-dev (\u003c\u003c 3.2.3-7)"
+  ],
+  "Build-Depends": [
+    "cython3, debhelper-compat (= 13), dh-python, fluid-soundfont-gm, fontconfig, fonts-freefont-ttf, libfreetype-dev, libjpeg-dev, libpng-dev, libportmidi-dev [linux-any], libsdl2-dev, libsdl2-image-dev, libsdl2-mixer-dev, libsdl2-ttf-dev, timgm6mb-soundfont, python3-all-dev, python3-numpy, python3-setuptools, python3-sphinx, sharutils, xauth, xvfb"
+  ],
+  "Checksums-Sha256": [
+    "f59e4ba5b681fb6d6fd4172e186b10e53f90e3501d1e7a2f6caf1b8282483cfa 2480 pygame_2.5.0-2.dsc edd5745b79435976d92c0a7318aedcafcb7ac4567125ac6ba88aa473559ef9ab 15560194 pygame_2.5.0.orig.tar.gz bdea8d461351dd955d7324486824f6042c8d30b8a3ce4862782b414e7bbcc047 16052 pygame_2.5.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pygame"
+  ],
+  "Files": [
+    "00d7b1b16b0c5d7c438a437626c5029f 2480 pygame_2.5.0-2.dsc 2246db704e9befcf83e88f0277ebf089 15560194 pygame_2.5.0.orig.tar.gz 1766c09ddcca57885e7031f8e54f8619 16052 pygame_2.5.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.pygame.org/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "pygame"
+  ],
+  "Package-List": [
+    "python-pygame-doc deb doc optional arch=all python3-pygame deb python optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "interpreters"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Ed Boraas \u003ced@debian.org\u003e, A Mennucc1 \u003cmennucc1@debian.org\u003e, Vincent Cheng \u003cvcheng@debian.org\u003e, Dominik George \u003cnatureshadow@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/pygame"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/pygame.git"
+  ],
+  "Version": [
+    "2.5.0-2"
+  ]
+}

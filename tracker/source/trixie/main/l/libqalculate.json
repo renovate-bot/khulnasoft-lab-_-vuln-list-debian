@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libqalculate20-data, libqalculate-data, libqalculate-dev, libqalculate-doc, libqalculate22, qalc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), doxygen, gnuplot-nox, intltool, libcln-dev, libcurl4-gnutls-dev, libgettextpo-dev, libglib2.0-dev, libgmp-dev, libicu-dev, libmpfr-dev, libncurses-dev, libreadline-dev, libxml2-dev"
+  ],
+  "Checksums-Sha256": [
+    "ef310cad8cfaf4d4069d985361ac51b5a6dca676769bb6915fc888a389d7288f 2472 libqalculate_4.7.0-1.dsc 114ed13f756347bc09a8ae49fa747352be783aa66abc5b38233000955b76b698 2109638 libqalculate_4.7.0.orig.tar.gz 6e12458ac068ccf8cc29698f669ed78c9f2a3d866818f628d0fc557154183777 8376 libqalculate_4.7.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libq/libqalculate"
+  ],
+  "Files": [
+    "ddc85113fdf1d4a658a70a93d3d71db2 2472 libqalculate_4.7.0-1.dsc 032f8b5b6b085e5632c065acfcc95d92 2109638 libqalculate_4.7.0.orig.tar.gz 62fbf3da0ba9c2a02e8abd13ba66df45 8376 libqalculate_4.7.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://qalculate.github.io/"
+  ],
+  "Maintainer": [
+    "Qalculate Team \u003cteam+qalculate@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "libqalculate"
+  ],
+  "Package-List": [
+    "libqalculate-data deb libs optional arch=all libqalculate-dev deb libdevel optional arch=any libqalculate-doc deb doc optional arch=all libqalculate20-data deb oldlibs optional arch=all libqalculate22 deb libs optional arch=any qalc deb math optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "math"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "James Lu \u003cjlu@debian.org\u003e, Phil Morrell \u003cdebian@emorrp1.name\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/libqalculate"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/libqalculate.git"
+  ],
+  "Version": [
+    "4.7.0-1"
+  ]
+}

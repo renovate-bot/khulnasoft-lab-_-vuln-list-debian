@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libsedlex-ocaml, libsedlex-ocaml-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), ocaml, ocaml-dune (\u003e= 2), libgen-ocaml-dev, libppxlib-ocaml-dev (\u003e= 0.18.0), ocaml-findlib, dh-ocaml"
+  ],
+  "Checksums-Sha256": [
+    "dbd74ea1e9f4eff15215ae7fb6583a634dca4de8c660e3df3d1a55d1e186f978 2220 ocaml-sedlex_3.0-2.dsc d440f10ebe4fe245e7449246d4cbafad2f51124f8a3db91d3ea6ea3f9db48854 133248 ocaml-sedlex_3.0.orig.tar.gz 88c32bf2c9584b58cf81fb599dd193a9dbde9a7e85b149a198e2ac5590df81dd 3220 ocaml-sedlex_3.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/o/ocaml-sedlex"
+  ],
+  "Files": [
+    "efc20ba3365c3464f1fc0713143e0661 2220 ocaml-sedlex_3.0-2.dsc 30778b8946f9e2dda8acd5865b3bf4bb 133248 ocaml-sedlex_3.0.orig.tar.gz 78d1083c7280c45d5d8760d85ddcf04c 3220 ocaml-sedlex_3.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ocaml-community/sedlex"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "ocaml-sedlex"
+  ],
+  "Package-List": [
+    "libsedlex-ocaml deb ocaml optional arch=any libsedlex-ocaml-dev deb ocaml optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "ocaml-dune, ocaml-findlib, ocaml-nox"
+  ],
+  "Uploaders": [
+    "Andy Li \u003candy@onthewings.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/ocaml-sedlex"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/ocaml-sedlex.git"
+  ],
+  "Version": [
+    "3.0-2"
+  ]
+}

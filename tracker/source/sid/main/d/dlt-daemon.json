@@ -1,0 +1,50 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libdlt-dev, libdlt2, dlt-daemon, dlt-tools, libdlt-examples"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, zlib1g-dev, libdbus-1-dev, doxygen, libgtest-dev, libsystemd-dev, pandoc, systemd, libjson-c-dev"
+  ],
+  "Checksums-Sha256": [
+    "bbc0b73c60c355ac5ad998ba5bc7594d964f4974ac72be04004cf9bbab05823f 2122 dlt-daemon_2.18.9-2.dsc 400377a5b5ab7394f1c10098bfae49dced05c595e3cf62f04c7a335146d2ab33 5114741 dlt-daemon_2.18.9.orig.tar.gz 8b595e812d58723b5c53eefbc61b5a7ee9f04682669ce0343a4380e4a71b3b65 8280 dlt-daemon_2.18.9-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/dlt-daemon"
+  ],
+  "Files": [
+    "0cd03320ce37f64b38605bd8c60b9e97 2122 dlt-daemon_2.18.9-2.dsc f35c556362b1705006a81c93a8b6e2d8 5114741 dlt-daemon_2.18.9.orig.tar.gz 35d9dcefc5fd62e0bb981a5942cb7386 8280 dlt-daemon_2.18.9-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/COVESA/dlt-daemon"
+  ],
+  "Maintainer": [
+    "Aigars Mahinovs \u003caigarius@debian.org\u003e"
+  ],
+  "Package": [
+    "dlt-daemon"
+  ],
+  "Package-List": [
+    "dlt-daemon deb libs optional arch=any dlt-tools deb libs optional arch=any libdlt-dev deb libdevel optional arch=any libdlt-examples deb libs optional arch=any libdlt2 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Gianfranco Costamagna \u003clocutusofborg@debian.org\u003e"
+  ],
+  "Version": [
+    "2.18.9-2"
+  ]
+}

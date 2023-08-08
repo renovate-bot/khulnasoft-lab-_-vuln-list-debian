@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libstdio-ocaml-dev, libstdio-ocaml"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), ocaml-nox, ocaml-dune, libbase-ocaml-dev (\u003e= 0.14), dh-ocaml"
+  ],
+  "Checksums-Sha256": [
+    "d56952652209528a4c7ef551fac693a9f765f8f4ac62c4a51dcd7157dec44bd2 2104 ocaml-stdio_0.16.0-2.dsc 388561b483894ae27b5968358b7978ae6a242f426e8c26fd92b39852d68b856e 7836 ocaml-stdio_0.16.0.orig.tar.gz 17f77fee0bfe5c1193e9e16078d1f8cc75600112217b90cc8ab0c14c57570a9c 2248 ocaml-stdio_0.16.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/o/ocaml-stdio"
+  ],
+  "Files": [
+    "69856d988c799bce9ad994aa5afb4b86 2104 ocaml-stdio_0.16.0-2.dsc f80004ff496d751a3f534d4fe4b3ae16 7836 ocaml-stdio_0.16.0.orig.tar.gz fd8186c8a55feac8b6db80722cf89acd 2248 ocaml-stdio_0.16.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/janestreet/stdio"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "ocaml-stdio"
+  ],
+  "Package-List": [
+    "libstdio-ocaml deb ocaml optional arch=any libstdio-ocaml-dev deb ocaml optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Stéphane Glondu \u003cglondu@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/ocaml-stdio"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/ocaml-stdio.git"
+  ],
+  "Version": [
+    "0.16.0-2"
+  ]
+}

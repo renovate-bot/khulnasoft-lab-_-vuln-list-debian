@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-bioc-metagenomeseq"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-bioc-biobase, r-bioc-limma, r-cran-glmnet, r-cran-rcolorbrewer, r-cran-matrixstats, r-cran-foreach, r-cran-matrix, r-cran-gplots, r-bioc-wrench"
+  ],
+  "Checksums-Sha256": [
+    "d0f08a8f6c8c0385e4c38250e3a0184663e9977a98a2040dc5781563f50afd68 2282 r-bioc-metagenomeseq_1.42.0-1.dsc 931bfcb5df4bd71380202239055c4b3b20409d54d91edf31fa52031a46612309 2195686 r-bioc-metagenomeseq_1.42.0.orig.tar.gz b0222450ee34bd7d4e74eede8d406d7000a563c990c0a2830892b3e403b01d64 4808 r-bioc-metagenomeseq_1.42.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-metagenomeseq"
+  ],
+  "Files": [
+    "2337afd10efed257cd45dfc0216d8bd8 2282 r-bioc-metagenomeseq_1.42.0-1.dsc 639ed9fe16c0bf887c363a66a1e8e5eb 2195686 r-bioc-metagenomeseq_1.42.0.orig.tar.gz 69027b4134152103b6f437e458281137 4808 r-bioc-metagenomeseq_1.42.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/metagenomeSeq/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-metagenomeseq"
+  ],
+  "Package-List": [
+    "r-bioc-metagenomeseq deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-metagenomeseq"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-metagenomeseq.git"
+  ],
+  "Version": [
+    "1.42.0-1"
+  ]
+}

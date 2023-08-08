@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-cran-shiny"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-crayon, r-cran-rlang, r-cran-fastmap, r-cran-withr, r-cran-commonmark, r-cran-glue, r-cran-bslib, r-cran-cachem, r-cran-ellipsis, r-cran-lifecycle, libjs-bootstrap, libjs-json, libjs-jquery-datatables, libjs-es5-shim, libjs-jquery, libjs-jquery-ui, libjs-highlight.js, libjs-twitter-bootstrap-datepicker, fonts-font-awesome, node-html5shiv, r-cran-rcpp, r-cran-httpuv, r-cran-mime, r-cran-jsonlite, r-cran-xtable, r-cran-fontawesome, r-cran-digest, r-cran-r6, r-cran-htmltools, r-cran-sourcetools, r-cran-later, r-cran-promises, yui-compressor"
+  ],
+  "Checksums-Sha256": [
+    "643f52cdf78174e0069deda577104935bc7a475f9164a2f0b4f3c346568446d6 2852 r-cran-shiny_1.7.4.1+dfsg-1.dsc 10e99b686b1bbb5becc24e878e2c077ec2a56dc1244307b09f78b40bd3740121 916400 r-cran-shiny_1.7.4.1+dfsg.orig.tar.xz 7db5b0ff5f643584831002d0a0697e5ba684e686098696f67466756f5c9a14f3 140060 r-cran-shiny_1.7.4.1+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-shiny"
+  ],
+  "Files": [
+    "bbf8bba440a3cce204e8acc44d826051 2852 r-cran-shiny_1.7.4.1+dfsg-1.dsc 0c0b66ead0c3bc861631a5beb56b92e9 916400 r-cran-shiny_1.7.4.1+dfsg.orig.tar.xz 5d59ec1108eaae01e31eb2e3e2b807b3 140060 r-cran-shiny_1.7.4.1+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=shiny"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-shiny"
+  ],
+  "Package-List": [
+    "r-cran-shiny deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-cairo, r-cran-dygraphs, r-cran-future, r-cran-ggplot2, r-cran-knitr, r-cran-magrittr, r-cran-markdown, r-cran-ragg, r-cran-rmarkdown, r-cran-sass, r-cran-testthat, r-cran-yaml"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-shiny"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-shiny.git"
+  ],
+  "Version": [
+    "1.7.4.1+dfsg-1"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "celluloid, gnome-mpv"
+  ],
+  "Build-Depends": [
+    "appstream-util, autoconf-archive, debhelper-compat (= 13), libadwaita-1-dev (\u003e= 1.0.0), libepoxy-dev, libgtk-4-dev, libmpv-dev (\u003e= 0.32), meson, pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "c7f0f19c145e135de829f47acf8c196f475334bf38dc304b61053d2d07b00608 2162 celluloid_0.25-1.dsc 03338b311725e2b680e81407eef6471534a5600c73d93a22315a479b5529119f 591504 celluloid_0.25.orig.tar.gz 906eff96e26aab9d9c83aa5bf2d8f32ed093a1e25b86f144f928f55cc988ecc2 8876 celluloid_0.25-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/celluloid"
+  ],
+  "Files": [
+    "f8b1e4fdc1f86bb7402b3f29596efccc 2162 celluloid_0.25-1.dsc 0ac02fc7235ac5429bfd7250f14ea7aa 591504 celluloid_0.25.orig.tar.gz 8f07eb3e95e8989788b2c9afaf97d73d 8876 celluloid_0.25-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/celluloid-player/celluloid"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "celluloid"
+  ],
+  "Package-List": [
+    "celluloid deb video optional arch=any gnome-mpv deb oldlibs optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Ximin Luo \u003cinfinity0@debian.org\u003e, Danial Behzadi \u003cdani.behzi@ubuntu.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/celluloid"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/celluloid.git"
+  ],
+  "Version": [
+    "0.25-1"
+  ]
+}

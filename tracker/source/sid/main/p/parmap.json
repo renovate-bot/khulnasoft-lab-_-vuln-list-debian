@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libparmap-ocaml, libparmap-ocaml-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), ocaml, ocaml-dune, libdune-ocaml-dev, dh-ocaml"
+  ],
+  "Checksums-Sha256": [
+    "e60f4d932219379819ecc0ac1873dc08497933a5f29703e1ed772e63122ce8ae 1804 parmap_1.2.5-2.dsc 6709356e724436fba0b7a10f96f65a441c2b763832954707d5e30017e78fd285 49144 parmap_1.2.5.orig.tar.gz 82a36c0266c605e2c3147a44363a9b6ad05a97258e7fa4496a716e5a4d1ed62a 3468 parmap_1.2.5-2.debian.tar.xz"
+  ],
+  "Dgit": [
+    "4c006239b0b55160d9574a0974d89a9d73b1596b debian archive/debian/1.2.5-2 https://git.dgit.debian.org/parmap"
+  ],
+  "Directory": [
+    "pool/main/p/parmap"
+  ],
+  "Files": [
+    "14d54b2e00d7d6ca4dde2815ec9c3835 1804 parmap_1.2.5-2.dsc fdae424d5a197c83c88a605e5a5d2859 49144 parmap_1.2.5.orig.tar.gz 9c12dc5442a8409e09ea9ab2aad82dda 3468 parmap_1.2.5-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://rdicosmo.github.io/parmap/"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "parmap"
+  ],
+  "Package-List": [
+    "libparmap-ocaml deb ocaml optional arch=any libparmap-ocaml-dev deb ocaml optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Uploaders": [
+    "Mehdi Dogguy \u003cmehdi@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/parmap"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/parmap.git"
+  ],
+  "Version": [
+    "1.2.5-2"
+  ]
+}

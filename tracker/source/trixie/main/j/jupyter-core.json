@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-jupyter-core, jupyter-core, python-jupyter-core-doc, jupyter"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-hatchling, python3-ipython \u003c!nocheck\u003e, python3-myst-parser \u003c!nodoc\u003e, python3-platformdirs \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-autodoc-typehints \u003c!nodoc\u003e, python3-traitlets \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "e96e363efd6147620516600e51b0dfc6a9a6a4a18e8458069bf57567f42abb48 2576 jupyter-core_5.3.1-1.dsc 80c5d2be5d2340750c59ca74fa8290b4b98253ecc3535d6724c0b9207419a811 85150 jupyter-core_5.3.1.orig.tar.gz 1c6412978c959d11380cae40e069a9972867ee138f283c5ed7207af9af7960b7 7392 jupyter-core_5.3.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/j/jupyter-core"
+  ],
+  "Files": [
+    "66d76123bd309ef075464a8605638e28 2576 jupyter-core_5.3.1-1.dsc 714558fce3a0236dcd1d77f795d6fd35 85150 jupyter-core_5.3.1.orig.tar.gz ed756fb491871dcff9a8624298e4d566 7392 jupyter-core_5.3.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/jupyter/jupyter_core"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "jupyter-core"
+  ],
+  "Package-List": [
+    "jupyter deb metapackages optional arch=all jupyter-core deb utils optional arch=all python-jupyter-core-doc deb doc optional arch=all python3-jupyter-core deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-python"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-pytest"
+  ],
+  "Uploaders": [
+    "Julien Puydt \u003cjpuydt@debian.org\u003e, Gordon Ball \u003cgordon@chronitis.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/jupyter-core"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/jupyter-core.git"
+  ],
+  "Version": [
+    "5.3.1-1"
+  ]
+}

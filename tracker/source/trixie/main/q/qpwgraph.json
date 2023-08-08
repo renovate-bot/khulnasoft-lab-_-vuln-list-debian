@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "qpwgraph"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), libasound2-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], libpipewire-0.3-dev, libqt6svg6-dev, pkg-config, qt6-base-dev, qt6-tools-dev, qt6-tools-dev-tools"
+  ],
+  "Checksums-Sha256": [
+    "298fcb803285e3bff685e4e23f7973da178f46cb5e214ab48d91a916b4325264 2146 qpwgraph_0.4.4-1.dsc fc1e277a2d541b692e390308722fdd0b3f2f8c9ada579a00c94e4ba711638675 465249 qpwgraph_0.4.4.orig.tar.gz d99ffb1991df1ad0ad66a04d735bb2b3b82629141f59e5783599cc47e03c0439 2560 qpwgraph_0.4.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/q/qpwgraph"
+  ],
+  "Files": [
+    "50fd9da21d97e995291e01291d5c6cf5 2146 qpwgraph_0.4.4-1.dsc e74d89c53bbb22b3453dfc013239b31d 465249 qpwgraph_0.4.4.orig.tar.gz 2553effc65e3e8de03fe4883d12612f1 2560 qpwgraph_0.4.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.freedesktop.org/rncbc/qpwgraph"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "qpwgraph"
+  ],
+  "Package-List": [
+    "qpwgraph deb sound optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Christopher Obbard \u003cchris.obbard@collabora.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/qpwgraph"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/qpwgraph.git"
+  ],
+  "Version": [
+    "0.4.4-1"
+  ]
+}

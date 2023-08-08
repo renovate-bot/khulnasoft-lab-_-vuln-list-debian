@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-proc-macro2-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-unicode-ident-1+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "2406c7253fcc7d53ef4514c991fbcad0d35461183d979ee46720cbfb1a290d35 2331 rust-proc-macro2_1.0.65-1.dsc 92de25114670a878b1261c79c9f8f729fb97e95bac93f6312f583c60dd6a1dfe 44863 rust-proc-macro2_1.0.65.orig.tar.gz 28b511f66f6dab964a3ff919f830983933ff50b03764caa3e12fa3a1334cf632 3352 rust-proc-macro2_1.0.65-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-proc-macro2"
+  ],
+  "Files": [
+    "2bca1495e84010364e1b86072dd6cbff 2331 rust-proc-macro2_1.0.65-1.dsc de296a8d7fbf180e8105ff63330cb894 44863 rust-proc-macro2_1.0.65.orig.tar.gz bc4eb62599d22bf4d25d805f6b5d7950 3352 rust-proc-macro2_1.0.65-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-proc-macro2"
+  ],
+  "Package-List": [
+    "librust-proc-macro2-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-quote-1-dev, librust-rustversion-1+default-dev"
+  ],
+  "Uploaders": [
+    "Ximin Luo \u003cinfinity0@debian.org\u003e, Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/proc-macro2"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/proc-macro2]"
+  ],
+  "Version": [
+    "1.0.65-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libseqan3-dev, seqan3-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, ninja-build, zlib1g-dev \u003c!nocheck\u003e, libbz2-dev \u003c!nocheck\u003e, libboost-dev \u003c!nocheck\u003e, libgtest-dev \u003c!nocheck\u003e, libcereal-dev \u003c!nocheck\u003e, libbenchmark-dev \u003c!nocheck\u003e, liblemon-dev \u003c!nocheck\u003e, doxygen \u003c!nodoc\u003e, graphviz \u003c!nodoc\u003e, cppreference-doc-en-html \u003c!nodoc\u003e, texlive-latex-base \u003c!nodoc\u003e, ghostscript \u003c!nodoc\u003e, texlive-latex-extra \u003c!nodoc\u003e, doxygen-awesome-css \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "6fee903fc1a5cc97a00ae40e341718f611802e0e0ad436592e27d355773febf5 2547 seqan3_3.3.0~rc.1+ds-3.dsc bf8516d7292fc18c2ca0165eee3dd26022c42cd92d32d14acb5b0f422e059dc7 2020280 seqan3_3.3.0~rc.1+ds.orig.tar.xz 94eeca87c7802c6112c04ab9112567297a76a3746f16681f7e14bffb219dae1b 10620 seqan3_3.3.0~rc.1+ds-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/seqan3"
+  ],
+  "Files": [
+    "72d76fbb19ff6bd1cedf60ec03b87cfe 2547 seqan3_3.3.0~rc.1+ds-3.dsc 1b15b3b02d9108d16150139449504474 2020280 seqan3_3.3.0~rc.1+ds.orig.tar.xz fcec774a9690f12a971e5e99dd356d6d 10620 seqan3_3.3.0~rc.1+ds-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.seqan.de/"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "seqan3"
+  ],
+  "Package-List": [
+    "libseqan3-dev deb libdevel optional arch=all seqan3-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "cmake, dpkg-dev, g++, gcc, libbenchmark-dev, libboost-dev, libbz2-dev, libgtest-dev, liblemon-dev, quilt, zlib1g-dev"
+  ],
+  "Uploaders": [
+    "Michael R. Crusoe \u003ccrusoe@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/seqan3"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/seqan3.git"
+  ],
+  "Version": [
+    "3.3.0~rc.1+ds-3"
+  ]
+}

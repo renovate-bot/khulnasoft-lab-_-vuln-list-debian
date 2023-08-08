@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "carburetor"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3, python3-setuptools, libgtk-4-dev (\u003e= 4.8), libadwaita-1-dev (\u003e= 1.2)"
+  ],
+  "Checksums-Sha256": [
+    "8ec9fa862d8b6db49e02e7612e0ac27e8f0243dfad73c66d14d8b0992c9525bf 1982 carburetor_4.1.2-3.dsc ebbec6d97f4e7af15f07082c8c2540aa9b66a8c684bf6efea47b1ca26940f463 54115 carburetor_4.1.2.orig.tar.bz2 1845d63c093265822bb21429d4c708c13c2fdd8a25d6abf958b0d021bbccb15c 7824 carburetor_4.1.2-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/carburetor"
+  ],
+  "Files": [
+    "57d89de171c7f6110ec303ed47d89b99 1982 carburetor_4.1.2-3.dsc d87b139a60f985366d6cb470e7cbfba5 54115 carburetor_4.1.2.orig.tar.bz2 43931ff7d207562c0b053dcba82bcec4 7824 carburetor_4.1.2-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://framagit.org/tractor/carburetor"
+  ],
+  "Maintainer": [
+    "Danial Behzadi \u003cdani.behzi@ubuntu.com\u003e"
+  ],
+  "Package": [
+    "carburetor"
+  ],
+  "Package-List": [
+    "carburetor deb net optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/danialbehzadi/carburetor"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/danialbehzadi/carburetor.git"
+  ],
+  "Version": [
+    "4.1.2-3"
+  ]
+}

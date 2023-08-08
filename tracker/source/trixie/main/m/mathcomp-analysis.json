@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libcoq-mathcomp-analysis"
+  ],
+  "Build-Depends": [
+    "coq, debhelper-compat (= 13), dh-coq, dh-ocaml, libcoq-elpi, libcoq-hierarchy-builder, libcoq-mathcomp-algebra, libcoq-mathcomp-field, libcoq-mathcomp-fingroup, libcoq-mathcomp-solvable, libcoq-mathcomp-ssreflect, libcoq-mathcomp-bigenough, libcoq-mathcomp-finmap, ocaml-dune"
+  ],
+  "Checksums-Sha256": [
+    "272b4f3cf3ca021d10528f0b959592bf4242739f1777e5bd1cb96c95eec9f865 2343 mathcomp-analysis_0.6.3-2.dsc 98763144f1f97ca56a4dc0e1904ccc860abd1fb2e452be54c25af41be0a07ed4 786445 mathcomp-analysis_0.6.3.orig.tar.gz 8739f268c5959a5cc956ad0891af0dc82e0d8cba00c39ee7aa110979dfc0d929 8868 mathcomp-analysis_0.6.3-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/mathcomp-analysis"
+  ],
+  "Files": [
+    "382bfdeb3772711ee6088c3a482f72d9 2343 mathcomp-analysis_0.6.3-2.dsc 89c1bbdd41fd720b1fe7d3526b8d09a4 786445 mathcomp-analysis_0.6.3.orig.tar.gz 237ee5a83878d4bf63b171841a6f7d46 8868 mathcomp-analysis_0.6.3-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/math-comp/analysis"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "mathcomp-analysis"
+  ],
+  "Package-List": [
+    "libcoq-mathcomp-analysis deb ocaml optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "coq"
+  ],
+  "Uploaders": [
+    "Julien Puydt \u003cjpuydt@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/mathcomp-analysis"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/mathcomp-analysis.git"
+  ],
+  "Version": [
+    "0.6.3-2"
+  ]
+}

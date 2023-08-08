@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "confy"
+  ],
+  "Build-Depends": [
+    "appstream-util, debhelper-compat (= 13), libglib2.0-dev, meson, ninja-build, pkg-config"
+  ],
+  "Build-Depends-Indep": [
+    "dh-python, python3-all, python3-icalendar, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "79dc7d968204dfa561741972d2d7f2fe4ba006a46f31cdaa768c2161e31f1540 2236 confy_0.6.5-1.dsc cdfbb0399052190cc951cdfa33a0b9c121daacb6cf16a6b2415168f966d5a3b9 84298 confy_0.6.5.orig.tar.gz 823399471e8fe49bffccaa476f3696d2aca6b928efb6ce3bff97622f979a05dd 8988 confy_0.6.5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/confy"
+  ],
+  "Files": [
+    "f4e7a2e9e857e5e9ee3fa76cc22ebfd5 2236 confy_0.6.5-1.dsc 317d9d50c1ba1577cce8d0b4c9fff9ec 84298 confy_0.6.5.orig.tar.gz b99c9f70732eed8294217b3a69390c0f 8988 confy_0.6.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://confy.kirgroup.net/"
+  ],
+  "Maintainer": [
+    "DebianOnMobile Maintainers \u003cdebian-on-mobile-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "confy"
+  ],
+  "Package-List": [
+    "confy deb gnome optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-python"
+  ],
+  "Testsuite-Triggers": [
+    "xauth, xvfb"
+  ],
+  "Uploaders": [
+    "Federico Ceratto \u003cfederico@debian.org\u003e, Evangelos Ribeiro Tzaras \u003cdevrtz-debian@fortysixandtwo.eu\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/DebianOnMobile-team/confy"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/DebianOnMobile-team/confy.git"
+  ],
+  "Version": [
+    "0.6.5-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "php-doctrine-orm"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-phpcomposer, help2man, php-doctrine-annotations, php-doctrine-common, php-doctrine-collections, php-doctrine-dbal, php-doctrine-inflector, php-doctrine-instantiator, php-sqlite3, php-symfony-cache, php-symfony-console, php-symfony-yaml, phpab, phpunit"
+  ],
+  "Checksums-Sha256": [
+    "2149e6a5cf99c1827670285033277d94b78e8229eb14a71afb30eafafe370d95 2091 doctrine_2.16.0+dfsg-1.dsc eb67b535a534454b9f3e6db0b5fea7c38a12b78090bdee0bf7fed44144426322 659340 doctrine_2.16.0+dfsg.orig.tar.xz 2c4b9f80483c9cf997bd09379ab48eb05496f45cdc9af75eb4e086da9072855c 61924 doctrine_2.16.0+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/doctrine"
+  ],
+  "Files": [
+    "0f40b5403664242b2a511d852b782a1f 2091 doctrine_2.16.0+dfsg-1.dsc 35c814120d2f31687c427b7d1b92631c 659340 doctrine_2.16.0+dfsg.orig.tar.xz 5cdd5ea7b09ffb98e285ccda6a783128 61924 doctrine_2.16.0+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.doctrine-project.org/projects/orm.html"
+  ],
+  "Maintainer": [
+    "Debian PHP PEAR Maintainers \u003cpkg-php-pear@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "doctrine"
+  ],
+  "Package-List": [
+    "php-doctrine-orm deb php optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "oldlibs"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "patch, php-doctrine-annotations, php-sqlite3, php-symfony-cache, php-symfony-yaml, phpab, phpunit"
+  ],
+  "Uploaders": [
+    "David Prévot \u003ctaffit@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/php-team/pear/doctrine"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/php-team/pear/doctrine.git -b debian/latest"
+  ],
+  "Version": [
+    "2.16.0+dfsg-1"
+  ]
+}

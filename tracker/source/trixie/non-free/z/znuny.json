@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Autobuild": [
+    "yes"
+  ],
+  "Binary": [
+    "znuny, otrs2"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "d6aee7cb4af77e0c1df5744d3b7d7e4bc500140d76f539f67a751b44bd7fe0e3 1819 znuny_6.5.3-1.dsc 4fdf6a0d995b9df80ae99485fd1ed5e41dd04edfc10718b9b2cb415891adde01 45908667 znuny_6.5.3.orig.tar.gz 7fdab0769c372204b8df62d5864549e5a3f577ba7bb59d25df009630989ec6ff 56012 znuny_6.5.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/non-free/z/znuny"
+  ],
+  "Files": [
+    "cbd1f9c2711f60697ed02ebffac0c1d8 1819 znuny_6.5.3-1.dsc 7f832f2cfd63fde2793a44926d96d3cb 45908667 znuny_6.5.3.orig.tar.gz cd9633ccdd6e9e857481b7799005cf74 56012 znuny_6.5.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/znuny/Znuny"
+  ],
+  "Maintainer": [
+    "Patrick Matthäi \u003cpmatthaei@debian.org\u003e"
+  ],
+  "Package": [
+    "znuny"
+  ],
+  "Package-List": [
+    "otrs2 deb non-free/web optional arch=all znuny deb non-free/web optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "non-free/misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Thomas Mueller \u003cthomas@chaschperli.ch\u003e"
+  ],
+  "Version": [
+    "6.5.3-1"
+  ]
+}

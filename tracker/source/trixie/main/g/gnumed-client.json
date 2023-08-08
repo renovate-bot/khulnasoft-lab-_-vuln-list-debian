@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "gnumed-client, gnumed-client-de, gnumed-common, gnumed-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), po-debconf, python3, dh-python, dh-linktree, libjs-jquery, libjs-jquery-livequery, yui-compressor, bash-completion"
+  ],
+  "Checksums-Sha256": [
+    "3e59e7a5de95549fb78562257d3b1a5450d628edb26a4859a247761474bbb3d5 2379 gnumed-client_1.8.14+dfsg-1.dsc 41178f2d4525603361201a7a72f538fd97c8a45ffbdc91069f75a921a1b7dfa3 3943500 gnumed-client_1.8.14+dfsg.orig.tar.xz 900d9294d5d1b7965c8198b2f475a6a9a0830640fd3474cb2f0524a0727c99b8 78780 gnumed-client_1.8.14+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gnumed-client"
+  ],
+  "Files": [
+    "5325534e1995d6ae9b0646801577ae27 2379 gnumed-client_1.8.14+dfsg-1.dsc a8ca0d1922bd4ad5b4aff05147cb2379 3943500 gnumed-client_1.8.14+dfsg.orig.tar.xz a4e21062ca76cee734caf93da694b056 78780 gnumed-client_1.8.14+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.gnumed.de"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "gnumed-client"
+  ],
+  "Package-List": [
+    "gnumed-client deb misc optional arch=all gnumed-client-de deb misc optional arch=all gnumed-common deb misc optional arch=all gnumed-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e, Sebastian Hilbert \u003csebastian.hilbert@gmx.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/gnumed-client"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/gnumed-client.git"
+  ],
+  "Version": [
+    "1.8.14+dfsg-1"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "papirus-icon-theme"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "5b16b39373462a0db25e24692c0bfb3ba6a82f0c24d6b172863990e6b2163db2 2094 papirus-icon-theme_20230801-1.dsc b5c35d451358cc170c2f9498e5b37b2303191725f8cb35560fa89c46382df71d 33741030 papirus-icon-theme_20230801.orig.tar.gz 1e5b419227214346c550aef68ee730cbdc6bf13a2b1480fe5d59a42bde881e9b 4144 papirus-icon-theme_20230801-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/papirus-icon-theme"
+  ],
+  "Files": [
+    "1401d02c6abc8387f9d14867b038d270 2094 papirus-icon-theme_20230801-1.dsc 5d31d7380965ffea4abd3f422c7d2c1e 33741030 papirus-icon-theme_20230801.orig.tar.gz fd11f31598097d844d041918d6b4b1b6 4144 papirus-icon-theme_20230801-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme"
+  ],
+  "Maintainer": [
+    "Debian Desktop Theme Team \u003cteam+desktop-themes-team@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "papirus-icon-theme"
+  ],
+  "Package-List": [
+    "papirus-icon-theme deb x11 optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Yangfl \u003cmmyangfl@gmail.com\u003e, Boyuan Yang \u003cbyang@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/papirus-icon-theme"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/papirus-icon-theme.git"
+  ],
+  "Version": [
+    "20230801-1"
+  ]
+}

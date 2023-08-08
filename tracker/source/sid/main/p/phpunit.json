@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "phpunit"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-phpcomposer, help2man, php-codecoverage, php-deepcopy, php-doctrine-instantiator, php-invoker, php-mbstring, php-phar-io-manifest, php-soap, php-timer, phpab, phpunit-cli-parser, phpunit-code-unit, phpunit-comparator, phpunit-diff, phpunit-environment, phpunit-global-state, phpunit-object-enumerator, phpunit-resource-operations, phpunit-type (\u003e= 3), pkg-php-tools (\u003e= 1.41~)"
+  ],
+  "Checksums-Sha256": [
+    "31be2fc4a2e21c9087ff8e3ef675dfac7a9d008553061f466fa1df8186911a50 2098 phpunit_9.6.10-1.dsc 5f724c258478b422daa8a2765b920238a1243bff8f030cba8dd439a7c17c55d1 3710276 phpunit_9.6.10.orig.tar.xz d312bf3e617dd77a86498dba5dcec315711e0bb2ca51a71e3c47cbb3f3fc2663 64176 phpunit_9.6.10-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/phpunit"
+  ],
+  "Files": [
+    "2da02d0573354eee1b445849d7dcaaad 2098 phpunit_9.6.10-1.dsc a255853ee4867a771d42c681485f4067 3710276 phpunit_9.6.10.orig.tar.xz 5a0ed645eb3ddb8c7f370ea5f05e48f8 64176 phpunit_9.6.10-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://phpunit.de/"
+  ],
+  "Maintainer": [
+    "Debian PHP PEAR Maintainers \u003cpkg-php-pear@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "phpunit"
+  ],
+  "Package-List": [
+    "phpunit deb php optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "php"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "php-soap, phpab, pkg-php-tools"
+  ],
+  "Uploaders": [
+    "Prach Pongpanich \u003cprach@debian.org\u003e, David Prévot \u003ctaffit@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/php-team/pear/phpunit"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/php-team/pear/phpunit.git -b debian/bookworm"
+  ],
+  "Version": [
+    "9.6.10-1"
+  ]
+}

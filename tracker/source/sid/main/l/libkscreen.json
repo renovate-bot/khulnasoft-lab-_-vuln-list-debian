@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libkf5screen-bin, libkf5screen-data, libkf5screen-dev, libkf5screen8, libkf5screendpms8"
+  ],
+  "Build-Depends": [
+    "cmake (\u003e= 3.16~), debhelper-compat (= 13), dh-sequence-kf5, extra-cmake-modules (\u003e= 5.102.0~), libkf5config-dev (\u003e= 5.102.0~), libkf5wayland-dev (\u003e= 4:5.102.0~) [linux-any], libqt5waylandclient5-dev (\u003e= 5.15.2~) [linux-any], libqt5x11extras5-dev, libx11-dev, libx11-xcb-dev, libxcb-dpms0-dev, libxcb-randr0-dev, libxcb1-dev, libxrandr-dev, pkg-config, pkg-kde-tools (\u003e= 0.15.32~), plasma-wayland-protocols (\u003e= 1.10.0~), qtbase5-dev (\u003e= 5.15.2~), qtbase5-private-dev, qttools5-dev, qtwayland5-dev-tools [linux-any]"
+  ],
+  "Checksums-Sha256": [
+    "7d69f2647023fe45d2fba8456e7e54791c6c5f6e838df0a665beaaa75f580d7b 3008 libkscreen_5.27.7-1.dsc 86b51bf3406c353afd7a2e1f47e2511d060313d8bd8a2ef7fa73a3bf153e3eab 116032 libkscreen_5.27.7.orig.tar.xz fc772834a60329db713650c77afce635a571a367c5bea21634d796071490a49a 833 libkscreen_5.27.7.orig.tar.xz.asc d9b2acf658d5b7b60675b131c91e6b7fea37530d1ee502a6f6fde073f96d7ac8 21636 libkscreen_5.27.7-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libk/libkscreen"
+  ],
+  "Files": [
+    "531577272c2e98d54b4ea9ad8999f36d 3008 libkscreen_5.27.7-1.dsc 0f40e7e4ef0675cf06afc828c6056821 116032 libkscreen_5.27.7.orig.tar.xz ff1f635bbd0b26c795e55f6c35638f4f 833 libkscreen_5.27.7.orig.tar.xz.asc 9f5c04ee6a220321efd015260c9ddd14 21636 libkscreen_5.27.7-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://invent.kde.org/plasma/libkscreen"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "libkscreen"
+  ],
+  "Package-List": [
+    "libkf5screen-bin deb libs optional arch=any libkf5screen-data deb libs optional arch=all libkf5screen-dev deb libdevel optional arch=any libkf5screen8 deb libs optional arch=any libkf5screendpms8 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/kde/libkscreen"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/kde/libkscreen.git"
+  ],
+  "Version": [
+    "4:5.27.7-1"
+  ]
+}

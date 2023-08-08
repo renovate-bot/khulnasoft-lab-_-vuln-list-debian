@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "gsettings-desktop-schemas, gsettings-desktop-schemas-dev, gir1.2-gdesktopenums-3.0"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, libglib2.0-dev (\u003e= 2.31.0), libgirepository1.0-dev (\u003e= 1.31.0), meson (\u003e= 0.57.0)"
+  ],
+  "Checksums-Sha256": [
+    "ad478e7ff6f06bd15b31727b29409d1ec8588ce1b0a2602d804287a93e50dceb 2470 gsettings-desktop-schemas_44.0-2.dsc eb2de45cad905994849e642a623adeb75d41b21b0626d40d2a07b8ea281fec0e 739836 gsettings-desktop-schemas_44.0.orig.tar.xz 7265b72149f1a157a799dd349d3b7a17e3fa2581b431d6d71ed9b47e3cbe7a9e 7144 gsettings-desktop-schemas_44.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gsettings-desktop-schemas"
+  ],
+  "Files": [
+    "4aadfac5dcf8d53f37b3859c4017fac9 2470 gsettings-desktop-schemas_44.0-2.dsc bfb5047307ce2cc8718ee584fd4cb2bd 739836 gsettings-desktop-schemas_44.0.orig.tar.xz c13a1ddb8d62b227482e98b428f39787 7144 gsettings-desktop-schemas_44.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.gnome.org/"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "gsettings-desktop-schemas"
+  ],
+  "Package-List": [
+    "gir1.2-gdesktopenums-3.0 deb introspection optional arch=any gsettings-desktop-schemas deb gnome optional arch=all gsettings-desktop-schemas-dev deb libdevel optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "gnome"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Jeremy Bicha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Marco Trevisan (Treviño) \u003cmarco@ubuntu.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/gsettings-desktop-schemas"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/gsettings-desktop-schemas.git"
+  ],
+  "Version": [
+    "44.0-2"
+  ]
+}

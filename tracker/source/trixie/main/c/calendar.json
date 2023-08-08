@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libcalendar-ocaml-dev, libcalendar-ocaml-doc, libcalendar-ocaml"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), ocaml-dune, ocaml-nox, ocaml-findlib, ocaml-odoc, libre-ocaml-dev, libalcotest-ocaml-dev, dh-ocaml (\u003e= 1.2)"
+  ],
+  "Checksums-Sha256": [
+    "3bf952b0bb8ced36b4d94a09b5f8c79748b53208bd66aa3e6bedcb4a3c905f64 2019 calendar_3.0.0-3.dsc ea04d31762d3f18837af0311cdbfe7b7788aa0f2e7e9f98d2b0decec1e506e9e 123744 calendar_3.0.0.orig.tar.gz f92f6b9e19173f86ec1360754196a5ea30495476b3b5191646872b05d8ff6641 5432 calendar_3.0.0-3.debian.tar.xz"
+  ],
+  "Dgit": [
+    "c5bdc56c50bf8869490ece5840cec6ee76850f94 debian archive/debian/3.0.0-3 https://git.dgit.debian.org/calendar"
+  ],
+  "Directory": [
+    "pool/main/c/calendar"
+  ],
+  "Files": [
+    "2e4ea127468a889afdcd8ee25f35711f 2019 calendar_3.0.0-3.dsc 8c7207407fc6b4d0bd3d05ed3c13f91a 123744 calendar_3.0.0.orig.tar.gz 5dace96a97125dc0b33276a9291e6bdb 5432 calendar_3.0.0-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ocaml-community/calendar"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "calendar"
+  ],
+  "Package-List": [
+    "libcalendar-ocaml deb ocaml optional arch=any libcalendar-ocaml-dev deb ocaml optional arch=any libcalendar-ocaml-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libdevel"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Stéphane Glondu \u003cglondu@debian.org\u003e, Mehdi Dogguy \u003cmehdi@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/calendar"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/calendar.git"
+  ],
+  "Version": [
+    "3.0.0-3"
+  ]
+}

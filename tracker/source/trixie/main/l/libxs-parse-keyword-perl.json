@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libxs-parse-keyword-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libextutils-cbuilder-perl, libextutils-cchecker-perl (\u003e= 0.11), libmodule-build-perl, libtest2-suite-perl \u003c!nocheck\u003e, perl-xs-dev, perl:native"
+  ],
+  "Checksums-Sha256": [
+    "330a17062fea5a2e02df9672909c43a536830cf1da252bc9a91576a8451e4fe3 2551 libxs-parse-keyword-perl_0.36-1.dsc 3a4eabeb561e8df50c49f0930a4330e6871df81406abc7a891fb086e364be744 83249 libxs-parse-keyword-perl_0.36.orig.tar.gz de68b21a2400f6b54fd6a562a338038fa5a07b4a64cbef4dad3ac87fdd2eee91 2200 libxs-parse-keyword-perl_0.36-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "391ea3ce683e652cb68ce3c9e18552856931b5e9 debian archive/debian/0.36-1 https://git.dgit.debian.org/libxs-parse-keyword-perl"
+  ],
+  "Directory": [
+    "pool/main/libx/libxs-parse-keyword-perl"
+  ],
+  "Files": [
+    "835dba5a00b4505cff245badc1675693 2551 libxs-parse-keyword-perl_0.36-1.dsc 1546f9d57ae2b5095e3d6b92db8c1bf6 83249 libxs-parse-keyword-perl_0.36.orig.tar.gz 93d343e1ca5c78b7723d9d88de846b43 2200 libxs-parse-keyword-perl_0.36-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/XS-Parse-Keyword"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libxs-parse-keyword-perl"
+  ],
+  "Package-List": [
+    "libxs-parse-keyword-perl deb perl optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "gregor herrmann \u003cgregoa@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libxs-parse-keyword-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libxs-parse-keyword-perl.git"
+  ],
+  "Version": [
+    "0.36-1"
+  ]
+}

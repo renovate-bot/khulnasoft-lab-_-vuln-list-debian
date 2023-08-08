@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libbase64-ocaml-dev, libbase64-ocaml"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), ocaml-nox, ocaml-dune, libdune-ocaml-dev, libbos-ocaml-dev, libalcotest-ocaml-dev, dh-ocaml (\u003e= 1.2)"
+  ],
+  "Checksums-Sha256": [
+    "a40e366b83477e886c61a37f7688a54eb87081e00fc770d54cadc851f711f2be 1927 ocaml-base64_3.5.1-1.dsc f3e8b9be43567689064b419fa5eefd9c758f00b864e9f731a0dbc1b9fecfc768 18986 ocaml-base64_3.5.1.orig.tar.gz 0df358eecd6e3758c908de7e284192db4bf7470a9457e150e03976da78c86a3d 2200 ocaml-base64_3.5.1-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "de6929d74bd08ed0e1dd6760133e7203d6549925 debian archive/debian/3.5.1-1 https://git.dgit.debian.org/ocaml-base64"
+  ],
+  "Directory": [
+    "pool/main/o/ocaml-base64"
+  ],
+  "Files": [
+    "30131f004ed3a56523250ff7c363676d 1927 ocaml-base64_3.5.1-1.dsc 51d6cfd196cb0886ec198bb4ff0e07d0 18986 ocaml-base64_3.5.1.orig.tar.gz 10dfa0d270ad79501b5d884c111b03ea 2200 ocaml-base64_3.5.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/mirage/ocaml-base64"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "ocaml-base64"
+  ],
+  "Package-List": [
+    "libbase64-ocaml deb ocaml optional arch=any libbase64-ocaml-dev deb ocaml optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Stéphane Glondu \u003cglondu@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/ocaml-base64"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/ocaml-base64.git"
+  ],
+  "Version": [
+    "3.5.1-1"
+  ]
+}

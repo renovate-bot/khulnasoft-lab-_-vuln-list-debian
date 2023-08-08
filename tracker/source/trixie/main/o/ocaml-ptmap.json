@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libptmap-ocaml, libptmap-ocaml-dev, libptmap-ocaml-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), ocaml-nox, ocaml-dune, ocaml-findlib, dh-ocaml (\u003e= 1.2)"
+  ],
+  "Checksums-Sha256": [
+    "b14ad41f3f8ccb712c98a44665a0825db5efc546d7247d81be000bbf08b22aa3 2001 ocaml-ptmap_2.0.5-3.dsc ebd1f8afe8679a226fdcbcdb323788e6f63db57521b151473f2ff8c05c30f3aa 14093 ocaml-ptmap_2.0.5.orig.tar.bz2 936c967bdbb816ba8f38f3bcb4a99a5ae3621ec586eaf34ef16041808d969202 2684 ocaml-ptmap_2.0.5-3.debian.tar.xz"
+  ],
+  "Dgit": [
+    "fb8beb57093fa69fdcbc5538b987c6a5be7ce8b1 debian archive/debian/2.0.5-3 https://git.dgit.debian.org/ocaml-ptmap"
+  ],
+  "Directory": [
+    "pool/main/o/ocaml-ptmap"
+  ],
+  "Files": [
+    "6dbc931c634278d6faee5e15001361c4 2001 ocaml-ptmap_2.0.5-3.dsc 50ce9f7b4d6bf54ff6e84ed31b1e23ab 14093 ocaml-ptmap_2.0.5.orig.tar.bz2 acebed9757983b412ef84490deeecc7a 2684 ocaml-ptmap_2.0.5-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/backtracking/ptmap"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "ocaml-ptmap"
+  ],
+  "Package-List": [
+    "libptmap-ocaml deb ocaml optional arch=any libptmap-ocaml-dev deb ocaml optional arch=any libptmap-ocaml-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "ocaml-findlib, ocaml-nox"
+  ],
+  "Uploaders": [
+    "Andy Li \u003candy@onthewings.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/ocaml-ptmap"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/ocaml-ptmap.git"
+  ],
+  "Version": [
+    "2.0.5-3"
+  ]
+}

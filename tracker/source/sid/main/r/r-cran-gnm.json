@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-gnm"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-mass, r-cran-matrix, r-cran-nnet, r-cran-qvcalc, r-cran-relimp"
+  ],
+  "Checksums-Sha256": [
+    "597047bcf30f43dbb74a326e1887049b96130b53d097fb80588844776919dfaf 2103 r-cran-gnm_1.1-2-2.dsc 2a173923eaadc51ce0577d2006e5d912f2ffaa73ba98c71f82535f17ec76f0fb 1004050 r-cran-gnm_1.1-2.orig.tar.gz 86779a2240bfd30997fe8460666463830592675a13af3a6669ffd557e519b348 5888 r-cran-gnm_1.1-2-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-gnm"
+  ],
+  "Files": [
+    "9ea5a7896f1be65d62cd7f172d792a45 2103 r-cran-gnm_1.1-2-2.dsc 080e3e8fcbb9459279849abd3fe06816 1004050 r-cran-gnm_1.1-2.orig.tar.gz 7349906b0b382336f4ac167eb569458b 5888 r-cran-gnm_1.1-2-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=gnm"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-gnm"
+  ],
+  "Package-List": [
+    "r-cran-gnm deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-testthat"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-gnm"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-gnm.git"
+  ],
+  "Version": [
+    "1.1-2-2"
+  ]
+}

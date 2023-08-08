@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "postgresql-15-partman"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), postgresql-all (\u003e= 219~)"
+  ],
+  "Checksums-Sha256": [
+    "91a1eee5a769cf5a3c4362fe393efcfb345fe41bc76ac85d151b689c1ee3e252 2169 pg-partman_4.7.3-1.dsc f6b376da1ddfbf9482b3a10f3e2bb414e546e67bec32acca5a9eb7d39719036e 1293663 pg-partman_4.7.3.orig.tar.gz 5ec509c2c729587335605a602bc97606749fb8cef4b9b5a169680625f2d8a286 4108 pg-partman_4.7.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pg-partman"
+  ],
+  "Files": [
+    "860833b87611be1b4859019b9a1582eb 2169 pg-partman_4.7.3-1.dsc 0d69362490ac820364407ad0c17361f1 1293663 pg-partman_4.7.3.orig.tar.gz 03c0203ac174e90f5c46e658b64ec1dc 4108 pg-partman_4.7.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/pgpartman/pg_partman"
+  ],
+  "Maintainer": [
+    "Debian PostgreSQL Maintainers \u003cteam+postgresql@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "pg-partman"
+  ],
+  "Package-List": [
+    "postgresql-15-partman deb database optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "libtap-parser-sourcehandler-pgtap-perl, postgresql-15-pgtap, postgresql-common"
+  ],
+  "Uploaders": [
+    "Christoph Berg \u003cmyon@debian.org\u003e, Adrian Vondendriesch \u003cadrian.vondendriesch@credativ.de\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/postgresql/pg-partman"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/postgresql/pg-partman.git"
+  ],
+  "Version": [
+    "4.7.3-1"
+  ]
+}

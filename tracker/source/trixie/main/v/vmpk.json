@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "vmpk"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, pkg-config, xsltproc, docbook-xsl, docbook-xml, libasound2-dev, libx11-dev, qtbase5-dev, libqt5svg5-dev, qttools5-dev-tools, qttools5-dev, libqt5x11extras5-dev, libdrumstick-dev (\u003e= 2.5)"
+  ],
+  "Checksums-Sha256": [
+    "80dfe3d00b84461a4c8824809f0d686eae168e3d3f370baed9b594ad01d8c8fe 2113 vmpk_0.8.9-1.dsc 6469947765ff6211f779cd45ee733e25719879516266a702832cc87fc76e7993 520304 vmpk_0.8.9.orig.tar.gz 5f358f707a8e2ccaef84712697de2d5a90c504b901b85908b1e72569f49d2467 5028 vmpk_0.8.9-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/v/vmpk"
+  ],
+  "Files": [
+    "aa938582585066bd63ce70a56a071609 2113 vmpk_0.8.9-1.dsc 739cde078753a9ceb50d622c66fea3da 520304 vmpk_0.8.9.orig.tar.gz 986b6400077beef0eb32ebd60b698ed4 5028 vmpk_0.8.9-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://vmpk.sourceforge.io/"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "vmpk"
+  ],
+  "Package-List": [
+    "vmpk deb sound optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "sound"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Ross Gammon \u003crosco2@ubuntu.com\u003e, Dennis Braun \u003csnd@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/vmpk"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/vmpk.git"
+  ],
+  "Version": [
+    "0.8.9-1"
+  ]
+}

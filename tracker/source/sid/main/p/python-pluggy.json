@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-pluggy"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-pytest \u003c!nocheck\u003e, python3-setuptools, python3-setuptools-scm"
+  ],
+  "Checksums-Sha256": [
+    "064ac5f76e3c099e17d6cbdd25ea42b1dcff3e046240ab13e224be96b9d8737a 1998 python-pluggy_1.2.0-1.dsc 1fc75eb38c9ebe84bd942fb0d33a1329df45df72fcd21ac6db8f67de0c93282a 57309 python-pluggy_1.2.0.orig.tar.gz f7e100cc98f8d7c4abd885acff5e42c8dce0552635e4e26e4a160a412fd2ae7a 3508 python-pluggy_1.2.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-pluggy"
+  ],
+  "Files": [
+    "98642bcca74744993d47f327d6fe6b94 1998 python-pluggy_1.2.0-1.dsc 3ed406098924e00549e935bfd4af6009 57309 python-pluggy_1.2.0.orig.tar.gz d783c7c16f350e394184ace6c411ea98 3508 python-pluggy_1.2.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://pluggy.readthedocs.io/en/latest/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-pluggy"
+  ],
+  "Package-List": [
+    "python3-pluggy deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Timo Röhling \u003croehling@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-pluggy"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-pluggy.git"
+  ],
+  "Version": [
+    "1.2.0-1"
+  ]
+}

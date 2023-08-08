@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "jstest-gtk"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, libgtkmm-3.0-dev, libsigc++-2.0-dev, libx11-dev"
+  ],
+  "Checksums-Sha256": [
+    "e881b29f05b46e9e4440205bd0eb7dd9736769ec035a8e05948d730254ac249d 1915 jstest-gtk_0.1.1~git20180602-1.dsc 2c2cd8fea344fef4841b77e9bba7bffa62698156795f32bb93c5d7d49bc31174 71170 jstest-gtk_0.1.1~git20180602.orig.tar.gz 36ba4e3ec4bdb955b6228cc4ea5dd37fad62e2927db9441de27a096c235d5955 4716 jstest-gtk_0.1.1~git20180602-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/j/jstest-gtk"
+  ],
+  "Files": [
+    "31dd7d39a7af2f9ab385d3c24330870c 1915 jstest-gtk_0.1.1~git20180602-1.dsc 55e27a32fc31eab6bfb888e6e80c2085 71170 jstest-gtk_0.1.1~git20180602.orig.tar.gz f22101d28d41fab52fea516963dfcd86 4716 jstest-gtk_0.1.1~git20180602-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://jstest-gtk.gitlab.io/"
+  ],
+  "Maintainer": [
+    "Debian Games Team \u003cpkg-games-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "jstest-gtk"
+  ],
+  "Package-List": [
+    "jstest-gtk deb utils optional arch=linux-any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Uploaders": [
+    "Stephen Kitt \u003cskitt@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/games-team/jstest-gtk"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/games-team/jstest-gtk.git"
+  ],
+  "Version": [
+    "0.1.1~git20180602-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-cran-remotes"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev"
+  ],
+  "Checksums-Sha256": [
+    "06364f8ed85b86a4792a2b89f41b25211972671de78ec526fa40014bf88e2f4c 2367 r-cran-remotes_2.4.2.1+dfsg-1.dsc 7a71f07dd58d96d7bde02ac5b5a12f692d3b258a063635a00abe56db647359db 91336 r-cran-remotes_2.4.2.1+dfsg.orig.tar.xz beadb4a0188889fab558a3f1fbcb48bc634c5bbbfc9dc043baf0b383ba932943 3128 r-cran-remotes_2.4.2.1+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-remotes"
+  ],
+  "Files": [
+    "6d494d5e2ab7d63693a2e571be5bef0b 2367 r-cran-remotes_2.4.2.1+dfsg-1.dsc bafb8bc4e8f9ffa2ee699fd90a7345ac 91336 r-cran-remotes_2.4.2.1+dfsg.orig.tar.xz e2c698655628430739aaefbe74e065d5 3128 r-cran-remotes_2.4.2.1+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=remotes"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-remotes"
+  ],
+  "Package-List": [
+    "r-cran-remotes deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "curl, r-cran-brew, r-cran-callr, r-cran-codetools, r-cran-covr, r-cran-curl, r-cran-git2r, r-cran-knitr, r-cran-mockery, r-cran-pingr, r-cran-pkgbuild, r-cran-rmarkdown, r-cran-rprojroot, r-cran-testthat, r-cran-webfakes, r-cran-withr"
+  ],
+  "Uploaders": [
+    "Dylan Aïssi \u003cdaissi@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-remotes"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-remotes.git"
+  ],
+  "Version": [
+    "2.4.2.1+dfsg-1"
+  ]
+}

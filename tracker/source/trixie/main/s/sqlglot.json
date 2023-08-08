@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-sqlglot"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-setuptools, python3-setuptools-scm"
+  ],
+  "Checksums-Sha256": [
+    "dadf552c8e8ac953d9eaeb331d0daf3269c885145e5d190255686ad3db8e1b07 2027 sqlglot_17.7.0-1.dsc 14e69bf6c6fcbd910c6bf3db82a363370de53dfb1699ea90524a051121dcae38 5002320 sqlglot_17.7.0.orig.tar.xz 2a217793be7112896f8cc4baa50ffe309d836e91e0f920c12538cd47181c9c3e 2632 sqlglot_17.7.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/sqlglot"
+  ],
+  "Files": [
+    "cf9ecba7e84d92b5833063104767d3bf 2027 sqlglot_17.7.0-1.dsc 9048bf23f102b122ef7480bbdcc5bd8b 5002320 sqlglot_17.7.0.orig.tar.xz 7931594cff2dac2898135f10b9a5be03 2632 sqlglot_17.7.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/tobymao/sqlglot"
+  ],
+  "Maintainer": [
+    "Daniel Baumann \u003cdaniel.baumann@progress-linux.org\u003e"
+  ],
+  "Package": [
+    "sqlglot"
+  ],
+  "Package-List": [
+    "python3-sqlglot deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://git.progress-linux.org/users/daniel.baumann/debian/packages/sqlglot"
+  ],
+  "Vcs-Git": [
+    "https://git.progress-linux.org/users/daniel.baumann/debian/packages/sqlglot"
+  ],
+  "Version": [
+    "17.7.0-1"
+  ]
+}

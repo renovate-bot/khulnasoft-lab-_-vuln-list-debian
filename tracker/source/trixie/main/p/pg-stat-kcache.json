@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "postgresql-15-pg-stat-kcache"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), postgresql-all (\u003e= 217~)"
+  ],
+  "Checksums-Sha256": [
+    "96d45c86d024d8200b576f27a365fa715661bdc2e634856ee5dee5fc93c99799 2003 pg-stat-kcache_2.2.2-1.dsc 684f8788c1dc364ba3c6efab42cc97612ff6a7018c3976ae5ca1a93f8966824f 23419 pg-stat-kcache_2.2.2.orig.tar.gz 0443b823ece89cfb83a0b156005ecfac013847e665d09ca35f79ff5de575ba61 2436 pg-stat-kcache_2.2.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pg-stat-kcache"
+  ],
+  "Files": [
+    "d57f1cc3c85ad9577c1f6f745b2500a2 2003 pg-stat-kcache_2.2.2-1.dsc 4ad2d8e9cb325920500f9cc5d4c62a6c 23419 pg-stat-kcache_2.2.2.orig.tar.gz 2074ca625bef50eff52c98d43e78e7fd 2436 pg-stat-kcache_2.2.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://powa.readthedocs.io/"
+  ],
+  "Maintainer": [
+    "Julien Rouhaud \u003crjuju123@gmail.com\u003e"
+  ],
+  "Package": [
+    "pg-stat-kcache"
+  ],
+  "Package-List": [
+    "postgresql-15-pg-stat-kcache deb database optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "make, postgresql-contrib-15"
+  ],
+  "Vcs-Browser": [
+    "https://github.com/powa-team/pg_stat_kcache"
+  ],
+  "Vcs-Git": [
+    "https://github.com/powa-team/pg_stat_kcache.git"
+  ],
+  "Version": [
+    "2.2.2-1"
+  ]
+}

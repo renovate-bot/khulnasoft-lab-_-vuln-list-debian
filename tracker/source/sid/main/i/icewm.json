@@ -1,0 +1,50 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "icewm-common, icewm, icewm-lite, icewm-experimental"
+  ],
+  "Build-Conflicts": [
+    "libesd0-dev, libttf-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 10), libxrender-dev, gettext, libxft-dev (\u003e\u003e 2.1.1) | libxft2-dev, libsndfile1-dev, libao-dev, libsm-dev, libx11-dev, libxext-dev, libxinerama-dev, libxrandr-dev, x11proto-core-dev | x-dev, dpkg-dev (\u003e= 1.16.1~), cmake, asciidoctor, libglib2.0-dev, libfribidi-dev, librsvg2-dev, libxcomposite-dev, libxdamage-dev, pandoc, libimlib2-dev"
+  ],
+  "Checksums-Sha256": [
+    "9ec36d1cfc607d22f9b4b00e9ae697a43b1bab5aff68f22648748cd83c8b7273 2230 icewm_3.4.1-1.dsc 72f761ccb89918a0ef608b2fe9941aa8fad3a60eebf4caba145867dd13c23f51 1498052 icewm_3.4.1.orig.tar.xz 022fb697e59b0140a5af6c1e91d67c9b19ed77a7517b71cd3666be97c1d8d7e7 64336 icewm_3.4.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/icewm"
+  ],
+  "Files": [
+    "6d652e6183d1783de100754dc1f45ed6 2230 icewm_3.4.1-1.dsc 48dd1d20c29250615e70b9ec9541d5ea 1498052 icewm_3.4.1.orig.tar.xz 1fbc72b815581848478b0e6ec5d3f772 64336 icewm_3.4.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Eduard Bloch \u003cblade@debian.org\u003e"
+  ],
+  "Package": [
+    "icewm"
+  ],
+  "Package-List": [
+    "icewm deb x11 optional arch=any icewm-common deb x11 optional arch=any icewm-experimental deb x11 optional arch=any icewm-lite deb oldlibs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "x11"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Vcs-Git": [
+    "https://github.com/Code7R/icewm.git"
+  ],
+  "Version": [
+    "3.4.1-1"
+  ]
+}

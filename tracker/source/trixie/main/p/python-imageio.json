@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-imageio, python-imageio-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-numpy \u003c!nocheck\u003e \u003c!nodoc\u003e, python3-numpydoc \u003c!nodoc\u003e, python3-fsspec \u003c!nocheck\u003e, python3-pil \u003c!nocheck\u003e, python3-psutil \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-setuptools, python3-pydata-sphinx-theme \u003c!nodoc\u003e, python3-sphinx \u003c!nodoc\u003e, sphinx-common"
+  ],
+  "Checksums-Sha256": [
+    "ddaf972f2a6493edceb9ca1aba5880c90eabe4def602e5d3925eb38223634df7 2514 python-imageio_2.31.1-2.dsc f8436a02af02fd63f272dab50f7d623547a38f0e04a4a73e2b02ae1b8b180f27 386837 python-imageio_2.31.1.orig.tar.gz 97962282085e3fa3562e87b287c6a976f20c66fb2f216ff31e11e38f1527a4d6 5956 python-imageio_2.31.1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-imageio"
+  ],
+  "Files": [
+    "1c44998efba428d912c58709af6f114f 2514 python-imageio_2.31.1-2.dsc 9254ea596067285c520a1d8357a87b26 386837 python-imageio_2.31.1.orig.tar.gz c188f45af03fc2dde4ef37e2ae24c4c8 5956 python-imageio_2.31.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://imageio.github.io/"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "python-imageio"
+  ],
+  "Package-List": [
+    "python-imageio-doc deb doc optional arch=all profile=!nodoc python3-imageio deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-fsspec, python3-psutil, python3-pytest"
+  ],
+  "Uploaders": [
+    "Ole Streicher \u003colebole@debian.org\u003e, Ghislain Antony Vaillant \u003cghisvail@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/python-imageio"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/python-imageio.git"
+  ],
+  "Version": [
+    "2.31.1-2"
+  ]
+}

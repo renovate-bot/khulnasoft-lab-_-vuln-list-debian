@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "dh-ros"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-catkin-pkg \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-mock \u003c!nocheck\u003e, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "872123874cc9b1fff8452020725ec3fc1768f2a3e56c54b4ce04ba69659a7eb0 1815 dh-ros_0.12.0.dsc 0b0b9c15a145f62bb005ee0bc28ea15b23e0ff5f60c2fe017917232474f059c1 13124 dh-ros_0.12.0.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/dh-ros"
+  ],
+  "Files": [
+    "1a3719842af8cb82dfce58d116d35bba 1815 dh-ros_0.12.0.dsc 80953234d3fa0602df79d9a99e33a745 13124 dh-ros_0.12.0.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Debian Robotics Team \u003cteam+robotics@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "dh-ros"
+  ],
+  "Package-List": [
+    "dh-ros deb devel optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "ament-cmake, build-essential, catkin, cmake, debhelper-compat, dh-python, pybuild-plugin-pyproject, python3-all, python3-pytest, python3-pytest-mock, python3-setuptools"
+  ],
+  "Uploaders": [
+    "Timo Röhling \u003croehling@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/robotics-team/dh-ros"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/robotics-team/dh-ros.git"
+  ],
+  "Version": [
+    "0.12.0"
+  ]
+}

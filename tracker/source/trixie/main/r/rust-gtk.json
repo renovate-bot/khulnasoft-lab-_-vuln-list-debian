@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-gtk-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-atk-0.17+default-dev \u003c!nocheck\u003e, librust-bitflags-1+default-dev \u003c!nocheck\u003e, librust-cairo-rs-0.17+default-dev \u003c!nocheck\u003e, librust-field-offset-0.3+default-dev \u003c!nocheck\u003e, librust-futures-channel-0.3+default-dev \u003c!nocheck\u003e, librust-gdk-0.17+default-dev \u003c!nocheck\u003e, librust-gdk-pixbuf-0.17+default-dev \u003c!nocheck\u003e, librust-gio-0.17+default-dev \u003c!nocheck\u003e, librust-glib-0.17+default-dev \u003c!nocheck\u003e, librust-gtk-sys-0.17+default-dev \u003c!nocheck\u003e, librust-gtk3-macros-0.17+default-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev \u003c!nocheck\u003e, librust-once-cell-1+default-dev \u003c!nocheck\u003e, librust-pango-0.17+default-dev \u003c!nocheck\u003e, librust-pkg-config-0.3+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "c2b6c6508034488ec485c9308417e410bbadc1e42a526102074e7e4ffbb36fb9 2846 rust-gtk_0.17.1-1.dsc b6c4222ab92b08d4d0bab90ddb6185b4e575ceeea8b8cdf00b938d7b6661d966 428849 rust-gtk_0.17.1.orig.tar.gz 8cd5545d535df5a3bb15908d639d393c12205b0932ca8344b9021b81cb05d247 3812 rust-gtk_0.17.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-gtk"
+  ],
+  "Files": [
+    "e393ac8a93eae19b40b68718b17c4f0b 2846 rust-gtk_0.17.1-1.dsc 4a27c678d648119a026adc00e086785a 428849 rust-gtk_0.17.1.orig.tar.gz ad1d364ae2477ea03ece323e2a1809d4 3812 rust-gtk_0.17.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gtk-rs.org/"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-gtk"
+  ],
+  "Package-List": [
+    "librust-gtk-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-gir-format-check-0.1+default-dev"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@riseup.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gtk"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/gtk]"
+  ],
+  "Version": [
+    "0.17.1-1"
+  ]
+}

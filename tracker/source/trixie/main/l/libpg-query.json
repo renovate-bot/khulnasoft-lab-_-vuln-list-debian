@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libpg-query-dev, libpg-query1504.1"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), postgresql-server-dev-all, protobuf-c-compiler"
+  ],
+  "Checksums-Sha256": [
+    "e27bc532dddedae90f1060742ced3e50862b6765911fc16a407224056aa06b4e 2099 libpg-query_15-4.2.2-1.dsc 03d6631b4a5ea9cc26cb2569e0303b9cce2bc1c6b6e1488f5ab9d63e6bd5346d 4171986 libpg-query_15-4.2.2.orig.tar.gz 6c1b37928a2723878d888d06fb8f3928dae59a86f1d86125b9c256eb38f77dc1 12936 libpg-query_15-4.2.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libp/libpg-query"
+  ],
+  "Files": [
+    "81c99a692dd19fa7b29a01f98a556ee3 2099 libpg-query_15-4.2.2-1.dsc 0ae1e19c58b634c432eabe6813fdfb52 4171986 libpg-query_15-4.2.2.orig.tar.gz 05922d0f88ed841a345f4d53b3a1e30b 12936 libpg-query_15-4.2.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/pganalyze/libpg_query"
+  ],
+  "Maintainer": [
+    "Debian PostgreSQL Maintainers \u003cteam+postgresql@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "libpg-query"
+  ],
+  "Package-List": [
+    "libpg-query-dev deb libdevel optional arch=any libpg-query1504.1 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Uploaders": [
+    "Christoph Berg \u003cmyon@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/postgresql/libpg-query"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/postgresql/libpg-query.git"
+  ],
+  "Version": [
+    "15-4.2.2-1"
+  ]
+}

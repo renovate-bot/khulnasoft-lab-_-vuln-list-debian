@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-github-hetznercloud-hcloud-go-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any, golang-github-google-go-cmp-dev, golang-github-prometheus-client-golang-dev, golang-github-stretchr-testify-dev, golang-golang-x-net-dev"
+  ],
+  "Checksums-Sha256": [
+    "aff9d913238ad1f9acb006c8ad0232ce78b7a2f1daff2c8436704d9271b51091 2531 golang-github-hetznercloud-hcloud-go_1.48.0-1.dsc b07e2a5a9801530a733387b6df1e10422fff699936a6e277bf1b1fbc8d48702c 131805 golang-github-hetznercloud-hcloud-go_1.48.0.orig.tar.gz 0d59ae69caeefe93632d4c7ef72f2c39cf1100886435a1f9497998aed30306a1 2836 golang-github-hetznercloud-hcloud-go_1.48.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-hetznercloud-hcloud-go"
+  ],
+  "Files": [
+    "67988fc8f21913e2c5033d44c006e993 2531 golang-github-hetznercloud-hcloud-go_1.48.0-1.dsc 9fd9a88a227e8aea1b07d1a5009970ad 131805 golang-github-hetznercloud-hcloud-go_1.48.0.orig.tar.gz 8b82c0561199f4d8ae0407f65e6c5a5d 2836 golang-github-hetznercloud-hcloud-go_1.48.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/hetznercloud/hcloud-go"
+  ],
+  "Homepage": [
+    "https://github.com/hetznercloud/hcloud-go"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-hetznercloud-hcloud-go"
+  ],
+  "Package-List": [
+    "golang-github-hetznercloud-hcloud-go-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "golang"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Thorsten Alteholz \u003cdebian@alteholz.de\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-github-hetznercloud-hcloud-go"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-github-hetznercloud-hcloud-go.git"
+  ],
+  "Version": [
+    "1.48.0-1"
+  ]
+}

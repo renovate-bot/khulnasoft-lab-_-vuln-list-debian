@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "kicad-packages3d"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake"
+  ],
+  "Checksums-Sha256": [
+    "67964b830fe1b10a055c74360ef8a472fa57e3669ad60d324e8ee6e1aef2b96b 2138 kicad-packages3d_7.0.6-1.dsc 5931a9fa60c6ef9a53d853603ab599c2e008d1c624aff9bd9a35ae6dcf968b72 464120548 kicad-packages3d_7.0.6.orig.tar.xz fd357518e41ab5457a36c29d28fcee2765707c3dca2d1dcfa0626d6ba3b1a80e 26176 kicad-packages3d_7.0.6-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/k/kicad-packages3d"
+  ],
+  "Files": [
+    "cc1f49aa1e2ad76bfb8f35841e43feed 2138 kicad-packages3d_7.0.6-1.dsc ed6cc0dc654f74248babcdf92055dbc2 464120548 kicad-packages3d_7.0.6.orig.tar.xz 3a163dbe1055706e69b45b5befa9467b 26176 kicad-packages3d_7.0.6-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://kicad.github.io/packages3d"
+  ],
+  "Maintainer": [
+    "Debian Electronics Team \u003cpkg-electronics-devel@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "kicad-packages3d"
+  ],
+  "Package-List": [
+    "kicad-packages3d deb electronics optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Carsten Schoenert \u003cc.schoenert@t-online.de\u003e, Jean-Samuel Reynaud \u003cjs.reynaud@gmail.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/electronics-team/KiCad/kicad-packages3d/-/tree/debian/sid"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/electronics-team/KiCad/kicad-packages3d.git -b debian/sid"
+  ],
+  "Version": [
+    "7.0.6-1"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libppx-import-ocaml-dev, libppx-import-ocaml"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-ocaml, libmigrate-parsetree-ocaml-dev, libounit-ocaml-dev \u003c!nocheck\u003e, libppx-deriving-ocaml-dev \u003c!nocheck\u003e, libppx-sexp-conv-ocaml-dev, libppxlib-ocaml-dev (\u003e= 0.26.0), ocaml-dune"
+  ],
+  "Checksums-Sha256": [
+    "6236ca87c9387410c1a4909be67adecc23d9e3f250c90434392c932d0a04fff6 2239 ppx-import_1.10.0-2.dsc e66cf8803685a9b6e8443611c73d86d50086fcecab5b64184081affa7aba37d1 13927 ppx-import_1.10.0.orig.tar.gz 35c49441673ca1780fedfef95eafa5e08c6e510f3ff167d0f393b096b7b6c713 2192 ppx-import_1.10.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/ppx-import"
+  ],
+  "Files": [
+    "b29bb855d6b13c9b68e7301951010b3e 2239 ppx-import_1.10.0-2.dsc c3730e9928f76b54ca5e686c27e08e9d 13927 ppx-import_1.10.0.orig.tar.gz a801c4bd756e9bf1f888b9b78512a8a2 2192 ppx-import_1.10.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ocaml-ppx/ppx_import"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "ppx-import"
+  ],
+  "Package-List": [
+    "libppx-import-ocaml deb ocaml optional arch=any libppx-import-ocaml-dev deb ocaml optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Julien Puydt \u003cjpuydt@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/ppx-import"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/ppx-import.git"
+  ],
+  "Version": [
+    "1.10.0-2"
+  ]
+}

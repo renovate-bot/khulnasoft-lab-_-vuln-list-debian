@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-sysexits-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "eaef3a17b0a0ff915b472e3049b512f8875734be5b6c28da52a266f6b27207ec 2110 rust-sysexits_0.6.2-1.dsc 64aecc23cf87e057af0c65a2859d4003a80bb84cf8d82113a4a07bf3d3fa7468 16876 rust-sysexits_0.6.2.orig.tar.gz fde8f5f543eacb6532bbe6f77d205149e366accdeb2cd909d71aecc44c948c80 2644 rust-sysexits_0.6.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-sysexits"
+  ],
+  "Files": [
+    "5f4d74ff065bd1dc080442fb4a652606 2110 rust-sysexits_0.6.2-1.dsc 0a24ebc00706b7fa39de8baa2b18e5b8 16876 rust-sysexits_0.6.2.orig.tar.gz 39400c8164119a9dfa874ac356a50565 2644 rust-sysexits_0.6.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-sysexits"
+  ],
+  "Package-List": [
+    "librust-sysexits-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Boyuan Yang \u003cbyang@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/sysexits"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/sysexits]"
+  ],
+  "Version": [
+    "0.6.2-1"
+  ]
+}

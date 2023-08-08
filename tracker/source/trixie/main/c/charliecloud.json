@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "linux-any all"
+  ],
+  "Binary": [
+    "charliecloud, charliecloud-common, charliecloud-builders, charliecloud-runtime, charliecloud-tests, charliecloud-doc"
+  ],
+  "Build-Depends": [
+    "autoconf-archive, bash-completion, debhelper-compat (= 13), libfuse3-dev, libsquashfuse-dev, po-debconf, python3-sphinx-rtd-theme"
+  ],
+  "Checksums-Sha256": [
+    "82f32f7574c898c9cf3cf56666e1f47ba093fb229b3e7673c2d742248ca00706 2639 charliecloud_0.33-1.dsc 41e69b6df204826fe10089c0e2066592e21557f7e1a6964272b63dfb3398667a 559786 charliecloud_0.33.orig.tar.gz 0cfe5ef31b1e0c243c3e862ad9451e6acc3a600af48e97e4b0833c947da12ac9 12668 charliecloud_0.33-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/charliecloud"
+  ],
+  "Files": [
+    "2670b562c95be966a2ce330c002ee4c8 2639 charliecloud_0.33-1.dsc dde193c6ebfb62bf59a0fa7a8ef2a1d7 559786 charliecloud_0.33.orig.tar.gz f8a3f84462dbfeacad973d3b6d15bd92 12668 charliecloud_0.33-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://hpc.github.io/charliecloud/"
+  ],
+  "Maintainer": [
+    "Debian HPC Team \u003cdebian-hpc@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "charliecloud"
+  ],
+  "Package-List": [
+    "charliecloud deb metapackages optional arch=all charliecloud-builders deb admin optional arch=linux-any charliecloud-common deb admin optional arch=all charliecloud-doc deb doc optional arch=all charliecloud-runtime deb admin optional arch=linux-any charliecloud-tests deb admin optional arch=linux-any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "sudo"
+  ],
+  "Uploaders": [
+    "Lucas Nussbaum \u003clucas@debian.org\u003e, Peter Wienemann \u003cfossdev@posteo.de\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/hpc-team/charliecloud/tree/master"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/hpc-team/charliecloud.git"
+  ],
+  "Version": [
+    "0.33-1"
+  ]
+}

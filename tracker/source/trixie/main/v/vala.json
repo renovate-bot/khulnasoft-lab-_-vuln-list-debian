@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libvalacodegen-0.56-0, valac-bin, valac, valac-0.56-vapi, vala-0.56-doc, libvala-0.56-0, libvala-0.56-dev, valadoc, libvaladoc-0.56-0, libvaladoc-0.56-data, libvaladoc-0.56-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-gnome, libglib2.0-dev (\u003e= 2.48), libgraphviz-dev (\u003e= 2.16), bison (\u003e= 2.3), flex, libdbus-1-dev \u003c!nocheck\u003e, dbus (\u003e= 1.8) \u003c!nocheck\u003e, libgirepository1.0-dev \u003c!nocheck\u003e"
+  ],
+  "Build-Depends-Indep": [
+    "docbook-xml, xsltproc"
+  ],
+  "Checksums-Sha256": [
+    "3186b9dbafef7b86c3dd8ea125687190226156fd5761edcde5070e75bfbc2f39 2878 vala_0.56.9-2.dsc 55578c7c4f067ace028e541806af240f8084cb6ff0cc554caa8ac08cbf8bce2f 3996196 vala_0.56.9.orig.tar.xz be0dba1ef0163eeaf5be9f831f5cf84bb5bc8ee1c7066b5ca26ce01a4f963f71 34176 vala_0.56.9-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/v/vala"
+  ],
+  "Files": [
+    "23836564278ca436171ce8fd4d52218d 2878 vala_0.56.9-2.dsc fc0390c053cec6cd18bde18be8ade296 3996196 vala_0.56.9.orig.tar.xz cceec6a3c6e5536b253fa1c0f6df4871 34176 vala_0.56.9-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://wiki.gnome.org/Projects/Vala/"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "vala"
+  ],
+  "Package-List": [
+    "libvala-0.56-0 deb libs optional arch=any libvala-0.56-dev deb libdevel optional arch=any libvalacodegen-0.56-0 deb devel optional arch=any libvaladoc-0.56-0 deb libs optional arch=any libvaladoc-0.56-data deb misc optional arch=all libvaladoc-0.56-dev deb libdevel optional arch=any vala-0.56-doc deb doc optional arch=all valac deb devel optional arch=any valac-0.56-vapi deb devel optional arch=all valac-bin deb devel optional arch=any valadoc deb devel optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Iain Lane \u003claney@debian.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Michael Biebl \u003cbiebl@debian.org\u003e, Sebastian Reichel \u003csre@debian.org\u003e, Rico Tzschichholz \u003cricotz@ubuntu.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/vala"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/vala.git"
+  ],
+  "Version": [
+    "0.56.9-2"
+  ]
+}

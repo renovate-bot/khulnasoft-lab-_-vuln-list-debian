@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "ani-cli"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "6f285a21e123f51f6b373d1cde1be60bda827319a9d0f5556f0422e3cbe09b60 1822 ani-cli_4.5-1.dsc befb8fc09d52de02c8df5af95c082df5e85927045b8e18cab2d45e4bd42f57ba 123954 ani-cli_4.5.orig.tar.gz 423eb2ace2a0c8c20a7815021658d4e4d7b76f4a5157cba66fc54ec3fe48a5ee 1996 ani-cli_4.5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/ani-cli"
+  ],
+  "Files": [
+    "0be49bd6cc1800d25f6a0e5c1fccffcd 1822 ani-cli_4.5-1.dsc a003ae8278f54b16f2f1b8ed68a12ca4 123954 ani-cli_4.5.orig.tar.gz 9ae991ff796e8522313c6611c42dd602 1996 ani-cli_4.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/pystardust/ani-cli"
+  ],
+  "Maintainer": [
+    "Matthias Geiger \u003cmatthias.geiger1024@tutanota.de\u003e"
+  ],
+  "Package": [
+    "ani-cli"
+  ],
+  "Package-List": [
+    "ani-cli deb video optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/werdahias/ani-cli"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/werdahias/ani-cli.git"
+  ],
+  "Version": [
+    "4.5-1"
+  ]
+}

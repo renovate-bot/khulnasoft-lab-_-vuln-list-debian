@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "linux-any all"
+  ],
+  "Binary": [
+    "libnftnl11, libnftnl-dev, libnftnl-dev-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), doxygen, graphviz, libmnl-dev, libtool, pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "f9746cc1880453a84d7ba71217073ec0673cec74b3b4e07d220b12a91219022f 2460 libnftnl_1.2.6-1.dsc ceeaea2cd92147da19f13a35a7f1a4bc2767ff897e838e4b479cf54b59c777f4 336684 libnftnl_1.2.6.orig.tar.xz 3b7f8f72e36d8ad348e78b135cfd40d84fabfd9923a6d33e57153efcb839eed6 833 libnftnl_1.2.6.orig.tar.xz.asc defc02a9aecc3d74e63ded3e51d020960d3f9a3d44deec18642368328b1af04e 10268 libnftnl_1.2.6-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libn/libnftnl"
+  ],
+  "Files": [
+    "62e63f87aa75d0cb2e0e3bbc2b8aa0ef 2460 libnftnl_1.2.6-1.dsc 9bf28deba94430ee7a3dac0dc5c5026b 336684 libnftnl_1.2.6.orig.tar.xz cfdfbd5d1f821c0f6464655a4ddc9bcf 833 libnftnl_1.2.6.orig.tar.xz.asc 196eb6c8af2811972d1731b1b6c11e57 10268 libnftnl_1.2.6-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://git.netfilter.org/libnftnl"
+  ],
+  "Maintainer": [
+    "Debian Netfilter Packaging Team \u003cteam+pkg-netfilter-team@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "libnftnl"
+  ],
+  "Package-List": [
+    "libnftnl-dev deb libdevel optional arch=linux-any libnftnl-dev-doc deb doc optional arch=all libnftnl11 deb libs optional arch=linux-any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Arturo Borrero Gonzalez \u003carturo@debian.org\u003e, Jeremy Sowden \u003cjeremy@azazel.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-netfilter-team/pkg-libnftnl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-netfilter-team/pkg-libnftnl.git"
+  ],
+  "Version": [
+    "1.2.6-1"
+  ]
+}

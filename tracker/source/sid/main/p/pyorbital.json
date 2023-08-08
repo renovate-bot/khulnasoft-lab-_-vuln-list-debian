@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-pyorbital, python-pyorbital-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-dask, python3-numpy, python3-pytest, python3-requests, python3-scipy, python3-setuptools, python3-sphinx, python3-xarray"
+  ],
+  "Checksums-Sha256": [
+    "e7a0325dd292ea7b65b362cf900dd4aeb804b74b450d92e343a9d8f74ebdc531 2290 pyorbital_1.8.0-1.dsc 67e74e40da072fe1cc795bbc63d911ef893271cfa5d69995c77328f326be21d5 128938 pyorbital_1.8.0.orig.tar.gz 0875b040b3c3d290d70a7bfc38859209114c1286687d098ec0857486a5950261 5848 pyorbital_1.8.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pyorbital"
+  ],
+  "Files": [
+    "89089cf881d7f65f3de276796fa68dbb 2290 pyorbital_1.8.0-1.dsc 7afada654073d2eed36343a6a140c16c 128938 pyorbital_1.8.0.orig.tar.gz 7972371386cc75d1517aa799b1b44e50 5848 pyorbital_1.8.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/pytroll/pyorbital"
+  ],
+  "Maintainer": [
+    "Debian GIS Project \u003cpkg-grass-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "pyorbital"
+  ],
+  "Package-List": [
+    "python-pyorbital-doc deb doc optional arch=all python3-pyorbital deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, python3-all"
+  ],
+  "Uploaders": [
+    "Antonio Valentino \u003cantonio.valentino@tiscali.it\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-gis-team/pyorbital"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-gis-team/pyorbital.git"
+  ],
+  "Version": [
+    "1.8.0-1"
+  ]
+}

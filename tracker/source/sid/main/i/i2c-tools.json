@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "i2c-tools, libi2c0, libi2c-dev, python3-smbus"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all-dev, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "643a1988581664a88ba22044f128e6c630c3cd9d838b13a1ccd837bf3a1d0d10 1963 i2c-tools_4.3-3.dsc 1f899e43603184fac32f34d72498fc737952dbc9c97a8dd9467fadfdf4600cf9 81276 i2c-tools_4.3.orig.tar.xz 00527e4449f6e703db7f552be18cdd2d9e65031630a2ee26a978907f09e07dfb 8136 i2c-tools_4.3-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/i2c-tools"
+  ],
+  "Files": [
+    "9ad512b172676192c3d219d94f169189 1963 i2c-tools_4.3-3.dsc 0c42800f746e064dc40a4dad44ed8a33 81276 i2c-tools_4.3.orig.tar.xz e9e6060d2e6f79588bf88f6ef4c656db 8136 i2c-tools_4.3-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.kernel.org/pub/software/utils/i2c-tools/"
+  ],
+  "Maintainer": [
+    "Aurelien Jarno \u003caurel32@debian.org\u003e"
+  ],
+  "Package": [
+    "i2c-tools"
+  ],
+  "Package-List": [
+    "i2c-tools deb utils optional arch=linux-any libi2c-dev deb libdevel optional arch=linux-any libi2c0 deb libs optional arch=linux-any python3-smbus deb python optional arch=linux-any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Version": [
+    "4.3-3"
+  ]
+}

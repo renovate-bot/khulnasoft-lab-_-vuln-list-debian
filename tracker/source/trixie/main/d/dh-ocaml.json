@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "dh-ocaml"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "docbook-xml (\u003e= 4.4), docbook-xsl, xsltproc, libxml2-utils, lynx"
+  ],
+  "Checksums-Sha256": [
+    "b0c9e25eae563cafcd418882ef17015b43f83248f97c97bcd8b7032419a75b17 1538 dh-ocaml_1.2.2.dsc 62ce300ad0eaad4b8bfde2637443c43e21ded8047f3bde066ee3f4d7ce1747dc 46900 dh-ocaml_1.2.2.tar.xz"
+  ],
+  "Dgit": [
+    "f5ed48e8f23a30028a240e56c0bd2adedd00d8c4 debian archive/debian/1.2.2 https://git.dgit.debian.org/dh-ocaml"
+  ],
+  "Directory": [
+    "pool/main/d/dh-ocaml"
+  ],
+  "Files": [
+    "11ca663e7b7b0d4b6dd71a5543380d6e 1538 dh-ocaml_1.2.2.dsc 065adb546e75bac79845d76505784d0e 46900 dh-ocaml_1.2.2.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "dh-ocaml"
+  ],
+  "Package-List": [
+    "dh-ocaml deb ocaml optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "ocaml"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Uploaders": [
+    "Mehdi Dogguy \u003cmehdi@debian.org\u003e, Stéphane Glondu \u003cglondu@debian.org\u003e, Ralf Treinen \u003ctreinen@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/dh-ocaml"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/dh-ocaml.git"
+  ],
+  "Version": [
+    "1.2.2"
+  ]
+}

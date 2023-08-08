@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Autobuild": [
+    "yes"
+  ],
+  "Binary": [
+    "xml2rfc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, help2man, pybuild-plugin-pyproject, pyflakes3, python3, python3-platformdirs, python3-configargparse (\u003e= 1.2.3), python3-dict2xml, python3-google-i18n-address (\u003c\u003c 3.0), python3-html5lib, python3-intervaltree, python3-jinja2 (\u003e= 2.11), python3-lxml, python3-pycountry, python3-pypdf, python3-requests, python3-setuptools, python3-wcwidth (\u003e= 0.2.5), python3-yaml"
+  ],
+  "Checksums-Sha256": [
+    "daf1aa84132cd7439f25245cbd243106cc979fbe5a8a78e80f0929cca6e45d15 2441 xml2rfc_3.17.5-1.dsc 4f00b90a11a33b94076e166846f74843435e7077757082a631a9c53bbc71d991 2646713 xml2rfc_3.17.5.orig.tar.gz 0ef40abb4be4970ab10a9e22efa57fecc29e701764d63d974b48f0fffa21ca6f 18596 xml2rfc_3.17.5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/non-free/x/xml2rfc"
+  ],
+  "Files": [
+    "7bbe4caf4a8f4ffaac76df2fe690a9bc 2441 xml2rfc_3.17.5-1.dsc 21992029c58b2f6c9c2a4c6321456717 2646713 xml2rfc_3.17.5.orig.tar.gz 5b35406272f4564a4730004146aad600 18596 xml2rfc_3.17.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://xml2rfc.tools.ietf.org/"
+  ],
+  "Maintainer": [
+    "Daniel Kahn Gillmor \u003cdkg@fifthhorseman.net\u003e"
+  ],
+  "Package": [
+    "xml2rfc"
+  ],
+  "Package-List": [
+    "xml2rfc deb non-free/text optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "non-free/text"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "fonts-noto-cjk, fonts-noto-core, fonts-noto-unhinted, python3-all, python3-dict2xml, python3-pypdf, weasyprint"
+  ],
+  "Uploaders": [
+    "Scott Kitterman \u003cscott@kitterman.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/pkg-xml2rfc"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/pkg-xml2rfc.git"
+  ],
+  "Version": [
+    "3.17.5-1"
+  ]
+}

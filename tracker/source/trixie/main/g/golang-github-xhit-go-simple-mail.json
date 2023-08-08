@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-github-xhit-go-simple-mail-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-golang, golang-any, golang-github-toorop-go-dkim-dev"
+  ],
+  "Checksums-Sha256": [
+    "98f064a70359e3259659833bdcbd9591eef12cfddbc4b2f96153fb55077b65f8 2364 golang-github-xhit-go-simple-mail_2.15.0-1.dsc be34ca05fb7fc3bff3784be283e88bbab307ac6bc73268d5e96eae81d6702da1 35209 golang-github-xhit-go-simple-mail_2.15.0.orig.tar.gz 34c65f28d81d11d1787837c3a8dc3a654ab7ee8db71913d22a13d259601e1de8 3284 golang-github-xhit-go-simple-mail_2.15.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-xhit-go-simple-mail"
+  ],
+  "Files": [
+    "fbe75f1f02743b6f06e1d4ade6d28698 2364 golang-github-xhit-go-simple-mail_2.15.0-1.dsc ac8910f0d6b0643aa451a478dffa7eab 35209 golang-github-xhit-go-simple-mail_2.15.0.orig.tar.gz 54e40275656aeeecf5cba3634912f29e 3284 golang-github-xhit-go-simple-mail_2.15.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/xhit/go-simple-mail"
+  ],
+  "Homepage": [
+    "https://github.com/xhit/go-simple-mail"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-xhit-go-simple-mail"
+  ],
+  "Package-List": [
+    "golang-github-xhit-go-simple-mail-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Mathias Gibbens \u003cgibmat@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-github-xhit-go-simple-mail"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-github-xhit-go-simple-mail.git"
+  ],
+  "Version": [
+    "2.15.0-1"
+  ]
+}

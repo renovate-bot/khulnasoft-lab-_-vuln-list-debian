@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "harp, libharp13, libharp-dev, python3-harp"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, libjs-jquery, libjs-mathjax, libjs-underscore, dh-buildinfo, bison, zip, python3-all, python3-numpy, python3-breathe, libcoda-dev (\u003e= 2.20-2), libnetcdf-dev, netcdf-bin, libhdf5-dev | libhdf5-serial-dev, libaec-dev, libjpeg-dev, zlib1g-dev, libhdf4-alt-dev, libexpat1-dev, libudunits2-dev, flex, sphinx-doc, python3-sphinx-rtd-theme, doxygen"
+  ],
+  "Checksums-Sha256": [
+    "dbccad8098483c3c5e9e78c8648307fdf5b543aaa83daaf66ec4b1cabbdb8632 2437 harp_1.19-1.dsc 0192041f2e9c89f94476d1d360f2f602f36246ae561d2f7053dc91ea02a73639 12747252 harp_1.19.orig.tar.xz 37e77bda5b7553d1c37f431dd5104cfd40102c0207554f984f31a9234ea24907 27856 harp_1.19-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/h/harp"
+  ],
+  "Files": [
+    "be4cdfb99da207824ed9627363a7cfd1 2437 harp_1.19-1.dsc f4c9d68a848461c41b8cef0e5b82ca18 12747252 harp_1.19.orig.tar.xz 2f638e72cc10ac152c38f7e5d48c42ed 27856 harp_1.19-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/stcorp/harp"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers  \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "harp"
+  ],
+  "Package-List": [
+    "harp deb utils optional arch=any libharp-dev deb libdevel optional arch=any libharp13 deb libs optional arch=any python3-harp deb python optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Alastair McKinstry \u003cmckinstry@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org:/science-team/harp.git"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/harp.git -b debian/latest"
+  ],
+  "Version": [
+    "1.19-1"
+  ]
+}

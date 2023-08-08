@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "python3-pygame, python-pygame-doc"
+  ],
+  "Build-Conflicts": [
+    "python3.2-dev (\u003c\u003c 3.2.3-7)"
+  ],
+  "Build-Depends": [
+    "cython3, debhelper-compat (= 13), dh-python, fluid-soundfont-gm, fontconfig, fonts-freefont-ttf, libfreetype-dev, libjpeg-dev, libpng-dev, libportmidi-dev [linux-any], libsdl2-dev, libsdl2-image-dev, libsdl2-mixer-dev, libsdl2-ttf-dev, timgm6mb-soundfont, python3-all-dev, python3-numpy, python3-setuptools, python3-sphinx, sharutils, xauth, xvfb"
+  ],
+  "Checksums-Sha256": [
+    "3b16bfa1a382d9976265720f3c9ac6de4c41016960a5d9201f812322c9532022 2512 pygame_2.1.2+dfsg-6.dsc 3401c47c757f417cfd5227d0ef7371e3af6b95f2022dfef245e8e49ee02bb145 6272580 pygame_2.1.2+dfsg.orig.tar.xz e3b91caf179903197c288cd61f588fc0f4c0d4fd7447cf7e344ef77f348c1bc5 16728 pygame_2.1.2+dfsg-6.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pygame"
+  ],
+  "Files": [
+    "8796c8850d4690d9eae44a386e9b2e9c 2512 pygame_2.1.2+dfsg-6.dsc a4b67fe696f485c11cffc4fc601aa786 6272580 pygame_2.1.2+dfsg.orig.tar.xz 4357a2a588f671d2b3bc35134f757f46 16728 pygame_2.1.2+dfsg-6.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.pygame.org/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "pygame"
+  ],
+  "Package-List": [
+    "python-pygame-doc deb doc optional arch=all python3-pygame deb python optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "interpreters"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Ed Boraas \u003ced@debian.org\u003e, A Mennucc1 \u003cmennucc1@debian.org\u003e, Vincent Cheng \u003cvcheng@debian.org\u003e, Dominik George \u003cnatureshadow@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/pygame"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/pygame.git"
+  ],
+  "Version": [
+    "2.1.2+dfsg-6"
+  ]
+}

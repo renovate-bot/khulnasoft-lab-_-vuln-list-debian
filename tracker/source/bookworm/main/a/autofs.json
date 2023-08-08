@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "autofs, autofs-ldap, autofs-hesiod"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), bison, dpkg-dev (\u003e= 1.16.1.1~), e2fsprogs, flex, libhesiod-dev, libkrb5-dev, libldap-dev, libsasl2-dev, libssl-dev, libxml2-dev, pkg-config, sssd-common, libtirpc-dev"
+  ],
+  "Checksums-Sha256": [
+    "99881a127411c09aca993ca0e58391c22087c8e61067e6d6ca5f0b039841e00e 2369 autofs_5.1.8-2+deb12u1.dsc b33d1059855664b20eeda26f3e28ff518fb0c3d58f565570af2ae569dc73c0fd 327396 autofs_5.1.8.orig.tar.xz 5712282e06350132fa98307a35e10c9c1ecb9fb6bc21b2a166cc1004455fbcd9 24468 autofs_5.1.8-2+deb12u1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/autofs"
+  ],
+  "Files": [
+    "25411990501f72be98056e4c653274c3 2369 autofs_5.1.8-2+deb12u1.dsc 72d81645d39a857c3d16bd3a32e9cb44 327396 autofs_5.1.8.orig.tar.xz bb0cf5285fb97c9e89291e84bd7beecf 24468 autofs_5.1.8-2+deb12u1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.kernel.org/pub/linux/daemons/autofs/v5/"
+  ],
+  "Maintainer": [
+    "Mike Gabriel \u003csunweaver@debian.org\u003e"
+  ],
+  "Package": [
+    "autofs"
+  ],
+  "Package-List": [
+    "autofs deb utils optional arch=linux-any autofs-hesiod deb utils optional arch=linux-any autofs-ldap deb utils optional arch=linux-any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "cifs-utils, nfs-common, nfs-server, samba, smbclient"
+  ],
+  "Uploaders": [
+    "Debian Edu Packaging Team \u003cdebian-edu-pkg-team@lists.alioth.debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/autofs/"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/autofs.git"
+  ],
+  "Version": [
+    "5.1.8-2+deb12u1"
+  ]
+}

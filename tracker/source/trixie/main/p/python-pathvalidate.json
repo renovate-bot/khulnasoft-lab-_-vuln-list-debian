@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-pathvalidate-doc, python3-pathvalidate"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-allpairspy, python3-click, python3-pytest, python3-setuptools, python3-sphinx, python3-sphinx-rtd-theme, python3-tcolorpy"
+  ],
+  "Checksums-Sha256": [
+    "94c7b9c51a17b8c251aaa678864052319a4e2394d118e20f4c904377132f52b2 2028 python-pathvalidate_3.1.0-1.dsc c215389975c007638bf18f44afdf4ed118543fa8ae0ff902c1aa50a8b009044f 40361 python-pathvalidate_3.1.0.orig.tar.gz d0687ee0baa938e9785dfb8a131fc1f2df0cc6b869cc0ad657f4be14fd4eb25b 4144 python-pathvalidate_3.1.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-pathvalidate"
+  ],
+  "Files": [
+    "61e904b3a3af7391f29abaa67bf3ec95 2028 python-pathvalidate_3.1.0-1.dsc 8c6536aa0ba604334814903df7315ad3 40361 python-pathvalidate_3.1.0.orig.tar.gz 8d9e29dd1c87711034b65e70af9b589a 4144 python-pathvalidate_3.1.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/thombashi/pathvalidate/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-pathvalidate"
+  ],
+  "Package-List": [
+    "python-pathvalidate-doc deb doc optional arch=all python3-pathvalidate deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, python3-all"
+  ],
+  "Uploaders": [
+    "Michael Fladischer \u003cfladi@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-pathvalidate"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-pathvalidate.git"
+  ],
+  "Version": [
+    "3.1.0-1"
+  ]
+}

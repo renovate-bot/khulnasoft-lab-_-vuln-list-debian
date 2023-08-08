@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libffmpeg-ocaml, libffmpeg-ocaml-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), ocaml-dune (\u003e= 2.8.0), dh-ocaml, libavcodec-dev, libavdevice-dev, libavformat-dev, libavutil-dev, libswscale-dev, libdune-ocaml-dev, ocaml-findlib, ocaml-nox, pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "1e9c0b750034619d9b7415e26aacddd6823f72f30652bdcda6a21b67438d30e4 2004 ocaml-ffmpeg_1.1.8-1.dsc 90c3aab0352950218f8f87c54261b07f1a8ae96001c5d4dc6e2749c16b3fab24 108348 ocaml-ffmpeg_1.1.8.orig.tar.gz ba2e200d1c826bf9ec94e0aa304284308d2310bcdf612148ee95a6d12158f77e 3068 ocaml-ffmpeg_1.1.8-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "a136190e8a788c949a1dc4ebf867663ef58c214e debian archive/debian/1.1.8-1 https://git.dgit.debian.org/ocaml-ffmpeg"
+  ],
+  "Directory": [
+    "pool/main/o/ocaml-ffmpeg"
+  ],
+  "Files": [
+    "62af305a3d2c7e1219fa13736c1983da 2004 ocaml-ffmpeg_1.1.8-1.dsc 7ffc99827d516494abfd803351699cdd 108348 ocaml-ffmpeg_1.1.8.orig.tar.gz 951394d8a6cc1caffad90c93c674e527 3068 ocaml-ffmpeg_1.1.8-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/savonet/ocaml-ffmpeg"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "ocaml-ffmpeg"
+  ],
+  "Package-List": [
+    "libffmpeg-ocaml deb ocaml optional arch=any libffmpeg-ocaml-dev deb ocaml optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Uploaders": [
+    "Kyle Robbertze \u003cpaddatrapper@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/ocaml-ffmpeg"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/ocaml-ffmpeg.git"
+  ],
+  "Version": [
+    "1.1.8-1"
+  ]
+}

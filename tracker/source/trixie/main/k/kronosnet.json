@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "linux-any kfreebsd-any all"
+  ],
+  "Binary": [
+    "libknet-dev, libknet-doc, libknet1, libnozzle-dev, libnozzle1"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), iproute2 [linux-any], net-tools [kfreebsd-any], libnl-3-dev, libnl-route-3-dev, libqb-dev, libsctp-dev [linux-any], pkg-config, libbz2-dev, liblz4-dev, liblzma-dev, liblzo2-dev, libzstd-dev, zlib1g-dev, libnss3-dev, libnspr4-dev, libssl-dev"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen, doxygen2man"
+  ],
+  "Checksums-Sha256": [
+    "a75e1c8456b5d73cc0152e665e9a6f8cc401fdad4cd9e0a55171a151b9ef6a38 2998 kronosnet_1.26-1.dsc 55a1b6942e3f6b9653755dcc73317c3cd00d333aa36ba6d375383cb906451615 482924 kronosnet_1.26.orig.tar.xz 711fa27274ec925d51f77cf2418be02c4499ca59a1eba19e6841179465457745 833 kronosnet_1.26.orig.tar.xz.asc 1aa4f0adb4ae4c7b0b577829df090ef4dba5c7583997eefb4d1d99f0bdf34564 11048 kronosnet_1.26-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/k/kronosnet"
+  ],
+  "Files": [
+    "2df95d23d3a9dc16491708bb0cee5b41 2998 kronosnet_1.26-1.dsc 21fa8840ba3bfbcefdbbaccbdbad3cda 482924 kronosnet_1.26.orig.tar.xz 1b7895212b1a785046ea7e70aff47b47 833 kronosnet_1.26.orig.tar.xz.asc 7fee38cee7449d62d62b331d7699ab37 11048 kronosnet_1.26-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://kronosnet.org/"
+  ],
+  "Maintainer": [
+    "Debian HA Maintainers \u003cdebian-ha-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "kronosnet"
+  ],
+  "Package-List": [
+    "libknet-dev deb libdevel optional arch=linux-any,kfreebsd-any libknet-doc deb doc optional arch=all libknet1 deb libs optional arch=linux-any,kfreebsd-any libnozzle-dev deb libdevel optional arch=linux-any,kfreebsd-any libnozzle1 deb libs optional arch=linux-any,kfreebsd-any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, iproute2, libbz2-dev, liblz4-dev, liblzma-dev, liblzo2-dev, libnl-3-dev, libnl-route-3-dev, libnss3-dev, libqb-dev, libsctp-dev, libssl-dev, libzstd-dev, net-tools, pkg-config, zlib1g-dev"
+  ],
+  "Uploaders": [
+    "Ferenc Wágner \u003cwferi@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ha-team/kronosnet"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ha-team/kronosnet.git"
+  ],
+  "Version": [
+    "1.26-1"
+  ]
+}

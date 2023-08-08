@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libsrpc0, libsrpc-dev, libsrpc-bin"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), libworkflow-dev, libssl-dev, libsnappy-dev (\u003e= 1.1.6), libprotobuf-dev (\u003e= 3.12.0), protobuf-compiler, liblz4-dev"
+  ],
+  "Checksums-Sha256": [
+    "80ef118f5e8f70a7cfd4380b0c98eec3b295e2ffb1710c605be318c3bd2b1885 2011 srpc_0.10.0-1.dsc 03786ddeaf574d9ab6b3810ebb4b322b67b05bd23802b2931616fd10ad276f0e 403189 srpc_0.10.0.orig.tar.gz db33785dbe24198307ee822e2321e148c78be92ad12e62e66030c2143da59ad2 3312 srpc_0.10.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/srpc"
+  ],
+  "Files": [
+    "82c1634bd628247d57adf799c6f2ad3b 2011 srpc_0.10.0-1.dsc 7313ca6955027c1a854d68e3bec01f1a 403189 srpc_0.10.0.orig.tar.gz 9fae3cba6c2cefb1f00541eae113945a 3312 srpc_0.10.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/sogou/srpc"
+  ],
+  "Maintainer": [
+    "Lance Lin \u003clq27267@gmail.com\u003e"
+  ],
+  "Package": [
+    "srpc"
+  ],
+  "Package-List": [
+    "libsrpc-bin deb libs optional arch=any libsrpc-dev deb libs optional arch=any libsrpc0 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/srpc"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/srpc.git"
+  ],
+  "Version": [
+    "0.10.0-1"
+  ]
+}

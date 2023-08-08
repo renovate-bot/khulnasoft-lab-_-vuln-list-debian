@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "xdg-desktop-portal-kde"
+  ],
+  "Build-Depends": [
+    "cmake (\u003e= 3.16~), debhelper-compat (= 13), extra-cmake-modules (\u003e= 5.102.0~), gettext, kirigami2-dev (\u003e= 5.102.0~), libcups2-dev, libepoxy-dev, libgbm-dev, libkf5config-dev (\u003e= 5.102.0~), libkf5coreaddons-dev (\u003e= 5.102.0~), libkf5declarative-dev (\u003e= 5.102.0~), libkf5globalaccel-dev (\u003e= 5.102.0~), libkf5guiaddons-dev (\u003e= 5.102.0~), libkf5i18n-dev (\u003e= 5.102.0~), libkf5iconthemes-dev (\u003e= 5.102.0~), libkf5kio-dev (\u003e= 5.102.0~), libkf5notifications-dev (\u003e= 5.102.0~), libkf5plasma-dev (\u003e= 5.102.0~), libkf5wayland-dev (\u003e= 4:5.102.0~), libkf5widgetsaddons-dev (\u003e= 5.102.0~), libkf5windowsystem-dev (\u003e= 5.102.0~), libpipewire-0.3-dev, libqt5waylandclient5-dev (\u003e= 5.15.2~), libwayland-dev (\u003e= 1.15~), libxkbcommon-x11-dev, pkg-kde-tools (\u003e= 0.15.18~), plasma-wayland-protocols (\u003e= 1.7.0~), qtbase5-dev (\u003e= 5.15.2~), qtbase5-private-dev (\u003e= 5.15.2~), qtdeclarative5-dev (\u003e= 5.15.2~), qtwayland5-dev-tools, wayland-protocols (\u003e= 1.25~)"
+  ],
+  "Checksums-Sha256": [
+    "6f3d4abed8979414ea016daf7964adc30518a0f4a00742690aca723a4b2ce0a3 3408 xdg-desktop-portal-kde_5.27.7-1.dsc ccdbf9bad6465de934c4dc30a6fb4d4376872caf0014b91c3749e27140fe08cd 141512 xdg-desktop-portal-kde_5.27.7.orig.tar.xz 27dc5fae018f627011dfa09c0756f75851bae6e38c1921d6266d472a894f2d16 833 xdg-desktop-portal-kde_5.27.7.orig.tar.xz.asc c1e1b36a6d18befcf64735da093b3bf8ffe2241aa26d04d6033d710c63d4ecf0 14640 xdg-desktop-portal-kde_5.27.7-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/x/xdg-desktop-portal-kde"
+  ],
+  "Files": [
+    "6e7ee2539c0050d7f33166fda33d9d86 3408 xdg-desktop-portal-kde_5.27.7-1.dsc 26e40eaf358dc02d71ab5cb511a5b3a8 141512 xdg-desktop-portal-kde_5.27.7.orig.tar.xz 3e9dfa6c99eefbd17d5c975b3ccf409d 833 xdg-desktop-portal-kde_5.27.7.orig.tar.xz.asc 0a1698fad661bcf3f35870e1991d0448 14640 xdg-desktop-portal-kde_5.27.7-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://invent.kde.org/plasma/xdg-desktop-portal-kde"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "xdg-desktop-portal-kde"
+  ],
+  "Package-List": [
+    "xdg-desktop-portal-kde deb kde optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Norbert Preining \u003cnorbert@preining.info\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e, Scarlett Moore \u003csgmoore@kde.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/kde/xdg-desktop-portal-kde"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/kde/xdg-desktop-portal-kde.git"
+  ],
+  "Version": [
+    "5.27.7-1"
+  ]
+}

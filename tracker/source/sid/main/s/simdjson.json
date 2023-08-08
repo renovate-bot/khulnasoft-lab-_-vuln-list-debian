@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libsimdjson16, libsimdjson-dev"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "5f0391637913370c71bd62be95bc95e88c0a18e15306cebd16279ef56a99c39a 1988 simdjson_3.2.1-1.dsc 121206c9bfe972a2202a74d4cddb8cb0561932427f96d6c4b70fb49a2a74560e 1655680 simdjson_3.2.1.orig.tar.gz f9560384eaeddda9df02f1930aa30dd9030c0fa404cbebc91f51356225255c43 7376 simdjson_3.2.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/simdjson"
+  ],
+  "Files": [
+    "81b9ea43eb80ece3072a97ee408207e6 1988 simdjson_3.2.1-1.dsc 70b9005febf2f5474a45b75c7dfcfec8 1655680 simdjson_3.2.1.orig.tar.gz 64d562b77c8087509e12f854be61158d 7376 simdjson_3.2.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/lemire/simdjson"
+  ],
+  "Maintainer": [
+    "Mo Zhou \u003clumin@debian.org\u003e"
+  ],
+  "Package": [
+    "simdjson"
+  ],
+  "Package-List": [
+    "libsimdjson-dev deb libdevel optional arch=any libsimdjson16 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, g++"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/simdjson"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/simdjson.git"
+  ],
+  "Version": [
+    "3.2.1-1"
+  ]
+}

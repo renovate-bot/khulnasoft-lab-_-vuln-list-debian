@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "headache"
+  ],
+  "Build-Depends": [
+    "po-debconf, xsltproc, libxml2-utils, docbook-xsl, docbook-xml, debhelper-compat (= 13), ocaml-nox, dh-ocaml, ocaml-dune, libcamomile-ocaml-dev"
+  ],
+  "Checksums-Sha256": [
+    "ad74ea8e692dfe8d5e53329da6bf67abb5e281075ec2a24bb2b8eb02718eb9b8 1865 headache_1.06-2.dsc b9e533be0ddb472dd3f8d5a6ff16dc7ef24f1253b1c5aef7366bde7a4127a38d 187104 headache_1.06.orig.tar.gz 1cf1a30bd87d049e02b4edd391ba70eacb6079fd8da5a003ca67d8c4409eb743 8508 headache_1.06-2.debian.tar.xz"
+  ],
+  "Dgit": [
+    "512e7e99b9b5e0043c640b09b7798e2a79586722 debian archive/debian/1.06-2 https://git.dgit.debian.org/headache"
+  ],
+  "Directory": [
+    "pool/main/h/headache"
+  ],
+  "Files": [
+    "1ad2e925a8a11b65c8b92a86b1c2751f 1865 headache_1.06-2.dsc 8eb8aaf47e8d4af296828bf8d29c19ea 187104 headache_1.06.orig.tar.gz 62b354383d7b9189dfd91eb7fe6215d0 8508 headache_1.06-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/Frama-C/headache"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "headache"
+  ],
+  "Package-List": [
+    "headache deb devel optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "devel"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Ralf Treinen \u003ctreinen@debian.org\u003e, Mehdi Dogguy \u003cmehdi@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/headache"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/headache.git"
+  ],
+  "Version": [
+    "1.06-2"
+  ]
+}

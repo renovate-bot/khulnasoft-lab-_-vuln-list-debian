@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "pci.ids"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "8288e633427450af5249230136f7800fc04ee2c97de91a9a91ad0ef532e65a05 1908 pci.ids_0.0~2023.07.30-1.dsc a7d7fe68376ba3b7a997a9eb071e68bdc93256ff6bd133a4b52c9ed66143df36 241592 pci.ids_0.0~2023.07.30.orig.tar.xz b734bb5fedd46c81d234bf5afb140a3056e2149f0be97b13ee34d4caee4c07f6 4780 pci.ids_0.0~2023.07.30-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pci.ids"
+  ],
+  "Files": [
+    "a644303de462e67a4edf0a8e3391ddc3 1908 pci.ids_0.0~2023.07.30-1.dsc 1c042110f7afcbef93e382096d2ae650 241592 pci.ids_0.0~2023.07.30.orig.tar.xz a2ca114d941b8e9337cbf3e7c699be82 4780 pci.ids_0.0~2023.07.30-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://pci-ids.ucw.cz/"
+  ],
+  "Maintainer": [
+    "Guillem Jover \u003cguillem@debian.org\u003e"
+  ],
+  "Package": [
+    "pci.ids"
+  ],
+  "Package-List": [
+    "pci.ids deb admin optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Vcs-Browser": [
+    "https://git.hadrons.org/cgit/debian/pkgs/pci.ids.git"
+  ],
+  "Vcs-Git": [
+    "https://git.hadrons.org/git/debian/pkgs/pci.ids.git"
+  ],
+  "Version": [
+    "0.0~2023.07.30-1"
+  ]
+}

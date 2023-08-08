@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "linux-any all"
+  ],
+  "Binary": [
+    "shotwell, shotwell-common"
+  ],
+  "Build-Depends": [
+    "appstream-util, cmake, debhelper-compat (= 13), desktop-file-utils, dh-sequence-gnome, itstool, libappstream-glib-dev, libexif-dev, libgcr-3-dev, libgdata-dev, libgee-0.8-dev, libgexiv2-dev, libglib2.0-dev, libgphoto2-dev, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libgtk-3-dev, libgudev-1.0-dev, libicu-dev, libjson-glib-dev, libportal-gtk3-dev, libraw-dev, librest-dev, libsecret-1-dev, libsqlite3-dev, libunity-dev, libwebkit2gtk-4.1-dev, libwebp-dev, libxml2, meson, ninja-build, valac"
+  ],
+  "Checksums-Sha256": [
+    "2d79814d1731cc2ce93a0aab51fd041fe461e51d9ef83ceaeed7225aea23d1ba 2391 shotwell_0.32.1-2.dsc 4ac4517416ad8aa23b44e75c34bd6e16bab7363fa20991bb09bacdfab3f763ce 35324252 shotwell_0.32.1.orig.tar.xz 317d422283c055fa486efee5b00c698b045cfb4bfe5e3e776e9184943f16a2c6 11800 shotwell_0.32.1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/shotwell"
+  ],
+  "Files": [
+    "5182b1c090205a00655bbc5a374682e5 2391 shotwell_0.32.1-2.dsc 0ae8ff1248a12f81b4c98ff51ee84167 35324252 shotwell_0.32.1.orig.tar.xz 490a3cec90b31ed3690236cc3a136133 11800 shotwell_0.32.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://wiki.gnome.org/Apps/Shotwell"
+  ],
+  "Maintainer": [
+    "Jörg Frings-Fürst \u003cdebian@jff.email\u003e"
+  ],
+  "Package": [
+    "shotwell"
+  ],
+  "Package-List": [
+    "shotwell deb gnome optional arch=linux-any shotwell-common deb gnome optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "gnome"
+  ],
+  "Standards-Version": [
+    "4.6.2.0"
+  ],
+  "Vcs-Browser": [
+    "https://git.jff.email/cgit/shotwell.git"
+  ],
+  "Vcs-Git": [
+    "git://git.jff.email/shotwell.git"
+  ],
+  "Version": [
+    "0.32.1-2"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-django-captcha-doc, python3-django-captcha"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc, gettext"
+  ],
+  "Build-Depends-Indep": [
+    "python3-all, python3-django \u003c!nocheck\u003e, python3-django-ranged-response \u003c!nocheck\u003e, python3-pil \u003c!nocheck\u003e, python3-setuptools, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e, python3-testfixtures \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "e9623d5c6b02e3b6483f62d1a8363758f7905fdb698ac476219fe7bf3abf23bb 2554 django-simple-captcha_0.5.18-1.dsc 1ddd7c2560542f839bd0e5843b5b7395865114b16782d7d68d025f1b226cf2cd 115071 django-simple-captcha_0.5.18.orig.tar.gz 33b05259323b19b1639c8128748341991f4ed6a649d9a4e0dfd02c8b046a7952 6388 django-simple-captcha_0.5.18-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/django-simple-captcha"
+  ],
+  "Files": [
+    "5c489ae3518d7b84dd52551eedc54b4d 2554 django-simple-captcha_0.5.18-1.dsc 7e595aac8344c248ae2b7720d1e525cb 115071 django-simple-captcha_0.5.18.orig.tar.gz ed41215010c7e10930aee05a737abbd1 6388 django-simple-captcha_0.5.18-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/mbi/django-simple-captcha"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "django-simple-captcha"
+  ],
+  "Package-List": [
+    "python-django-captcha-doc deb doc optional arch=all python3-django-captcha deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-testfixtures"
+  ],
+  "Uploaders": [
+    "Brian May \u003cbam@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/django-simple-captcha"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/django-simple-captcha.git"
+  ],
+  "Version": [
+    "0.5.18-1"
+  ]
+}

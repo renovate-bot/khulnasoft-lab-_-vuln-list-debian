@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-wsgi-intercept"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 10), dh-python, openstack-pkg-tools, python3-all, python3-setuptools"
+  ],
+  "Build-Depends-Indep": [
+    "python3-httplib2, python3-pytest, python3-requests, python3-six, python3-urllib3"
+  ],
+  "Checksums-Sha256": [
+    "72e14a28c57d28e0db07634c16557639e928568c232a7ec2045f77d0fca4d21c 2232 python-wsgi-intercept_1.9.3-3.dsc 0ee9385fa415c2b46d2de2797263d8cebc760bb3ff3f3e58ae485e4b9bedbdb8 22184 python-wsgi-intercept_1.9.3.orig.tar.xz 325b9123f58e22c1c41c4c2b31f3eb391557dbe1f1b4b88c52f1ee7935be4f8a 5932 python-wsgi-intercept_1.9.3-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-wsgi-intercept"
+  ],
+  "Files": [
+    "f16381b4fb513250a1f073aba5e48075 2232 python-wsgi-intercept_1.9.3-3.dsc 4f99d0850bc7aef577c2e4acd1bce5ff 22184 python-wsgi-intercept_1.9.3.orig.tar.xz d9f340acacd9a22aa230514bc1d5b3e2 5932 python-wsgi-intercept_1.9.3-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/cdent/wsgi-intercept"
+  ],
+  "Maintainer": [
+    "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-wsgi-intercept"
+  ],
+  "Package-List": [
+    "python3-wsgi-intercept deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.1.1"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openstack-team/python/python-wsgi-intercept"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openstack-team/python/python-wsgi-intercept.git"
+  ],
+  "Version": [
+    "1.9.3-3"
+  ]
+}

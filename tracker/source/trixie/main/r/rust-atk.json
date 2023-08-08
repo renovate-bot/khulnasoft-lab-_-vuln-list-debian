@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-atk-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-atk-sys-0.17+default-dev \u003c!nocheck\u003e, librust-bitflags-1+default-dev \u003c!nocheck\u003e, librust-glib-0.17+default-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "5013717ba5ed2299a67d24aca8b963683faf26c31591a4714d84762f9401a01b 2342 rust-atk_0.17.1-1.dsc 6ba16453d10c712284061a05f6510f75abeb92b56ba88dfeb48c74775020cc22 34892 rust-atk_0.17.1.orig.tar.gz fab809ec629295382cc7b42c2bb7853527d1a088b382a7e4fb2e71138f6b27f3 3072 rust-atk_0.17.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-atk"
+  ],
+  "Files": [
+    "cfe456b01d084ae8a23eb6759b01c654 2342 rust-atk_0.17.1-1.dsc 08b04495d9c64431b6ca0fe1409dc7f8 34892 rust-atk_0.17.1.orig.tar.gz 78701c6ef3aacb0130a9d7d9d2413115 3072 rust-atk_0.17.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gtk-rs.org/"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-atk"
+  ],
+  "Package-List": [
+    "librust-atk-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-gir-format-check-0.1+default-dev"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@riseup.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/atk"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/atk]"
+  ],
+  "Version": [
+    "0.17.1-1"
+  ]
+}

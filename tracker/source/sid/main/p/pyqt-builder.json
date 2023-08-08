@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-pyqtbuild, pyqt-builder-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-sipbuild (\u003e= 6.7), python3-sphinx"
+  ],
+  "Checksums-Sha256": [
+    "4bac4f7df1cba0b823c1e9caa8a06e9c1c08d7e0d1f70650f1163910a7506a18 2212 pyqt-builder_1.15.2+dfsg-1.dsc 43c4aea2606c5cdb73f0640e88246f143042895a6fddd4db931f7e4990c20b81 61972 pyqt-builder_1.15.2+dfsg.orig.tar.xz c96dcbdab133e2b13542fb911dd085cb3a5acb34c222bcae8490ed779ab6bd92 4272 pyqt-builder_1.15.2+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pyqt-builder"
+  ],
+  "Files": [
+    "f6cf89fa4c7c45301943fe2054c7e464 2212 pyqt-builder_1.15.2+dfsg-1.dsc baafa15d97716f5f75ed8889cea65f78 61972 pyqt-builder_1.15.2+dfsg.orig.tar.xz d6cf6780127ba6690f43647a135c76ab 4272 pyqt-builder_1.15.2+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://riverbankcomputing.com/software/pyqt-builder/intro"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "pyqt-builder"
+  ],
+  "Package-List": [
+    "pyqt-builder-doc deb doc optional arch=all python3-pyqtbuild deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Dmitry Shachnev \u003cmitya57@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/pyqt-builder"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/pyqt-builder.git"
+  ],
+  "Version": [
+    "1.15.2+dfsg-1"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libppx-assert-ocaml, libppx-assert-ocaml-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-ocaml, libbase-ocaml-dev, libppx-cold-ocaml-dev, libppx-compare-ocaml-dev, libppx-here-ocaml-dev, libppx-sexp-conv-ocaml-dev, libppxlib-ocaml-dev, ocaml-dune, ocaml-nox"
+  ],
+  "Checksums-Sha256": [
+    "8b49d978c5e7eaa668889d01e21e5ddeae166043e74a7986566b38804ab43848 2226 ppx-assert_0.16.0-4.dsc 265ab1ea89526044728db6b035db76897749a1f3b136353acbb601559fafb065 7419 ppx-assert_0.16.0.orig.tar.gz fd681612bc9a406f8d18b9a0070e10f0ef5958813c76adc95a88f97f426303fd 2260 ppx-assert_0.16.0-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/ppx-assert"
+  ],
+  "Files": [
+    "c8ca177b71bc88af8afdab00a1ddad3b 2226 ppx-assert_0.16.0-4.dsc 8d7210d316fb20ab980533fc520331c9 7419 ppx-assert_0.16.0.orig.tar.gz a86e0d38af1de7b123418592044d8e2a 2260 ppx-assert_0.16.0-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/janestreet/ppx_assert"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "ppx-assert"
+  ],
+  "Package-List": [
+    "libppx-assert-ocaml deb ocaml optional arch=any libppx-assert-ocaml-dev deb ocaml optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Julien Puydt \u003cjpuydt@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/ppx-assert"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/ppx-assert.git"
+  ],
+  "Version": [
+    "0.16.0-4"
+  ]
+}

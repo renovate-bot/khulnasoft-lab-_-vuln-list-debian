@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libfirefox-marionette-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "dbus-x11 \u003c!nocheck\u003e, firefox-esr | firefox, libarchive-zip-perl \u003c!nocheck\u003e, libconfig-ini-perl \u003c!nocheck\u003e, libcrypt-urandom-perl \u003c!nocheck\u003e, libdigest-sha-perl \u003c!nocheck\u003e, libencode-perl \u003c!nocheck\u003e, libfile-homedir-perl \u003c!nocheck\u003e, libhttp-daemon-perl \u003c!nocheck\u003e, libhttp-message-perl \u003c!nocheck\u003e, libio-compress-perl \u003c!nocheck\u003e, libio-socket-ssl-perl \u003c!nocheck\u003e, libjson-perl \u003c!nocheck\u003e, libpdf-api2-perl \u003c!nocheck\u003e, libpod-simple-perl \u003c!nocheck\u003e, libscalar-list-utils-perl \u003c!nocheck\u003e, libsocket-perl \u003c!nocheck\u003e, libterm-readkey-perl \u003c!nocheck\u003e, libtest-simple-perl \u003c!nocheck\u003e, libtext-csv-xs-perl \u003c!nocheck\u003e, liburi-perl \u003c!nocheck\u003e, libxml-parser-perl \u003c!nocheck\u003e, perl, xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "ede17a467316a02f16bbbb44131bd4abf92b6254a4e024f86dd733549e5a5478 3165 libfirefox-marionette-perl_1.41-1.dsc 7fb1b35517198b6b7b314835707fee3e12cb156f26775d42607612bada4678d5 336940 libfirefox-marionette-perl_1.41.orig.tar.gz 1f5302d2855b4f5db6a6e447292e0af3c9103afee5f5daebcbcc7d4d2bc1e371 28128 libfirefox-marionette-perl_1.41-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "865d7ebc9a97e53e9fa17972b5df29886ae5d388 debian archive/debian/1.41-1 https://git.dgit.debian.org/libfirefox-marionette-perl"
+  ],
+  "Directory": [
+    "pool/main/libf/libfirefox-marionette-perl"
+  ],
+  "Files": [
+    "c442e2bcd2a8382931b27ab7027ccc6f 3165 libfirefox-marionette-perl_1.41-1.dsc aa9735dc433da8632ba50f24eb0c5210 336940 libfirefox-marionette-perl_1.41.orig.tar.gz c287a3b25ab9ec13a366d820ac1836b4 28128 libfirefox-marionette-perl_1.41-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/Firefox-Marionette"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libfirefox-marionette-perl"
+  ],
+  "Package-List": [
+    "libfirefox-marionette-perl deb perl optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "gregor herrmann \u003cgregoa@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libfirefox-marionette-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libfirefox-marionette-perl.git"
+  ],
+  "Version": [
+    "1.41-1"
+  ]
+}

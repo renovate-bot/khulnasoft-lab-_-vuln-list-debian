@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "spip"
+  ],
+  "Build-Depends": [
+    "cssmin, debhelper-compat (= 13), dh-apache2, minify"
+  ],
+  "Checksums-Sha256": [
+    "66279887f8fc0374f666d24e99549670e1e9efd168bc1cafba1016fc56305e32 1537 spip_4.1.11+dfsg-1.dsc bc24f37e99f3854f688da2e2293a7a6212d87280f83e87c3e9f27aa36e58b1d8 5058544 spip_4.1.11+dfsg.orig.tar.xz 9f5553a0e2070aafeff8c1c097b4cdd9360c5c9d7e6a75df0d961379f9ffc913 67972 spip_4.1.11+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/spip"
+  ],
+  "Files": [
+    "f68db6f9242c679c2c464c5ecfc0b819 1537 spip_4.1.11+dfsg-1.dsc 706fd40052c6c08b1ff6dc799afbda9c 5058544 spip_4.1.11+dfsg.orig.tar.xz c34940bdd856a78a40a10718cca0c3c1 67972 spip_4.1.11+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.spip.net/"
+  ],
+  "Maintainer": [
+    "David Prévot \u003ctaffit@debian.org\u003e"
+  ],
+  "Package": [
+    "spip"
+  ],
+  "Package-List": [
+    "spip deb web optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "web"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/spip"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/spip.git -b debian/bookworm"
+  ],
+  "Version": [
+    "4.1.11+dfsg-1"
+  ]
+}

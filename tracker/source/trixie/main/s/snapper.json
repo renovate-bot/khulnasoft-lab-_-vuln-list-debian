@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "snapper, libsnapper7, libsnapper-dev, libpam-snapper"
+  ],
+  "Build-Depends": [
+    "libbtrfs-dev, debhelper-compat (= 13), docbook-xsl, libacl1-dev, libboost-dev, libboost-thread-dev, libboost-test-dev, libdbus-1-dev, libmount-dev, libpam-dev, libxml2-dev, xsltproc, zlib1g-dev, e2fslibs-dev, locales-all, libncurses-dev, libjson-c-dev"
+  ],
+  "Checksums-Sha256": [
+    "b7c5dde746df5c064854428e1bcda5e77a054a88441afc85ba823b711b44c989 2237 snapper_0.10.5-2.dsc bae2ef47eb323386fcae1c35f2f8baa567dfee2eb7eb4b25a1b1fba841dc1479 306984 snapper_0.10.5.orig.tar.xz 16530d785daf63f88be3d864a72299228cfe9f51af2b861a0586dfde4463b9f8 8588 snapper_0.10.5-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/snapper"
+  ],
+  "Files": [
+    "56f709bee34640d6cd45e68ee066cc14 2237 snapper_0.10.5-2.dsc dee0d26bdd8de2e82b6bc23173296fc7 306984 snapper_0.10.5.orig.tar.xz 83c0c6fa716fe3242b8e2464a60f37e1 8588 snapper_0.10.5-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://snapper.io/"
+  ],
+  "Maintainer": [
+    "Hideki Yamane \u003chenrich@debian.org\u003e"
+  ],
+  "Package": [
+    "snapper"
+  ],
+  "Package-List": [
+    "libpam-snapper deb admin optional arch=linux-any libsnapper-dev deb libdevel optional arch=linux-any libsnapper7 deb libs optional arch=linux-any snapper deb utils optional arch=linux-any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/snapper"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/snapper.git"
+  ],
+  "Version": [
+    "0.10.5-2"
+  ]
+}

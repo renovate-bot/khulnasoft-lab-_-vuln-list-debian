@@ -1,0 +1,50 @@
+{
+  "Architecture": [
+    "amd64 linux-amd64"
+  ],
+  "Binary": [
+    "libipsec-mb1, libipsec-mb-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 13), debhelper-compat (= 13), nasm"
+  ],
+  "Checksums-Sha256": [
+    "4f3fdb2cb61ca6ec3903fb710ab0e6548719561eeca06f047f249cd5b3e9a5d3 1921 intel-ipsec-mb_1.4-2.dsc 9c6d82b78d4cbf65b968dbc1a444ca61b9e1db965f04e5fdbdd088dc0205640d 1157920 intel-ipsec-mb_1.4.orig.tar.xz 5c0100babd429acfea976d0934c1b33108433f600d3e387c8175b1f9873bb765 5932 intel-ipsec-mb_1.4-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/intel-ipsec-mb"
+  ],
+  "Files": [
+    "49800342ec7c8c543a7772ba1af27b44 1921 intel-ipsec-mb_1.4-2.dsc b503b2e19c1c3d382f6eafe4b3aa0cd3 1157920 intel-ipsec-mb_1.4.orig.tar.xz 917688bf976f350f8d52ad1ef0e268fd 5932 intel-ipsec-mb_1.4-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/intel/intel-ipsec-mb"
+  ],
+  "Maintainer": [
+    "Colin Ian King \u003ccolin.i.king@gmail.com\u003e"
+  ],
+  "Package": [
+    "intel-ipsec-mb"
+  ],
+  "Package-List": [
+    "libipsec-mb-dev deb libdevel optional arch=linux-amd64 libipsec-mb1 deb libs optional arch=amd64"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Kamal Mostafa \u003ckamal@whence.com\u003e"
+  ],
+  "Version": [
+    "1.4-2"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "gentle"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), default-libmysqlclient-dev, libsqlite3-dev, libtinyxml-dev, libwxgtk3.2-dev"
+  ],
+  "Checksums-Sha256": [
+    "1ba09d9ebf23d17fa07346befa9c730c670dfac88c1d8fdce2c871da60141eaf 2121 gentle_1.9+cvs20100605+dfsg1-12.dsc c0dcf6a9ba04f3627cedb7e3b901f2b57aed8a799e58e91b8796e116e55cad7c 4739680 gentle_1.9+cvs20100605+dfsg1.orig.tar.xz 50745dbd4da518775f59ebc03289e332651192397391cfad5e9fd72ac12188c7 46452 gentle_1.9+cvs20100605+dfsg1-12.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gentle"
+  ],
+  "Files": [
+    "40225b1d5d1c4e8b61d86332ec9d05a2 2121 gentle_1.9+cvs20100605+dfsg1-12.dsc 7ba6ac0d756ec02c6ce8632a5363177e 4739680 gentle_1.9+cvs20100605+dfsg1.orig.tar.xz cd16e6aa2ac85e3ffc859a3b99c1b58b 46452 gentle_1.9+cvs20100605+dfsg1-12.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://gentle.magnusmanske.de"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "gentle"
+  ],
+  "Package-List": [
+    "gentle deb science optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Steffen Moeller \u003cmoeller@debian.org\u003e, Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/gentle"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/gentle.git"
+  ],
+  "Version": [
+    "1.9+cvs20100605+dfsg1-12"
+  ]
+}

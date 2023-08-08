@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "verbiste, verbiste-gnome, verbiste-gtk, elpa-verbiste, libverbiste-0.1-0v5, libverbiste-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), debhelper-compat (= 12), dh-elpa, libgtk2.0-dev, libxml-parser-perl, libxml2-dev, locales, pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "c2eb33c2ccdcb11861788bff93ed1515bf1b6563e027074cd72242b9eeb8af21 2267 verbiste_0.1.47-2.dsc 75761c24a013a01ec89108f75f319e83000f8147906518ad1458f879878d7f0a 781085 verbiste_0.1.47.orig.tar.gz 1532e90142fefff78f5a665e6c926e41ebbfc492a636d728f65068a8fffc50e0 9072 verbiste_0.1.47-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/v/verbiste"
+  ],
+  "Files": [
+    "7b00b9e0f62d700c964d12ae6fda43c4 2267 verbiste_0.1.47-2.dsc 240b5c674da369e5b6492d6910c0a8af 781085 verbiste_0.1.47.orig.tar.gz 94e568792dabbe5e20e2800ec91180ae 9072 verbiste_0.1.47-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://sarrazip.com/dev/verbiste.html"
+  ],
+  "Maintainer": [
+    "Tomasz Buchert \u003ctomasz@debian.org\u003e"
+  ],
+  "Package": [
+    "verbiste"
+  ],
+  "Package-List": [
+    "elpa-verbiste deb lisp optional arch=all libverbiste-0.1-0v5 deb libs optional arch=any libverbiste-dev deb libdevel optional arch=any verbiste deb text optional arch=any verbiste-gnome deb oldlibs optional arch=any verbiste-gtk deb gnome optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "text"
+  ],
+  "Standards-Version": [
+    "4.4.1"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/verbiste"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/verbiste.git"
+  ],
+  "Version": [
+    "0.1.47-2"
+  ]
+}

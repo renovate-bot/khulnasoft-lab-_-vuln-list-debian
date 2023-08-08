@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "numix-icon-theme-circle"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12)"
+  ],
+  "Checksums-Sha256": [
+    "e70cae6c83b8e26d35caa37a44d76e61b575823a48659ee93ceccb787e306fd5 2108 numix-icon-theme-circle_23.07.08-1.dsc 4fc1a7c6139a4214de10016935ca80fa5eef0eb4e2e8637baf0fe9d4938a4923 2565065 numix-icon-theme-circle_23.07.08.orig.tar.gz 7202f03fb49102c4641dc98c2217c7586b84ac961ce38927c8464bf643317c98 2504 numix-icon-theme-circle_23.07.08-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/n/numix-icon-theme-circle"
+  ],
+  "Files": [
+    "3bee7dbdc0a781f3c30c316531da9444 2108 numix-icon-theme-circle_23.07.08-1.dsc 7d3553b52957c29bd46c14ef3d658881 2565065 numix-icon-theme-circle_23.07.08.orig.tar.gz 1de2b820aa77a104f12313a678e8c3e1 2504 numix-icon-theme-circle_23.07.08-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://numixproject.github.io/"
+  ],
+  "Maintainer": [
+    "Debian Desktop Themes Team \u003cteam+desktop-themes-team@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "numix-icon-theme-circle"
+  ],
+  "Package-List": [
+    "numix-icon-theme-circle deb x11 optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "James Lu \u003cjlu@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/desktop-themes-team/numix-icon-theme-circle"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/desktop-themes-team/numix-icon-theme-circle.git"
+  ],
+  "Version": [
+    "23.07.08-1"
+  ]
+}

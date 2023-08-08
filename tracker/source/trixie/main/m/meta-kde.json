@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "kde-plasma-desktop, kde-standard, kde-full, kdeaccessibility, kdeadmin, kde-baseapps, kdeedu, kdegames, kdegraphics, kdemultimedia, kdenetwork, kdepim, kdesdk, kdetoys, kdeutils, kdewebdev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "df50c44bb23516392920e4a27ad75a74dea1d978e806959bf63bcd3e35ecf1fa 2510 meta-kde_143.dsc 9326c0db8b029e82af65c43d2f509ba2c9a84d311469ce6095d04ac9b01e8f77 16916 meta-kde_143.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/meta-kde"
+  ],
+  "Files": [
+    "909841a7f7a05b30001a183a061ebea3 2510 meta-kde_143.dsc 30be92c51a88f733aa8a270ff6cd86d9 16916 meta-kde_143.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Homepage": [
+    "https://www.kde.org"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "meta-kde"
+  ],
+  "Package-List": [
+    "kde-baseapps deb metapackages optional arch=any kde-full deb metapackages optional arch=any kde-plasma-desktop deb metapackages optional arch=any kde-standard deb metapackages optional arch=any kdeaccessibility deb metapackages optional arch=any kdeadmin deb metapackages optional arch=any kdeedu deb metapackages optional arch=any kdegames deb metapackages optional arch=any kdegraphics deb metapackages optional arch=any kdemultimedia deb metapackages optional arch=any kdenetwork deb metapackages optional arch=any kdepim deb metapackages optional arch=any kdesdk deb metapackages optional arch=any kdetoys deb metapackages optional arch=any kdeutils deb metapackages optional arch=any kdewebdev deb metapackages optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "x11"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Pino Toscano \u003cpino@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/kde/meta-kde"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/kde/meta-kde.git"
+  ],
+  "Version": [
+    "5:143"
+  ]
+}

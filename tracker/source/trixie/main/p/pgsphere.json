@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "postgresql-15-pgsphere"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), docbook-dsssl, docbook-xml, flex, libhealpix-cxx-dev (\u003e= 3.30.0), pkgconf, postgresql-all (\u003e= 217~)"
+  ],
+  "Checksums-Sha256": [
+    "a0db003e6ea93974453900c586e47cdcb7309bda7bd369f4174a123e4c54ff9a 2162 pgsphere_1.2.3-1.dsc 7871a2abfc56b7920cf3847b90a607b01709dfa2b85b2a9187ac3b0130b95429 924439 pgsphere_1.2.3.orig.tar.gz 915a0ac0633360af1887e5a294235570bdfa925ac2ebdf6993c9a07ee9c3b857 4232 pgsphere_1.2.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pgsphere"
+  ],
+  "Files": [
+    "af3ab59b24802ca1dd7b79fee44a25cd 2162 pgsphere_1.2.3-1.dsc 3444ac8fa8b3c10a89525868fd2ec1c3 924439 pgsphere_1.2.3.orig.tar.gz 835dc1f8f9837e73ae8da24bbed56db4 4232 pgsphere_1.2.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://pgsphere.github.io/"
+  ],
+  "Maintainer": [
+    "Debian PostgreSQL Maintainers \u003cteam+postgresql@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "pgsphere"
+  ],
+  "Package-List": [
+    "postgresql-15-pgsphere deb database optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "make"
+  ],
+  "Uploaders": [
+    "Ole Streicher \u003colebole@debian.org\u003e, Markus Nullmeier \u003cmnullmei@vodafonemail.de\u003e, Christoph Berg \u003cmyon@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/postgresql/pgsphere"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/postgresql/pgsphere.git"
+  ],
+  "Version": [
+    "1.2.3-1"
+  ]
+}

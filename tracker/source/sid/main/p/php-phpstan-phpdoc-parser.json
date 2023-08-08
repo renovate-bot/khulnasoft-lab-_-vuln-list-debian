@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "php-phpstan-phpdoc-parser"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-phpcomposer, php-doctrine-annotations, php-symfony-process, phpab, phpunit"
+  ],
+  "Checksums-Sha256": [
+    "f07943b519aa8af17b5ba69bf6ece0d62a1a275a5f9023621a5b8af2eac5e7a0 1982 php-phpstan-phpdoc-parser_1.23.1-1.dsc bdc5fbee0b68a6b51e0d2cad662046f7b63abeb2469a662a77e2ecb42eaea094 149828 php-phpstan-phpdoc-parser_1.23.1.orig.tar.xz b083f8efbb4ab003ce783c0165dec7d56006c7c24d71b128d2f73cf8923ac589 13380 php-phpstan-phpdoc-parser_1.23.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/php-phpstan-phpdoc-parser"
+  ],
+  "Files": [
+    "c267ab8c273c8d0896c75c01b4ef84ef 1982 php-phpstan-phpdoc-parser_1.23.1-1.dsc bbbd0de8724f5aff75c9b4679cf4d6d3 149828 php-phpstan-phpdoc-parser_1.23.1.orig.tar.xz fc2140945648f83f35058902c5133d5e 13380 php-phpstan-phpdoc-parser_1.23.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://phpstan.org/"
+  ],
+  "Maintainer": [
+    "Debian PHP PEAR Maintainers \u003cpkg-php-pear@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "php-phpstan-phpdoc-parser"
+  ],
+  "Package-List": [
+    "php-phpstan-phpdoc-parser deb php optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "php-doctrine-annotations, php-symfony-process, phpab, phpunit, pkg-php-tools"
+  ],
+  "Uploaders": [
+    "David Prévot \u003ctaffit@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/php-team/pear/php-phpstan-phpdoc-parser"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/php-team/pear/php-phpstan-phpdoc-parser.git"
+  ],
+  "Version": [
+    "1.23.1-1"
+  ]
+}

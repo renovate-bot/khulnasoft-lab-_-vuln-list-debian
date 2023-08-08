@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "postgresql-15-mysql-fdw"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), default-libmysqlclient-dev | libmysqlclient-dev, postgresql-server-dev-all (\u003e= 217~)"
+  ],
+  "Checksums-Sha256": [
+    "210b83b346abace4813bde6f38e8c48c09a2005d81e96ec01e08b60b45820da2 2284 postgresql-mysql-fdw_2.9.1-1.dsc 26e8dc2012de6151450fbf2a5cd591a3d5b8a52b1e3ec0600b14a4a6b4a06b54 168896 postgresql-mysql-fdw_2.9.1.orig.tar.gz 790c7c195205ac34fcfe7bae24763e82460b5f502e0de3ffef999b1501500916 5764 postgresql-mysql-fdw_2.9.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/postgresql-mysql-fdw"
+  ],
+  "Files": [
+    "d62894afdd1a66157515b235efaebfd5 2284 postgresql-mysql-fdw_2.9.1-1.dsc 802163e4dc22ba4d95a99b8569a63504 168896 postgresql-mysql-fdw_2.9.1.orig.tar.gz 61ae28efe50fecd319e4af5a275cd29c 5764 postgresql-mysql-fdw_2.9.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/EnterpriseDB/mysql_fdw"
+  ],
+  "Maintainer": [
+    "Debian PostgreSQL Maintainers \u003cteam+postgresql@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "postgresql-mysql-fdw"
+  ],
+  "Package-List": [
+    "postgresql-15-mysql-fdw deb database optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "default-mysql-server, locales-all, make, mysql-server"
+  ],
+  "Uploaders": [
+    "Markus Wanner \u003cmarkus.wanner@datahouse.ch\u003e, Christoph Berg \u003cmyon@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/postgresql/postgresql-mysql-fdw"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/postgresql/postgresql-mysql-fdw.git"
+  ],
+  "Version": [
+    "2.9.1-1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "amd64 arm64 i386 ppc64el ppc64 riscv64 sh4"
+  ],
+  "Binary": [
+    "libelpi-ocaml, libelpi-ocaml-dev, elpi"
+  ],
+  "Build-Depends": [
+    "atdts (\u003e= 2.9.1), camlp5 (\u003e= 8.00.02), debhelper-compat (= 13), dh-ocaml, gnuplot-nox, libansi-terminal-ocaml-dev, libatdgen-ocaml-dev (\u003e= 2.9.1), libcmdliner-ocaml-dev, libmenhir-ocaml-dev, libppx-deriving-ocaml-dev, libppxlib-ocaml-dev, libre-ocaml-dev, lua5.1, menhir, ocaml-dune, time"
+  ],
+  "Checksums-Sha256": [
+    "f91c385cb89a1dbc393640f6805bd9d9cd14a1d19b13784836c05ced466cfdc3 2207 elpi_1.16.10-3.dsc c24413b51fc6fcbfdd6e0ee907608f8eee02c22ec0cc38c42ea15b9ee436bd4c 2606110 elpi_1.16.10.orig.tar.gz 3e3aa459775050f2f066cec0f5d6d4b3260c8af292a091ffc1e904f2fc25ce0f 4244 elpi_1.16.10-3.debian.tar.xz"
+  ],
+  "Dgit": [
+    "5c1e40a8902b7577212747233e05fd664eb55975 debian archive/debian/1.16.10-3 https://git.dgit.debian.org/elpi"
+  ],
+  "Directory": [
+    "pool/main/e/elpi"
+  ],
+  "Files": [
+    "0da8310d6c34fa4b6d9ee63e0f0c0380 2207 elpi_1.16.10-3.dsc a5375b0243db584a220afb97a75b3a66 2606110 elpi_1.16.10.orig.tar.gz 12d6611dd925391ea3df7e36b347302a 4244 elpi_1.16.10-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/LPCIC/elpi"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "elpi"
+  ],
+  "Package-List": [
+    "elpi deb ocaml optional arch=amd64,arm64,i386,ppc64el,ppc64,riscv64,sh4 libelpi-ocaml deb ocaml optional arch=amd64,arm64,i386,ppc64el,ppc64,riscv64,sh4 libelpi-ocaml-dev deb ocaml optional arch=amd64,arm64,i386,ppc64el,ppc64,riscv64,sh4"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Julien Puydt \u003cjpuydt@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/elpi"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/elpi.git"
+  ],
+  "Version": [
+    "1.16.10-3"
+  ]
+}

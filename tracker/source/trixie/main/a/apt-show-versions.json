@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "apt-show-versions"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libpod-parser-perl, bash-completion"
+  ],
+  "Build-Depends-Indep": [
+    "po4a"
+  ],
+  "Checksums-Sha256": [
+    "34c5629678dbd21aa633979a738add09f330368926de69daa72b2bde2e1bb356 1713 apt-show-versions_0.22.14.dsc 4019e6b83db535527d22417826c3121952b138842488a04a1f04d5f7ccf89771 32300 apt-show-versions_0.22.14.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/apt-show-versions"
+  ],
+  "Files": [
+    "a19f493880cfa47289c31058db9b5bd2 1713 apt-show-versions_0.22.14.dsc c86aaa535bd35a086339d0525966d82d 32300 apt-show-versions_0.22.14.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Christoph Martin \u003cmartin@uni-mainz.de\u003e"
+  ],
+  "Package": [
+    "apt-show-versions"
+  ],
+  "Package-List": [
+    "apt-show-versions deb admin optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "admin"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Uploaders": [
+    "Andreas Hoenen \u003candreas@hoenen-terstappen.de\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/apt-show-versions"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/apt-show-versions.git"
+  ],
+  "Version": [
+    "0.22.14"
+  ]
+}

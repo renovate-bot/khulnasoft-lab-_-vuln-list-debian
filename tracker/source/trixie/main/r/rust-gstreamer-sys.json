@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-gstreamer-sys-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-glib-sys-0.17+default-dev \u003c!nocheck\u003e, librust-gobject-sys-0.17+default-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev \u003c!nocheck\u003e, librust-system-deps-6+default-dev \u003c!nocheck\u003e, libgstreamer1.0-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "93aeffe5f533895b4e5ea4c951b2c53170eda047cbdbb4716c52d9c8a7ff722d 2534 rust-gstreamer-sys_0.20.0-1.dsc e56fe047adef7d47dbafa8bc1340fddb53c325e16574763063702fc94b5786d2 89479 rust-gstreamer-sys_0.20.0.orig.tar.gz abe98360be35f7e2fb8c4cf01737ece9cd3a256af8c475a34ec4584f2389816c 3256 rust-gstreamer-sys_0.20.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-gstreamer-sys"
+  ],
+  "Files": [
+    "4e0ff7478493091fb5043cfe0e4b39d1 2534 rust-gstreamer-sys_0.20.0-1.dsc 24e1db886c3c259cfce8dd9626df3353 89479 rust-gstreamer-sys_0.20.0.orig.tar.gz 62140ad6452223fde8df40bd081c2bf0 3256 rust-gstreamer-sys_0.20.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gstreamer.freedesktop.org"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-gstreamer-sys"
+  ],
+  "Package-List": [
+    "librust-gstreamer-sys-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-shell-words-1+default-dev, librust-tempfile-3+default-dev"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@riseup.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gstreamer-sys"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/gstreamer-sys]"
+  ],
+  "Version": [
+    "0.20.0-1"
+  ]
+}

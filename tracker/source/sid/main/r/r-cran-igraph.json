@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-igraph"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-cli, r-cran-magrittr, r-cran-matrix, r-cran-pkgconfig, r-cran-rlang, r-cran-cpp11, libxml2-dev, pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "fb2f1f38fdc7cee5ec572d74a147fffb4bc2acfd822b566574e7efdd0eda0544 2379 r-cran-igraph_1.5.0.1-1.dsc a80a157ee290252f89c7c690654d82eadf72eba389d3100da26a5bf2eb0da3b4 3314208 r-cran-igraph_1.5.0.1.orig.tar.gz bccb423b3c158652eaa2ad92d3b9e9fc83ae419da179464011b159a22003d5f5 9020 r-cran-igraph_1.5.0.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-igraph"
+  ],
+  "Files": [
+    "4067ddd4bb01f6f45edbeaec3f98ec17 2379 r-cran-igraph_1.5.0.1-1.dsc 9809e51f7a65bbb6ae45a480228a8d04 3314208 r-cran-igraph_1.5.0.1.orig.tar.gz e4abfaf809a66ce8cdee18e29a3d41c7 9020 r-cran-igraph_1.5.0.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=igraph"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-igraph"
+  ],
+  "Package-List": [
+    "r-cran-igraph deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-bioc-graph, r-cran-ape, r-cran-callr, r-cran-decor, r-cran-digest, r-cran-knitr, r-cran-rgl, r-cran-rmarkdown, r-cran-scales, r-cran-testthat, r-cran-vdiffr, r-cran-withr"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-igraph"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-igraph.git"
+  ],
+  "Version": [
+    "1.5.0.1-1"
+  ]
+}

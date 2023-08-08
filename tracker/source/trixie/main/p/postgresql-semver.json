@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "postgresql-15-semver"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), postgresql-all (\u003e= 217~)"
+  ],
+  "Checksums-Sha256": [
+    "e0f31fdf896075215769222eb5add38b636021700ed960357bd6965075d887a5 2113 postgresql-semver_0.32.0-2.dsc 7fb8ed3376782ed16808bb4a47e8b4ec5c1b22a20865a328938d413cf676e1b3 40942 postgresql-semver_0.32.0.orig.tar.gz e981038f30feb32097d5ce18d220180eb85a3535d5f0df7d60b5e05ca3764482 3724 postgresql-semver_0.32.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/postgresql-semver"
+  ],
+  "Files": [
+    "3b5e6a0c3216871b04775b6154c2c23e 2113 postgresql-semver_0.32.0-2.dsc 63e9c782e53ab15a419ac28d503e42a7 40942 postgresql-semver_0.32.0.orig.tar.gz 25c27784c8d9a0cad47b42a335584afa 3724 postgresql-semver_0.32.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://pgxn.org/dist/semver/doc/semver.html"
+  ],
+  "Maintainer": [
+    "Debian PostgreSQL Maintainers \u003cteam+postgresql@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "postgresql-semver"
+  ],
+  "Package-List": [
+    "postgresql-15-semver deb database optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "make, postgresql-all"
+  ],
+  "Uploaders": [
+    "Christoph Berg \u003cmyon@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/postgresql-semver"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/postgresql-semver.git"
+  ],
+  "Version": [
+    "0.32.0-2"
+  ]
+}

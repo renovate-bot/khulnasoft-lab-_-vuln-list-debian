@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "foot, foot-terminfo, foot-themes"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), meson (\u003e= 0.59), ninja-build, wayland-protocols, libxkbcommon-dev, pkg-config, libpixman-1-dev, libfreetype-dev, libfontconfig-dev, libwayland-dev, libtllist-dev (\u003e= 1.0.4), libfcft-dev (\u003e= 3.0.0), libffi-dev, libharfbuzz-dev, libutf8proc-dev, systemd [linux-any], scdoc"
+  ],
+  "Checksums-Sha256": [
+    "1060e89034877c6bdc2e30d0f93f9f4793d7f24c1d0929bd86fa0b04618403a4 2193 foot_1.15.1-2.dsc df4d561eb01aca1f81da110c02fc0d46856575b27784b20d55b7352b745be213 523511 foot_1.15.1.orig.tar.gz 5ba7961e3e5b57c3aeed84bf06c2db9bd9239ba5f78accb94da823806aaf2b02 9432 foot_1.15.1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/foot"
+  ],
+  "Files": [
+    "6009a736c07b524342a6d46a25e4a16b 2193 foot_1.15.1-2.dsc bc650895ab9054eaeb20424971fc56f9 523511 foot_1.15.1.orig.tar.gz 9ac15bffac4ca231998ee1db1d43e737 9432 foot_1.15.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://codeberg.org/dnkl/foot"
+  ],
+  "Maintainer": [
+    "Birger Schacht \u003cbirger@debian.org\u003e"
+  ],
+  "Package": [
+    "foot"
+  ],
+  "Package-List": [
+    "foot deb x11 optional arch=any foot-terminfo deb oldlibs optional arch=all foot-themes deb x11 optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/birger/foot"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/birger/foot.git"
+  ],
+  "Version": [
+    "1.15.1-2"
+  ]
+}

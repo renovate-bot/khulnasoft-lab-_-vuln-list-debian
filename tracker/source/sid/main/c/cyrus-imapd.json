@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "cyrus-common, cyrus-doc, cyrus-imapd, cyrus-pop3d, cyrus-admin, cyrus-murder, cyrus-replication, cyrus-nntpd, cyrus-caldav, cyrus-clients, cyrus-dev, libcyrus-imap-perl"
+  ],
+  "Build-Depends": [
+    "bison, comerr-dev, debhelper-compat (= 13), fig2dev, flex, ghostscript, groff, libdb-dev, libdkim-dev, libical-dev, libjansson-dev, libclamav-dev, libcunit1-dev, libkrb5-dev, libkvm-dev [kfreebsd-any], libldap2-dev, libnghttp2-dev, libopendkim-dev, libpam0g-dev, libpod-pom-view-restructured-perl, libpcre2-dev, libbrotli-dev, libpq-dev, libsasl2-dev, libsasl2-modules, libshp-dev, libsnmp-dev, libsqlite3-dev, libssl-dev, libtool, libwrap0-dev, libxapian-dev, libxml2-dev, libzephyr-dev, libzstd-dev, perl, pkg-config, po-debconf, rsync, sqlite3, unicode-data, xxd, xutils-dev"
+  ],
+  "Checksums-Sha256": [
+    "a4403f1f3fce50c63273f192463dde90b55565a19306d58abacca228324fd818 5415 cyrus-imapd_3.8.0-3.dsc eb9495d936b217af3f1e6e091ba57510c0cce2d2ec244918184c71a9bb21eb4e 14160188 cyrus-imapd_3.8.0.orig.tar.gz 366300ce172eb1451ce446637bdf3a192372016fd7e2d805abd8d4db5362f80a 488 cyrus-imapd_3.8.0.orig.tar.gz.asc a23c21d3d7e0961f55e83d23dd46c87cd1aa33d2fb26ab0e8a13ccf9a9602664 87340 cyrus-imapd_3.8.0-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/cyrus-imapd"
+  ],
+  "Files": [
+    "95570cc6de41c77032079d46454d9ae0 5415 cyrus-imapd_3.8.0-3.dsc 5e9e66dd96ec9affb736f247fc02e23b 14160188 cyrus-imapd_3.8.0.orig.tar.gz e3182255288ab5ffd90f1b1c2e195dd7 488 cyrus-imapd_3.8.0.orig.tar.gz.asc 33f1085ff1a1b93ef3a417e4a0fef011 87340 cyrus-imapd_3.8.0-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.cyrusimap.org/"
+  ],
+  "Maintainer": [
+    "Debian Cyrus Team \u003cteam+cyrus@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "cyrus-imapd"
+  ],
+  "Package-List": [
+    "cyrus-admin deb mail optional arch=any cyrus-caldav deb mail optional arch=any cyrus-clients deb mail optional arch=any cyrus-common deb mail optional arch=any cyrus-dev deb devel optional arch=any cyrus-doc deb doc optional arch=all cyrus-imapd deb mail optional arch=any cyrus-murder deb mail optional arch=any cyrus-nntpd deb mail optional arch=any cyrus-pop3d deb mail optional arch=any cyrus-replication deb mail optional arch=any libcyrus-imap-perl deb perl optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "apt-utils, autoconf, automake, autotools-dev, bash-completion, bison, build-essential, check, clang, cmake, comerr-dev, cpanminus, debhelper, default-libmysqlclient-dev, doxygen, flex, g++, git, gperf, graphviz, groff, heimdal-dev, help2man, libanyevent-perl, libbsd-dev, libbsd-resource-perl, libclone-perl, libconfig-inifiles-perl, libcunit1-dev, libdata-visitor-perl, libdatetime-perl, libdb-dev, libdbi-perl, libdbm-deep-perl, libdeclare-constraints-simple-perl, libdevel-findperl-perl, libdigest-sha-perl, libencode-imaputf7-perl, libfile-chdir-perl, libfile-slurp-perl, libfuture-perl, libgetopt-long-descriptive-perl, libglib2.0-dev, libhook-lexwrap-perl, libhttp-daemon-perl, libimport-into-perl, libio-async-perl, libio-socket-inet6-perl, libio-string-perl, libio-stringy-perl, libjson-perl, libjson-xs-perl, libldap2-dev, liblist-someutils-perl, libmagic-dev, libmilter-dev, libmodule-path-perl, libmodule-refresh-perl, libmoo-perl, libmoosex-markasmethods-perl, libnet-server-perl, libnews-nntpclient-perl, libpam0g-dev, libpath-tiny-perl, libpcre3-dev, libperl-prereqscanner-perl, libppi-perl, libprotocol-websocket-perl, libreadonly-perl, libsasl2-dev, libscope-guard-perl, libsnmp-dev, libsqlite3-dev, libssl-dev, libstring-crc32-perl, libstring-rewriteprefix-perl, libstruct-dumb-perl, libsuper-perl, libtask-weaken-perl, libtest-deep-perl, libtest-deep-type-perl, libtest-identity-perl, libtest-memory-cycle-perl, libtest-most-perl, libtest-object-perl, libtest-output-perl, libtest-refcount-perl, libtest-subcalls-perl, libtest-taint-perl, libtest-unit-perl, libtool, libunix-syslog-perl, liburi-perl, libwrap0-dev, libxapian-dev, libxml-generator-perl, libxml-xpath-perl, libxml2-dev, libzephyr-dev, lsb-base, net-tools, pandoc, perl, php-cli, php-curl, pkg-config, po-debconf, rsync, sudo, tcl-dev, texi2html, texinfo, transfig, unicode-data, uuid-dev, vim, wamerican, wget, xutils-dev, zlib1g-dev"
+  ],
+  "Uploaders": [
+    "Henrique de Moraes Holschuh \u003chmh@debian.org\u003e, Ondřej Surý \u003condrej@debian.org\u003e, Anthony Prades \u003ctoony.debian@chezouam.net\u003e, Yadd \u003cyadd@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/cyrus-imapd"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/cyrus-imapd.git"
+  ],
+  "Version": [
+    "3.8.0-3"
+  ]
+}

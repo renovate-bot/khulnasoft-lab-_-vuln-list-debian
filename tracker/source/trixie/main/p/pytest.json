@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-pytest-doc, python3-pytest"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc \u003c!nodoc\u003e, lsof \u003c!nocheck\u003e, pybuild-plugin-pyproject, python3-all, python3-argcomplete \u003c!nocheck\u003e, python3-attr \u003c!nocheck\u003e, python3-hypothesis \u003c!nocheck\u003e, python3-iniconfig, python3-mock \u003c!nocheck\u003e, python3-numpy \u003c!nocheck\u003e, python3-packaging, python3-pallets-sphinx-themes \u003c!nodoc\u003e, python3-pluggy (\u003e= 0.12), python3-pygments \u003c!nocheck\u003e, python3-requests \u003c!nocheck\u003e, python3-setuptools, python3-setuptools-scm, python3-sphinx \u003c!nodoc\u003e, python3-twisted \u003c!nocheck\u003e, python3-xmlschema \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "ba81508aea1b63c86a30b8ea66520c44e6e0bc83b354f571cc8676b7af5546c0 2389 pytest_7.4.0-2.dsc b4bf8c45bd59934ed84001ad51e11b4ee40d40a1229d2c79f9c592b0a3f6bd8a 1349733 pytest_7.4.0.orig.tar.gz 60967ce3687bf85ba563139bd8850952d3b631649f34aa47301f210b35785434 10668 pytest_7.4.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pytest"
+  ],
+  "Files": [
+    "fa6e04272c9380a4edb3986e49c84e7e 2389 pytest_7.4.0-2.dsc 5d3fca31237efe6c2b81bc703b79659f 1349733 pytest_7.4.0.orig.tar.gz eb645eec62c0b7e114ff2818b61d0d25 10668 pytest_7.4.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://pytest.org/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "pytest"
+  ],
+  "Package-List": [
+    "python-pytest-doc deb doc optional arch=all python3-pytest deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Ondřej Nový \u003conovy@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/pytest"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/pytest.git"
+  ],
+  "Version": [
+    "7.4.0-2"
+  ]
+}

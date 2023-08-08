@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "rpki-client"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), autoconf, automake, libtool, pkg-config, libexpat1-dev, libssl-dev, libtls-dev, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "f7940296fbbe1014a75d93dc489525744571aac323c0820bf3ddfb12eae65691 1551 rpki-client_8.5-1.dsc ab04ad76d5302fccce93b167324b5f08c2384c980f9a046bba934e8358d62c0b 496116 rpki-client_8.5.orig.tar.gz 7b6cdf6db36079725f81dd599b5f351b1d878a60058e801c01ac736e7023106e 833 rpki-client_8.5.orig.tar.gz.asc e14421a6d2290aefcb12fff41303cb5ea567ed9ca6c635ae8156f865bbe9a515 6632 rpki-client_8.5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rpki-client"
+  ],
+  "Files": [
+    "08bb2b57afbd098133bc50562570936b 1551 rpki-client_8.5-1.dsc bb2d5b77fa6f27775b326e760ef84e26 496116 rpki-client_8.5.orig.tar.gz 26193e4367eaf3aaa1a04bf8ccf37dcf 833 rpki-client_8.5.orig.tar.gz.asc cad9b0a1f840ba3994c25fe224bb4639 6632 rpki-client_8.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://rpki-client.org/"
+  ],
+  "Maintainer": [
+    "Marco d'Itri \u003cmd@linux.it\u003e"
+  ],
+  "Package": [
+    "rpki-client"
+  ],
+  "Package-List": [
+    "rpki-client deb net optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/md/rpki-client"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/md/rpki-client.git"
+  ],
+  "Version": [
+    "8.5-1"
+  ]
+}

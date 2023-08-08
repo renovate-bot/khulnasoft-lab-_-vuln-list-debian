@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libuninameslist-dev, libuninameslist1"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "5d235c62fed40ebb2e46b4178cfa8118174f69356ae404b24f9df5f4a5b7e040 2080 libuninameslist_20230523-1.dsc 612936a22dddf6ef2c8a6739185d9d749cb409ebc658d232eb418f78820c7a18 952127 libuninameslist_20230523.orig.tar.gz 207758305c0fda587c7e92a3bdc8ec7f98bdf3d57e2e22a1021c83641aa41962 5436 libuninameslist_20230523-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libu/libuninameslist"
+  ],
+  "Files": [
+    "d065d2d28ff6376e3b6c3924c4c7f276 2080 libuninameslist_20230523-1.dsc 4a955ac352e0ac5b31f35cce75286f32 952127 libuninameslist_20230523.orig.tar.gz 2b698359216ddb22819889405e011afd 5436 libuninameslist_20230523-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/fontforge/libuninameslist"
+  ],
+  "Maintainer": [
+    "Debian Fonts Task Force \u003cdebian-fonts@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "libuninameslist"
+  ],
+  "Package-List": [
+    "libuninameslist-dev deb libdevel optional arch=any libuninameslist1 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Hideki Yamane \u003chenrich@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/fonts-team/libuninameslist"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/fonts-team/libuninameslist.git"
+  ],
+  "Version": [
+    "20230523-1"
+  ]
+}

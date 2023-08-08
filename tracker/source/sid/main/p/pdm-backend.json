@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-pdm-backend"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, git \u003c!nocheck\u003e, pybuild-plugin-pyproject, python3, python3-boolean, python3-cerberus, python3-dev \u003c!nocheck\u003e, python3-editables, python3-license-expression, python3-packaging (\u003e= 23), python3-pkg-resources, python3-pyproject-metadata, python3-pyparsing (\u003e= 3.0.7), python3-pytest \u003c!nocheck\u003e, python3-setuptools \u003c!nocheck\u003e, python3-tomli, python3-tomli-w (\u003e= 1.0.0), python3-validate-pyproject"
+  ],
+  "Checksums-Sha256": [
+    "1ead0b67cf6800d959f19604a6ab46941b5cd5b41eca0c3fbd846b1a36d68d55 2444 pdm-backend_2.1.4+ds1-1.dsc e7961712f9b6c71f08e11e4f495e7c3cb068cd1750064f2d7b133bbb1473159e 71496 pdm-backend_2.1.4+ds1.orig.tar.xz 4cb4e4dc6a7b3a528b45fafd39e73098be2de61511f17d7f80cec7750c82fafd 4176 pdm-backend_2.1.4+ds1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pdm-backend"
+  ],
+  "Files": [
+    "325e4cd8a12e21b8582cd86094a2e77c 2444 pdm-backend_2.1.4+ds1-1.dsc 9e19e77113672f50e2d02e630fec1806 71496 pdm-backend_2.1.4+ds1.orig.tar.xz 2fcaa35ba563f899f92352d0b5281070 4176 pdm-backend_2.1.4+ds1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/pdm-project/pdm-backend"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "pdm-backend"
+  ],
+  "Package-List": [
+    "python3-pdm-backend deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Boyuan Yang \u003cbyang@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/pdm-backend"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/pdm-backend.git"
+  ],
+  "Version": [
+    "2.1.4+ds1-1"
+  ]
+}

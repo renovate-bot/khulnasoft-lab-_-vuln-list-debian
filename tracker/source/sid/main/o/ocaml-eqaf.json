@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libeqaf-ocaml-dev, libeqaf-ocaml"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), ocaml-nox, ocaml-dune, libcstruct-ocaml-dev, dh-ocaml"
+  ],
+  "Checksums-Sha256": [
+    "5fa7099495621993eb9fddca0a135b138dba57d89a0731ff06137733c5402bc2 2063 ocaml-eqaf_0.9-2.dsc ec0e28a946ac6817f95d5854f05a9961ae3a8408bb610e79cfad01b9b255dfe0 30267 ocaml-eqaf_0.9.orig.tar.bz2 77f3787c40a28bd745b1486f81f566dbfbf2f647f828e6c9e6f1a20e625677b4 2256 ocaml-eqaf_0.9-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/o/ocaml-eqaf"
+  ],
+  "Files": [
+    "7537a298e0ce5c924ac0b4070bd18db5 2063 ocaml-eqaf_0.9-2.dsc e461e26a796f536907ba16e2fa051cab 30267 ocaml-eqaf_0.9.orig.tar.bz2 005c999e18bed8b848444d87914d11eb 2256 ocaml-eqaf_0.9-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/mirage/eqaf"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "ocaml-eqaf"
+  ],
+  "Package-List": [
+    "libeqaf-ocaml deb ocaml optional arch=any libeqaf-ocaml-dev deb ocaml optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Stéphane Glondu \u003cglondu@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/ocaml-eqaf"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/ocaml-eqaf.git"
+  ],
+  "Version": [
+    "0.9-2"
+  ]
+}

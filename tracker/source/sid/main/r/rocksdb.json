@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "amd64 arm64 armel armhf ppc64el mips mipsel mips64el s390x i386 riscv64"
+  ],
+  "Binary": [
+    "librocksdb-dev, librocksdb8.3, rocksdb-tools"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, libgflags-dev, libsnappy-dev, libbz2-dev, zlib1g-dev, liblz4-dev, libzstd-dev"
+  ],
+  "Checksums-Sha256": [
+    "48cebee3c033245a33e7ed9652cd056cbf01f730b2fa58c767691a9ab9f19600 2198 rocksdb_8.3.2-2.dsc b55d6da6f562eb79bad7fdc9c368efc9ea4bfa239e69cead37923fc845a43fba 12713061 rocksdb_8.3.2.orig.tar.gz 69b4e952cbc016eec15051ee4ee779a3f7952abcfdf02c5671a607c1299ec426 9296 rocksdb_8.3.2-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rocksdb"
+  ],
+  "Files": [
+    "95874527c0ea1d00705fd478de28dd19 2198 rocksdb_8.3.2-2.dsc 7e827d973b05333cc1849163e0a66573 12713061 rocksdb_8.3.2.orig.tar.gz a17fe1528baab39a2573b7dfcc31f50d 9296 rocksdb_8.3.2-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://rocksdb.org/"
+  ],
+  "Maintainer": [
+    "Laszlo Boszormenyi (GCS) \u003cgcs@debian.org\u003e"
+  ],
+  "Package": [
+    "rocksdb"
+  ],
+  "Package-List": [
+    "librocksdb-dev deb libdevel optional arch=amd64,arm64,armel,armhf,ppc64el,mips,mipsel,mips64el,s390x,i386,riscv64 librocksdb8.3 deb libs optional arch=amd64,arm64,armel,armhf,ppc64el,mips,mipsel,mips64el,s390x,i386,riscv64 rocksdb-tools deb database optional arch=amd64,arm64,armel,armhf,ppc64el,mips,mipsel,mips64el,s390x,i386,riscv64"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Version": [
+    "8.3.2-2"
+  ]
+}

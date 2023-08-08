@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libmirage-crypto-ocaml-dev, libmirage-crypto-ocaml"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), ocaml-nox, ocaml-dune, libdune-ocaml-dev, libounit-ocaml-dev, libcstruct-ocaml-dev, libeqaf-ocaml-dev, libduration-ocaml-dev, libmtime-ocaml-dev, liblwt-ocaml-dev, libsexplib0-ocaml-dev, libzarith-ocaml-dev, liblogs-ocaml-dev, pkg-config, dh-ocaml"
+  ],
+  "Checksums-Sha256": [
+    "7b76dccef82eadc2af96433dda4b26e17e016f1958f9106d95b539d044c5b711 2408 ocaml-mirage-crypto_0.11.1-1.dsc 647d1ddd624e62bfd0baaf481fe4214813e67e8afbeb05bd2602b11afe8daa37 1497380 ocaml-mirage-crypto_0.11.1.orig.tar.gz 9aae3868631810716c38b1bf430196870b36f3451cca206115867be212225fdd 3928 ocaml-mirage-crypto_0.11.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/o/ocaml-mirage-crypto"
+  ],
+  "Files": [
+    "a695fbb9f9ff211d47cfab0b7001b66d 2408 ocaml-mirage-crypto_0.11.1-1.dsc 4b99139ef93ac4e065ba015a17b09c68 1497380 ocaml-mirage-crypto_0.11.1.orig.tar.gz 42faa6a7fedb41719e2baa12999e5312 3928 ocaml-mirage-crypto_0.11.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/mirage/mirage-crypto"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "ocaml-mirage-crypto"
+  ],
+  "Package-List": [
+    "libmirage-crypto-ocaml deb ocaml optional arch=any libmirage-crypto-ocaml-dev deb ocaml optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Stéphane Glondu \u003cglondu@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/ocaml-mirage-crypto"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/ocaml-mirage-crypto.git"
+  ],
+  "Version": [
+    "0.11.1-1"
+  ]
+}

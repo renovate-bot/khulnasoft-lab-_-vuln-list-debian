@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libocsipersist-ocaml-dev, libocsipersist-ocaml, libocsipersist-lib-ocaml-dev, libocsipersist-lib-ocaml, libocsipersist-sqlite-ocaml-dev, libocsipersist-sqlite-ocaml, libocsipersist-pgsql-ocaml-dev, libocsipersist-pgsql-ocaml"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), ocaml, ocaml-dune, liblwt-ocaml-dev, libocsigenserver-ocaml-dev (\u003e= 3.0.0), liblwt-log-ocaml-dev, libxml-light-ocaml-dev, libsqlite3-ocaml-dev, libpgocaml-ocaml-dev, dh-ocaml"
+  ],
+  "Checksums-Sha256": [
+    "e1a024845044e12bf76f4bb69f06f2b8c75839f520851b418d23a60e09206873 2757 ocsipersist_1.1.0-2.dsc ff4a4374ef8e2198ef768aebfd3a255344d260f8f2568db7b64018399d46fcce 26735 ocsipersist_1.1.0.orig.tar.gz 030ccfcde03bc7f4ff9e93ebd200c5b5c61b16770d5e0208a428bd7613e8d132 2976 ocsipersist_1.1.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/o/ocsipersist"
+  ],
+  "Files": [
+    "c4f399863dbc53c310ea9d7c057e0db2 2757 ocsipersist_1.1.0-2.dsc 9d878dd68c0618b87268ebbd1472fa8c 26735 ocsipersist_1.1.0.orig.tar.gz 5910c9b6ad65285d996857d611c3f554 2976 ocsipersist_1.1.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://ocsigen.org/ocsipersist"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "ocsipersist"
+  ],
+  "Package-List": [
+    "libocsipersist-lib-ocaml deb ocaml optional arch=any libocsipersist-lib-ocaml-dev deb ocaml optional arch=any libocsipersist-ocaml deb ocaml optional arch=any libocsipersist-ocaml-dev deb ocaml optional arch=any libocsipersist-pgsql-ocaml deb ocaml optional arch=any libocsipersist-pgsql-ocaml-dev deb ocaml optional arch=any libocsipersist-sqlite-ocaml deb ocaml optional arch=any libocsipersist-sqlite-ocaml-dev deb ocaml optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Stéphane Glondu \u003cglondu@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/ocsipersist"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/ocsipersist.git"
+  ],
+  "Version": [
+    "1.1.0-2"
+  ]
+}

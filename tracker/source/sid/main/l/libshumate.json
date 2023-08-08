@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libshumate-1.0-1, libshumate-dev, gir1.2-shumate-1.0, libshumate-common, libshumate-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, gi-docgen, libcairo2-dev (\u003e= 1.16), libglib2.0-dev (\u003e= 2.68.0), libgtk-4-dev, libsoup-3.0-dev, libsqlite3-dev (\u003e= 1.12.0), meson (\u003e= 0.53.0), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "5061c0bead40a9d79bda655c85ff2b0c553936102252cc050a4154d4fda967f2 2531 libshumate_1.0.5-1.dsc 93e8beff5df22d0189b0029e1247b64ce253ec991f981e52268a674d2f8057d4 109109 libshumate_1.0.5.orig.tar.bz2 b1f1dd39d7264beb174731c5e7eaa041e7a7ed3eb8e9aa6a4da3903c8fe908da 6128 libshumate_1.0.5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libs/libshumate"
+  ],
+  "Files": [
+    "c97060ab01d30ee1c9f9d5d425be5733 2531 libshumate_1.0.5-1.dsc 7f820f99b03d53b711158431fea86d30 109109 libshumate_1.0.5.orig.tar.bz2 934c7597dbdd7331773aae05706e707a 6128 libshumate_1.0.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.gnome.org/GNOME/libshumate"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libshumate"
+  ],
+  "Package-List": [
+    "gir1.2-shumate-1.0 deb introspection optional arch=any libshumate-1.0-1 deb libs optional arch=any libshumate-common deb libs optional arch=all libshumate-dev deb libdevel optional arch=any libshumate-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cmatthias.geiger1024@tutanota.de\u003e, Jeremy Bicha \u003cjbicha@ubuntu.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/libshumate"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/libshumate.git"
+  ],
+  "Version": [
+    "1.0.5-1"
+  ]
+}

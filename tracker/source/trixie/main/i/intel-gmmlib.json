@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "amd64 i386 x32"
+  ],
+  "Binary": [
+    "libigdgmm12, libigdgmm-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, libspdlog-dev"
+  ],
+  "Checksums-Sha256": [
+    "98772fab7ff57545839452b3cf8675208091d59f8efe383617329cfd8d72ab08 1548 intel-gmmlib_22.3.9+ds1-1.dsc e4a1ad6960ade9c0a7a0353d5c80cc7ccdd05f226dd491c48eeee16870ccf25a 477916 intel-gmmlib_22.3.9+ds1.orig.tar.xz 52bd5ad9bcf2704bf4350fb80441593e22c4ce9903e5a937718476ff0c58af4a 4532 intel-gmmlib_22.3.9+ds1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/intel-gmmlib"
+  ],
+  "Files": [
+    "f39b30b113945e601beb1441050e35f7 1548 intel-gmmlib_22.3.9+ds1-1.dsc d7f110799120a17e10683ddfad879143 477916 intel-gmmlib_22.3.9+ds1.orig.tar.xz 287ae5f8446985163ed56acc961116a7 4532 intel-gmmlib_22.3.9+ds1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/intel/gmmlib"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "intel-gmmlib"
+  ],
+  "Package-List": [
+    "libigdgmm-dev deb libdevel optional arch=amd64,i386,x32 libigdgmm12 deb libs optional arch=amd64,i386,x32"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Sebastian Ramacher \u003csramacher@debian.org\u003e, Timo Aaltonen \u003ctjaalton@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/intel-gmmlib"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/intel-gmmlib.git"
+  ],
+  "Version": [
+    "22.3.9+ds1-1"
+  ]
+}

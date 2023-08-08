@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "ccache"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), elfutils, cmake, libzstd-dev, libhiredis-dev (\u003e= 0.14.1), asciidoctor"
+  ],
+  "Checksums-Sha256": [
+    "314d632c6cb9f21c521c2f02218a7d8dbf041f65da26507325a7cd33f21d0a17 1932 ccache_4.8.2-1.dsc 3d3fb3f888a5b16c4fa7ee5214cca76348afd6130e8443de5f6f2424f2076a49 560888 ccache_4.8.2.orig.tar.xz e35b36b14028764329532c2eea1ffb545736d515cfb5b63df6c188ad6136532a 16864 ccache_4.8.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/ccache"
+  ],
+  "Files": [
+    "5146aafd919431c029979a1eb56f3fe2 1932 ccache_4.8.2-1.dsc 34330b432778263e87af094d60c53bf1 560888 ccache_4.8.2.orig.tar.xz 9ab8f61d46891004dffdb09adad73674 16864 ccache_4.8.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://ccache.dev"
+  ],
+  "Maintainer": [
+    "Joel Rosdahl \u003cjoel@debian.org\u003e"
+  ],
+  "Package": [
+    "ccache"
+  ],
+  "Package-List": [
+    "ccache deb devel optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "devel"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "binutils, elfutils, gcc, libc-dev"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/ccache"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/ccache.git"
+  ],
+  "Version": [
+    "4.8.2-1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "gallery-dl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "a0277c9487cd45ac0f44df2e5185edd1db05f0928fe8d7d510850cd44098fe02 2234 gallery-dl_1.25.8-1.dsc eaad85f73486669d2266806f39422e204a8db3dee16ec6f3136dd72724d95037 554759 gallery-dl_1.25.8.orig.tar.gz 4c496705dcefd45a5384f3af3d993195ae2651d3a18728b5a2db1f7ff144b095 833 gallery-dl_1.25.8.orig.tar.gz.asc 6c74bd8ec64af79af596849e153f2f04cfc731fdafb1e401565f65c45ed02de9 7508 gallery-dl_1.25.8-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gallery-dl"
+  ],
+  "Files": [
+    "05dacac73726c1b9559b9c598674aa93 2234 gallery-dl_1.25.8-1.dsc 471a9815f8233c2b514ddd7dc700a909 554759 gallery-dl_1.25.8.orig.tar.gz e85187c0999a36bdac72dd02a40b0cab 833 gallery-dl_1.25.8.orig.tar.gz.asc bd221746b5eb73bef192493a2bb96812 7508 gallery-dl_1.25.8-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/mikf/gallery-dl"
+  ],
+  "Maintainer": [
+    "Unit 193 \u003cunit193@debian.org\u003e"
+  ],
+  "Package": [
+    "gallery-dl"
+  ],
+  "Package-List": [
+    "gallery-dl deb web optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, yt-dlp"
+  ],
+  "Vcs-Browser": [
+    "https://git.unit193.net/cgit/users/unit193/gallery-dl.git"
+  ],
+  "Vcs-Git": [
+    "https://git.unit193.net/cgit/users/unit193/gallery-dl.git"
+  ],
+  "Version": [
+    "1.25.8-1"
+  ]
+}

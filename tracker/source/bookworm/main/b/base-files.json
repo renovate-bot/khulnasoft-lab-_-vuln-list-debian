@@ -1,0 +1,44 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "base-files"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), debhelper (\u003e= 13.10~)"
+  ],
+  "Checksums-Sha256": [
+    "28dbb051c63e3efa95caf9e67d6452f77d835280fef3212a44237172908c38da 1133 base-files_12.4+deb12u1.dsc d2c5ab6e185b73a38995930f137ec4e06f9b4ebbf97065a50ae9076ece5e6aaf 66000 base-files_12.4+deb12u1.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/b/base-files"
+  ],
+  "Files": [
+    "95128647769765046c2e01ba2be70e0a 1133 base-files_12.4+deb12u1.dsc 703dd39184fcef49a970bda456c53a87 66000 base-files_12.4+deb12u1.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Santiago Vila \u003csanvila@debian.org\u003e"
+  ],
+  "Package": [
+    "base-files"
+  ],
+  "Package-List": [
+    "base-files deb admin required arch=any essential=yes"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "admin"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Version": [
+    "12.4+deb12u1"
+  ]
+}

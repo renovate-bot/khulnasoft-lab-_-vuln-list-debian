@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libreactivedata-ocaml-dev, libreactivedata-ocaml"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libreact-ocaml-dev (\u003e= 1.2.1), ocaml-nox, ocaml-dune, dh-ocaml (\u003e= 1.2)"
+  ],
+  "Checksums-Sha256": [
+    "7275cbd1020fa2209c64c7de7d7eca9c9d7ead20107f5ceda51ac3c4a6202b33 1907 reactivedata_0.3-3.dsc 29e6fd520a839b04b0fdfbb71766ac1b0d78c39de17722460bd15718affc4bf6 12559 reactivedata_0.3.orig.tar.gz e8dbb34596227eb594f093db026c65c21f883d34fa7f63682d5626a4672d881c 2288 reactivedata_0.3-3.debian.tar.xz"
+  ],
+  "Dgit": [
+    "6735dddb0ce6aa5e124d67c2d31c7894648bc4ad debian archive/debian/0.3-3 https://git.dgit.debian.org/reactivedata"
+  ],
+  "Directory": [
+    "pool/main/r/reactivedata"
+  ],
+  "Files": [
+    "23ccf94b8bbc8a3890810eee3a8c83ef 1907 reactivedata_0.3-3.dsc ecafae07f46cefa1cc5ef1ca176eba95 12559 reactivedata_0.3.orig.tar.gz e2432f7981b4c61a40cb1c4c0787563f 2288 reactivedata_0.3-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ocsigen/reactiveData"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "reactivedata"
+  ],
+  "Package-List": [
+    "libreactivedata-ocaml deb ocaml optional arch=any libreactivedata-ocaml-dev deb ocaml optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Uploaders": [
+    "Stéphane Glondu \u003cglondu@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/reactivedata"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/reactivedata.git"
+  ],
+  "Version": [
+    "0.3-3"
+  ]
+}

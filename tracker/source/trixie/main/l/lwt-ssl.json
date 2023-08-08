@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "liblwt-ssl-ocaml-dev, liblwt-ssl-ocaml"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-ocaml, ocaml-findlib, ocaml-dune, liblwt-ocaml-dev, libssl-ocaml-dev, ocaml-nox"
+  ],
+  "Checksums-Sha256": [
+    "7d847d6832365fcfce261a6f318b6ef380a1a99d9bb8dc75f671b9dc376a7d7c 2094 lwt-ssl_1.2.0-1.dsc 209333cdb033676e2b1116ffd1b5e430a645d66f277d885984d46db270346174 14955 lwt-ssl_1.2.0.orig.tar.gz 16c80cace239b35c40e7172f54975fec7c0c568f6f84cdb8856420c6545c6522 2144 lwt-ssl_1.2.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/lwt-ssl"
+  ],
+  "Files": [
+    "5359a87208db4894a6ed2309f7caf3f3 2094 lwt-ssl_1.2.0-1.dsc d15f01752e7b21133da8e80e4d08d2a4 14955 lwt-ssl_1.2.0.orig.tar.gz e38c26e0a795badafbc3bfd091a3df86 2144 lwt-ssl_1.2.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ocsigen/lwt_ssl"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "lwt-ssl"
+  ],
+  "Package-List": [
+    "liblwt-ssl-ocaml deb ocaml optional arch=any liblwt-ssl-ocaml-dev deb ocaml optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Stéphane Glondu \u003cglondu@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/lwt-ssl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/lwt-ssl.git"
+  ],
+  "Version": [
+    "1:1.2.0-1"
+  ]
+}

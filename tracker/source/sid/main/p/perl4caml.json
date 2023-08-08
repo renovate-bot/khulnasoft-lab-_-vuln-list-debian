@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libperl4caml-ocaml-dev, libperl4caml-ocaml, libperl4caml-ocaml-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libperl-dev, ocaml, dh-ocaml"
+  ],
+  "Checksums-Sha256": [
+    "0dc3c14d737b61e25dd313cb264b1bd121c0541ffb6ed9c6a4f5a9ed7695f271 1945 perl4caml_0.9.5-6.dsc 3dc19cb1c4941550219d2824b40c565a536736ef315098c898d2fee1196136b8 40107 perl4caml_0.9.5.orig.tar.gz 22ce72b0a1868c7fafd2ef4ca491c134c4924b608e2d51542190ec220ad007e8 6984 perl4caml_0.9.5-6.debian.tar.xz"
+  ],
+  "Dgit": [
+    "b7d5f98336688489371df0db4277e1609885b469 debian archive/debian/0.9.5-6 https://git.dgit.debian.org/perl4caml"
+  ],
+  "Directory": [
+    "pool/main/p/perl4caml"
+  ],
+  "Files": [
+    "dcf69cd3cedecce22279743d6caa7aa1 1945 perl4caml_0.9.5-6.dsc 96c8587582b078f4c92c275431dace15 40107 perl4caml_0.9.5.orig.tar.gz dd05272af56024bc85a9707b53135c4a 6984 perl4caml_0.9.5-6.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://merjis.com/developers/perl4caml"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "perl4caml"
+  ],
+  "Package-List": [
+    "libperl4caml-ocaml deb ocaml optional arch=any libperl4caml-ocaml-dev deb ocaml optional arch=any libperl4caml-ocaml-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Mike Furr \u003cmfurr@debian.org\u003e, Stéphane Glondu \u003cglondu@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/perl4caml"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/perl4caml.git"
+  ],
+  "Version": [
+    "0.9.5-6"
+  ]
+}

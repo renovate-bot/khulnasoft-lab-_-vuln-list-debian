@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "postgresql-15-prefix"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), postgresql-all (\u003e= 217~)"
+  ],
+  "Checksums-Sha256": [
+    "68568b86c823b626af48ef3880fe22793645a91c51bb988f319c58e53670db95 1967 prefix_1.2.10-1.dsc 4342f251432a5f6fb05b8597139d3ccde8dcf87e8ca1498e7ee931ca057a8575 75654 prefix_1.2.10.orig.tar.gz 6464770d0f67e50dc4c0de2d2526e831b4804cb1a97b0648da753c80cf9f6c54 3932 prefix_1.2.10-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/prefix"
+  ],
+  "Files": [
+    "3d968699efbbf608f7542907151f65a4 1967 prefix_1.2.10-1.dsc b9c85fdc034700c47455bfe88581a5f6 75654 prefix_1.2.10.orig.tar.gz cbdf3ba178dd25386a950ef8ff39ad64 3932 prefix_1.2.10-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian PostgreSQL Maintainers \u003cteam+postgresql@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "prefix"
+  ],
+  "Package-List": [
+    "postgresql-15-prefix deb database optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "make"
+  ],
+  "Uploaders": [
+    "Dimitri Fontaine \u003cdim@tapoueh.org\u003e, Christoph Berg \u003cmyon@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://github.com/dimitri/prefix"
+  ],
+  "Vcs-Git": [
+    "https://github.com/dimitri/prefix.git"
+  ],
+  "Version": [
+    "1.2.10-1"
+  ]
+}

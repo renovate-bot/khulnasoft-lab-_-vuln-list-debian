@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "postgresql-15-ip4r"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), postgresql-all (\u003e= 217~)"
+  ],
+  "Checksums-Sha256": [
+    "c178bc3e2a9951f64fdb6d44a864f8a3b9d197c13d25d6e735b46fc32394482d 1965 ip4r_2.4.2-1.dsc 0f7b1f159974f49a47842a8ab6751aecca1ed1142b6d5e38d81b064b2ead1b4b 132976 ip4r_2.4.2.orig.tar.gz 5ee87acb7d3be50cb12f2d59238b4181a2bd297660657c9b0f91e5c3ef365922 3960 ip4r_2.4.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/ip4r"
+  ],
+  "Files": [
+    "798ac6e09c7809c5c4b53e301ba999e4 1965 ip4r_2.4.2-1.dsc 15185a6a71dde8e20440b35904b42630 132976 ip4r_2.4.2.orig.tar.gz 04bc044d4ff8c69f6e82478f24267357 3960 ip4r_2.4.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/RhodiumToad/ip4r"
+  ],
+  "Maintainer": [
+    "Debian PostgreSQL Maintainers \u003cteam+postgresql@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "ip4r"
+  ],
+  "Package-List": [
+    "postgresql-15-ip4r deb misc optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "make"
+  ],
+  "Uploaders": [
+    "Christoph Berg \u003cmyon@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/postgresql/ip4r"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/postgresql/ip4r.git"
+  ],
+  "Version": [
+    "2.4.2-1"
+  ]
+}

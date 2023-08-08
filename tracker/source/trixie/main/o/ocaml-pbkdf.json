@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libpbkdf-ocaml-dev, libpbkdf-ocaml"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), ocaml-nox, ocaml-dune, libcstruct-ocaml-dev, libmirage-crypto-ocaml-dev, dh-ocaml"
+  ],
+  "Checksums-Sha256": [
+    "456ca7707467c63d4f571b7ae6210266adbd97280564ab69de8fc13624161be8 2122 ocaml-pbkdf_1.2.0-2.dsc 7bb46175f6623e9a2b4f39e7d7e494e5c2d899d7c460d5a9770d738263817457 5602 ocaml-pbkdf_1.2.0.orig.tar.gz 5280507b0d2a5c5905c8c6a43f9bcae6920fc19b86c7cfcadc8a64bb4525b42c 2188 ocaml-pbkdf_1.2.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/o/ocaml-pbkdf"
+  ],
+  "Files": [
+    "4a5b05994fa7f9e2b0609760db6f08c3 2122 ocaml-pbkdf_1.2.0-2.dsc 1e0e69de61b2d9d4f9843572ecc6655c 5602 ocaml-pbkdf_1.2.0.orig.tar.gz f677987afc7d1ee61ccf10e8ddb14c42 2188 ocaml-pbkdf_1.2.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/abeaumont/ocaml-pbkdf"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "ocaml-pbkdf"
+  ],
+  "Package-List": [
+    "libpbkdf-ocaml deb ocaml optional arch=any libpbkdf-ocaml-dev deb ocaml optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Stéphane Glondu \u003cglondu@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/ocaml-pbkdf"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/ocaml-pbkdf.git"
+  ],
+  "Version": [
+    "1.2.0-2"
+  ]
+}

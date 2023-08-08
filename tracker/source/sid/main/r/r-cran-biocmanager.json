@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-cran-biocmanager"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev"
+  ],
+  "Checksums-Sha256": [
+    "086ee796929a37028ed2ec08183d08e95818a86d417c68b685ea6b4003e7a34f 2269 r-cran-biocmanager_1.30.21.1+dfsg-1.dsc 8d4e8416d02b6de0cab67ebd43254f446661f026cefbf4fbdd91a93710c27049 184096 r-cran-biocmanager_1.30.21.1+dfsg.orig.tar.xz 5951e934659fd03914bb5e4be591e4adeeed8aea62d71cb4a01bf3eaf7d36e5a 6084 r-cran-biocmanager_1.30.21.1+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-biocmanager"
+  ],
+  "Files": [
+    "07ab3c9038aa32fa403c7829b5520e7b 2269 r-cran-biocmanager_1.30.21.1+dfsg-1.dsc 0260cc9fe6257e2103a7fb39c8179dd8 184096 r-cran-biocmanager_1.30.21.1+dfsg.orig.tar.xz e8f1ddde165995076fdae07403ffb925 6084 r-cran-biocmanager_1.30.21.1+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=BiocManager"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-biocmanager"
+  ],
+  "Package-List": [
+    "r-cran-biocmanager deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-bioc-biocversion, r-cran-testthat"
+  ],
+  "Uploaders": [
+    "Dylan Aïssi \u003cdaissi@debian.org\u003e, Charles Plessy \u003cplessy@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-biocmanager"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-biocmanager.git"
+  ],
+  "Version": [
+    "1.30.21.1+dfsg-1"
+  ]
+}

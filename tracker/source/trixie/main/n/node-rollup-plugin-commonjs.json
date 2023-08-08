@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "node-rollup-plugin-commonjs"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-nodejs, node-commondir \u003c!nocheck\u003e, node-estree-walker \u003c!nocheck\u003e, node-glob \u003c!nocheck\u003e, node-is-reference \u003c!nocheck\u003e, node-locate-character \u003c!nocheck\u003e, node-magic-string \u003c!nocheck\u003e, node-resolve \u003c!nocheck\u003e, node-rollup-plugin-json, node-rollup-plugin-node-resolve \u003c!nocheck\u003e, node-rollup-plugin-typescript, node-rollup-pluginutils (\u003e= 3.1.0), node-source-map \u003c!nocheck\u003e, node-tape \u003c!nocheck\u003e, rollup (\u003e= 2.68~)"
+  ],
+  "Checksums-Sha256": [
+    "497da16c0632b723f43148b0c7b8da057d49945bdc3d4c09f061899be50d3886 2617 node-rollup-plugin-commonjs_24.0.1+ds1-2.dsc 7a57d30247329ffb4086c5e8cb34bcbfa6c0d2d7d9cee9af87c6b4bcf911df84 197736 node-rollup-plugin-commonjs_24.0.1+ds1.orig.tar.xz e244e6cb318139470e99be8f7f3e6581cfdc8ff7cbb60868a1d11e2d98f022c6 9896 node-rollup-plugin-commonjs_24.0.1+ds1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/n/node-rollup-plugin-commonjs"
+  ],
+  "Files": [
+    "a6ea5d8b1bf6dcaa199920035150c60b 2617 node-rollup-plugin-commonjs_24.0.1+ds1-2.dsc 5b28682f36efee052e374fab0a5a1d4c 197736 node-rollup-plugin-commonjs_24.0.1+ds1.orig.tar.xz 624e9029e8bd859edd7e716ffbf8c1e0 9896 node-rollup-plugin-commonjs_24.0.1+ds1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/rollup/plugins"
+  ],
+  "Maintainer": [
+    "Debian Javascript Maintainers \u003cpkg-javascript-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "node-rollup-plugin-commonjs"
+  ],
+  "Package-List": [
+    "node-rollup-plugin-commonjs deb javascript optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "javascript"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-nodejs"
+  ],
+  "Uploaders": [
+    "Julien Puydt \u003cjpuydt@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/js-team/node-rollup-plugin-commonjs"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/js-team/node-rollup-plugin-commonjs.git"
+  ],
+  "Version": [
+    "24.0.1+ds1-2"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libpam-kwallet-common, libpam-kwallet5"
+  ],
+  "Build-Depends": [
+    "cmake (\u003e= 3.16~), debhelper-compat (= 13), extra-cmake-modules (\u003e= 5.102.0~), libgcrypt20-dev (\u003e= 1.5.0~), libkf5wallet-dev (\u003e= 5.102.0~), libpam0g-dev, pkg-kde-tools, qtbase5-dev"
+  ],
+  "Checksums-Sha256": [
+    "4a1b95ed5fd91eda9666ecf3af44b5d4e35ea67ddb57a235775943f773db6041 2577 kwallet-pam_5.27.7-1.dsc 2b3bf57d4d1108c64fdaee7b3b14008636ff8316d9dd8325206f47fc2f8680a9 22884 kwallet-pam_5.27.7.orig.tar.xz 3ee7137aba5afccf6ad1d38ca91e02f3e8d3a286e25fbb2d9b3f3157cb0b8d57 833 kwallet-pam_5.27.7.orig.tar.xz.asc dda8f98c3ba5db8fa1b95da4984e6f4e79cbe16749234a9350d9f6d45653477b 16112 kwallet-pam_5.27.7-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/k/kwallet-pam"
+  ],
+  "Files": [
+    "3d8e720b541d51a52359e0ff885b982f 2577 kwallet-pam_5.27.7-1.dsc d75c043ef114b2b590f8ede12bb86a24 22884 kwallet-pam_5.27.7.orig.tar.xz 265e0c258c869b2916b4d2232d5cb5fd 833 kwallet-pam_5.27.7.orig.tar.xz.asc 5136df8275528bf5ed3dcade3a056bcd 16112 kwallet-pam_5.27.7-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://invent.kde.org/plasma/kwallet-pam"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "kwallet-pam"
+  ],
+  "Package-List": [
+    "libpam-kwallet-common deb admin optional arch=all libpam-kwallet5 deb admin optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Norbert Preining \u003cnorbert@preining.info\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e, Scarlett Moore \u003csgmoore@kde.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/kde/kwallet-pam"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/kde/kwallet-pam.git"
+  ],
+  "Version": [
+    "5.27.7-1"
+  ]
+}

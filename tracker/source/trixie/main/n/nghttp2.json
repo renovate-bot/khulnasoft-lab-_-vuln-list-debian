@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libnghttp2-dev, libnghttp2-doc, libnghttp2-14, nghttp2-client, nghttp2-proxy, nghttp2-server, nghttp2"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 13), debhelper-compat (= 13), libc-ares-dev, libcunit1-dev \u003c!nocheck\u003e, libev-dev, libjansson-dev, libjemalloc-dev [!hurd-i386], libssl-dev, libsystemd-dev, libxml2-dev, pkg-config, zlib1g-dev"
+  ],
+  "Build-Depends-Indep": [
+    "python3-sphinx, python3-sphinx-rtd-theme"
+  ],
+  "Checksums-Sha256": [
+    "ed3711c30985bce4cefc11f215396ab9ce2bcccbc3fe41c1a8dec1c6a4ab6d14 2534 nghttp2_1.55.1-1.dsc b89dece5bc3382b82c22db8dc8d1e062258cb7af8e4ad55278fa7149645a588d 1071258 nghttp2_1.55.1.orig.tar.gz 722264b8a449d39ce2e043a6f3834b47778b0389edd0a0e53c1f6cfe2051b7ce 11704 nghttp2_1.55.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/n/nghttp2"
+  ],
+  "Files": [
+    "06e0e757d7ad0646fd98000f76a4e823 2534 nghttp2_1.55.1-1.dsc 759d8c1f6f93c90789f91ec02655150d 1071258 nghttp2_1.55.1.orig.tar.gz 35bbba6caa23364deae89071591c59d8 11704 nghttp2_1.55.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://nghttp2.org/"
+  ],
+  "Maintainer": [
+    "Tomasz Buchert \u003ctomasz@debian.org\u003e"
+  ],
+  "Package": [
+    "nghttp2"
+  ],
+  "Package-List": [
+    "libnghttp2-14 deb libs optional arch=any libnghttp2-dev deb libdevel optional arch=any libnghttp2-doc deb doc optional arch=all nghttp2 deb httpd optional arch=all nghttp2-client deb httpd optional arch=any nghttp2-proxy deb httpd optional arch=any nghttp2-server deb httpd optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "nginx"
+  ],
+  "Uploaders": [
+    "Ondřej Surý \u003condrej@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/nghttp2"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/nghttp2.git"
+  ],
+  "Version": [
+    "1.55.1-1"
+  ]
+}

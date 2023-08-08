@@ -1,0 +1,44 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "python3-apsw, python-apsw-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), dh-python, python3-all-dev, python3-setuptools, libsqlite3-dev (\u003e= 3.32.0)"
+  ],
+  "Checksums-Sha256": [
+    "5b0076a19ad8f81ffc3a2c45dedd5f03c880e145afad3b4314b9fd16439b2687 1860 python-apsw_3.42.0.1-1.dsc ea5bc1495ccf7687c00576653ac34af40a651497ef775fbdb254ca72a7339dbf 3496520 python-apsw_3.42.0.1.orig.tar.xz 44970f9ebd96157234db48c5504ab65a7de003c3d0ff8e4b45f85cd6998235b6 5076 python-apsw_3.42.0.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-apsw"
+  ],
+  "Files": [
+    "f5ad5c4d704094b28886e66240e1f579 1860 python-apsw_3.42.0.1-1.dsc 0abe08b9af13a8483ca29b0e0b60512b 3496520 python-apsw_3.42.0.1.orig.tar.xz 5f1332a60c8a5086b160f88be0440a5a 5076 python-apsw_3.42.0.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Joel Rosdahl \u003cjoel@debian.org\u003e"
+  ],
+  "Package": [
+    "python-apsw"
+  ],
+  "Package-List": [
+    "python-apsw-doc deb doc optional arch=all python3-apsw deb python optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Version": [
+    "3.42.0.1-1"
+  ]
+}

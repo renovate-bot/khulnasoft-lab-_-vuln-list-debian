@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64 ppc64el riscv64 s390x all"
+  ],
+  "Binary": [
+    "golang-1.21-go, golang-1.21-src, golang-1.21-doc, golang-1.21"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), golang-any (\u003e= 2:1.17~) | golang-go (\u003e= 2:1.17~) | gccgo (\u003e= 4:12~), netbase"
+  ],
+  "Checksums-Sha256": [
+    "c1dc874926beb49c2e6132b0037c915df114aed33c885798250a38d55dfd4ecc 2313 golang-1.21_1.21~rc4-1.dsc 2324f20f11112aec3e5d5e428d046861a34e4f99de0ab82a8d914d26b8fb01fd 26942312 golang-1.21_1.21~rc4.orig.tar.gz bf9bea569b099102d948acde78a8ab8b9f4167592023142b8590669671e28c02 819 golang-1.21_1.21~rc4.orig.tar.gz.asc 2f57b535bab93e188ebdf394fa6d307ee8272ef3abdf444175aeb08fe3c51d77 36252 golang-1.21_1.21~rc4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-1.21"
+  ],
+  "Files": [
+    "970d9694e1d30142ba233a573c41e87b 2313 golang-1.21_1.21~rc4-1.dsc dd84a85997684780f2e715f2343fd3d6 26942312 golang-1.21_1.21~rc4.orig.tar.gz 30bf8d5e416fad9de988dbcf3f0d5601 819 golang-1.21_1.21~rc4.orig.tar.gz.asc e159cd4d93353019ac0f2bbf8dbfa55b 36252 golang-1.21_1.21~rc4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://go.dev/"
+  ],
+  "Maintainer": [
+    "Debian Go Compiler Team \u003cteam+go-compiler@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-1.21"
+  ],
+  "Package-List": [
+    "golang-1.21 deb golang optional arch=all golang-1.21-doc deb doc optional arch=all golang-1.21-go deb golang optional arch=amd64,arm64,armel,armhf,i386,mips,mips64el,mipsel,ppc64,ppc64el,riscv64,s390x golang-1.21-src deb golang optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential"
+  ],
+  "Uploaders": [
+    "Michael Stapelberg \u003cstapelberg@debian.org\u003e, Paul Tagliamonte \u003cpaultag@debian.org\u003e, Tianon Gravi \u003ctianon@debian.org\u003e, Michael Hudson-Doyle \u003cmwhudson@debian.org\u003e, Dr. Tobias Quathamer \u003ctoddy@debian.org\u003e, Anthony Fok \u003cfoka@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/compiler/golang/tree/golang-1.21"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/compiler/golang.git -b golang-1.21"
+  ],
+  "Version": [
+    "1.21~rc4-1"
+  ]
+}

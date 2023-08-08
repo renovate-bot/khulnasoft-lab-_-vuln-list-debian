@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-ipconfig-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-socket2-0.4+default-dev \u003c!nocheck\u003e, librust-widestring-1+default-dev \u003c!nocheck\u003e, librust-winapi-0.3+default-dev (\u003e= 0.3.4-~~) \u003c!nocheck\u003e, librust-winreg-0.6+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "b06eb5d457ebe97b0a9122157f23e6b6fcb49f3f0100bf4cb10d8a4c32db7bd1 2338 rust-ipconfig_0.2.2-2.dsc f7e2f18aece9709094573a9f24f483c4f65caa4298e2f7ae1b71cc65d853fad7 23017 rust-ipconfig_0.2.2.orig.tar.gz 94aac3ec755ab2c86b941d70af4618dbd7169a8d5b9c8bc962f5c82cca1bfc69 4044 rust-ipconfig_0.2.2-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-ipconfig"
+  ],
+  "Files": [
+    "675523acc580e23355be0a5724beca15 2338 rust-ipconfig_0.2.2-2.dsc 299ebc9831ab395be3f04179ae519d92 23017 rust-ipconfig_0.2.2.orig.tar.gz 90b700042c39c3249c20166f7ad3d078 4044 rust-ipconfig_0.2.2-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/liranringel/ipconfig"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-ipconfig"
+  ],
+  "Package-List": [
+    "librust-ipconfig-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "kpcyrd \u003cgit@rxv.cc\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/ipconfig"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/ipconfig]"
+  ],
+  "Version": [
+    "0.2.2-2"
+  ]
+}

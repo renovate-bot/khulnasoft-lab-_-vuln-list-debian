@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "python3-psycopg2, python-psycopg2-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, libpq-dev, postgresql, python3-all-dev:any, python3-setuptools, python3-sphinx"
+  ],
+  "Build-Depends-Indep": [
+    "python3-doc"
+  ],
+  "Checksums-Sha256": [
+    "9ee199f7b8921ca04f1cacfe5cec9e26be7fd4ad5c2f923bf3c2f83a6c62f8ef 2292 psycopg2_2.9.6-2.dsc 55af83c403e70a2a3f167509993e6d7ed37a21f7afe2e983d8429b1db1b7dfa0 384325 psycopg2_2.9.6.orig.tar.gz 207cf2a4e388e54568539d65cd37f92cb705e1d6d3ca4ba71b49187dd121bc97 16512 psycopg2_2.9.6-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/psycopg2"
+  ],
+  "Files": [
+    "8b581887feebe71d295e4addca386362 2292 psycopg2_2.9.6-2.dsc 601036ad3614b7069c3dd146bd9f8512 384325 psycopg2_2.9.6.orig.tar.gz abe1c14ea5851ab0cba40c9b0264b6f3 16512 psycopg2_2.9.6-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://initd.org/projects/psycopg"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "psycopg2"
+  ],
+  "Package-List": [
+    "python-psycopg2-doc deb doc optional arch=all python3-psycopg2 deb python optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "postgresql-all, python3-all, python3-all-dbg"
+  ],
+  "Uploaders": [
+    "Fabio Tranchitella \u003ckobold@debian.org\u003e, Christoph Berg \u003cmyon@debian.org\u003e, Tomasz Rybak \u003cserpent@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/psycopg2"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/psycopg2.git"
+  ],
+  "Version": [
+    "2.9.6-2"
+  ]
+}

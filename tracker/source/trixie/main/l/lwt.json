@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "liblwt-ocaml-dev, liblwt-ocaml"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-ocaml, libev-dev, ocaml-findlib, ocaml-dune, libdune-ocaml-dev (\u003e= 3.9.0), cppo, libfindlib-ocaml-dev, libreact-ocaml-dev, libresult-ocaml-dev, libmmap-ocaml-dev, libppxlib-ocaml-dev, libocplib-endian-ocaml-dev, libseq-ocaml-dev, ocaml-compiler-libs, ocaml-nox"
+  ],
+  "Checksums-Sha256": [
+    "952e62d3acd14a5529ab3d42da33d1800430a95e4156dfc802d0e2d5be960c23 2213 lwt_5.6.1-4.dsc eb49470d2e18492f2502f69012066001f8a5384d4ca0a75000a8a8659f8a67a0 316067 lwt_5.6.1.orig.tar.gz 01ca4d8d1d88c47b94660e2a71b963a97a935cfd20d2f6548d9099193a7eb932 6372 lwt_5.6.1-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/lwt"
+  ],
+  "Files": [
+    "18bab9d477b05b8b6cff03097b60a2f4 2213 lwt_5.6.1-4.dsc 279024789a0ec84a9d97d98bad847f97 316067 lwt_5.6.1.orig.tar.gz d65179528262034272b40708bfbc41c2 6372 lwt_5.6.1-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://ocsigen.org/lwt"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "lwt"
+  ],
+  "Package-List": [
+    "liblwt-ocaml deb ocaml optional arch=any liblwt-ocaml-dev deb ocaml optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libdevel"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Stéphane Glondu \u003cglondu@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/lwt"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/lwt.git"
+  ],
+  "Version": [
+    "5.6.1-4"
+  ]
+}

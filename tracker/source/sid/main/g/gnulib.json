@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "git-merge-changelog, gnulib"
+  ],
+  "Build-Depends": [
+    "bison \u003c!nocheck\u003e, debhelper-compat (= 13), gettext (\u003e= 0.20~) \u003c!nocheck\u003e, gperf \u003c!nocheck\u003e, perl"
+  ],
+  "Build-Depends-Indep": [
+    "texinfo"
+  ],
+  "Checksums-Sha256": [
+    "7355b3ca90e3526f6229ed2890feddb68da9b6f274724800edfda8038a287fc2 2062 gnulib_20230718+stable-1.dsc 28dd90d9cff46eb9657acfcf75e2e1c90205f96d5a99561fa4451a6f9f2b855d 7983485 gnulib_20230718+stable.orig.tar.gz e5b1b92b27594ff9a27bece8ac9eb995daabb3f555235ec6e78997a9e4a61a91 329812 gnulib_20230718+stable-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gnulib"
+  ],
+  "Files": [
+    "a8684d972d6b403206fcd33a7e4c82a1 2062 gnulib_20230718+stable-1.dsc 260d4f022199018df2373b74d6ce783b 7983485 gnulib_20230718+stable.orig.tar.gz 0b3e65414bca1c5a3c8fe052ab8758fc 329812 gnulib_20230718+stable-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.gnu.org/software/gnulib/"
+  ],
+  "Maintainer": [
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+  ],
+  "Package": [
+    "gnulib"
+  ],
+  "Package-List": [
+    "git-merge-changelog deb vcs optional arch=any gnulib deb devel optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "devel"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/gnulib"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/gnulib.git"
+  ],
+  "Version": [
+    "20230718+stable-1"
+  ]
+}

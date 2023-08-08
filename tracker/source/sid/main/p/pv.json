@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "pv"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 10~)"
+  ],
+  "Checksums-Sha256": [
+    "eb6631e2f67b315b6cc67ea99c013c82fb29347fcfe3f42944e04f3afd74171c 1440 pv_1.7.24-1.dsc 19ec025fde4263820be5fa4a1394c225982907372cd4d63de60f06b4ae994fe8 160199 pv_1.7.24.orig.tar.gz 83082dc8a9216d12b56c75e18ebe1d5841bb94938d559e6718a6810f83b86a10 691 pv_1.7.24.orig.tar.gz.asc 5ff06877dc75dd4e555aa5a0671de547a38c7417d9548b9ec1eeb58331048cb6 5860 pv_1.7.24-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pv"
+  ],
+  "Files": [
+    "025238b04a0aaff78ae58dcc795ab47c 1440 pv_1.7.24-1.dsc 8eb1a25a3d32143ba094b2e82e87985b 160199 pv_1.7.24.orig.tar.gz 1338773403dac167757b77f262bbc4bd 691 pv_1.7.24.orig.tar.gz.asc 426b852a3b26697b14661fba6d29a5d3 5860 pv_1.7.24-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.ivarch.com/programs/pv.shtml"
+  ],
+  "Maintainer": [
+    "Antoine Beaupré \u003canarcat@debian.org\u003e"
+  ],
+  "Package": [
+    "pv"
+  ],
+  "Package-List": [
+    "pv deb utils optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.6.0.1"
+  ],
+  "Uploaders": [
+    "Thomas Ward \u003cteward@ubuntu.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/pv"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/pv.git"
+  ],
+  "Version": [
+    "1.7.24-1"
+  ]
+}

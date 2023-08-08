@@ -1,0 +1,50 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "depthcharge-tools-installer"
+  ],
+  "Build-Depends": [
+    "po-debconf, debhelper-compat (= 12)"
+  ],
+  "Checksums-Sha256": [
+    "eef955051cb0d8b6b7efd4900105813ff0d0182347041c86ccaf6293744c2948 1767 depthcharge-tools-installer_3.dsc 89c68ff7dac4d8a708451800e1171f9c9967ad445c21624a4a6c3bf438758ccb 50704 depthcharge-tools-installer_3.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/depthcharge-tools-installer"
+  ],
+  "Files": [
+    "5eeab09bb880e353a9afb082d8822187 1767 depthcharge-tools-installer_3.dsc 03a38cd727146d91827033aba9e483a5 50704 depthcharge-tools-installer_3.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Debian Install System Team \u003cdebian-boot@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "depthcharge-tools-installer"
+  ],
+  "Package-List": [
+    "depthcharge-tools-installer udeb debian-installer standard arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Uploaders": [
+    "Alper Nebi Yasak \u003calpernebiyasak@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/installer-team/depthcharge-tools-installer"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/installer-team/depthcharge-tools-installer.git"
+  ],
+  "Version": [
+    "3"
+  ]
+}

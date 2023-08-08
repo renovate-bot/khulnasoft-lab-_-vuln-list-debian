@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-cran-deoptimr"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), r-base-dev (\u003e= 4.3.1), dh-r"
+  ],
+  "Checksums-Sha256": [
+    "1182a9f732e5ec05fd7a6bfad7eb938c3bfbdb50f062f4c2a3101ea91e43bfac 1889 r-cran-deoptimr_1.1-0-1.dsc 164104919c0aa3755679d60457095f76c4ba029e75df305d8fd0f432538fd696 18961 r-cran-deoptimr_1.1-0.orig.tar.gz f135f023eb047f47a6b42e2159a96d680e57cd4705fcb6bf1a50687764ce7624 2132 r-cran-deoptimr_1.1-0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-deoptimr"
+  ],
+  "Files": [
+    "48cb1a287c7def08ae496cf4c6a84a59 1889 r-cran-deoptimr_1.1-0-1.dsc 424334ada458ad9d6beffb9f6eb5748f 18961 r-cran-deoptimr_1.1-0.orig.tar.gz fcd3a054e60016a3650cbc7bfba5d590 2132 r-cran-deoptimr_1.1-0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=deoptimR"
+  ],
+  "Maintainer": [
+    "Dirk Eddelbuettel \u003cedd@debian.org\u003e"
+  ],
+  "Package": [
+    "r-cran-deoptimr"
+  ],
+  "Package-List": [
+    "r-cran-deoptimr deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/edd/r-cran-deoptimr"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/edd/r-cran-deoptimr.git"
+  ],
+  "Version": [
+    "1.1-0-1"
+  ]
+}

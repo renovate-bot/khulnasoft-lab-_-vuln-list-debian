@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "kgamma5"
+  ],
+  "Build-Depends": [
+    "cmake (\u003e= 3.16~), debhelper-compat (= 13), extra-cmake-modules (\u003e= 5.102.0~), gettext, libkf5config-dev (\u003e= 5.102.0~), libkf5configwidgets-dev (\u003e= 5.102.0~), libkf5doctools-dev (\u003e= 5.102.0~), libkf5i18n-dev (\u003e= 5.102.0~), libx11-dev, libxxf86vm-dev, pkg-kde-tools (\u003e= 0.15.15ubuntu1~), qtbase5-dev (\u003e= 5.15.2~)"
+  ],
+  "Checksums-Sha256": [
+    "63e5e9e4aaa263c2e69794fea246319fd58dfbcd93776ee55988f0d9e1467cb7 2597 kgamma5_5.27.7-1.dsc d45e88d4ee1c6cffa0b5ef085c4a7d028ade37e2daa72253e74941d9bcf5ae6c 88448 kgamma5_5.27.7.orig.tar.xz 04d3b7acbefd8f518656cfc81b34749b75e07a3d8815a2dea9d6dcdab1801de4 833 kgamma5_5.27.7.orig.tar.xz.asc 18983f031d53ab403eb3f139755ba395d9300fdd212093510f2c56ac1de49d2c 16472 kgamma5_5.27.7-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/k/kgamma5"
+  ],
+  "Files": [
+    "b9ad627cd4deec093e8663954b7ee368 2597 kgamma5_5.27.7-1.dsc f66aefab6b7b3115ead7cf3966d6e2c6 88448 kgamma5_5.27.7.orig.tar.xz 943e3e303898997523c77cc3c3489da7 833 kgamma5_5.27.7.orig.tar.xz.asc 0955fb7d058b9b5cf0ab819069c07822 16472 kgamma5_5.27.7-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://invent.kde.org/plasma/kgamma5"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "kgamma5"
+  ],
+  "Package-List": [
+    "kgamma5 deb graphics optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Norbert Preining \u003cnorbert@preining.info\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e, Scarlett Moore \u003csgmoore@kde.org\u003e, Sune Vuorela \u003csune@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/kde/kgamma5"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/kde/kgamma5.git"
+  ],
+  "Version": [
+    "5.27.7-1"
+  ]
+}

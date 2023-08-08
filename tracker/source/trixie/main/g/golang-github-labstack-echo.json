@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-github-labstack-echo-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-golang, golang-any, golang-github-golang-jwt-jwt-dev, golang-github-labstack-gommon-dev, golang-github-stretchr-testify-dev, golang-github-valyala-fasttemplate-dev, golang-golang-x-crypto-dev, golang-golang-x-net-dev, golang-golang-x-time-dev"
+  ],
+  "Checksums-Sha256": [
+    "628a3f9a9cb496ab93d4a1c22a1a8ba932a84a57c0493605aaaf598bb05df56a 1852 golang-github-labstack-echo_4.11.1-1.dsc a1eb3501479831d84426dad88d8020ca6986ecaedace2593dfb85cea1266ceb9 397553 golang-github-labstack-echo_4.11.1.orig.tar.gz 7fb79697e8867bcc64a370c2d5d29394dd1208a077c619f36461882ef6db7605 3296 golang-github-labstack-echo_4.11.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-labstack-echo"
+  ],
+  "Files": [
+    "966a4df848ee4ca639673c185076df20 1852 golang-github-labstack-echo_4.11.1-1.dsc 06e9e45302d7cf51ce5857d3c995b66b 397553 golang-github-labstack-echo_4.11.1.orig.tar.gz 762d2f952a9c35622e6228776371c1b1 3296 golang-github-labstack-echo_4.11.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/labstack/echo"
+  ],
+  "Homepage": [
+    "https://github.com/labstack/echo"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-labstack-echo"
+  ],
+  "Package-List": [
+    "golang-github-labstack-echo-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Thorsten Alteholz \u003cdebian@alteholz.de\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-github-labstack-echo"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-github-labstack-echo.git"
+  ],
+  "Version": [
+    "4.11.1-1"
+  ]
+}

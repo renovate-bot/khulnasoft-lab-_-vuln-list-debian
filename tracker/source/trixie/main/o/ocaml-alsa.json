@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "libalsa-ocaml, libalsa-ocaml-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), ocaml-nox, ocaml-dune, libdune-ocaml-dev, dh-ocaml (\u003e= 1.2), pkg-config, libasound2-dev"
+  ],
+  "Checksums-Sha256": [
+    "b1f892397ca8de646d13b8931b3fbebaf6323205dc231338715ce6425bdfa7f5 1855 ocaml-alsa_0.3.0-3.dsc b0fd83b4b3a8e77a1d56d23f9864f1d44f32607369e37528fd4350b1d67222ed 20466 ocaml-alsa_0.3.0.orig.tar.gz c54eef91a4954fab3b344b42049a41c8eb040bd3e5ee50940c712237f3df6e30 3200 ocaml-alsa_0.3.0-3.debian.tar.xz"
+  ],
+  "Dgit": [
+    "ec558438f478c338e73bd7e8c8c3f7d239a0d914 debian archive/debian/0.3.0-3 https://git.dgit.debian.org/ocaml-alsa"
+  ],
+  "Directory": [
+    "pool/main/o/ocaml-alsa"
+  ],
+  "Files": [
+    "a6f4a97fb60aa70bb866b9dd727192c6 1855 ocaml-alsa_0.3.0-3.dsc abe2eed424387f316e09d90886c3dde1 20466 ocaml-alsa_0.3.0.orig.tar.gz 61d72ed03ac370e66fac6dbfd4a1c594 3200 ocaml-alsa_0.3.0-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/savonet/ocaml-alsa"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "ocaml-alsa"
+  ],
+  "Package-List": [
+    "libalsa-ocaml deb ocaml optional arch=linux-any libalsa-ocaml-dev deb ocaml optional arch=linux-any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "ocaml"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/ocaml-alsa"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/ocaml-alsa.git"
+  ],
+  "Version": [
+    "0.3.0-3"
+  ]
+}

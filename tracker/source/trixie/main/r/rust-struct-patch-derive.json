@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-struct-patch-derive-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-proc-macro-error-1+default-dev \u003c!nocheck\u003e, librust-proc-macro2-1+default-dev \u003c!nocheck\u003e, librust-quote-1+default-dev \u003c!nocheck\u003e, librust-syn-2+default-dev \u003c!nocheck\u003e, librust-syn-2+parsing-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "7dbbcb2418f59c8df4f84ac36a8c1f2d1e870731c50b07e3c225af75630a526a 2449 rust-struct-patch-derive_0.3.1-1.dsc e98fd1a4fa6ee3981fcf1c9deb801b24b41aeb5d9866154751d5f81b3df66404 3897 rust-struct-patch-derive_0.3.1.orig.tar.gz 922e9e63675bac513720a6bc26970219b499b079a330bcaa6305a8de9c019327 2612 rust-struct-patch-derive_0.3.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-struct-patch-derive"
+  ],
+  "Files": [
+    "8c2371864710ef6f818195ba68b417cc 2449 rust-struct-patch-derive_0.3.1-1.dsc e27b86f81dbde2c27353f6c41323441b 3897 rust-struct-patch-derive_0.3.1.orig.tar.gz 87339417a65695433c6b56895f0e3c53 2612 rust-struct-patch-derive_0.3.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-struct-patch-derive"
+  ],
+  "Package-List": [
+    "librust-struct-patch-derive-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Johann Felix Soden \u003cjohfel@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/struct-patch-derive"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/struct-patch-derive]"
+  ],
+  "Version": [
+    "0.3.1-1"
+  ]
+}

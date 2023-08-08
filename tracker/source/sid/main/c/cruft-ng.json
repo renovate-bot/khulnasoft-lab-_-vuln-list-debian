@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "cruft-ng, dh-cruft, cruft"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Arch": [
+    "pkgconf, libdpkg-dev"
+  ],
+  "Checksums-Sha256": [
+    "c016672d9e9122f5a977bfc5f3f800dcdb18c21c13dce29c5771b2378221f521 1757 cruft-ng_0.9.56.dsc fb6c6d012c69a3298881f2d7aba4c04bf9f7deb2912226d1170230f140e0ca2e 114648 cruft-ng_0.9.56.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/cruft-ng"
+  ],
+  "Files": [
+    "7b9459587a1082820c747cf76c756dca 1757 cruft-ng_0.9.56.dsc 4151d742b1df7ea484e9b63419d242aa 114648 cruft-ng_0.9.56.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Homepage": [
+    "https://github.com/a-detiste/cruft-ng/"
+  ],
+  "Maintainer": [
+    "Alexandre Detiste \u003calexandre.detiste@gmail.com\u003e"
+  ],
+  "Package": [
+    "cruft-ng"
+  ],
+  "Package-List": [
+    "cruft deb oldlibs optional arch=all cruft-ng deb admin optional arch=any dh-cruft deb admin optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "jq"
+  ],
+  "Vcs-Browser": [
+    "https://github.com/a-detiste/cruft-ng"
+  ],
+  "Vcs-Git": [
+    "https://github.com/a-detiste/cruft-ng.git"
+  ],
+  "Version": [
+    "0.9.56"
+  ]
+}

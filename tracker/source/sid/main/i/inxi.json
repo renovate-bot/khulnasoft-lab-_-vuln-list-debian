@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "inxi"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "7070b54da20616cd6fc63c160602785cc32d2e66433bec7ddaabcff9c55e227a 1879 inxi_3.3.28-1-1.dsc 937acf2bc0a1f0890c91cf4d9c7b9d496f009e43f3621fd2b60a30345ff80a14 624472 inxi_3.3.28-1.orig.tar.gz 392743d81088d0ae964596057ccfec806bfa1b0d597504a154bc0cf778f42d80 5528 inxi_3.3.28-1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/inxi"
+  ],
+  "Files": [
+    "0ac6055654b1a60fa4397b11612f1a7c 1879 inxi_3.3.28-1-1.dsc fbb1b68ea620fb7a8fcea2bc214fe6fd 624472 inxi_3.3.28-1.orig.tar.gz b38956acb9df05670fcaf1ae6aa5a6b3 5528 inxi_3.3.28-1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://smxi.org/docs/inxi.htm"
+  ],
+  "Maintainer": [
+    "Unit 193 \u003cunit193@debian.org\u003e"
+  ],
+  "Package": [
+    "inxi"
+  ],
+  "Package-List": [
+    "inxi deb misc optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "libtest-script-perl"
+  ],
+  "Vcs-Browser": [
+    "https://git.unit193.net/cgit/users/unit193/inxi.git"
+  ],
+  "Vcs-Git": [
+    "https://git.unit193.net/cgit/users/unit193/inxi.git"
+  ],
+  "Version": [
+    "3.3.28-1-1"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "gpsprune"
+  ],
+  "Build-Depends": [
+    "ant, debhelper-compat (= 13), javahelper, default-jdk, fastjar, libjava3d-java, libvecmath-java"
+  ],
+  "Checksums-Sha256": [
+    "a4531a721966d573f88acddd99d0480c24287298ae1e465213d6649cea0c5139 2040 gpsprune_23.1-1.dsc 3bd11acd6a4480ba25bc2fe661c61c6f95dd67a2388e6b4f53c2088260426e5e 646175 gpsprune_23.1.orig.tar.bz2 6bbedbda65a60bcd8e26cf7e80bb325db463fce9f6fe41508612c0323329a658 8676 gpsprune_23.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gpsprune"
+  ],
+  "Files": [
+    "f886568e831f4441e3c9ff6b76071abb 2040 gpsprune_23.1-1.dsc 034887f6710a821c852fe99ace64f9b1 646175 gpsprune_23.1.orig.tar.bz2 9f717e409fafae23a3a10685613acbd9 8676 gpsprune_23.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://activityworkshop.net/software/gpsprune/index.html"
+  ],
+  "Maintainer": [
+    "Debian GIS Project \u003cpkg-grass-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "gpsprune"
+  ],
+  "Package-List": [
+    "gpsprune deb utils optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "David Paleino \u003cdapal@debian.org\u003e, Bas Couwenberg \u003csebastic@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-gis-team/gpsprune"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-gis-team/gpsprune.git"
+  ],
+  "Version": [
+    "23.1-1"
+  ]
+}

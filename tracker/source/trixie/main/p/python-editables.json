@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-editables"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, flit, nox \u003c!nocheck\u003e, pybuild-plugin-pyproject, python3, python3-coverage \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "ff6c9f4d17cd2629ccafa8b2f05e159501b84ffaf012134eb6e1d2ff66a8e9f0 2160 python-editables_0.4-1.dsc dab62d96596cfbefb68af4fbf18a7e01579adf8c5760f4868d64b9c4cd67e2a1 15248 python-editables_0.4.orig.tar.gz 07c9347ea3ddd2df8531de8070f05f4691a9e723de99dbed9a6109028ec39cbf 2204 python-editables_0.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-editables"
+  ],
+  "Files": [
+    "fa2388b635b8dc352e849e9f5911ef31 2160 python-editables_0.4-1.dsc d7c9da33809885937d17df26b1cac009 15248 python-editables_0.4.orig.tar.gz 92559172940e9bd6068a982549d2b1e4 2204 python-editables_0.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/pfmoore/editables"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-editables"
+  ],
+  "Package-List": [
+    "python3-editables deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Boyuan Yang \u003cbyang@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-editables.git"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-editables.git"
+  ],
+  "Version": [
+    "0.4-1"
+  ]
+}

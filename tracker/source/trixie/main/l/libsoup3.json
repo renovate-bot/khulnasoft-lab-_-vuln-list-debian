@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libsoup-3.0-dev, libsoup-3.0-0, libsoup-3.0-common, libsoup-3.0-doc, gir1.2-soup-3.0, libsoup-3.0-tests"
+  ],
+  "Build-Depends": [
+    "apache2 (\u003e= 2.4) \u003c!nocheck\u003e \u003c!noinsttest\u003e, curl \u003c!nocheck\u003e \u003c!noinsttest\u003e, debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, glib-networking (\u003e= 2.32.0), gi-docgen, libapache2-mod-php (\u003c\u003c 2:9) \u003c!nocheck\u003e \u003c!noinsttest\u003e, libapache2-mod-php (\u003e= 2:7) \u003c!nocheck\u003e \u003c!noinsttest\u003e, libbrotli-dev, libgirepository1.0-dev (\u003e= 0.9.5), libglib2.0-dev (\u003e= 2.69), libgnutls28-dev (\u003e= 3.6.0) \u003c!nocheck\u003e, libkrb5-dev, libnghttp2-dev, libnss-myhostname [linux-any] \u003c!nocheck\u003e, libpsl-dev (\u003e= 0.20), libsqlite3-dev, libsysprof-capture-4-dev [linux-any], meson (\u003e= 0.54), php (\u003c\u003c 2:9) \u003c!nocheck\u003e \u003c!noinsttest\u003e, php (\u003e= 2:7) \u003c!nocheck\u003e \u003c!noinsttest\u003e, python3-quart \u003c!nocheck\u003e, valac, winbind"
+  ],
+  "Build-Depends-Indep": [
+    "libglib2.0-doc"
+  ],
+  "Checksums-Sha256": [
+    "124bc9c555d369de989579eecd28ddd9886591f57c2a238dba6aad837ea09db1 3088 libsoup3_3.4.2-3.dsc 78c8fa37cb152d40ec8c4a148d6155e2f6947f3f1602a7cda3a31ad40f5ee2f3 1535992 libsoup3_3.4.2.orig.tar.xz f7f0041e60b892ac5c31f2f3385228f1722e50dbd09cf281bebbb4558878e5d6 26276 libsoup3_3.4.2-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libs/libsoup3"
+  ],
+  "Files": [
+    "502db636be488a3e40ee251ff09c9654 3088 libsoup3_3.4.2-3.dsc cd8b0fc5d53331b9c0b5b22aabac4294 1535992 libsoup3_3.4.2.orig.tar.xz 3d306ab8957825994f5e79e6d70a4b64 26276 libsoup3_3.4.2-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://wiki.gnome.org/Projects/libsoup"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libsoup3"
+  ],
+  "Package-List": [
+    "gir1.2-soup-3.0 deb introspection optional arch=any libsoup-3.0-0 deb libs optional arch=any libsoup-3.0-common deb devel optional arch=all libsoup-3.0-dev deb libdevel optional arch=any libsoup-3.0-doc deb doc optional arch=all libsoup-3.0-tests deb misc optional arch=any profile=!noinsttest"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, dbus, gnome-desktop-testing, winbind, xauth, xvfb"
+  ],
+  "Uploaders": [
+    "Jeremy Bicha \u003cjbicha@ubuntu.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/libsoup3"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/libsoup3.git"
+  ],
+  "Version": [
+    "3.4.2-3"
+  ]
+}

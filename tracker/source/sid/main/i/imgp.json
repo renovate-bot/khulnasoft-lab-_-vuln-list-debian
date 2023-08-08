@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "imgp"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), python3 (\u003e= 3.5), python3-setuptools, dh-python"
+  ],
+  "Checksums-Sha256": [
+    "e924046887f6317e9dccefae96c6a0ce0b15761adf17438954c0d706718089b7 1971 imgp_2.8+git20230219.3d60e58-1.dsc 8a1bd1882dcfe110b2fc3b92e006c7c6db89f209518321511b7ab9c05585d71e 28482 imgp_2.8+git20230219.3d60e58.orig.tar.gz 835b4fb1858c3ba2af0faf1b75386ab2a3a5605e66b177231c1ba16af462e3d4 3540 imgp_2.8+git20230219.3d60e58-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/imgp"
+  ],
+  "Files": [
+    "37479cddeb0b6139b95b2713f4e91ac8 1971 imgp_2.8+git20230219.3d60e58-1.dsc df916feacf8595c36ea3e36c9cae19c2 28482 imgp_2.8+git20230219.3d60e58.orig.tar.gz 7d06d151f8c8afb87568c3c2a5e85ca3 3540 imgp_2.8+git20230219.3d60e58-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/jarun/imgp"
+  ],
+  "Maintainer": [
+    "SZ Lin (林上智) \u003cszlin@debian.org\u003e"
+  ],
+  "Package": [
+    "imgp"
+  ],
+  "Package-List": [
+    "imgp deb misc optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/imgp"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/imgp.git"
+  ],
+  "Version": [
+    "2.8+git20230219.3d60e58-1"
+  ]
+}

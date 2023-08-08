@@ -1,0 +1,68 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "fabio-viewer, python3-fabio, python-fabio-doc"
+  ],
+  "Build-Depends": [
+    "cython3, debhelper-compat (= 13), dh-python, dh-sequence-numpy3, dh-sequence-python3, pybuild-plugin-pyproject, python3-all-dev, python3-h5py, python3-lxml, python3-matplotlib, python3-mesonpy (\u003e= 0.11), python3-numpy, python3-pil, python3-pyqt5, python3-pytest \u003c!nocheck\u003e, python3-pytest-xvfb \u003c!nocheck\u003e, python3-setuptools, python3-six"
+  ],
+  "Build-Depends-Indep": [
+    "dh-sequence-sphinxdoc \u003c!nodoc\u003e, help2man \u003c!nodoc\u003e, libjs-mathjax \u003c!nodoc\u003e, pandoc \u003c!nodoc\u003e, python3-nbsphinx \u003c!nodoc\u003e, python3-sphinx (\u003e= 1.4.9) \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e, python3-sphinxcontrib.programoutput \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "004ef33dab232c2a0d773d6958fa2b2965acfc49895a0953e5e380b6ac446a88 3069 python-fabio_2023.6.0-3.dsc b7b3761c965d99729712460c7043b283780157ca1fd3f7b275666a9eed6b4257 713260 python-fabio_2023.6.0.orig.tar.gz b0fff61a07c3010eabb03a4c60bf2a4ce459245c8496a33d39465a59b3907796 8588 python-fabio_2023.6.0-3.debian.tar.xz"
+  ],
+  "Dgit": [
+    "8e2c9af4eb6e544a3552742c9f523c6f010fd5c6 debian archive/debian/2023.6.0-3 https://git.dgit.debian.org/python-fabio"
+  ],
+  "Directory": [
+    "pool/main/p/python-fabio"
+  ],
+  "Files": [
+    "2e62762a7c5eb7161525e6a8028bb49e 3069 python-fabio_2023.6.0-3.dsc 8a3f2beb8cf8f5372a50d02c45d5b63e 713260 python-fabio_2023.6.0.orig.tar.gz 162c25b2eb82947f3011d3dd6d5965cc 8588 python-fabio_2023.6.0-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/silx-kit/fabio"
+  ],
+  "Maintainer": [
+    "Debian PaN Maintainers \u003cdebian-pan-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "python-fabio"
+  ],
+  "Package-List": [
+    "fabio-viewer deb science optional arch=all python-fabio-doc deb doc optional arch=all python3-fabio deb python optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-setuptools"
+  ],
+  "Uploaders": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e, Jerome Kieffer \u003cjerome.kieffer@esrf.fr\u003e, Picca Frédéric-Emmanuel \u003cpicca@debian.org\u003e, Andrius Merkys \u003cmerkys@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/python-fabio"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/python-fabio.git"
+  ],
+  "Version": [
+    "2023.6.0-3"
+  ]
+}

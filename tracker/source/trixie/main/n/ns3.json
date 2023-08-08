@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "ns3, ns3-doc, libns3.39, libns3-dev"
+  ],
+  "Build-Conflicts": [
+    "libmpich2-dev"
+  ],
+  "Build-Depends": [
+    "bison, cmake, debhelper-compat (= 13), dh-exec (\u003e= 0.13), dh-python, dpkg (\u003e= 1.16.1), flex, jdupes, libboost-filesystem-dev, libgsl-dev, libsqlite3-dev, libxml2-dev, pkg-config, python3-dev, gir1.2-goocanvas-2.0, python3-gi, python3-gi-cairo, python3-pygraphviz, gir1.2-gtk-3.0"
+  ],
+  "Build-Depends-Indep": [
+    "libgraphviz-dev, quilt (\u003e= 0.46-7~), ipython3, dia, doxygen, dvipng, ghostscript, imagemagick, latexmk, python3-sphinx, tex-gyre, texlive-font-utils, texlive-latex-extra, texlive-latex-base, texlive-latex-recommended"
+  ],
+  "Checksums-Sha256": [
+    "63ae8fe32fbde848247f50062eb349f22361acdf480cfa27dda1d10e9f83e62c 2521 ns3_3.39-2.dsc bbddebac2b035a8bd7c2ff934b3c4d9735ef9cf6763e362b79a62e0da8915eb0 40270384 ns3_3.39.orig.tar.bz2 ea0e505794906ad83fbaaa663428b25c199ac9e841d0d165ebfbf465e1ccc94a 20412 ns3_3.39-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/n/ns3"
+  ],
+  "Files": [
+    "05d70a3e23504dd50790939d17958a12 2521 ns3_3.39-2.dsc 2c60dafcf65c3d26da49a52f4e4e645f 40270384 ns3_3.39.orig.tar.bz2 f7ea8663e917f49f704548f733c491f8 20412 ns3_3.39-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.nsnam.org/"
+  ],
+  "Maintainer": [
+    "Martin Quinson \u003cmquinson@debian.org\u003e"
+  ],
+  "Package": [
+    "ns3"
+  ],
+  "Package-List": [
+    "libns3-dev deb libdevel optional arch=any libns3.39 deb libs optional arch=any ns3 deb net optional arch=any ns3-doc deb doc optional arch=all profile=!nodoc"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "YunQiang Su \u003csyq@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/ns3"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/ns3.git"
+  ],
+  "Version": [
+    "3.39-2"
+  ]
+}

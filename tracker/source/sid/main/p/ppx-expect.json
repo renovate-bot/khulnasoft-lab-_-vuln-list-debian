@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libppx-expect-ocaml, libppx-expect-ocaml-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-ocaml (\u003e= 1.2), libbase-ocaml-dev, libjane-street-headers-ocaml-dev, libppx-enumerate-ocaml-dev, libppx-hash-ocaml-dev, libppx-here-ocaml-dev, libppx-inline-test-ocaml-dev, libppx-sexp-conv-ocaml-dev, libppxlib-ocaml-dev, libre-ocaml-dev, libsexplib0-ocaml-dev (\u003e= 0.16.0), libstdio-ocaml-dev, ocaml-dune, ocaml-nox"
+  ],
+  "Checksums-Sha256": [
+    "73a5dfb0d6a475b7ee8499186251290b4e0eff692aff98017360500026a5e88a 2147 ppx-expect_0.16.0-4.dsc 8d22d34e9a980b83401a46c3b20e40c1b78ef4ec9b2e48245611f550b5ec49a7 48460 ppx-expect_0.16.0.orig.tar.gz ea78fc5fba5b94f6879eec9e468b67d766efa5965dd20177ceb59a5d1f326a0d 2324 ppx-expect_0.16.0-4.debian.tar.xz"
+  ],
+  "Dgit": [
+    "acd7079d8a8cf69d28e4f3958a3ef61044bf0802 debian archive/debian/0.16.0-4 https://git.dgit.debian.org/ppx-expect"
+  ],
+  "Directory": [
+    "pool/main/p/ppx-expect"
+  ],
+  "Files": [
+    "8278a8260dc735454cd0241893a17e15 2147 ppx-expect_0.16.0-4.dsc ccdfa41c72d54303bc61a0d9a2a3ed11 48460 ppx-expect_0.16.0.orig.tar.gz b9a1d41e59fd2abf743745b913b50d7e 2324 ppx-expect_0.16.0-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/janestreet/ppx_expect"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "ppx-expect"
+  ],
+  "Package-List": [
+    "libppx-expect-ocaml deb ocaml optional arch=any libppx-expect-ocaml-dev deb ocaml optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Julien Puydt \u003cjpuydt@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/ppx-expect"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/ppx-expect.git"
+  ],
+  "Version": [
+    "0.16.0-4"
+  ]
+}

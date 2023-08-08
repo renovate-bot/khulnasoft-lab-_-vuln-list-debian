@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "dput-ng, python3-dput, dput-ng-doc"
+  ],
+  "Build-Depends": [
+    "asciidoc, bash-completion, debhelper-compat (= 13), dh-python, docbook-xml, docbook-xsl, docbook-xsl-ns, libxml2-utils, python3-all, python3-coverage, python3-debian, python3-distro-info, python3-distutils, python3-jsonschema, python3-paramiko, python3-pytest, python3-setuptools, python3-sphinx, xsltproc"
+  ],
+  "Checksums-Sha256": [
+    "04964e268e9b21f50e9d0fb7e2d5689c0140a3b3fdf6090bff556e57920db7c6 2192 dput-ng_1.36.dsc c807650a8b15daa380cb3388b54c871a8aaeb388cc6a08e3593afa85ce5e7a17 86608 dput-ng_1.36.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/dput-ng"
+  ],
+  "Files": [
+    "e0cf83a196e175deb53b71c5edf2de00 2192 dput-ng_1.36.dsc ac92a944bffd197aeebe1beed7de22d8 86608 dput-ng_1.36.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Homepage": [
+    "https://debian.pages.debian.net/dput-ng"
+  ],
+  "Maintainer": [
+    "dput-ng Maintainers \u003cdput-ng@packages.debian.org\u003e"
+  ],
+  "Package": [
+    "dput-ng"
+  ],
+  "Package-List": [
+    "dput-ng deb devel optional arch=all dput-ng-doc deb doc optional arch=all python3-dput deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, debhelper, python3-all, python3-coverage, python3-distro-info, python3-jsonschema, python3-pytest"
+  ],
+  "Uploaders": [
+    "Arno Töll \u003carno@debian.org\u003e, Paul Tagliamonte \u003cpaultag@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/dput-ng"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/dput-ng.git"
+  ],
+  "Version": [
+    "1.36"
+  ]
+}

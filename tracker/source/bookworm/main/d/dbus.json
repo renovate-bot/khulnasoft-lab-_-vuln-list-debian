@@ -1,0 +1,68 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "dbus, dbus-session-bus-common, dbus-system-bus-common, dbus-bin, dbus-daemon, dbus-1-doc, dbus-tests, dbus-udeb, dbus-user-session, dbus-x11, libdbus-1-3, libdbus-1-3-udeb, libdbus-1-dev"
+  ],
+  "Build-Depends": [
+    "autoconf-archive, automake, debhelper (\u003e= 13.7) | debhelper (\u003c\u003c 13.4), debhelper-compat (= 13), dh-exec, libapparmor-dev [linux-any], libaudit-dev [linux-any], libcap-ng-dev [linux-any], libexpat-dev, libglib2.0-dev \u003c!nocheck\u003e \u003c!noinsttest\u003e, libnss-wrapper \u003c!nocheck\u003e, libselinux1-dev [linux-any], libsystemd-dev [linux-any], libx11-dev, pkg-config, valgrind-if-available, xml-core, xmlto \u003c!nodoc\u003e"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen \u003c!nodoc\u003e, ducktype \u003c!nodoc\u003e, xsltproc \u003c!nodoc\u003e, yelp-tools \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "67681d30ca5b018b4686d425b6d1715fc21237a3f19fd9e95dfb38ca5a734d13 3793 dbus_1.14.8-2~deb12u1.dsc a6bd5bac5cf19f0c3c594bdae2565a095696980a683a0ef37cb6212e093bde35 1371236 dbus_1.14.8.orig.tar.xz ec02e30929a3ee0bca3a64b273dfe92d9272674817f69752fffd51e7337e846f 833 dbus_1.14.8.orig.tar.xz.asc 0382a4d1ddd33a28bdbd88967dfc84691d9a79c0c180a3871444732e7256eabe 63212 dbus_1.14.8-2~deb12u1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "b1164c8ba0d3659351725813c4b2a1bc74cccf2e debian archive/debian/1.14.8-2_deb12u1 https://git.dgit.debian.org/dbus"
+  ],
+  "Directory": [
+    "pool/main/d/dbus"
+  ],
+  "Files": [
+    "79dfb2565b2a267fc37e2c15a7e9eed7 3793 dbus_1.14.8-2~deb12u1.dsc da42f55aeec51b355587bc3062fc2d41 1371236 dbus_1.14.8.orig.tar.xz b7f018d28a4b6da21fcdb972b11fe2b1 833 dbus_1.14.8.orig.tar.xz.asc 37a64f50c1d17add48b60749db422c7e 63212 dbus_1.14.8-2~deb12u1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://dbus.freedesktop.org/"
+  ],
+  "Maintainer": [
+    "Utopia Maintenance Team \u003cpkg-utopia-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "dbus"
+  ],
+  "Package-List": [
+    "dbus deb admin standard arch=any dbus-1-doc deb doc optional arch=all profile=!nodoc dbus-bin deb admin optional arch=any dbus-daemon deb admin optional arch=any dbus-session-bus-common deb admin optional arch=all dbus-system-bus-common deb admin optional arch=all dbus-tests deb misc optional arch=any profile=!noinsttest dbus-udeb udeb debian-installer optional arch=any profile=!noudeb dbus-user-session deb admin optional arch=linux-any dbus-x11 deb x11 optional arch=any libdbus-1-3 deb libs optional arch=any libdbus-1-3-udeb udeb debian-installer optional arch=any profile=!noudeb libdbus-1-dev deb libdevel optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "admin"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "apparmor, build-essential, gnome-desktop-testing, init, systemd, xauth, xvfb"
+  ],
+  "Uploaders": [
+    "Sjoerd Simons \u003csjoerd@debian.org\u003e, Sebastian Dröge \u003cslomo@debian.org\u003e, Michael Biebl \u003cbiebl@debian.org\u003e, Loic Minier \u003clool@dooz.org\u003e, Simon McVittie \u003csmcv@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/utopia-team/dbus"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/utopia-team/dbus.git"
+  ],
+  "Version": [
+    "1.14.8-2~deb12u1"
+  ]
+}

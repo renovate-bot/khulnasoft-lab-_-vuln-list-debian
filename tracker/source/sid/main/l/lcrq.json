@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "liblcrq0.0, liblcrq-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "4ca9749a4108c0c01514c0f898b4ac57c7e5ef16e08268ac36bbf2bbf173d0d7 1273 lcrq_0.1.0-1.dsc 286ebe1f20040b32d4dd0313074862c608badee5e581689803ff3011caaa07a3 555895 lcrq_0.1.0.orig.tar.gz ff66d181493333db721615534c29dfd7e0125f1a2ade4fbea7774480091d0ae2 2732 lcrq_0.1.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/lcrq"
+  ],
+  "Files": [
+    "cc4b46afa3df789c643573fbfc5e08f9 1273 lcrq_0.1.0-1.dsc 4d06647b17689bad5a707bbf56142a22 555895 lcrq_0.1.0.orig.tar.gz d5345aa11eb05f7facf3705561b6d8b1 2732 lcrq_0.1.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://librecast.net/lcrq.html"
+  ],
+  "Maintainer": [
+    "Vagrant Cascadian \u003cvagrant@debian.org\u003e"
+  ],
+  "Package": [
+    "lcrq"
+  ],
+  "Package-List": [
+    "liblcrq-dev deb libdevel optional arch=any liblcrq0.0 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/vagrant/lcrq"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/vagrant/lcrq.git"
+  ],
+  "Version": [
+    "0.1.0-1"
+  ]
+}

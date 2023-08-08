@@ -1,0 +1,44 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "gpsim-doc"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 7), lyx"
+  ],
+  "Checksums-Sha256": [
+    "2abe4ae5b2c90c06e06d515c5a684e3bf7ad87dda789bd2f02c97e703a355d5e 1538 gpsim-doc_0.22.0-3.dsc 2a0b47a79b17ac32b216912bf5c37387a981a0002eb3f37bf257fb01b4533be2 296311 gpsim-doc_0.22.0.orig.tar.gz 790cf7a9eecd4fc368ff27238dea2543903462c651364ae6b9f32abc3a2d3ed0 2444 gpsim-doc_0.22.0-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gpsim-doc"
+  ],
+  "Files": [
+    "3ef0e414b2017adebd5bb808cfbac97e 1538 gpsim-doc_0.22.0-3.dsc 71b73a4ea592b744de6f3a09677995f3 296311 gpsim-doc_0.22.0.orig.tar.gz 627b6e005261055123472f05838a77ed 2444 gpsim-doc_0.22.0-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+  ],
+  "Package": [
+    "gpsim-doc"
+  ],
+  "Package-List": [
+    "gpsim-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "doc"
+  ],
+  "Standards-Version": [
+    "3.8.1"
+  ],
+  "Version": [
+    "0.22.0-3"
+  ]
+}

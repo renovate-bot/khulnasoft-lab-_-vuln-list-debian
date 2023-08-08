@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "spatialite-bin"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libexpat1-dev, libfreexl-dev, libgeos-dev (\u003e= 3.3.0), libminizip-dev, libproj-dev, libreadline-dev, libreadosm-dev, librttopo-dev, libspatialite-dev (\u003e= 5.1.0), libsqlite3-dev, libxml2-dev, pkg-config, zlib1g-dev, docbook2x, docbook-xsl, docbook-xml, xsltproc"
+  ],
+  "Checksums-Sha256": [
+    "a204e9fe967e271faf5261ad86409eb2eebbe71f847d024b949f63e98bf3ac13 2361 spatialite-tools_5.1.0-1.dsc df3030367c089ca90fa6630897f3f1a280784da29e1ba634f340dba4b08583b5 605724 spatialite-tools_5.1.0.orig.tar.gz 6188ef715815c84210e04dfe97e26e299da3a68e091bcbe3a5f2ac0acd33ed7e 11356 spatialite-tools_5.1.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/spatialite-tools"
+  ],
+  "Files": [
+    "963d3920cbc051c7a50dcfe0aa13c1e9 2361 spatialite-tools_5.1.0-1.dsc 7395a3a48a56e6c71bb4a298ce7ba61f 605724 spatialite-tools_5.1.0.orig.tar.gz 21e459d50295543ee9c35b148210b87a 11356 spatialite-tools_5.1.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.gaia-gis.it/fossil/spatialite-tools/"
+  ],
+  "Maintainer": [
+    "Debian GIS Project \u003cpkg-grass-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "spatialite-tools"
+  ],
+  "Package-List": [
+    "spatialite-bin deb science optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "science"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Francesco Paolo Lovergine \u003cfrankie@debian.org\u003e, David Paleino \u003cdapal@debian.org\u003e, Bas Couwenberg \u003csebastic@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-gis-team/spatialite-tools"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-gis-team/spatialite-tools.git"
+  ],
+  "Version": [
+    "5.1.0-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-python-utils"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc, python3-all, python3-setuptools, python3-sphinx \u003c!nodoc\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-loguru \u003c!nocheck\u003e, python3-typing-extensions \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "d2d51879084c8b3caaf856fb07aea848782ffe9eb1f15f841e38f923dfc0b041 2318 python-utils_3.7.0-1.dsc e082e1fd7ef1cd8d94305cb37fc92c6095dfbf9d08c360afe25be1869ccd7042 29225 python-utils_3.7.0.orig.tar.gz 50c7166a96dd7f7b8c858636efdcee120e359602f7cd7632f09b68d9903035b4 5528 python-utils_3.7.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-utils"
+  ],
+  "Files": [
+    "70f9f7b83996c74b6353c35a02273c94 2318 python-utils_3.7.0-1.dsc 15ff4f228ea0e6541cc34c0f3f33a1d7 29225 python-utils_3.7.0.orig.tar.gz 5a617b536df5869a9562524a5249a06a 5528 python-utils_3.7.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/WoLpH/python-utils"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-utils"
+  ],
+  "Package-List": [
+    "python3-python-utils deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-loguru, python3-pytest"
+  ],
+  "Uploaders": [
+    "Bernd Zeimetz \u003cbzed@debian.org\u003e, Edward Betts \u003cedward@4angle.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-utils"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-utils.git"
+  ],
+  "Version": [
+    "3.7.0-1"
+  ]
+}

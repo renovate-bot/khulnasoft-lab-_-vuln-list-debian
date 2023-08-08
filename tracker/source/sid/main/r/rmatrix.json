@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-matrix"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), dh-r, r-base-dev (\u003e= 4.3.1), r-cran-lattice (\u003e= 0.12-11.1)"
+  ],
+  "Checksums-Sha256": [
+    "92afab80a44c91e14f2381bbb6415053310de48282208e8b0942ad28e7052cea 1860 rmatrix_1.6-0-1.dsc ebebe680f79f7147ccc5f8eb243f3b685fb37996d9884d246db421933d76b79d 2058479 rmatrix_1.6-0.orig.tar.gz 8da1824efd64188e7ef4ff2a895fc1bcf488549022b382a213137cf03ca74d05 5868 rmatrix_1.6-0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rmatrix"
+  ],
+  "Files": [
+    "99d734a79c2e432899805b406b1ef6e6 1860 rmatrix_1.6-0-1.dsc a487c66fa7fbbbf0cdb3e5921addd5c7 2058479 rmatrix_1.6-0.orig.tar.gz 79671525ce284b6a8cdb62c9b6135416 5868 rmatrix_1.6-0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=Matrix"
+  ],
+  "Maintainer": [
+    "Dirk Eddelbuettel \u003cedd@debian.org\u003e"
+  ],
+  "Package": [
+    "rmatrix"
+  ],
+  "Package-List": [
+    "r-cran-matrix deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "gnu-r"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/edd/r-cran-matrix"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/edd/r-cran-matrix.git"
+  ],
+  "Version": [
+    "1.6-0-1"
+  ]
+}

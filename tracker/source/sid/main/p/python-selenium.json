@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-selenium-doc, python3-selenium"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc, python3-all"
+  ],
+  "Build-Depends-Indep": [
+    "python3-certifi, python3-pytest \u003c!nocheck\u003e, python3-setuptools, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e, python3-urllib3"
+  ],
+  "Checksums-Sha256": [
+    "32d412dcf28d9dcd73266c86abeaf35beda35db16af9575bcb3ef3bbcfc57103 2420 python-selenium_4.11.2+dfsg-1.dsc 9ca956bd2bbb35dc81cd9048264c899986d67883bde739e06683cf933e5fa786 243599 python-selenium_4.11.2+dfsg.orig.tar.gz 83dd168a0b7f7584b97ef24c6ad3277c0d1413f7470499d9b3f5afabc5c63404 28440 python-selenium_4.11.2+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-selenium"
+  ],
+  "Files": [
+    "68f6dace9b5769ea1e2e9e982731217d 2420 python-selenium_4.11.2+dfsg-1.dsc 78e93e50f42a408efed1a4dada4a2527 243599 python-selenium_4.11.2+dfsg.orig.tar.gz b25e002695c5e7be20e519276d5f9d4b 28440 python-selenium_4.11.2+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.seleniumhq.org"
+  ],
+  "Maintainer": [
+    "Sascha Girrulat \u003csascha@girrulat.de\u003e"
+  ],
+  "Package": [
+    "python-selenium"
+  ],
+  "Package-List": [
+    "python-selenium-doc deb doc optional arch=all python3-selenium deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "chromium-driver, chromium-sandbox, python3-all, python3-certifi, python3-pytest"
+  ],
+  "Uploaders": [
+    "Carsten Schoenert \u003cc.schoenert@t-online.de\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/sagiru-guest/python-selenium"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/sagiru-guest/python-selenium.git"
+  ],
+  "Version": [
+    "4.11.2+dfsg-1"
+  ]
+}

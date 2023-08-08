@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "khotkeys, khotkeys-data, khotkeys-dev"
+  ],
+  "Build-Depends": [
+    "cmake (\u003e= 3.16~), debhelper-compat (= 13), extra-cmake-modules (\u003e= 5.102.0~), gettext, libkf5dbusaddons-dev (\u003e= 5.102.0~), libkf5doctools-dev (\u003e= 5.102.0~), libkf5globalaccel-dev (\u003e= 5.102.0~), libkf5i18n-dev (\u003e= 5.102.0~), libkf5kcmutils-dev (\u003e= 5.102.0~), libkf5kdelibs4support-dev (\u003e= 5.102.0~), libkf5kio-dev (\u003e= 5.102.0~), libkf5textwidgets-dev (\u003e= 5.102.0~), libkf5xmlgui-dev (\u003e= 5.102.0~), libqt5x11extras5-dev (\u003e= 5.15.2~), libx11-dev, libxtst-dev, pkg-kde-tools (\u003e= 0.15.18~), plasma-workspace-dev (\u003e= 4:5.27.7~), qtbase5-dev"
+  ],
+  "Checksums-Sha256": [
+    "9e267c95dbc7cc79ee7eda210a52dec02fca85e8d0bb7311a670fddf163751b5 2923 khotkeys_5.27.7-1.dsc 6d85041dc59a4e0c6726c97c3f30caf6d22b8f960bcfc39fcdd294f16538efc6 1895248 khotkeys_5.27.7.orig.tar.xz fd066c15d94d8d3ac83b894e8d94b1a0550c556ad5b26293a54b7f8e406b6e69 833 khotkeys_5.27.7.orig.tar.xz.asc d4b0bbcbec012b08d1418562b4d6c17badca312a51e0e8bc5f5b343ccc12d307 17064 khotkeys_5.27.7-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/k/khotkeys"
+  ],
+  "Files": [
+    "7615ba13ad7684c0754820bd1a1d128e 2923 khotkeys_5.27.7-1.dsc 19a17f02655872c827380bd1fc485b50 1895248 khotkeys_5.27.7.orig.tar.xz b63fb70ae7f914a98e98c149670b7489 833 khotkeys_5.27.7.orig.tar.xz.asc 8ec1f7fdbf9f7cc2eabd14bbfb9dd1e6 17064 khotkeys_5.27.7-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://invent.kde.org/plasma/khotkeys"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "khotkeys"
+  ],
+  "Package-List": [
+    "khotkeys deb kde optional arch=any khotkeys-data deb kde optional arch=all khotkeys-dev deb devel optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Norbert Preining \u003cnorbert@preining.info\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e, Scarlett Moore \u003csgmoore@kde.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/kde/khotkeys"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/kde/khotkeys.git"
+  ],
+  "Version": [
+    "4:5.27.7-1"
+  ]
+}

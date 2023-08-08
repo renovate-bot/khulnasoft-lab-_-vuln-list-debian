@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "ibus-table"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, docbook-utils, libibus-1.0-dev, pkg-config, python3:any"
+  ],
+  "Checksums-Sha256": [
+    "d7faae436a04a48e95fcd124fe1f7b35af4f0903945b9802db09dd155c23b0a4 1709 ibus-table_1.17.1-1.dsc c8662a60578548d5c630ed77c6fbae8bfc213886fe7bc8344dc60e241a89b088 1402233 ibus-table_1.17.1.orig.tar.gz eacfe8ef4c30f636461a0a97eaf5e30706d47e0bf6d97b18f88f3f65f1276b4c 5840 ibus-table_1.17.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/ibus-table"
+  ],
+  "Files": [
+    "0fd95f7aa11a9aad21640114c599e8dd 1709 ibus-table_1.17.1-1.dsc 2ebe650282610466d81410fe13fbbe99 1402233 ibus-table_1.17.1.orig.tar.gz e72f89782cc6f3704911d380ae8e3fc6 5840 ibus-table_1.17.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/kaio/ibus-table"
+  ],
+  "Maintainer": [
+    "Debian Input Method Team \u003cdebian-input-method@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "ibus-table"
+  ],
+  "Package-List": [
+    "ibus-table deb utils optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Aron Xu \u003caron@debian.org\u003e, Osamu Aoki \u003cosamu@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/input-method-team/ibus-table"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/input-method-team/ibus-table.git"
+  ],
+  "Version": [
+    "1.17.1-1"
+  ]
+}

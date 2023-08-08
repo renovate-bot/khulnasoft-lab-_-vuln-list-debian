@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libfalcosecurity0, libfalcosecurity0-dev, falcosecurity-scap-dkms"
+  ],
+  "Build-Depends": [
+    "cmake, rsync, dh-exec, debhelper-compat (= 13), libvalijson-dev (\u003e= 0.6), libb64-dev, libc-ares-dev, libcurl4-openssl-dev, libgrpc++-dev, libgrpc-dev, libgtest-dev, libjq-dev, libjsoncpp-dev, libprotobuf-dev, libssl-dev, libtbb-dev, zlib1g-dev, protobuf-compiler, protobuf-compiler-grpc, libluajit-5.1-dev [i386 amd64 kfreebsd-i386 armel armhf powerpc powerpcspe mips mipsel] | liblua5.1-0-dev, libelf-dev, libre2-dev, libcap-dev"
+  ],
+  "Build-Depends-Indep": [
+    "dh-sequence-dkms"
+  ],
+  "Checksums-Sha256": [
+    "81516ff395e7c024ce8a44bffe9729fb0519081d95443320f8e9f413324465a5 2624 falcosecurity-libs_0.11.3+repack-1.dsc 8efe015a7eae86dd31b2d1d0fd472f8c5da99d3336f0798bb06ceb1c311923b0 3199528 falcosecurity-libs_0.11.3+repack.orig.tar.gz 101ac9fc19228bcde8bdae5ef3a300356cd292cb100d01e2045ca2657f3b98c4 6696 falcosecurity-libs_0.11.3+repack-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/falcosecurity-libs"
+  ],
+  "Files": [
+    "ce740dcf44d369798464bc24a7186fce 2624 falcosecurity-libs_0.11.3+repack-1.dsc 4e88098fa4926e8825483e519e9c6a2a 3199528 falcosecurity-libs_0.11.3+repack.orig.tar.gz b0d5e9595f5f92e23accfc8cc5db7d8a 6696 falcosecurity-libs_0.11.3+repack-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/falcosecurity/libs"
+  ],
+  "Maintainer": [
+    "Dima Kogan \u003cdkogan@debian.org\u003e"
+  ],
+  "Package": [
+    "falcosecurity-libs"
+  ],
+  "Package-List": [
+    "falcosecurity-scap-dkms deb kernel optional arch=all libfalcosecurity0 deb libs optional arch=any libfalcosecurity0-dev deb libdevel optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-dkms"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/falcosecurity-libs"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/falcosecurity-libs.git"
+  ],
+  "Version": [
+    "0.11.3+repack-1"
+  ]
+}

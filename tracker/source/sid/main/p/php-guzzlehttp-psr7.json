@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "php-guzzlehttp-psr7"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-phpcomposer, php-curl, php-getallheaders, php-http-interop-http-factory-tests, php-psr-http-factory, php-psr-http-message, phpab, phpunit, psmisc"
+  ],
+  "Checksums-Sha256": [
+    "4bfd11b4349b17079efd46a34bb4c198dae33fdf78dce210a590e57c989bbd1b 1984 php-guzzlehttp-psr7_2.6.0-1.dsc ae6740d4993dec2a7bfcc241a1ce76a9bf0ecf0bcf65230bbe998851833ae6a6 77944 php-guzzlehttp-psr7_2.6.0.orig.tar.xz f1a31274a1060d6c303542be8a38676203be783c775c5ecbe74ff900ef409d63 6108 php-guzzlehttp-psr7_2.6.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/php-guzzlehttp-psr7"
+  ],
+  "Files": [
+    "b0c62b7e155fac28548e95ec6333af46 1984 php-guzzlehttp-psr7_2.6.0-1.dsc 178ef0122c27b271c32b3a216cfc7ecd 77944 php-guzzlehttp-psr7_2.6.0.orig.tar.xz ddf0cb21a2a8ea664d3f91aecbe5cdc6 6108 php-guzzlehttp-psr7_2.6.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/guzzle/psr7"
+  ],
+  "Maintainer": [
+    "Debian PHP PEAR Maintainers \u003cpkg-php-pear@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "php-guzzlehttp-psr7"
+  ],
+  "Package-List": [
+    "php-guzzlehttp-psr7 deb php optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "php-curl, php-http-interop-http-factory-tests, phpab, phpunit, pkg-php-tools"
+  ],
+  "Uploaders": [
+    "David Prévot \u003ctaffit@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/php-team/pear/php-guzzlehttp-psr7"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/php-team/pear/php-guzzlehttp-psr7.git"
+  ],
+  "Version": [
+    "2.6.0-1"
+  ]
+}

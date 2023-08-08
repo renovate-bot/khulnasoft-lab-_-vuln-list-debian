@@ -1,0 +1,50 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "binutils-avr"
+  ],
+  "Build-Depends": [
+    "bison, flex, gettext, texinfo, binutils, debhelper (\u003e= 7), bzip2, autotools-dev, dh-autoreconf, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "fd19c87ff0b33072f91739fcc4a2a0d6675247fde4b826a80d68e19b65e2a409 1896 binutils-avr_2.26.20160125+Atmel3.6.2-6.dsc a6bb9873cccaa39dc3a4ba821aa2274c3291bf397587aaf130d4faeb70ed7049 50190206 binutils-avr_2.26.20160125+Atmel3.6.2.orig.tar.gz 7d879875bcfb27206bf191e610c50e8e1703f7cf2c6ede3a3b4ff1588cf7de72 13680 binutils-avr_2.26.20160125+Atmel3.6.2-6.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/b/binutils-avr"
+  ],
+  "Files": [
+    "e7b058d8eb094aaa9d50bab1c05228dd 1896 binutils-avr_2.26.20160125+Atmel3.6.2-6.dsc 45c8ffabe55c0780e2c18e13a230a7d5 50190206 binutils-avr_2.26.20160125+Atmel3.6.2.orig.tar.gz a96b6b4c921f6ff8ac12bd3f9acf6b12 13680 binutils-avr_2.26.20160125+Atmel3.6.2-6.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Bastian Germann \u003cbage@debian.org\u003e"
+  ],
+  "Package": [
+    "binutils-avr"
+  ],
+  "Package-List": [
+    "binutils-avr deb devel optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "devel"
+  ],
+  "Standards-Version": [
+    "3.9.5"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/binutils-avr"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/binutils-avr.git"
+  ],
+  "Version": [
+    "2.26.20160125+Atmel3.6.2-6"
+  ]
+}

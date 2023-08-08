@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libstoragedisplay-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "perl, libmoose-perl \u003c!nocheck\u003e, libmoosex-nonmoose-perl \u003c!nocheck\u003e, libmoosex-role-parameterized-perl \u003c!nocheck\u003e, libnet-openssh-perl \u003c!nocheck\u003e, libobject-id-perl \u003c!nocheck\u003e, libpath-class-perl \u003c!nocheck\u003e, libterm-readkey-perl \u003c!nocheck\u003e, libnamespace-sweep-perl \u003c!nocheck\u003e, libtype-tiny-perl \u003c!nocheck\u003e, libtest2-suite-perl \u003c!nocheck\u003e, libdata-compare-perl \u003c!nocheck\u003e, libtest-file-contents-perl \u003c!nocheck\u003e, libtest-script-perl \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "01ad1f6401cad11d65270c366de8e74f78a8b24cd76d6151df5c1642a7863250 2591 libstoragedisplay-perl_2.05-1.dsc ce507300fae81a86393271783efee8130088175c1c79556dcd32685d5bebc437 697942 libstoragedisplay-perl_2.05.orig.tar.gz e0d6ca2e200e3597116515171df9fb5a32d3adbe9783342b562fb65874f732e6 2444 libstoragedisplay-perl_2.05-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libs/libstoragedisplay-perl"
+  ],
+  "Files": [
+    "f3a830e900d1d68fbd4e6d52758ad20f 2591 libstoragedisplay-perl_2.05-1.dsc fd24c1c2a779fc541262b92215a774f1 697942 libstoragedisplay-perl_2.05.orig.tar.gz b62defacc48174d69a7cc022cc057e25 2444 libstoragedisplay-perl_2.05-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/StorageDisplay"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libstoragedisplay-perl"
+  ],
+  "Package-List": [
+    "libstoragedisplay-perl deb perl optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "Vincent Danjean \u003cvdanjean@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libstoragedisplay-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libstoragedisplay-perl.git"
+  ],
+  "Version": [
+    "2.05-1"
+  ]
+}

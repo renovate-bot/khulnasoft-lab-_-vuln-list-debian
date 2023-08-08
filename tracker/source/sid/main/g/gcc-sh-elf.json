@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "gcc-sh-elf, libnewlib-sh-elf-dev"
+  ],
+  "Build-Depends": [
+    "binutils-sh-elf, bison, debhelper-compat (= 13), dejagnu \u003c!nocheck\u003e, flex, gawk, gcc-13-source, gdb-source, gettext, libisl-dev, libmpc-dev, libreadline-dev, libzstd-dev, newlib-source, texinfo, xz-utils, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "acc5ef73eedbca45d84a5f2a862fa94bb70e9eb3f87403be7e69ba42ce7c4ab8 1771 gcc-sh-elf_7.dsc aa3315762526ff25f3862fa511124e40707a3f036e4b89b4dbe7c9c4d82cc0c3 8128 gcc-sh-elf_7.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gcc-sh-elf"
+  ],
+  "Files": [
+    "4931be73dad309a81910fd7956405f8c 1771 gcc-sh-elf_7.dsc 4f4e30e5be9992ef09641c91c2c71ffe 8128 gcc-sh-elf_7.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Debian Electronics Team \u003cpkg-electronics-devel@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "gcc-sh-elf"
+  ],
+  "Package-List": [
+    "gcc-sh-elf deb devel optional arch=any libnewlib-sh-elf-dev deb libdevel optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "John Scott \u003cjscott@posteo.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/electronics-team/toolchains/gcc-sh-elf"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/electronics-team/toolchains/gcc-sh-elf.git"
+  ],
+  "Version": [
+    "7"
+  ]
+}

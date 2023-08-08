@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libmew-vi-ocaml-dev, libmew-vi-ocaml"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), ocaml-nox, ocaml-dune, libmew-ocaml-dev, libresult-ocaml-dev, libreact-ocaml-dev, dh-ocaml"
+  ],
+  "Checksums-Sha256": [
+    "1f2e873f2be037d963fc3fb4a0ab58648283b037b04ce0d26a2ec8803e9bf6aa 1907 ocaml-mew-vi_0.5.0-2.dsc a692fa7cdcc9e80fd9387c4f61677776b9fc15f9f7175b4220fcd1a73d1bafda 8605 ocaml-mew-vi_0.5.0.orig.tar.gz fb6a3fbedf2356216b2c7fd1845a8f6453dc1be952a6d5d52390a9444a3ea340 2176 ocaml-mew-vi_0.5.0-2.debian.tar.xz"
+  ],
+  "Dgit": [
+    "48799201c0f84071f08a2df45f5c57c9d4b206d3 debian archive/debian/0.5.0-2 https://git.dgit.debian.org/ocaml-mew-vi"
+  ],
+  "Directory": [
+    "pool/main/o/ocaml-mew-vi"
+  ],
+  "Files": [
+    "ac621809632f090617875dbbba77a947 1907 ocaml-mew-vi_0.5.0-2.dsc 341e9a9a20383641015bf503952906bc 8605 ocaml-mew-vi_0.5.0.orig.tar.gz b533d9ed590cab8a446f71821d9ddd48 2176 ocaml-mew-vi_0.5.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/kandu/mew_vi"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "ocaml-mew-vi"
+  ],
+  "Package-List": [
+    "libmew-vi-ocaml deb ocaml optional arch=any libmew-vi-ocaml-dev deb ocaml optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Uploaders": [
+    "Stéphane Glondu \u003cglondu@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/ocaml-mew-vi"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/ocaml-mew-vi.git"
+  ],
+  "Version": [
+    "0.5.0-2"
+  ]
+}

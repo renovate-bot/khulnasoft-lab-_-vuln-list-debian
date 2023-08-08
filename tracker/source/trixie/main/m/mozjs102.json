@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libmozjs-102-0, libmozjs-102-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), gnome-pkg-tools, cargo, clang, autoconf, autoconf2.13, automake, libreadline-dev, llvm, zlib1g-dev (\u003e= 1:1.2.3), pkg-config, pkg-kde-tools, python3-dev, rustc (\u003e= 1.41), tzdata, zip"
+  ],
+  "Checksums-Sha256": [
+    "2e824388fe93e7b222e1a7e1e147552f60e54d499450a251331f17805cdf023d 2281 mozjs102_102.14.0-1.dsc 369848f56aecb3843b201dc42123385b2ed3c99cb52011c6e9f5e0dc654c590f 145658728 mozjs102_102.14.0.orig.tar.xz c19f0730f167681de6f77c48cbaf5e9108de07e97422e3dfe0be1a9ac3de7839 64528 mozjs102_102.14.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/mozjs102"
+  ],
+  "Files": [
+    "a2d3a0ef494600d3638be891b29783fd 2281 mozjs102_102.14.0-1.dsc 38a8a125bb9b8fbfa3597f79965d3ef6 145658728 mozjs102_102.14.0.orig.tar.xz d9060de632ed95d48b8dc762d56b060f 64528 mozjs102_102.14.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "mozjs102"
+  ],
+  "Package-List": [
+    "libmozjs-102-0 deb libs optional arch=any libmozjs-102-dev deb libdevel optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Jeremy Bicha \u003cjbicha@ubuntu.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/mozjs/tree/debian/102/master"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/mozjs.git -b debian/102/master"
+  ],
+  "Version": [
+    "102.14.0-1"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libvariantslib-ocaml-dev, libvariantslib-ocaml"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), ocaml-nox, ocaml-findlib, ocaml-dune, libbase-ocaml-dev (\u003e= 0.14), dh-ocaml"
+  ],
+  "Checksums-Sha256": [
+    "5845601fcfca4e1e4055b6c7e7023e731db8d75a8fbc54205ecb004a39b78043 2146 variantslib_0.16.0-1.dsc 4a4f74d1ba234a1ff0f751ea2d86f94fdd1f0809e0fe6c20aab9eae8dec4d2a1 2982 variantslib_0.16.0.orig.tar.gz e9dd51d9c0723ef035b1120dfdcf766befb13beac46daff3b2ac88602d85ce20 3084 variantslib_0.16.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/v/variantslib"
+  ],
+  "Files": [
+    "476cdc85e48e5a47068712f321118c56 2146 variantslib_0.16.0-1.dsc 9626f154f8b2438460d7142959e6217b 2982 variantslib_0.16.0.orig.tar.gz ad35b8e1386d8018e0d326e6c2144102 3084 variantslib_0.16.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/janestreet/variantslib"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "variantslib"
+  ],
+  "Package-List": [
+    "libvariantslib-ocaml deb ocaml optional arch=any libvariantslib-ocaml-dev deb ocaml optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Uploaders": [
+    "Hilko Bengen \u003cbengen@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/variantslib"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/variantslib.git"
+  ],
+  "Version": [
+    "1:0.16.0-1"
+  ]
+}

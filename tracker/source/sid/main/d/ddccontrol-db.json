@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "ddccontrol-db"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "intltool"
+  ],
+  "Checksums-Sha256": [
+    "fde27290cb59426c13110607b32bbdfcd04760d4fc3612a17971174d60891f95 1959 ddccontrol-db_20230727-1.dsc 1a8a881822cee24a8bf6c95aca75ec1142b3a37f90eef1e744324c46b8dc974e 88144 ddccontrol-db_20230727.orig.tar.xz a41388f9d55e6ef79156697aa7183190a22acca2502ac7af98f6729fd8ff3dd4 2912 ddccontrol-db_20230727-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/ddccontrol-db"
+  ],
+  "Files": [
+    "d1a10c9dccd237fc729e8d5069a2d294 1959 ddccontrol-db_20230727-1.dsc fc6a2565b436d608650721e0a6e6bf80 88144 ddccontrol-db_20230727.orig.tar.xz 1226b871fda5525780a3e575d0bdf723 2912 ddccontrol-db_20230727-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ddccontrol/ddccontrol-db"
+  ],
+  "Maintainer": [
+    "Barak A. Pearlmutter \u003cbap@debian.org\u003e"
+  ],
+  "Package": [
+    "ddccontrol-db"
+  ],
+  "Package-List": [
+    "ddccontrol-db deb utils optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/ddccontrol-db"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/ddccontrol-db.git"
+  ],
+  "Version": [
+    "20230727-1"
+  ]
+}

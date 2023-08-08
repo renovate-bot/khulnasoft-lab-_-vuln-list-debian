@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "php-phpseclib3"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-phpcomposer, php-bcmath, php-constant-time, php-gmp, php-random-compat, phpab, phpunit, pkg-php-tools (\u003e= 1.41~)"
+  ],
+  "Checksums-Sha256": [
+    "97a11f23aa048ad69236a8501428320e44791274dc2822a49f9849223f2fdebe 1882 php-phpseclib3_3.0.21-2.dsc a094e37af17cbad938c151e7eb3deb46c21dd858980d8eeebcee5140f0660998 406544 php-phpseclib3_3.0.21.orig.tar.xz a71e0d969d4d37f376f0ed4f0d8984017324787eb828b973a84a9a07a2a5098e 12864 php-phpseclib3_3.0.21-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/php-phpseclib3"
+  ],
+  "Files": [
+    "0e24d38b65ce26dfa0570892e64f043b 1882 php-phpseclib3_3.0.21-2.dsc eafd204002bee20afdcb9bee5fb03816 406544 php-phpseclib3_3.0.21.orig.tar.xz 9f0ea9153e13d3d185c99cf91874e718 12864 php-phpseclib3_3.0.21-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://phpseclib.sourceforge.net/"
+  ],
+  "Maintainer": [
+    "Debian PHP PEAR Maintainers \u003cpkg-php-pear@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "php-phpseclib3"
+  ],
+  "Package-List": [
+    "php-phpseclib3 deb php optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "php-gmp, phpab, phpunit, pkg-php-tools"
+  ],
+  "Uploaders": [
+    "David Prévot \u003ctaffit@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/php-team/pear/phpseclib"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/php-team/pear/phpseclib.git -b debian/latest"
+  ],
+  "Version": [
+    "3.0.21-2"
+  ]
+}

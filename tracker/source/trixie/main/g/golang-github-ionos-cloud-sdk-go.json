@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-github-ionos-cloud-sdk-go-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any, golang-golang-x-oauth2-google-dev"
+  ],
+  "Checksums-Sha256": [
+    "e1cf276b00a6ccb222aa0e70b479f1487a25db0e047454b0c4a68b12072775c1 2370 golang-github-ionos-cloud-sdk-go_6.1.8-1.dsc 50ba55f93f399aeacf91e89c5db57715efae6bb4321025761fef0a391a4df5a4 345998 golang-github-ionos-cloud-sdk-go_6.1.8.orig.tar.gz 7ad1582b4d6f36cfe8bdb6edcc98c82c032616c2f666eabe3e9f92c1a52280ca 2216 golang-github-ionos-cloud-sdk-go_6.1.8-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-ionos-cloud-sdk-go"
+  ],
+  "Files": [
+    "d1490df7fbc22b2dfab7b9f21d4e35f6 2370 golang-github-ionos-cloud-sdk-go_6.1.8-1.dsc 7ad48e1fda88bc52394d3f7da7911c38 345998 golang-github-ionos-cloud-sdk-go_6.1.8.orig.tar.gz e02cca04c404e407f911c956f0a90a94 2216 golang-github-ionos-cloud-sdk-go_6.1.8-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/ionos-cloud/sdk-go"
+  ],
+  "Homepage": [
+    "https://github.com/ionos-cloud/sdk-go"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-ionos-cloud-sdk-go"
+  ],
+  "Package-List": [
+    "golang-github-ionos-cloud-sdk-go-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Daniel Swarbrick \u003cdswarbrick@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-github-ionos-cloud-sdk-go"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-github-ionos-cloud-sdk-go.git"
+  ],
+  "Version": [
+    "6.1.8-1"
+  ]
+}

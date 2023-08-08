@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "amd64 arm64 kfreebsd-amd64 ppc64el"
+  ],
+  "Binary": [
+    "vsearch, vsearch-examples"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), zlib1g-dev, libbz2-dev, markdown, ghostscript, time"
+  ],
+  "Checksums-Sha256": [
+    "a7b6f55b80da8083735e9b5aabcb4dce54c172f7b62eff7f048128e4734b107b 2209 vsearch_2.23.0-1.dsc 4686e35e1d8488ffedb4c6dd4de9b6eccc94f337d7b86e1759d932bce59c9b64 266534 vsearch_2.23.0.orig.tar.gz f5db5a025bfd9c76059b73624ba2d6910ef043b62b72cbae9cd20cd612ca69f9 1631248 vsearch_2.23.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/v/vsearch"
+  ],
+  "Files": [
+    "2cc20afe16d2d1104fffb8d460e7bb01 2209 vsearch_2.23.0-1.dsc 78cc4c93032f6e6ebeebea730bdde035 266534 vsearch_2.23.0.orig.tar.gz 77ee249adafffb4d5baa33667256dd34 1631248 vsearch_2.23.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/torognes/vsearch/"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "vsearch"
+  ],
+  "Package-List": [
+    "vsearch deb science optional arch=amd64,arm64,kfreebsd-amd64,ppc64el vsearch-examples deb science optional arch=amd64,arm64,kfreebsd-amd64,ppc64el"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Tim Booth \u003ctbooth@ceh.ac.uk\u003e, Andreas Tille \u003ctille@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/vsearch"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/vsearch.git"
+  ],
+  "Version": [
+    "2.23.0-1"
+  ]
+}

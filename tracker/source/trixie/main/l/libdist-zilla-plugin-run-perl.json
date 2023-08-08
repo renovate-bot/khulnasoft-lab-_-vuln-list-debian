@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libdist-zilla-plugin-run-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libmodule-build-tiny-perl (\u003e= 0.040), perl"
+  ],
+  "Build-Depends-Indep": [
+    "libdist-zilla-perl \u003c!nocheck\u003e, libfile-pushd-perl \u003c!nocheck\u003e, libjson-pp-perl \u003c!nocheck\u003e, libmoose-perl \u003c!nocheck\u003e, libnamespace-autoclean-perl \u003c!nocheck\u003e, libpath-class-perl \u003c!nocheck\u003e, libpath-tiny-perl \u003c!nocheck\u003e, libscalar-list-utils-perl \u003c!nocheck\u003e, libstring-formatter-perl \u003c!nocheck\u003e, libtest-deep-perl \u003c!nocheck\u003e, libtest-fatal-perl \u003c!nocheck\u003e, libtest-file-sharedir-perl \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "8d9b82d76de29ca0cd63fef004fdf5c4f66af4d0611a1ea1380e8bf3f97b420c 2971 libdist-zilla-plugin-run-perl_0.048-2.dsc ff1f80a8834753395f6398aec990fdd0ed0ecf9b19bae273ae5d6eeb609642b0 49391 libdist-zilla-plugin-run-perl_0.048.orig.tar.gz 0a1919f9b6fbe6a52283e09a47088277929ae8dbd0c215f328e756c074a3fdb3 3508 libdist-zilla-plugin-run-perl_0.048-2.debian.tar.xz"
+  ],
+  "Dgit": [
+    "16a5e5d59a26bb53a629e12782f7efff4dd97953 debian archive/debian/0.048-2 https://git.dgit.debian.org/libdist-zilla-plugin-run-perl"
+  ],
+  "Directory": [
+    "pool/main/libd/libdist-zilla-plugin-run-perl"
+  ],
+  "Files": [
+    "daa6669d172ec75e82b7ce9abd9dd53a 2971 libdist-zilla-plugin-run-perl_0.048-2.dsc 494fe845fa06043ece6db74b20e1a077 49391 libdist-zilla-plugin-run-perl_0.048.orig.tar.gz 82516dc38676cd4a7abef295abe01d01 3508 libdist-zilla-plugin-run-perl_0.048-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/Dist-Zilla-Plugin-Run"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libdist-zilla-plugin-run-perl"
+  ],
+  "Package-List": [
+    "libdist-zilla-plugin-run-perl deb perl optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "perl"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "Dominique Dumont \u003cdod@debian.org\u003e, gregor herrmann \u003cgregoa@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libdist-zilla-plugin-run-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libdist-zilla-plugin-run-perl.git"
+  ],
+  "Version": [
+    "0.048-2"
+  ]
+}

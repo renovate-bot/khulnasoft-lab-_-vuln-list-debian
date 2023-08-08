@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libcerf2, libcerf-dev, libcerf-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake"
+  ],
+  "Checksums-Sha256": [
+    "f68194f4f4bfbfe6a201181f8eff947279e9b2c61e853ebe0f404d9f4e099fc4 2078 libcerf_2.3-2.dsc 5fce0a90dc30d0ac7ac90d6df752080d2d346cd49154706e4397e2a9a3b826f7 81074 libcerf_2.3.orig.tar.bz2 47a15ab5c5f2211c6f509cfa8eafabbc7e68277b2f72b35a43474537f10a5652 4332 libcerf_2.3-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libc/libcerf"
+  ],
+  "Files": [
+    "6ee44de56b19e5bc50c2027c381258e8 2078 libcerf_2.3-2.dsc c3c4a987121e8ab7d72d8a5abb492eb9 81074 libcerf_2.3.orig.tar.bz2 f617b212f1a3c6f1a484fb0445d1cd9c 4332 libcerf_2.3-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://jugit.fz-juelich.de/mlz/libcerf"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libcerf"
+  ],
+  "Package-List": [
+    "libcerf-dev deb libdevel optional arch=any libcerf-doc deb doc optional arch=all libcerf2 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.2.1"
+  ],
+  "Uploaders": [
+    "Eugen Wintersberger \u003ceugen.wintersberger@gmail.com\u003e, Roland Mas \u003clolando@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/libcerf"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/libcerf.git"
+  ],
+  "Version": [
+    "2.3-2"
+  ]
+}

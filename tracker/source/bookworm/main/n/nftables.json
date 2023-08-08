@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "nftables, libnftables-dev, libnftables1, python3-nftables"
+  ],
+  "Build-Depends": [
+    "asciidoc-base, automake, bison, debhelper-compat (= 13), dh-python, docbook-xsl, flex, libeditreadline-dev, libgmp-dev, libjansson-dev, libmnl-dev, libnftnl-dev (\u003e= 1.2.4), libtool, libxtables-dev, python3-all:any"
+  ],
+  "Checksums-Sha256": [
+    "322cb7820312fcadb016810b611d2c416d57034ef56ca5dcd5cb9caa4e629482 2500 nftables_1.0.6-2+deb12u1.dsc 2407430ddd82987670e48dc2fda9e280baa8307abec04ab18d609df3db005e4c 834584 nftables_1.0.6.orig.tar.xz b4e681b283907e28e0104be234f7253402c8b401535dd8a6600c3f62597a7cb6 23088 nftables_1.0.6-2+deb12u1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/n/nftables"
+  ],
+  "Files": [
+    "7a152ab58fe54005f43d6706b8056c69 2500 nftables_1.0.6-2+deb12u1.dsc e1ab41882720b9045f743b9438022138 834584 nftables_1.0.6.orig.tar.xz 89dceb5547690cae98f147e00cc58b6a 23088 nftables_1.0.6-2+deb12u1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.netfilter.org/"
+  ],
+  "Maintainer": [
+    "Debian Netfilter Packaging Team \u003cpkg-netfilter-team@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "nftables"
+  ],
+  "Package-List": [
+    "libnftables-dev deb libdevel optional arch=linux-any libnftables1 deb libs optional arch=linux-any nftables deb net important arch=linux-any python3-nftables deb python optional arch=linux-any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "kmod, systemd"
+  ],
+  "Uploaders": [
+    "Arturo Borrero Gonzalez \u003carturo@debian.org\u003e, Jeremy Sowden \u003cjeremy@azazel.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-netfilter-team/pkg-nftables"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-netfilter-team/pkg-nftables.git"
+  ],
+  "Version": [
+    "1.0.6-2+deb12u1"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "ocaml-odoc, libodoc-ocaml-dev, libodoc-ocaml"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-ocaml (\u003e= 1.2), ocaml, cppo, ocaml-dune, libastring-ocaml-dev, libfpath-ocaml-dev, libcmdliner-ocaml-dev, libresult-ocaml-dev, libtyxml-ocaml-dev (\u003e= 4.3.0), libodoc-parser-ocaml-dev, libfmt-ocaml-dev, libre-ocaml-dev, libmigrate-parsetree-ocaml-dev, libjs-highlight.js"
+  ],
+  "Checksums-Sha256": [
+    "aa7f33e4bc44ab52dabf6cfa1329e321ca4cb2b888c8e9a14c5681c39339499d 2219 ocaml-odoc_2.1.1+dfsg-3.dsc e5cb4deb5a0f69988fb3edc1bf906a223e1ac2ab2c51ccca226212212bad03a4 383420 ocaml-odoc_2.1.1+dfsg.orig.tar.bz2 61138c838263eecd10e4be29ad611e8dbf0613a1ef0b4d8414c8778bf90de032 5304 ocaml-odoc_2.1.1+dfsg-3.debian.tar.xz"
+  ],
+  "Dgit": [
+    "d0ea6a250dfaf8cdb03285e6b71873ad7ff2e63f debian archive/debian/2.1.1+dfsg-3 https://git.dgit.debian.org/ocaml-odoc"
+  ],
+  "Directory": [
+    "pool/main/o/ocaml-odoc"
+  ],
+  "Files": [
+    "c7e7abf2d7818927aec242817bd0479e 2219 ocaml-odoc_2.1.1+dfsg-3.dsc 21390de23f022245f2dc858cfbc0670e 383420 ocaml-odoc_2.1.1+dfsg.orig.tar.bz2 3fe4cb973835792c122aec298efcb4cc 5304 ocaml-odoc_2.1.1+dfsg-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ocaml/odoc"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "ocaml-odoc"
+  ],
+  "Package-List": [
+    "libodoc-ocaml deb ocaml optional arch=any libodoc-ocaml-dev deb ocaml optional arch=any ocaml-odoc deb ocaml optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, quilt"
+  ],
+  "Uploaders": [
+    "Ralf Treinen \u003ctreinen@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/ocaml-odoc"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/ocaml-odoc.git"
+  ],
+  "Version": [
+    "2.1.1+dfsg-3"
+  ]
+}

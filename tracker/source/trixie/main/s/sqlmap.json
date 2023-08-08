@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "sqlmap"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all"
+  ],
+  "Checksums-Sha256": [
+    "63f58fe752105aa419fbf7be339ee2e57ed128658d81e549c41042a7787b3d7b 1922 sqlmap_1.7.7-1.dsc ca478e7f3767ad584b34ea035ce8144d06d5deae4ea364df73c2916fd9922803 7214249 sqlmap_1.7.7.orig.tar.gz 68706dfc6d42da3b97eccfb63274bce18f773b09760171a62817fdc67da117e3 19384 sqlmap_1.7.7-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/sqlmap"
+  ],
+  "Files": [
+    "2366b29d025ed5253ebe1c5ab1e2e1c0 1922 sqlmap_1.7.7-1.dsc d6ed7b8f9e5ff9300a14c611deace7f4 7214249 sqlmap_1.7.7.orig.tar.gz da74bb500f68a1c32c13281d7fc8fc8e 19384 sqlmap_1.7.7-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://sqlmap.org/"
+  ],
+  "Maintainer": [
+    "Debian Security Tools \u003cteam+pkg-security@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "sqlmap"
+  ],
+  "Package-List": [
+    "sqlmap deb net optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Uploaders": [
+    "Gianfranco Costamagna \u003clocutusofborg@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-security-team/sqlmap"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-security-team/sqlmap.git"
+  ],
+  "Version": [
+    "1.7.7-1"
+  ]
+}

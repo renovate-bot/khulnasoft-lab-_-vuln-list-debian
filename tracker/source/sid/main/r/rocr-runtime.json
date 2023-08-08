@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libhsa-runtime64-1, libhsa-runtime-dev"
+  ],
+  "Build-Depends": [
+    "clang-15, clangd-15, clang-format-15, clang-tidy-15, clang-tools-15, cmake, debhelper-compat (= 13), libclang-15-dev, libelf-dev, libhsakmt-dev (\u003e= 5.2.0~), libmlir-15-dev, lld-15, llvm-15-dev, mlir-15-tools, rocm-device-libs (\u003e= 5.2.0~), xxd"
+  ],
+  "Checksums-Sha256": [
+    "685e6f7caef2922a3b1f42d2b099d28a9d8e99f5a1c33b5511456bb8608054b9 2506 rocr-runtime_5.2.3-4.dsc 978de85d3455207bb82bef2254a4624e9116b1258a8c164d7a7e21a644eff12f 720879 rocr-runtime_5.2.3.orig.tar.gz 9acec0e6a4f4b4cfd3d63b358387613f27cb1a9f9bf2f40bceb374d1c6d09efc 8572 rocr-runtime_5.2.3-4.debian.tar.xz"
+  ],
+  "Dgit": [
+    "f4ea5d973345a85237845a91a03077d4ef9324d0 debian archive/debian/5.2.3-4 https://git.dgit.debian.org/rocr-runtime"
+  ],
+  "Directory": [
+    "pool/main/r/rocr-runtime"
+  ],
+  "Files": [
+    "a34978617d669720b754c1ba02c45ed0 2506 rocr-runtime_5.2.3-4.dsc bf598a99098148728ec0d10ae07e65aa 720879 rocr-runtime_5.2.3.orig.tar.gz 3b4263b3e59421201497a885bf2ca8c0 8572 rocr-runtime_5.2.3-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/RadeonOpenCompute/ROCR-Runtime/"
+  ],
+  "Maintainer": [
+    "Debian ROCm Team \u003cdebian-ai@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "rocr-runtime"
+  ],
+  "Package-List": [
+    "libhsa-runtime-dev deb libdevel optional arch=any libhsa-runtime64-1 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Mo Zhou \u003clumin@debian.org\u003e, Norbert Preining \u003cnorbert@preining.info\u003e, Maxime Chambonnet \u003cmaxzor@maxzor.eu\u003e, Étienne Mollier \u003cemollier@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rocm-team/rocr-runtime"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rocm-team/rocr-runtime.git"
+  ],
+  "Version": [
+    "5.2.3-4"
+  ]
+}
