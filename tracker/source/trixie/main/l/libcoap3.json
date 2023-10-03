@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libcoap3, libcoap3-bin, libcoap3-dev, libcoap3-doc"
+  ],
+  "Build-Depends": [
+    "asciidoc-base, debhelper-compat (= 13), doxygen, exuberant-ctags, graphviz, libgnutls28-dev, libssl-dev, pkgconf, xmlto"
+  ],
+  "Checksums-Sha256": [
+    "7605930ff2395e9cddc31fc729fb8a8c150986b02d963723a9bfa37f091b3f47 2224 libcoap3_4.3.3-1.dsc faa8999b06e7efd83af7e81f2be54b39ca8be9b53dea02b155cb11bb8f22eb4d 516563 libcoap3_4.3.3.orig.tar.bz2 3c81872689828217dac05fb4cb26f07124c890699904fbbd50914baf749973b7 6568 libcoap3_4.3.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libc/libcoap3"
+  ],
+  "Files": [
+    "fcd85679cd6edd51797ad91c9bcb22f7 2224 libcoap3_4.3.3-1.dsc 978acea8c3ce2890426644073b9b1360 516563 libcoap3_4.3.3.orig.tar.bz2 dc3cc699977caf79d48ed730d3239460 6568 libcoap3_4.3.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://libcoap.net/"
+  ],
+  "Maintainer": [
+    "Debian IoT Maintainers \u003cdebian-iot-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libcoap3"
+  ],
+  "Package-List": [
+    "libcoap3 deb libs optional arch=any libcoap3-bin deb libs optional arch=any libcoap3-dev deb libdevel optional arch=any libcoap3-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Carsten Schoenert \u003cc.schoenert@t-online.de\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-iot-team/libcoap3"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-iot-team/libcoap3.git"
+  ],
+  "Version": [
+    "4.3.3-1"
+  ]
+}

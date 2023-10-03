@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "castxml"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, help2man, libclang-14-dev, llvm-14-dev, libmlir-14-dev, mlir-14-tools, clang-tools-14, clang-format-14, clang-tidy-14, clangd-14, libedit-dev, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "5505e4f5e7b55ddf9263a9214ed8574f3eb41ba2fa82426dfdc176d79b356d99 2236 castxml_0.6.1-1.dsc c7de469dea25fe2fca36736b5b39afde2424e6cfc4923e57e309551aeca489c3 81292 castxml_0.6.1.orig.tar.xz 0cadf960ebc7772e55a23a185eaad7c432eb3e7128d28c4745ce402c433d83b8 4636 castxml_0.6.1-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "02896638d1e882edb5627ad6fee7b91aa84468c9 debian archive/debian/0.6.1-1 https://git.dgit.debian.org/castxml"
+  ],
+  "Directory": [
+    "pool/main/c/castxml"
+  ],
+  "Files": [
+    "208c80e54a9067b7b6ab29be00d0c359 2236 castxml_0.6.1-1.dsc 01abcf654885d634919e5bb10d257225 81292 castxml_0.6.1.orig.tar.xz eddcf295fa6b7f50bcef0054fb79024d 4636 castxml_0.6.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/CastXML/CastXML"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "castxml"
+  ],
+  "Package-List": [
+    "castxml deb devel optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Gert Wollny \u003cgewo@debian.org\u003e, Étienne Mollier \u003cemollier@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/castxml"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/castxml.git"
+  ],
+  "Version": [
+    "0.6.1-1"
+  ]
+}

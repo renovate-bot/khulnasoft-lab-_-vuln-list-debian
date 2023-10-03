@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-gstreamer-base-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-atomic-refcell-0.1+default-dev \u003c!nocheck\u003e, librust-bitflags-1+default-dev \u003c!nocheck\u003e, librust-cfg-if-1+default-dev \u003c!nocheck\u003e, librust-glib-0.17+default-dev \u003c!nocheck\u003e, librust-gstreamer-0.20+default-dev \u003c!nocheck\u003e, librust-gstreamer-base-sys-0.20+default-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev \u003c!nocheck\u003e, librust-once-cell-1+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "52f136301f31de620d569576d742e2c739039b1a81a54d04c204723c5dca61ed 2671 rust-gstreamer-base_0.20.7-1.dsc c0896c4acff303dd21d6a96a7ea4cc9339f7096230fe1433720c9f0bed203985 66071 rust-gstreamer-base_0.20.7.orig.tar.gz b315484a6ceb34fcf6083bb96407e78129cbfc9d9df0ab70e9c230c5c917c97c 3380 rust-gstreamer-base_0.20.7-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-gstreamer-base"
+  ],
+  "Files": [
+    "e94ab6c9a98e9f389de8cd6b5d30e700 2671 rust-gstreamer-base_0.20.7-1.dsc f5a7afa06e53ed48405e07fd4babc346 66071 rust-gstreamer-base_0.20.7.orig.tar.gz bc3c3431c324590ab4aaf19bb59dd2cf 3380 rust-gstreamer-base_0.20.7-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gstreamer.freedesktop.org"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-gstreamer-base"
+  ],
+  "Package-List": [
+    "librust-gstreamer-base-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-gir-format-check-0.1+default-dev"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@riseup.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gstreamer-base"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/gstreamer-base]"
+  ],
+  "Version": [
+    "0.20.7-1"
+  ]
+}

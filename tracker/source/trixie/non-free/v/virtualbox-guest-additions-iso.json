@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Autobuild": [
+    "yes"
+  ],
+  "Binary": [
+    "virtualbox-guest-additions-iso"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12)"
+  ],
+  "Checksums-Sha256": [
+    "ff0755bd6074a02c39d4bcb2c8a51c369478d7c1a45daa7b4892f4e33a86e122 2247 virtualbox-guest-additions-iso_7.0.10-1.dsc defdd4ea1aea2e918142371c557fb08aeb7b0efd5104a3a98e28e9d4fb985593 39499328 virtualbox-guest-additions-iso_7.0.10.orig.tar.xz 3797b00b8b8497e250781c10912af67009c936aa95ffacefa397563d3cda1b03 9400 virtualbox-guest-additions-iso_7.0.10-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/non-free/v/virtualbox-guest-additions-iso"
+  ],
+  "Files": [
+    "259da5b62b77b0815d0186c0b97b24d0 2247 virtualbox-guest-additions-iso_7.0.10-1.dsc 32a5fd0392d5af9085648dea3d5f5af7 39499328 virtualbox-guest-additions-iso_7.0.10.orig.tar.xz b109820ddfd40a6fd94d4fb9330b28d5 9400 virtualbox-guest-additions-iso_7.0.10-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.virtualbox.org"
+  ],
+  "Maintainer": [
+    "Debian Virtualbox Team \u003cteam+debian-virtualbox@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "virtualbox-guest-additions-iso"
+  ],
+  "Package-List": [
+    "virtualbox-guest-additions-iso deb non-free/misc optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "non-free/misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Uploaders": [
+    "Ritesh Raj Sarraf \u003crrs@debian.org\u003e, Gianfranco Costamagna \u003clocutusofborg@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-virtualbox-team/virtualbox-guest-additions-iso"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-virtualbox-team/virtualbox-guest-additions-iso.git"
+  ],
+  "Version": [
+    "7.0.10-1"
+  ]
+}

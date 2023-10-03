@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "php-zumba-json-serializer"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-phpcomposer, php-opis-closure, phpab, phpunit, pkg-php-tools (\u003e= 1.41~)"
+  ],
+  "Checksums-Sha256": [
+    "794aba77b8f45784dcc56422b6b5391004d0fa61c75111dacdc169fa9229d703 2222 php-zumba-json-serializer_3.2.0-1.dsc 774633659501e94d8fff524713d99c75f252d336adac02fe3361782dff7d87ca 12688 php-zumba-json-serializer_3.2.0.orig.tar.xz 3c9e340cb1e3cf1e0778800504b56c3b9a004a32b2559caf1ccac2526f7fb6b5 2772 php-zumba-json-serializer_3.2.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/php-zumba-json-serializer"
+  ],
+  "Files": [
+    "82cc7553fea6da9755606282549b71fa 2222 php-zumba-json-serializer_3.2.0-1.dsc 206451ed392630840b96260c588f678a 12688 php-zumba-json-serializer_3.2.0.orig.tar.xz 6e905ce1de9ef92c80eb777e02d43ba5 2772 php-zumba-json-serializer_3.2.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/zumba/json-serializer"
+  ],
+  "Maintainer": [
+    "William Desportes \u003cwilliamdes@wdes.fr\u003e"
+  ],
+  "Package": [
+    "php-zumba-json-serializer"
+  ],
+  "Package-List": [
+    "php-zumba-json-serializer deb php optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "php-opis-closure, phpab, phpunit, pkg-php-tools"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/php-team/pear/php-zumba-json-serializer"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/php-team/pear/php-zumba-json-serializer.git -b debian/latest"
+  ],
+  "Version": [
+    "3.2.0-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libwmf-0.2-7, libwmflite-0.2-7, libwmf-0.2-7-gtk, libwmf-bin, libwmf-dev, libwmf-doc, libwmf0.2-7, libwmf0.2-7-gtk"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Arch": [
+    "libfreetype-dev, zlib1g-dev, libx11-dev, libexpat1-dev, libjpeg-dev, libpng-dev, libgtk2.0-dev, libgdk-pixbuf-2.0-dev"
+  ],
+  "Checksums-Sha256": [
+    "d545cf6ff85633e11360340f8b06c454bf961c68a7c086f2221bf393dacf998b 2502 libwmf_0.2.13-1.dsc 18ba69febd2f515d98a2352de284a8051896062ac9728d2ead07bc39ea75a068 3044235 libwmf_0.2.13.orig.tar.gz 9a240882c9e7d5c4af93e861ec3ccfcb66f8d62b1a68ab4a431202eeffc9e308 25712 libwmf_0.2.13-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libw/libwmf"
+  ],
+  "Files": [
+    "a5f7ede5df882dd314d654c396004734 2502 libwmf_0.2.13-1.dsc 1c95363fd3c2f7b92bb4f4026aeab8d6 3044235 libwmf_0.2.13.orig.tar.gz a55c1e1c4aa1b3cc63058cc925bbdf4b 25712 libwmf_0.2.13-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://wvware.sourceforge.net/libwmf.html"
+  ],
+  "Maintainer": [
+    "Yangfl \u003cmmyangfl@gmail.com\u003e"
+  ],
+  "Package": [
+    "libwmf"
+  ],
+  "Package-List": [
+    "libwmf-0.2-7 deb libs optional arch=any libwmf-0.2-7-gtk deb libs optional arch=any libwmf-bin deb graphics optional arch=any libwmf-dev deb libdevel optional arch=any libwmf-doc deb doc optional arch=all libwmf0.2-7 deb oldlibs optional arch=any libwmf0.2-7-gtk deb oldlibs optional arch=any libwmflite-0.2-7 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, fonts-urw-base35, libexpat1-dev, libjpeg-dev, pkg-config"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/yangfl-guest/libwmf"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/yangfl-guest/libwmf.git"
+  ],
+  "Version": [
+    "0.2.13-1"
+  ]
+}

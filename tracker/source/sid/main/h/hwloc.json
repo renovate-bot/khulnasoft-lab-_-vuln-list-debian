@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "hwloc, hwloc-nox, libhwloc-dev, libhwloc15, libhwloc-plugins, libhwloc-common, libhwloc-doc"
+  ],
+  "Build-Conflicts": [
+    "autoconf2.13"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), dh-exec, libltdl-dev [!gnu-any-any], valgrind-if-available, libcairo2-dev, libx11-dev, libxml2-dev, libxml2-utils \u003c!nocheck\u003e, libncurses-dev, libnuma-dev [linux-any] \u003c!nocheck\u003e, libxnvctrl-dev, libpciaccess-dev, libudev-dev [linux-any], pkg-config, ocl-icd-opencl-dev [!hurd-any] | opencl-dev, opencl-headers, autoconf (\u003e= 2.63), dpkg-dev (\u003e= 1.16)"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen-latex, transfig"
+  ],
+  "Checksums-Sha256": [
+    "4ab52a9d61955523b05ee2ff66d730c2c96cbfc40102147ade4d6e4c0165784c 2685 hwloc_2.9.3-1.dsc 5c4062ce556f6d3451fc177ffb8673a2120f81df6835dea6a21a90fbdfff0dec 6986142 hwloc_2.9.3.orig.tar.bz2 60e694969cdaa1b6a530f43d26d692f3cae6629f207a5d6c6051829ab818e190 13356 hwloc_2.9.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/h/hwloc"
+  ],
+  "Files": [
+    "0ebb5a74b568bec1d981be4a20a25853 2685 hwloc_2.9.3-1.dsc d3eb9cc49b66d607fcc81ab68aeb6156 6986142 hwloc_2.9.3.orig.tar.bz2 a986d8b792d971535dba2058afd1dfb4 13356 hwloc_2.9.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.open-mpi.org/projects/hwloc/"
+  ],
+  "Maintainer": [
+    "Samuel Thibault \u003csthibault@debian.org\u003e"
+  ],
+  "Package": [
+    "hwloc"
+  ],
+  "Package-List": [
+    "hwloc deb admin optional arch=any hwloc-nox deb admin optional arch=any libhwloc-common deb libs optional arch=all libhwloc-dev deb libdevel optional arch=any libhwloc-doc deb doc optional arch=all libhwloc-plugins deb libs optional arch=any libhwloc15 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "admin"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "debhelper, dh-autoreconf, libltdl-dev, libxml2-dev, libxml2-utils"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/hwloc"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/hwloc.git"
+  ],
+  "Version": [
+    "2.9.3-1"
+  ]
+}

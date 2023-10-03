@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-github-containers-image, golang-github-containers-image-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), dh-golang, go-md2man, golang-github-acarl005-stripansi-dev, golang-github-burntsushi-toml-dev, golang-github-containers-libtrust-dev, golang-github-containers-ocicrypt-dev, golang-github-containers-storage-dev (\u003e= 1.48), golang-github-coreos-bbolt-dev (\u003e= 1.3.3~), golang-github-docker-distribution-dev, golang-github-docker-docker-credential-helpers-dev, golang-github-docker-docker-dev, golang-github-docker-go-connections-dev, golang-github-fullsailor-pkcs7-dev, golang-github-ghodss-yaml-dev, golang-github-imdario-mergo-dev, golang-github-klauspost-pgzip-dev, golang-github-manifoldco-promptui-dev, golang-github-moby-sys-dev, golang-github-opencontainers-go-digest-dev, golang-github-opencontainers-image-spec-dev (\u003e= 1.1.0~rc4), golang-github-opencontainers-selinux-dev (\u003e= 1.11), golang-github-ostreedev-ostree-go-dev, golang-github-pkg-errors-dev, golang-github-pquerna-ffjson-dev, golang-github-proglottis-gpgme-dev, golang-github-sigstore-sigstore-dev, golang-github-sirupsen-logrus-dev, golang-github-stretchr-testify-dev, golang-github-sylabs-sif-dev (\u003e\u003e 2.3.1), golang-github-ulikunitz-xz-dev, golang-github-vbatts-tar-split-dev, golang-github-vbauerster-mpb-dev (\u003e= 8), golang-github-xeipuuv-gojsonschema-dev, golang-go, golang-golang-x-crypto-dev, golang-golang-x-net-dev, golang-golang-x-sync-dev, golang-gopkg-cheggaaa-pb.v1-dev, libbtrfs-dev, libdevmapper-dev"
+  ],
+  "Checksums-Sha256": [
+    "38c3a219b4e73626594c9f303ac8c79a640a2ad9063fb0535d15dcb6096a67ad 3927 golang-github-containers-image_5.26.1-2.dsc 1627328cd55a17404a40dc1090058cd0d3028c1d53ad69d65ef86d6bef5438b1 694728 golang-github-containers-image_5.26.1.orig.tar.gz 1b77a0fb259af5208fc712a7d21b74f8321e5ff303840426f18456ce182173e0 14812 golang-github-containers-image_5.26.1-2.debian.tar.xz"
+  ],
+  "Dgit": [
+    "537a1b013eb609b6abbde7fed9113299c5c7d0e6 debian archive/debian/5.26.1-2 https://git.dgit.debian.org/golang-github-containers-image"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-containers-image"
+  ],
+  "Files": [
+    "7f20311e0e3442706fb162e0f64507f1 3927 golang-github-containers-image_5.26.1-2.dsc 036d15773944143c41f6239c7e1926c3 694728 golang-github-containers-image_5.26.1.orig.tar.gz 6446f553417e867e0c41f680564a32ad 14812 golang-github-containers-image_5.26.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/containers/image"
+  ],
+  "Homepage": [
+    "https://github.com/containers/image"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-containers-image"
+  ],
+  "Package-List": [
+    "golang-github-containers-image deb devel optional arch=all golang-github-containers-image-dev deb devel optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "golang"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Reinhard Tartler \u003csiretart@tauware.de\u003e, Dmitry Smirnov \u003conlyjob@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-github-containers-image"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-github-containers-image.git"
+  ],
+  "Version": [
+    "5.26.1-2"
+  ]
+}

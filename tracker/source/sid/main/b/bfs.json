@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "bfs"
+  ],
+  "Build-Depends": [
+    "acl, debhelper-compat (= 13), libacl1-dev [linux-any], libcap-dev [linux-any], libonig-dev"
+  ],
+  "Checksums-Sha256": [
+    "e6187ff09de6b64cdafb238aa3fa0c7d136f9e56278ee256465d086c8a30d772 1858 bfs_3.0.2-1.dsc d3456a9aeecc031064db0dbe012e55a11eb97be88d0ab33a90e570fe66457f92 202544 bfs_3.0.2.orig.tar.gz 460709d76e5c04718e56ede62c4818b03942d39ba6fff474e48ca7dce4cb8392 3980 bfs_3.0.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/b/bfs"
+  ],
+  "Files": [
+    "a4af127fe9fff4cc85250ac6ebeb8195 1858 bfs_3.0.2-1.dsc f0778eaa46157a1c8c6e20562c97c123 202544 bfs_3.0.2.orig.tar.gz 5441ab1e83b157917d91eef3dc0bac36 3980 bfs_3.0.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/tavianator/bfs"
+  ],
+  "Maintainer": [
+    "Chris Lamb \u003clamby@debian.org\u003e"
+  ],
+  "Package": [
+    "bfs"
+  ],
+  "Package-List": [
+    "bfs deb utils optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/lamby/pkg-bfs"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/lamby/pkg-bfs.git"
+  ],
+  "Version": [
+    "3.0.2-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "python3-cffi, python3-cffi-backend, python-cffi-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, dh-sequence-python3, dh-sequence-sphinxdoc \u003c!nodoc\u003e, libffi-dev, pybuild-plugin-pyproject, python3-all-dev, python3-py \u003c!nocheck\u003e, python3-pycparser \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-setuptools, python3-sphinx \u003c!nodoc\u003e, virtualenv \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "71065968a567f88bdc28d60f12d4c44b29b694db7b825eaade9f08d2e06fff17 1934 python-cffi_1.16.0-1.dsc bcb3ef43e58665bbda2fb198698fcae6776483e0c4a631aa5647806c25e02cc0 512873 python-cffi_1.16.0.orig.tar.gz 00220396870cb9ffe0b478e0bb18fa6fce24216809525111fde191e74eb6e267 7580 python-cffi_1.16.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-cffi"
+  ],
+  "Files": [
+    "747f699ea412116d60d2f36a49b98c5b 1934 python-cffi_1.16.0-1.dsc 0bcaed453da3004d0bea103038345c1e 512873 python-cffi_1.16.0.orig.tar.gz 9cc0ffdc08e006487a41baa5cde67ebd 7580 python-cffi_1.16.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cffi.readthedocs.org/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-cffi"
+  ],
+  "Package-List": [
+    "python-cffi-doc deb doc optional arch=all python3-cffi deb python optional arch=all python3-cffi-backend deb python optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, python3-all-dbg, python3-all-dev, python3-py, python3-pytest, python3-setuptools, virtualenv"
+  ],
+  "Uploaders": [
+    "Stefano Rivera \u003cstefanor@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-cffi"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-cffi.git"
+  ],
+  "Version": [
+    "1.16.0-1"
+  ]
+}

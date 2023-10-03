@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "pdfarranger"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3, python3-distutils-extra, python3-pkg-resources, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "ecfa3a2e929e3c20577c36ce116af197ab9b238ab87d6c6c94e1ddd715d48dbd 2124 pdfarranger_1.10.0-1.dsc c8b136517f0277ee5c85c54d220c069f102a29dd3b16fd006c38fe800226089e 303125 pdfarranger_1.10.0.orig.tar.gz 2919fccd634a29acdf2fe5d5bd8d0a7d25e8fff1c90ca6e722fdad876af2533e 4936 pdfarranger_1.10.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pdfarranger"
+  ],
+  "Files": [
+    "391c0056fc1c9bab19094c58eb757070 2124 pdfarranger_1.10.0-1.dsc 39012e0741088b3369a95f28e69596f3 303125 pdfarranger_1.10.0.orig.tar.gz 7d6172f6502563513ce610b8ee6e16ec 4936 pdfarranger_1.10.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/pdfarranger/pdfarranger"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "pdfarranger"
+  ],
+  "Package-List": [
+    "pdfarranger deb graphics optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Vincent Cheng \u003cvcheng@debian.org\u003e, Jeremy Lainé \u003cjeremy.laine@m4x.org\u003e, Jeremy Bicha \u003cjbicha@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/pdfarranger"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/pdfarranger.git"
+  ],
+  "Version": [
+    "1.10.0-1"
+  ]
+}

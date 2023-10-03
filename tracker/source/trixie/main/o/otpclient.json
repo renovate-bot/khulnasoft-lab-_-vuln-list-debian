@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "otpclient, otpclient-cli"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), libcotp-dev, libgcrypt20-dev, libgtk-3-dev, libjansson-dev, libpng-dev, libprotobuf-c-dev, libprotobuf-dev, libqrencode-dev, libsecret-1-dev, libzbar-dev, libzip-dev, pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "61691e382e2f42a6b498426bf77a5c9f29971f95b8dc67c1f7486744a2e405a1 2382 otpclient_3.1.9-1.dsc f4e4c94904ecc7e129cb16fb0d50086491cae34a83c6ce68d811995eeb6ea7c0 194293 otpclient_3.1.9.orig.tar.gz a312f7364eb3f15b0f32146838cb3af7f35703c1b7a6d30fa1eef88169d70d51 833 otpclient_3.1.9.orig.tar.gz.asc 1c94d5f06ce88dd97b27127486f853afa1988ecf4a200e50992c3f2d026c723c 12172 otpclient_3.1.9-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/o/otpclient"
+  ],
+  "Files": [
+    "98600a2393cb7fcffbc95d3fb1d12382 2382 otpclient_3.1.9-1.dsc d18a9c794b711c310cca2fbfd9137e9e 194293 otpclient_3.1.9.orig.tar.gz ab751eac69b1469d0024c3e484e124eb 833 otpclient_3.1.9.orig.tar.gz.asc a52efe043d1a23fc5f4e0f39ca60311c 12172 otpclient_3.1.9-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/paolostivanin/OTPClient"
+  ],
+  "Maintainer": [
+    "Francisco Vilmar Cardoso Ruviaro \u003cvilmar@debian.org\u003e"
+  ],
+  "Package": [
+    "otpclient"
+  ],
+  "Package-List": [
+    "otpclient deb utils optional arch=any otpclient-cli deb utils optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/otpclient"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/otpclient.git"
+  ],
+  "Version": [
+    "3.1.9-1"
+  ]
+}

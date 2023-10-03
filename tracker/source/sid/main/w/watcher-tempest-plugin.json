@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "watcher-tempest-plugin"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 11), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools"
+  ],
+  "Build-Depends-Indep": [
+    "python3-coverage, python3-doc8, python3-hacking, python3-os-traits, python3-oslo.log, python3-oslo.utils, python3-oslotest, python3-testtools, python3-stestr, python3-webtest, subunit, tempest, testrepository"
+  ],
+  "Checksums-Sha256": [
+    "dd837ad6adb52bc6d4c49a03967f1635d616be7d2eb901c1e67f7b8318cd0b32 2394 watcher-tempest-plugin_2.6.0-3.dsc fd18a5e9461730968828dd64500fb7e9a250e6deed790c139fc208dda1f134fd 34584 watcher-tempest-plugin_2.6.0.orig.tar.xz c8cdd8d51afeaca6ee7f84d805c4576958f897f40558f34c0f1f718ed763d4d5 2836 watcher-tempest-plugin_2.6.0-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/w/watcher-tempest-plugin"
+  ],
+  "Files": [
+    "95d95d2c112345b4697f1f2f15201620 2394 watcher-tempest-plugin_2.6.0-3.dsc aa210a3a2dc663c8c7045e960f9c36f8 34584 watcher-tempest-plugin_2.6.0.orig.tar.xz 511dbc659f865b0d5c01a41db2dc4af7 2836 watcher-tempest-plugin_2.6.0-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://opendev.org/openstack/watcher-tempest-plugin"
+  ],
+  "Maintainer": [
+    "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "watcher-tempest-plugin"
+  ],
+  "Package-List": [
+    "watcher-tempest-plugin deb net optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openstack-team/tempest/watcher-tempest-plugin"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openstack-team/tempest/watcher-tempest-plugin.git"
+  ],
+  "Version": [
+    "2.6.0-3"
+  ]
+}

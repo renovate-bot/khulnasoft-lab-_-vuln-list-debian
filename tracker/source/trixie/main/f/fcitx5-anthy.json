@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "fcitx5-anthy"
+  ],
+  "Build-Depends": [
+    "cmake (\u003e= 3.4), debhelper-compat (= 13), extra-cmake-modules, fcitx5-modules-dev, gettext, libfcitx5core-dev (\u003e= 5.1), libanthy-dev, pkg-config, qtbase5-dev"
+  ],
+  "Checksums-Sha256": [
+    "49095bcac4142545893bd8e73d19f775ac36c228a16f82989d42a79a5427d962 2354 fcitx5-anthy_5.1.0-1.dsc b725b13610ab78968073e2141fce626b2a3c3802dc634cad15cec06bc61ef343 84792 fcitx5-anthy_5.1.0.orig.tar.xz 734e84818a265b437fd93794b338a20f06dae8416bc4887f095e4e624c3295b4 488 fcitx5-anthy_5.1.0.orig.tar.xz.asc b9d21d29ba2375f27b3de2e13da80d16262a30440ddc7078e9912f58de09cbdf 4496 fcitx5-anthy_5.1.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/fcitx5-anthy"
+  ],
+  "Files": [
+    "2fb727cac210c8731b5234bcd339e900 2354 fcitx5-anthy_5.1.0-1.dsc 6cbf669632a44666343c47e8d01523db 84792 fcitx5-anthy_5.1.0.orig.tar.xz 3794a3331bb6a77d112d68a4484b7921 488 fcitx5-anthy_5.1.0.orig.tar.xz.asc 0ceac1835d6ae3673fb99237743a5633 4496 fcitx5-anthy_5.1.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/fcitx/fcitx5-anthy"
+  ],
+  "Maintainer": [
+    "Debian Input Method Team \u003cdebian-input-method@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "fcitx5-anthy"
+  ],
+  "Package-List": [
+    "fcitx5-anthy deb utils optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Boyuan Yang \u003cbyang@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/input-method-team/fcitx5-anthy"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/input-method-team/fcitx5-anthy.git"
+  ],
+  "Version": [
+    "5.1.0-1"
+  ]
+}

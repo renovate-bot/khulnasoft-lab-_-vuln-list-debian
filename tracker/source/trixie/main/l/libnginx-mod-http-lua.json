@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "amd64 arm64 armel armhf i386 mips64el mipsel powerpc s390x"
+  ],
+  "Binary": [
+    "libnginx-mod-http-lua"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-nginx, libluajit2-5.1-dev, libnginx-mod-http-ndk-dev"
+  ],
+  "Checksums-Sha256": [
+    "18d8fce9ed261d1444271ed0ed28f34cc4f2c0cc1983607af3c1c0328849a512 2363 libnginx-mod-http-lua_0.10.25-2.dsc bc764db42830aeaf74755754b900253c233ad57498debe7a441cee2c6f4b07c2 725616 libnginx-mod-http-lua_0.10.25.orig.tar.gz 70276f7d981f734fc81663d8ab5758962c64b28b6bc7e8d97263c32130265b75 16272 libnginx-mod-http-lua_0.10.25-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libn/libnginx-mod-http-lua"
+  ],
+  "Files": [
+    "633b69c364c35575156bd441bb610ad3 2363 libnginx-mod-http-lua_0.10.25-2.dsc 60b059c254e6ee961c043b4cc3c9c852 725616 libnginx-mod-http-lua_0.10.25.orig.tar.gz 45590aecd6dc07bd8ca01b3763a96617 16272 libnginx-mod-http-lua_0.10.25-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/openresty/lua-nginx-module"
+  ],
+  "Maintainer": [
+    "Debian Nginx Maintainers \u003cpkg-nginx-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "libnginx-mod-http-lua"
+  ],
+  "Package-List": [
+    "libnginx-mod-http-lua deb httpd optional arch=amd64,arm64,armel,armhf,i386,mips64el,mipsel,powerpc,s390x"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "curl, nginx, nginx-core"
+  ],
+  "Uploaders": [
+    "Jan Mojžíš \u003cjan.mojzis@gmail.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/nginx-team/libnginx-mod-http-lua"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/nginx-team/libnginx-mod-http-lua.git"
+  ],
+  "Version": [
+    "1:0.10.25-2"
+  ]
+}

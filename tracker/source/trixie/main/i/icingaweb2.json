@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "icingaweb2, icingaweb2-common, icingaweb2-module-monitoring, icingaweb2-module-doc, php-icinga, icingacli"
+  ],
+  "Build-Depends": [
+    "bash-completion, debhelper-compat (= 13), php-cli"
+  ],
+  "Checksums-Sha256": [
+    "e169085f1368d4dc2ae899086d3520aecedc56f81f3e7463b9a32e9d2f9cdbd3 2295 icingaweb2_2.11.4-3.dsc e9944bf57a3bf339fd6bd862ddaf885991b8b45ce8f057986b732bf95b3f114e 11381515 icingaweb2_2.11.4.orig.tar.gz 5810d2e141ff3840d3e2f7427bf10d1dfad70cf0adff6f4644f3020feb43c50f 15000 icingaweb2_2.11.4-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/icingaweb2"
+  ],
+  "Files": [
+    "915eeae084b650305a31509ff62c0b36 2295 icingaweb2_2.11.4-3.dsc 50d0f3841005b833610248b4dad8ae90 11381515 icingaweb2_2.11.4.orig.tar.gz 1784575bc079e1097cb3a1a612e1f247 15000 icingaweb2_2.11.4-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://icinga.com"
+  ],
+  "Maintainer": [
+    "Debian Nagios Maintainer Group \u003cpkg-nagios-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "icingaweb2"
+  ],
+  "Package-List": [
+    "icingacli deb admin optional arch=all icingaweb2 deb admin optional arch=all icingaweb2-common deb admin optional arch=all icingaweb2-module-doc deb doc optional arch=all icingaweb2-module-monitoring deb admin optional arch=all php-icinga deb php optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Markus Frosch \u003clazyfrosch@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/nagios-team/icingaweb2"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/nagios-team/icingaweb2.git"
+  ],
+  "Version": [
+    "2.11.4-3"
+  ]
+}

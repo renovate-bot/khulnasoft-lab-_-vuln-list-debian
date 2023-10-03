@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-saharaclient-doc, python3-saharaclient"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 11), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx \u003c!nodoc\u003e"
+  ],
+  "Build-Depends-Indep": [
+    "python3-coverage, python3-hacking, python3-keystoneauth1, python3-openstackclient, python3-openstackdocstheme \u003c!nodoc\u003e, python3-osc-lib, python3-oslo.i18n, python3-oslo.log (\u003e= 5.0.0), python3-oslo.serialization, python3-oslo.utils, python3-oslotest, python3-pep8, python3-requests, python3-requests-mock, python3-six, python3-stestr, subunit"
+  ],
+  "Checksums-Sha256": [
+    "218fa067279f8042b2217ff2c5757d3d19d952741cc58d8fd08729f1e961e484 2710 python-saharaclient_4.1.0-3.dsc f555a5e8e4e64c40a3c9e0e56cf4b1bd292531aa12496f49c13ef4dfce2b7609 65668 python-saharaclient_4.1.0.orig.tar.xz 62b9eb06d24049daa594ce826de4667d198656569320ec52ff62e4ef94e6aa59 4360 python-saharaclient_4.1.0-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-saharaclient"
+  ],
+  "Files": [
+    "3fe1421e230317b696d828d500764eb0 2710 python-saharaclient_4.1.0-3.dsc 78a4c19b9132387ff5c978a3c2d82324 65668 python-saharaclient_4.1.0.orig.tar.xz 40629638673fc0fb84e82d9fb87e85cf 4360 python-saharaclient_4.1.0-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/openstack/python-saharaclient"
+  ],
+  "Maintainer": [
+    "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-saharaclient"
+  ],
+  "Package-List": [
+    "python-saharaclient-doc deb doc optional arch=all profile=!nodoc python3-saharaclient deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e, Corey Bryant \u003ccorey.bryant@canonical.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openstack-team/clients/python-saharaclient"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openstack-team/clients/python-saharaclient.git"
+  ],
+  "Version": [
+    "4.1.0-3"
+  ]
+}

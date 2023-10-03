@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-bioc-gviz"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-bioc-s4vectors, r-bioc-iranges, r-bioc-genomicranges, r-bioc-xvector, r-bioc-rtracklayer, r-cran-lattice, r-cran-rcolorbrewer, r-bioc-biomart, r-bioc-annotationdbi, r-bioc-biobase, r-bioc-genomicfeatures, r-bioc-ensembldb, r-bioc-bsgenome, r-bioc-biostrings, r-bioc-biovizbase, r-bioc-rsamtools, r-cran-latticeextra, r-cran-matrixstats, r-bioc-genomicalignments, r-bioc-genomeinfodb, r-bioc-biocgenerics, r-cran-digest"
+  ],
+  "Checksums-Sha256": [
+    "6b7d9ba5bfa98d57bc415c7a69a90293c21a15189f940c2e6717697d93a8f67b 2484 r-bioc-gviz_1.44.1+dfsg-1.dsc 3790b7f7ab0b7ccd398f65c4277dd88a32902e0c6f6b51ea72dfdb133c0095ff 3823852 r-bioc-gviz_1.44.1+dfsg.orig.tar.xz 258d061cc9a91e6e289980aecc01b2758162859e7f80f84e77c1f2bd4fedbd9d 7112 r-bioc-gviz_1.44.1+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-gviz"
+  ],
+  "Files": [
+    "0369c449a97f14f291fa6bc662629898 2484 r-bioc-gviz_1.44.1+dfsg-1.dsc 17e609263c9896a196cec5363dd8e39d 3823852 r-bioc-gviz_1.44.1+dfsg.orig.tar.xz ab75548aaa895fe113a42c7e5d20a75c 7112 r-bioc-gviz_1.44.1+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/Gviz/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-gviz"
+  ],
+  "Package-List": [
+    "r-bioc-gviz deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-gviz"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-gviz.git"
+  ],
+  "Version": [
+    "1.44.1+dfsg-1"
+  ]
+}

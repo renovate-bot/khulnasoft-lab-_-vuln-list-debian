@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-serde-dev, librust-serde+serde-derive-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "6763b6979bb0f7a384fa08875e33e0b789d996d81c14250213745b231dc5ed32 2322 rust-serde_1.0.171-1.dsc 30e27d1e4fd7659406c492fd6cfaf2066ba8773de45ca75e855590f856dc34a9 77630 rust-serde_1.0.171.orig.tar.gz 0490359bbcc48b7bfa548bf2086eebd2c7718764ef337521da73e74cf507754d 3736 rust-serde_1.0.171-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-serde"
+  ],
+  "Files": [
+    "481d911795bbc1f6fc037b2729d37298 2322 rust-serde_1.0.171-1.dsc ac637702c418e8243eb21a81ff036cea 77630 rust-serde_1.0.171.orig.tar.gz 39c7ed563548d10900a6c84a2ec68ebf 3736 rust-serde_1.0.171-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://serde.rs"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-serde"
+  ],
+  "Package-List": [
+    "librust-serde+serde-derive-dev deb rust optional arch=any librust-serde-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-serde-derive-1+default-dev"
+  ],
+  "Uploaders": [
+    "Ximin Luo \u003cinfinity0@debian.org\u003e, Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/serde"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/serde]"
+  ],
+  "Version": [
+    "1.0.171-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "firewalld, firewall-applet, firewall-config, python3-firewall, firewalld-tests"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, docbook-xml, docbook-xsl, libxml2-utils, intltool, kmod, libglib2.0-dev, pkg-config, python3 (\u003e= 3.2), xsltproc"
+  ],
+  "Checksums-Sha256": [
+    "d347be4896694ca7c675a77cff1846d72459d2d435ce19d4ae2ae043fcb8b19d 2456 firewalld_2.0.0-2.dsc 89a736515921e0dcc983e4206bcd958576c6023bcb9314096d3f8c1f7897301f 1260018 firewalld_2.0.0.orig.tar.bz2 124ad7e8c33d9080cc822e0a5a39325a22cb872de643633f9b46f1b32543c4e9 10108 firewalld_2.0.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/firewalld"
+  ],
+  "Files": [
+    "978565a54795f3c0c98b5082b5bf352f 2456 firewalld_2.0.0-2.dsc 3c51e28ce27fde36c8156793e49dabad 1260018 firewalld_2.0.0.orig.tar.bz2 507825d98b81da4c44c6375f4309f9f6 10108 firewalld_2.0.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.firewalld.org/"
+  ],
+  "Maintainer": [
+    "Utopia Maintenance Team \u003cpkg-utopia-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "firewalld"
+  ],
+  "Package-List": [
+    "firewall-applet deb net optional arch=all firewall-config deb net optional arch=all firewalld deb net optional arch=all firewalld-tests deb misc optional arch=all python3-firewall deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "ipset, iptables, libglib2.0-bin, libxml2-utils, network-manager, nftables, policykit-1, polkitd, sudo, time"
+  ],
+  "Uploaders": [
+    "Michael Biebl \u003cbiebl@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/utopia-team/firewalld"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/utopia-team/firewalld.git"
+  ],
+  "Version": [
+    "2.0.0-2"
+  ]
+}

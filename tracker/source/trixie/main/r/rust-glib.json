@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-glib-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-bitflags-1+default-dev \u003c!nocheck\u003e, librust-futures-channel-0.3+default-dev \u003c!nocheck\u003e, librust-futures-core-0.3-dev \u003c!nocheck\u003e, librust-futures-executor-0.3+default-dev \u003c!nocheck\u003e, librust-futures-task-0.3-dev \u003c!nocheck\u003e, librust-futures-util-0.3+default-dev \u003c!nocheck\u003e, librust-gio-sys-0.17+default-dev \u003c!nocheck\u003e, librust-glib-macros-0.17+default-dev \u003c!nocheck\u003e, librust-glib-sys-0.17+default-dev \u003c!nocheck\u003e, librust-gobject-sys-0.17+default-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev \u003c!nocheck\u003e, librust-memchr-2+default-dev (\u003e= 2.5.0-~~) \u003c!nocheck\u003e, librust-once-cell-1+default-dev \u003c!nocheck\u003e, librust-smallvec-1+const-generics-dev \u003c!nocheck\u003e, librust-smallvec-1+const-new-dev \u003c!nocheck\u003e, librust-smallvec-1+default-dev \u003c!nocheck\u003e, librust-smallvec-1+union-dev \u003c!nocheck\u003e, librust-thiserror-1+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "43d91ea267fe2181862af32de179c371f239535cf5862a0c81a19438ee5f2b19 3122 rust-glib_0.17.10-4.dsc d3fad45ba8d4d2cea612b432717e834f48031cd8853c8aaf43b2c79fec8d144b 259266 rust-glib_0.17.10.orig.tar.gz 3239412d7de02720d76b261a0f90f29bfca5bdea5189aca3735cc5c390963354 4848 rust-glib_0.17.10-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-glib"
+  ],
+  "Files": [
+    "641ce9732c6c02cb96847bb6d977aeb4 3122 rust-glib_0.17.10-4.dsc 8a77ef0fbd1f57341424942fe530c5d6 259266 rust-glib_0.17.10.orig.tar.gz f2a7d11e457be5bf4f73c5928c675e01 4848 rust-glib_0.17.10-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gtk-rs.org/"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-glib"
+  ],
+  "Package-List": [
+    "librust-glib-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-criterion-0.5+default-dev, librust-gir-format-check-0.1+default-dev, librust-tempfile-3+default-dev, librust-trybuild-1+default-dev"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@riseup.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/glib"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/glib]"
+  ],
+  "Version": [
+    "0.17.10-4"
+  ]
+}

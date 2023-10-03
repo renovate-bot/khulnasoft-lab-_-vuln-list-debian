@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-icalendar-doc, python3-icalendar"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc, help2man \u003c!nodoc\u003e, pandoc \u003c!nodoc\u003e, pybuild-plugin-pyproject, python3-all, python3-dateutil, python3-hypothesis, python3-pytest, python3-setuptools, python3-sphinx, python3-tz"
+  ],
+  "Checksums-Sha256": [
+    "c73c42d07f731b35d21fc1130cff918b8e36496110e0bbe849cc7f7c1387fe7b 2441 python-icalendar_5.0.8-1.dsc f233f6a606a12a184222b55530c237d7cb68d995e2071e6b157cd5c3c8517015 87735 python-icalendar_5.0.8.orig.tar.gz d3d609f1b8ba99c2008300d938846a101b973bd244147e5ab36ed8b5880de421 7428 python-icalendar_5.0.8-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-icalendar"
+  ],
+  "Files": [
+    "333872e40e9bfc67195095d5e8a19170 2441 python-icalendar_5.0.8-1.dsc 2298152258686f59d4ee31dbb2edaff9 87735 python-icalendar_5.0.8.orig.tar.gz f13da027e0b024cd1b3d962199934fff 7428 python-icalendar_5.0.8-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://icalendar.readthedocs.org/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-icalendar"
+  ],
+  "Package-List": [
+    "python-icalendar-doc deb doc optional arch=all python3-icalendar deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Christoph Egger \u003cchristoph@debian.org\u003e, Félix Sipma \u003cfelix+debian@gueux.org\u003e, Jelmer Vernooĳ \u003cjelmer@debian.org\u003e, Jonas Smedegaard \u003cdr@jones.dk\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-icalendar"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-icalendar.git"
+  ],
+  "Version": [
+    "5.0.8-1"
+  ]
+}

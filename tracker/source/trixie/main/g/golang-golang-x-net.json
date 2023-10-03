@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-golang-x-net-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any (\u003e= 2:1.17~), golang-golang-x-crypto-dev (\u003e= 0.10.0), golang-golang-x-sys-dev (\u003e= 0.9.0), golang-golang-x-term-dev (\u003e= 0.9.0), golang-golang-x-text-dev (\u003e= 0.10.0), publicsuffix"
+  ],
+  "Checksums-Sha256": [
+    "eadfed223cf9db685b0928d1028b456f73096dcc31315e4ac04633334290f225 2445 golang-golang-x-net_0.11.0-1.dsc 27962ab1bb510b2cc3752336565641a59abc11928eb45b560eceb9a97aa5d132 745232 golang-golang-x-net_0.11.0.orig.tar.xz 0de7d51a8acf72c2b4721d608c0936ff47991beb3b1e694052794dcc5debb3b7 15212 golang-golang-x-net_0.11.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-golang-x-net"
+  ],
+  "Files": [
+    "25f93d5c3bccc6a3ba70cdaaa44246bb 2445 golang-golang-x-net_0.11.0-1.dsc 18128ec16fda41d4a3930a654a6e3766 745232 golang-golang-x-net_0.11.0.orig.tar.xz 6b432026c0fc52140aae5e4d4cc3dfdb 15212 golang-golang-x-net_0.11.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "golang.org/x/net"
+  ],
+  "Homepage": [
+    "https://golang.org/x/net"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-golang-x-net"
+  ],
+  "Package-List": [
+    "golang-golang-x-net-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "golang"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Martín Ferrari \u003ctincho@debian.org\u003e, Michael Stapelberg \u003cstapelberg@debian.org\u003e, Tim Potter \u003ctpot@hpe.com\u003e, Anthony Fok \u003cfoka@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-golang-x-net"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-golang-x-net.git"
+  ],
+  "Version": [
+    "1:0.11.0-1"
+  ]
+}

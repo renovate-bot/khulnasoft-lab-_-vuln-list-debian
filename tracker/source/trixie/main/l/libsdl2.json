@@ -1,0 +1,68 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libsdl2-2.0-0, libsdl2-dev, libsdl2-doc, libsdl2-tests"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), fcitx-libs-dev, libasound2-dev [linux-any], libdbus-1-dev, libdecor-0-dev (\u003e= 0.1.1-2~) [linux-any], libdrm-dev [linux-any], libegl-dev [!hurd-any], libgbm-dev [linux-any], libgl-dev, libgles-dev [!hurd-any], libibus-1.0-dev, libpipewire-0.3-dev (\u003e= 0.3.20) [linux-any], libpulse-dev, libsamplerate0-dev, libsndio-dev, libudev-dev [linux-any], libusb2-dev [kfreebsd-any], libusbhid-dev [kfreebsd-any], libvulkan-dev [linux-any], libwayland-dev (\u003e= 1.18) [linux-any], libx11-dev, libxcursor-dev, libxext-dev, libxfixes-dev, libxi-dev, libxinerama-dev, libxkbcommon-dev (\u003e= 0.5.0), libxrandr-dev, libxss-dev, libxt-dev, libxv-dev, libxxf86vm-dev, pkg-config, wayland-protocols"
+  ],
+  "Build-Depends-Indep": [
+    "graphviz \u003c!nodoc\u003e, doxygen \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "8950af6f5356b90d7cdb7853b41c0012c423d82ff15ffc766e59280c0b216093 3159 libsdl2_2.28.3+dfsg-3.dsc 14d35b313f4831c5ef6eda154b6323a45801ba7494cccd76b9ce239b5344aeeb 4746401 libsdl2_2.28.3+dfsg.orig.tar.gz f0454799e4835432c03698bfdbd2c52189dfa47fa268dfa93a00a045c9bca0dc 39816 libsdl2_2.28.3+dfsg-3.debian.tar.xz"
+  ],
+  "Dgit": [
+    "1832d82c080ec1e510c54203cba711c6b6713681 debian archive/debian/2.28.3+dfsg-3 https://git.dgit.debian.org/libsdl2"
+  ],
+  "Directory": [
+    "pool/main/libs/libsdl2"
+  ],
+  "Files": [
+    "5467fc04987687098621f2b941cb6189 3159 libsdl2_2.28.3+dfsg-3.dsc 6e5eed3ac6be039bdebf10196410a393 4746401 libsdl2_2.28.3+dfsg.orig.tar.gz 3023e00e8efc9c5aeb649160f4f4af77 39816 libsdl2_2.28.3+dfsg-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.libsdl.org/"
+  ],
+  "Maintainer": [
+    "Debian SDL packages maintainers \u003cpkg-sdl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libsdl2"
+  ],
+  "Package-List": [
+    "libsdl2-2.0-0 deb libs optional arch=any libsdl2-dev deb libdevel optional arch=any libsdl2-doc deb doc optional arch=all profile=!nodoc libsdl2-tests deb misc optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, cmake, gnome-desktop-testing"
+  ],
+  "Uploaders": [
+    "Manuel A. Fernandez Montecelo \u003cmafm@debian.org\u003e, Felix Geyer \u003cfgeyer@debian.org\u003e, Simon McVittie \u003csmcv@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/sdl-team/libsdl2"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/sdl-team/libsdl2.git"
+  ],
+  "Version": [
+    "2.28.3+dfsg-3"
+  ]
+}

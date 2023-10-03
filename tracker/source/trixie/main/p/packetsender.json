@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "packetsender"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, qttools5-dev"
+  ],
+  "Checksums-Sha256": [
+    "a4ba021e01457da62bb5700cf1b0acc4c6402576ee4fee9cb1d83e6a8f0881f5 1915 packetsender_8.4.3-1.dsc d72114da04fb99185f003e906d4d32b418fe1231a99d68f4816992822726b1d0 3352794 packetsender_8.4.3.orig.tar.gz fb6d8ab4f59a8893d5881f0a38340194d39d9321bdd3af80b84df2114ed52e35 9000 packetsender_8.4.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/packetsender"
+  ],
+  "Files": [
+    "37d19e66098d30ebd29a21390351b583 1915 packetsender_8.4.3-1.dsc dac196f4c55bafaaccacedf8116276d0 3352794 packetsender_8.4.3.orig.tar.gz 8ceff0ab863092a2f7d9d87d645d3935 9000 packetsender_8.4.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://packetsender.com/"
+  ],
+  "Maintainer": [
+    "Joao Eriberto Mota Filho \u003ceriberto@debian.org\u003e"
+  ],
+  "Package": [
+    "packetsender"
+  ],
+  "Package-List": [
+    "packetsender deb net optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/packetsender"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/packetsender.git"
+  ],
+  "Version": [
+    "8.4.3-1"
+  ]
+}

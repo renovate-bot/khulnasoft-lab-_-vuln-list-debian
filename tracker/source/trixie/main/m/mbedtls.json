@@ -1,0 +1,68 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libmbedtls-dev, libmbedcrypto7, libmbedtls14, libmbedx509-1, libmbedtls-doc"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Arch": [
+    "faketime \u003c!nocheck\u003e, python3:any"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen \u003c!nodoc\u003e, graphviz \u003c!nodoc\u003e, python3"
+  ],
+  "Checksums-Sha256": [
+    "73749320d07b09fad4c20842ad06b852603997bb8ab57274cc8a4032a8c0bdfa 1767 mbedtls_2.28.4-1.dsc 70f9cada23b696ab3dbbf2ca1c4812e3d47d6c4a5d2c98da68c84b8f7bb926b3 3994268 mbedtls_2.28.4.orig.tar.gz 5e32969f8cdeca27211480e211907873d513b77be472da273a98e2e06636ffe6 15436 mbedtls_2.28.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/mbedtls"
+  ],
+  "Files": [
+    "8627a04bc05cc1495c969e39354d5f82 1767 mbedtls_2.28.4-1.dsc 89e1b3682bd927311d9bae90f283d195 3994268 mbedtls_2.28.4.orig.tar.gz 65c4378694a4739bb2154f0fbda5af13 15436 mbedtls_2.28.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.trustedfirmware.org/projects/mbed-tls/"
+  ],
+  "Maintainer": [
+    "Debian IoT Maintainers \u003cdebian-iot-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "mbedtls"
+  ],
+  "Package-List": [
+    "libmbedcrypto7 deb libs optional arch=any libmbedtls-dev deb libdevel optional arch=any libmbedtls-doc deb doc optional arch=all libmbedtls14 deb libs optional arch=any libmbedx509-1 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "gcc, libc-dev, libc6-dev"
+  ],
+  "Uploaders": [
+    "Andrea Pappacoda \u003candrea@pappacoda.it\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/mbedtls"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/mbedtls.git"
+  ],
+  "Version": [
+    "2.28.4-1"
+  ]
+}

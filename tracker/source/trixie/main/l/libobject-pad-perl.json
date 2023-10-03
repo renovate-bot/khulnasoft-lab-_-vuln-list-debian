@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libobject-pad-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libextutils-cbuilder-perl, libindirect-perl \u003c!nocheck\u003e, libmodule-build-perl, libtest2-suite-perl \u003c!nocheck\u003e, libxs-parse-keyword-perl (\u003e= 0.37), libxs-parse-sublike-perl (\u003e= 0.15), perl-xs-dev, perl:native"
+  ],
+  "Checksums-Sha256": [
+    "5194cecc82c4d890e6f73230fa3f0b5d71ca716be5285b3c8de6e4fa1329e78b 2580 libobject-pad-perl_0.803-1.dsc 5159a789e6995a86d13124406a5432ede672cb7fe81710ffb779245e3a09dd7e 171988 libobject-pad-perl_0.803.orig.tar.gz 155135a0756b4c154e5718b787c15ae4d4120da7ad37dd0b76fd577051567a15 3504 libobject-pad-perl_0.803-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "217db8fd774cff50f07a773083c1a7087e22ffe7 debian archive/debian/0.803-1 https://git.dgit.debian.org/libobject-pad-perl"
+  ],
+  "Directory": [
+    "pool/main/libo/libobject-pad-perl"
+  ],
+  "Files": [
+    "25520ba9dfd650d9b288ef60e50bc4c4 2580 libobject-pad-perl_0.803-1.dsc 041faa245b9b9731be2a27a2df3025f2 171988 libobject-pad-perl_0.803.orig.tar.gz f6903bc0631bf2efb247d75d07cdcd8f 3504 libobject-pad-perl_0.803-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/Object-Pad"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libobject-pad-perl"
+  ],
+  "Package-List": [
+    "libobject-pad-perl deb perl optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "gregor herrmann \u003cgregoa@debian.org\u003e, Jonas Smedegaard \u003cdr@jones.dk\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libobject-pad-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libobject-pad-perl.git"
+  ],
+  "Version": [
+    "0.803-1"
+  ]
+}

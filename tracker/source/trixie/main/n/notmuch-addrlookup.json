@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "notmuch-addrlookup"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), libnotmuch-dev, libglib2.0-dev"
+  ],
+  "Checksums-Sha256": [
+    "9e83fd5899d47f2cf4ad775c8a3653d38b81d9be553eecb689d0e7346289b90b 1982 notmuch-addrlookup_9-3.dsc 2229c0e687bb2809af3805e2bb853bbfe3a7f4103de5bfca1be5b24303d02de9 7072 notmuch-addrlookup_9.orig.tar.gz 99421c365720daace3ca344e394eb86d22e0edceb694c7671016b634a59f0217 3952 notmuch-addrlookup_9-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/n/notmuch-addrlookup"
+  ],
+  "Files": [
+    "d63b603886110dbcfd00caf9c3fc0cf6 1982 notmuch-addrlookup_9-3.dsc c4a659213225730d2512934e4aca3254 7072 notmuch-addrlookup_9.orig.tar.gz 682cb07e70341c5ac52cc33a9cf63423 3952 notmuch-addrlookup_9-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/aperezdc/notmuch-addrlookup-c"
+  ],
+  "Maintainer": [
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+  ],
+  "Package": [
+    "notmuch-addrlookup"
+  ],
+  "Package-List": [
+    "notmuch-addrlookup deb utils optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/notmuch-addrlookup"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/notmuch-addrlookup.git"
+  ],
+  "Version": [
+    "9-3"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-av"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, libavfilter-dev, ffmpeg"
+  ],
+  "Checksums-Sha256": [
+    "8dd6db3c256f11c2361c1d1bf15f373272a747b3d4007fc6effa26a02ff1c31d 2126 r-cran-av_0.8.5+dfsg-1.dsc 81200b1aef41300553fecb8bfe0de95e2419579ef39a86ac58a99c318b074012 27220 r-cran-av_0.8.5+dfsg.orig.tar.xz 2de9dbc7a05dc25d23032054b6b68482a3f9f98d85466e5ccbf193a91495d779 4448 r-cran-av_0.8.5+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-av"
+  ],
+  "Files": [
+    "9471f283751380d405d99b2cf8c4ee2f 2126 r-cran-av_0.8.5+dfsg-1.dsc 589deb384c2f8bed75908a0c172d9d7d 27220 r-cran-av_0.8.5+dfsg.orig.tar.xz d4f0dee0f652b03a923f72a0ba57f209 4448 r-cran-av_0.8.5+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=av"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-av"
+  ],
+  "Package-List": [
+    "r-cran-av deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-ggplot2, r-cran-ps, r-cran-testthat"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-av"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-av.git"
+  ],
+  "Version": [
+    "0.8.5+dfsg-1"
+  ]
+}

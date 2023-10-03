@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "node-magic-string"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-nodejs, mocha, node-ampproject-remapping \u003c!nocheck\u003e, node-rollup-plugin-node-resolve, node-rollup-plugin-buble, node-rollup-plugin-replace, node-source-map-support, node-sourcemap-codec, node-vlq, rollup (\u003e= 1~)"
+  ],
+  "Checksums-Sha256": [
+    "8de35546200a42e559f5f2ca2144bc5d3d3d2097c7dd01968e5d94ba6594bad9 2290 node-magic-string_0.30.1-1.dsc 5e9f17265bca32cffd6b6e6ffd9133e0f49c836b38121b6636a638e5416e1abf 123933 node-magic-string_0.30.1.orig.tar.gz e53f8aec7a5708ea5e044452b51ab4c6fc5e5b0d6480de3ea4587962f35a120e 4892 node-magic-string_0.30.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/n/node-magic-string"
+  ],
+  "Files": [
+    "acddfae609c46526ff862b35180b54d8 2290 node-magic-string_0.30.1-1.dsc ab7973c75dcca09b21d6dcaf483ced1f 123933 node-magic-string_0.30.1.orig.tar.gz 8aa3e93df50cd51fa85fc523c2d0c3f8 4892 node-magic-string_0.30.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/rich-harris/magic-string"
+  ],
+  "Maintainer": [
+    "Debian Javascript Maintainers \u003cpkg-javascript-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "node-magic-string"
+  ],
+  "Package-List": [
+    "node-magic-string deb javascript optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "javascript"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-nodejs"
+  ],
+  "Uploaders": [
+    "Julien Puydt \u003cjpuydt@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/js-team/node-magic-string"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/js-team/node-magic-string.git"
+  ],
+  "Version": [
+    "0.30.1-1"
+  ]
+}

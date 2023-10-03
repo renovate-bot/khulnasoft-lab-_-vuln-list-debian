@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "golang-github-evanw-esbuild-dev, esbuild"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any (\u003e= 2:1.13~), golang-golang-x-sys-dev (\u003e= 0.0~git20220715.c0bba94), golang-src"
+  ],
+  "Build-Depends-Arch": [
+    "nodejs [!armel !hurd-i386 !powerpc], npm [!armel !hurd-i386 !powerpc]"
+  ],
+  "Checksums-Sha256": [
+    "f0aa711be60fc6107df4b6f75ce058a1141f4dccc9f2a3638e056aff5b5520d9 2485 golang-github-evanw-esbuild_0.18.5-1.dsc e0c6a5ad5b2deb6281e42df4e2430d5ed932a1b7b4036072ba6830894bc60917 1644390 golang-github-evanw-esbuild_0.18.5.orig.tar.gz b861302b905ff65c1bdffe7d1c84fcb2e232339ec7514b4690ebac1d2783a957 9500 golang-github-evanw-esbuild_0.18.5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-evanw-esbuild"
+  ],
+  "Files": [
+    "fa271f2843a1c64af8f8dd01aa4e10dc 2485 golang-github-evanw-esbuild_0.18.5-1.dsc 265771141aeb43590210e80467e032fc 1644390 golang-github-evanw-esbuild_0.18.5.orig.tar.gz 3526d0397457bd08bf227348b0fc740c 9500 golang-github-evanw-esbuild_0.18.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/evanw/esbuild"
+  ],
+  "Homepage": [
+    "https://github.com/evanw/esbuild"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-evanw-esbuild"
+  ],
+  "Package-List": [
+    "esbuild deb javascript optional arch=any golang-github-evanw-esbuild-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "golang"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Anthony Fok \u003cfoka@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-github-evanw-esbuild"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-github-evanw-esbuild.git"
+  ],
+  "Version": [
+    "0.18.5-1"
+  ]
+}

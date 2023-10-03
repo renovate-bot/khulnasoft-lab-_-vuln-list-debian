@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "zaqar-tempest-plugin"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 11), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "017a2ad4f5ea6b1cf6fec28653871badf4ebacc84fd32761fb2ad1978602423a 2140 zaqar-tempest-plugin_1.6.0-4.dsc 3e7e5f87363bca5bdc93af15732bdd407365a1dc89a142debbfcab8fc651f7e4 26436 zaqar-tempest-plugin_1.6.0.orig.tar.xz 362abd6f6ee6669f11c594cf6f06b16eec66c62ae70dec9dff8da15495506894 2316 zaqar-tempest-plugin_1.6.0-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/z/zaqar-tempest-plugin"
+  ],
+  "Files": [
+    "a104b33d31d73cd108e637199b38c4cd 2140 zaqar-tempest-plugin_1.6.0-4.dsc 33f419f5df5c9af7aabee208a2a92c2a 26436 zaqar-tempest-plugin_1.6.0.orig.tar.xz 022854becaed4c9abdb2e53d2a5d1d6a 2316 zaqar-tempest-plugin_1.6.0-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://opendev.org/openstack/zaqar-tempest-plugin"
+  ],
+  "Maintainer": [
+    "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "zaqar-tempest-plugin"
+  ],
+  "Package-List": [
+    "zaqar-tempest-plugin deb net optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openstack-team/tempest/zaqar-tempest-plugin"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openstack-team/tempest/zaqar-tempest-plugin.git"
+  ],
+  "Version": [
+    "1.6.0-4"
+  ]
+}

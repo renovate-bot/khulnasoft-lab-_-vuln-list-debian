@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libppi-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "libclass-inspector-perl \u003c!nocheck\u003e, libclone-perl \u003c!nocheck\u003e, libencode-perl \u003c!nocheck\u003e, libfile-remove-perl \u003c!nocheck\u003e, liblist-moreutils-perl \u003c!nocheck\u003e, libparams-util-perl \u003c!nocheck\u003e, libscalar-list-utils-perl \u003c!nocheck\u003e, libtask-weaken-perl \u003c!nocheck\u003e, libtest-nowarnings-perl \u003c!nocheck\u003e, libtest-object-perl \u003c!nocheck\u003e, libtest-simple-perl \u003c!nocheck\u003e, libtest-subcalls-perl \u003c!nocheck\u003e, perl"
+  ],
+  "Checksums-Sha256": [
+    "0a6d45f1a909b7e3e49ad664ab2e9a19f91056c7d93b08045ac375a523ee28f3 2699 libppi-perl_1.277-1.dsc 87c79f83b6876e206051965d5019d2507c551f819a86750080ec7ec43b2e0af8 241536 libppi-perl_1.277.orig.tar.gz bdd3884d21f60cf32a32826d86703d9c6cbf1bc62c7ab9a3464ea480b1e09692 5344 libppi-perl_1.277-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "f5c2be7e944a27ab595081f2f400349057a66aa1 debian archive/debian/1.277-1 https://git.dgit.debian.org/libppi-perl"
+  ],
+  "Directory": [
+    "pool/main/libp/libppi-perl"
+  ],
+  "Files": [
+    "69c3770226f0a6037246447dc7debfff 2699 libppi-perl_1.277-1.dsc dda3e4d5542a42d7dc102523fda81bd3 241536 libppi-perl_1.277.orig.tar.gz c666841412d87177d1fdbc2710754224 5344 libppi-perl_1.277-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/PPI"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libppi-perl"
+  ],
+  "Package-List": [
+    "libppi-perl deb perl optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "perl"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "Damyan Ivanov \u003cdmn@debian.org\u003e, gregor herrmann \u003cgregoa@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libppi-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libppi-perl.git"
+  ],
+  "Version": [
+    "1.277-1"
+  ]
+}

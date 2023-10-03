@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-github-hairyhenderson-go-codeowners-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any (\u003e= 2:1.18~), golang-github-stretchr-testify-dev (\u003e= 1.8.1)"
+  ],
+  "Checksums-Sha256": [
+    "8fe2e5dc760c200164b4e9db1f40c7aef24970753063b569a46c590c747aac95 2500 golang-github-hairyhenderson-go-codeowners_0.3.0-1.dsc 83fae38713b521124be6c95c9a25c3bca51ef7f02bbb8c586dc28b39467b2e08 8367 golang-github-hairyhenderson-go-codeowners_0.3.0.orig.tar.gz 4c5cb49eb7e52116e9b543aa04782114c03771238cb9dbaaa693702d7d8b36b9 2596 golang-github-hairyhenderson-go-codeowners_0.3.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-hairyhenderson-go-codeowners"
+  ],
+  "Files": [
+    "fdf453ed3c6910a0537c40e30715a2a1 2500 golang-github-hairyhenderson-go-codeowners_0.3.0-1.dsc 13728f188dd9842228d34adc073c134a 8367 golang-github-hairyhenderson-go-codeowners_0.3.0.orig.tar.gz fe02a49ec6e91126dedf5591f9edbe4c 2596 golang-github-hairyhenderson-go-codeowners_0.3.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/hairyhenderson/go-codeowners"
+  ],
+  "Homepage": [
+    "https://github.com/hairyhenderson/go-codeowners"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-hairyhenderson-go-codeowners"
+  ],
+  "Package-List": [
+    "golang-github-hairyhenderson-go-codeowners-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Anthony Fok \u003cfoka@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-github-hairyhenderson-go-codeowners"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-github-hairyhenderson-go-codeowners.git"
+  ],
+  "Version": [
+    "0.3.0-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "xtl-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), cmake, libgtest-dev (\u003e= 1.8.1)"
+  ],
+  "Checksums-Sha256": [
+    "5f47f9d06d94351b39a6b184a481e6360423020879efd2ad882b37dfb1cb4c82 1999 xtl_0.7.5-2.dsc 3286fef5fee5d58f82f7b91375cd449c819848584bae9367893501114d923cbe 160548 xtl_0.7.5.orig.tar.gz 33e94a196b1fab04d1aaa522434a6718197437409fdb89ec3d1c48ac728aded1 3236 xtl_0.7.5-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/x/xtl"
+  ],
+  "Files": [
+    "4685a998218b1c6520f25888290af72c 1999 xtl_0.7.5-2.dsc ef5d0fb590308128908b5bff1d14d182 160548 xtl_0.7.5.orig.tar.gz b40708d27310eba3eaf0f66862636b52 3236 xtl_0.7.5-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/xtensor-stack/xtl"
+  ],
+  "Maintainer": [
+    "Debian QuantStack Team \u003cteam+debian-quantstack-team@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "xtl"
+  ],
+  "Package-List": [
+    "xtl-dev deb libdevel optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "cmake, g++, libgtest-dev"
+  ],
+  "Uploaders": [
+    "Vincent Bernat \u003cbernat@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://github.com/quantstack-debian/xtl"
+  ],
+  "Vcs-Git": [
+    "https://github.com/quantstack-debian/xtl.git"
+  ],
+  "Version": [
+    "0.7.5-2"
+  ]
+}

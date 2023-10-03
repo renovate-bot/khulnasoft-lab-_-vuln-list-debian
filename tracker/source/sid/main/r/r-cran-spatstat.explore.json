@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-spatstat.explore"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-spatstat.data (\u003e= 3.0-1), r-cran-spatstat.geom (\u003e= 3.2-3), r-cran-spatstat.random, r-cran-nlme, r-cran-spatstat.utils (\u003e= 3.0-3), r-cran-spatstat.sparse (\u003e= 3.0-1), r-cran-goftest, r-cran-matrix, r-cran-abind"
+  ],
+  "Checksums-Sha256": [
+    "bbea663f490f4a6df4a61c83a42e57fd37905fd929ee9493d6b8b803ab634c7d 2541 r-cran-spatstat.explore_3.2-3-1.dsc f94d21e2fa7c954e6c7ce33c039676695cb9e58702b169ebb52c1f80afbef0a3 761606 r-cran-spatstat.explore_3.2-3.orig.tar.gz 1b78f222176ba07dd5f0bf7a05bd13923cc8f7fd33529af933030a2b4fbbec1f 3316 r-cran-spatstat.explore_3.2-3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-spatstat.explore"
+  ],
+  "Files": [
+    "fd2590692aeea0f3cc89a127d784f217 2541 r-cran-spatstat.explore_3.2-3-1.dsc 0d083e9045c52e83644b4c92084ffda5 761606 r-cran-spatstat.explore_3.2-3.orig.tar.gz 2eb3d4cd8497e88eca26466f9f53d4ab 3316 r-cran-spatstat.explore_3.2-3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=spatstat.explore"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-spatstat.explore"
+  ],
+  "Package-List": [
+    "r-cran-spatstat.explore deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-gsl, r-cran-locfit, r-cran-maptools, r-cran-sm, r-cran-spatial, r-cran-spatstat, r-cran-spatstat.linnet, r-cran-spatstat.model"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-spatstat.explore"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-spatstat.explore.git"
+  ],
+  "Version": [
+    "3.2-3-1"
+  ]
+}

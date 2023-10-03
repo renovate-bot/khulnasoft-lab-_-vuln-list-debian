@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libsys-virt-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libcpan-changes-perl \u003c!nocheck\u003e, libmodule-build-perl, libtest-pod-coverage-perl \u003c!nocheck\u003e, libtest-pod-perl \u003c!nocheck\u003e, libvirt-daemon, libvirt-dev (\u003e= 9.7.0~), libxml-xpath-perl, perl-xs-dev, perl:native, pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "52d02579ed37a70c91eee754dd2710cfd17f23c213f68d77521a1408963df2b1 2442 libsys-virt-perl_9.7.0-1.dsc c74259709e299e8fa66502b33f195282c2292eb0d1d0eb221bfd3f54258c1a73 174737 libsys-virt-perl_9.7.0.orig.tar.gz d98444e58f44ed3bda138d4864c53cf828f3d3c6624491229e5180943614bc75 5640 libsys-virt-perl_9.7.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libs/libsys-virt-perl"
+  ],
+  "Files": [
+    "89654fff974b8528e9d6356514e63fc3 2442 libsys-virt-perl_9.7.0-1.dsc 8c8f61b18ee40f7fb636c3fe4450a92d 174737 libsys-virt-perl_9.7.0.orig.tar.gz d3077ba8acf1c866473fe6cb60a74a7c 5640 libsys-virt-perl_9.7.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/Sys-Virt"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libsys-virt-perl"
+  ],
+  "Package-List": [
+    "libsys-virt-perl deb perl optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "perl"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "Salvatore Bonaccorso \u003ccarnil@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libsys-virt-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libsys-virt-perl.git"
+  ],
+  "Version": [
+    "9.7.0-1"
+  ]
+}

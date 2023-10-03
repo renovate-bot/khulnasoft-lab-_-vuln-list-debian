@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libaec0, libsz2, libaec-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-buildinfo, unzip"
+  ],
+  "Checksums-Sha256": [
+    "7b444785e6e076466c00add826ff71318e3e82ea4b1c268390b022b312e12ab5 1972 libaec_1.1.1-1.dsc 4ff2a57f49db1f011d60514eddb1023a9c657357818428789689d6bd454b1c03 2376080 libaec_1.1.1.orig.tar.xz be0e54818448b22d692193b533dfa828a02cc947992e1b18b9a50aee2778244f 2012240 libaec_1.1.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/liba/libaec"
+  ],
+  "Files": [
+    "3a740a52188eab08dc6a697dc59582db 1972 libaec_1.1.1-1.dsc 3bd0bdd3971ad60a894a9fc1f74652bb 2376080 libaec_1.1.1.orig.tar.xz 186a002e80f495682f29c3bf07a10d12 2012240 libaec_1.1.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.dkrz.de/k202009/libaec"
+  ],
+  "Maintainer": [
+    "Alastair McKinstry \u003cmckinstry@debian.org\u003e"
+  ],
+  "Package": [
+    "libaec"
+  ],
+  "Package-List": [
+    "libaec-dev deb libdevel optional arch=any libaec0 deb libs optional arch=any libsz2 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/libaec"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/libaec.git -b debian/latest"
+  ],
+  "Version": [
+    "1.1.1-1"
+  ]
+}

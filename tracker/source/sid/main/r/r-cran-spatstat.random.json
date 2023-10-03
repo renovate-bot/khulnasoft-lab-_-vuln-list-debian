@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-spatstat.random"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-spatstat.data (\u003e= 3.0), r-cran-spatstat.geom (\u003e= 3.2-1), r-cran-spatstat.utils (\u003e= 3.0-2)"
+  ],
+  "Checksums-Sha256": [
+    "b6a97f9f3f01115f6ed62393c4b75abad414c377f7307f82c60b3ac17e5873a0 2443 r-cran-spatstat.random_3.1-6-1.dsc 0634a5953d4f70389647c5061981f5878a5624175326fbb3c9de34f67b053d6f 261028 r-cran-spatstat.random_3.1-6.orig.tar.gz 684a4b8a4e77806b4fc2e1cdc64facbfcf2fb87e1337bbb3d347a127742839cf 3208 r-cran-spatstat.random_3.1-6-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-spatstat.random"
+  ],
+  "Files": [
+    "264fbaddfcb33f34bee16b205d0a0fa2 2443 r-cran-spatstat.random_3.1-6-1.dsc b8ee15c22144145b0a1cc0870a82901a 261028 r-cran-spatstat.random_3.1-6.orig.tar.gz be782cee6e88618e958c78d913e2f9c1 3208 r-cran-spatstat.random_3.1-6-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=spatstat.random"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-spatstat.random"
+  ],
+  "Package-List": [
+    "r-cran-spatstat.random deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-gsl, r-cran-randomfields, r-cran-randomfieldsutils, r-cran-spatial, r-cran-spatstat, r-cran-spatstat.explore, r-cran-spatstat.linnet, r-cran-spatstat.model"
+  ],
+  "Uploaders": [
+    "Nilesh Patra \u003cnilesh@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-spatstat.random"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-spatstat.random.git"
+  ],
+  "Version": [
+    "3.1-6-1"
+  ]
+}

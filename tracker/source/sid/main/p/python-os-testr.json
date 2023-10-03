@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-os-testr-doc, python3-os-testr"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 11), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx"
+  ],
+  "Build-Depends-Indep": [
+    "python3-coverage, python3-ddt, python3-hacking, python3-mock, python3-openstackdocstheme, python3-oslotest, python3-six, python3-stestr, python3-sphinxcontrib.svg2pdfconverter, python3-testscenarios, python3-testtools, subunit"
+  ],
+  "Checksums-Sha256": [
+    "51eac561ac4724bfddbb9afd60ea6c63717fc9f75c0389c77582dd8b90b0f778 2537 python-os-testr_2.0.1-3.dsc d0941ebd82bfc0df7a0d6a5d7ab289bd3b1316b4b8bb8c68bf6599cb740f57e2 37488 python-os-testr_2.0.1.orig.tar.xz 3e9d7a9aaece3ec9c4748d6d423239c41caec696f50a1d8963759d182f083ddc 5008 python-os-testr_2.0.1-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-os-testr"
+  ],
+  "Files": [
+    "78aa19da9b7208553fde646699e497dc 2537 python-os-testr_2.0.1-3.dsc 9c278630d15d4c2219e5a65c570b098c 37488 python-os-testr_2.0.1.orig.tar.xz a17e463195426b278f1133d2e72f6b06 5008 python-os-testr_2.0.1-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/openstack/os-testr"
+  ],
+  "Maintainer": [
+    "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-os-testr"
+  ],
+  "Package-List": [
+    "python-os-testr-doc deb doc optional arch=all python3-os-testr deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.1.3"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "James Page \u003cjames.page@ubuntu.com\u003e, Thomas Goirand \u003czigo@debian.org\u003e, Corey Bryant \u003ccorey.bryant@canonical.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openstack-team/libs/python-os-testr"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openstack-team/libs/python-os-testr.git"
+  ],
+  "Version": [
+    "2.0.1-3"
+  ]
+}

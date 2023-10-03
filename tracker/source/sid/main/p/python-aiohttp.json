@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "python3-aiohttp, python-aiohttp-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all-dev, python3-setuptools, python3-sphinx, python3-multidict, python3-async-timeout, python3-yarl, cython3, python3-aiosignal, python3-pytest, python3-pytest-mock, python3-chardet, python3-charset-normalizer, python3-gunicorn, python3-sphinxcontrib.blockdiag"
+  ],
+  "Checksums-Sha256": [
+    "d386270cf27302200516b58cf3e435983a210745ebcdb60b0ae925876fc88b2a 2483 python-aiohttp_3.8.5-1.dsc b9552ec52cc147dbf1944ac7ac98af7602e51ea2dcd076ed194ca3c0d1c7d0bc 7358303 python-aiohttp_3.8.5.orig.tar.gz 419dfe7cb3665a0b9bc6f6e60ddbfe5d37d59dfc16ce9d951bdb1ed6dc868663 7544 python-aiohttp_3.8.5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-aiohttp"
+  ],
+  "Files": [
+    "988550edf577140ec122a58146481421 2483 python-aiohttp_3.8.5-1.dsc 4bb59a17563df9a692c64418224ade12 7358303 python-aiohttp_3.8.5.orig.tar.gz 27e96be4d08c394a20c3920da2e3548a 7544 python-aiohttp_3.8.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://aiohttp.readthedocs.org"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-aiohttp"
+  ],
+  "Package-List": [
+    "python-aiohttp-doc deb doc optional arch=all python3-aiohttp deb python optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Tianon Gravi \u003cadmwiggin@gmail.com\u003e, Paul Tagliamonte \u003cpaultag@debian.org\u003e, Piotr Ożarowski \u003cpiotr@debian.org\u003e, William Grzybowski \u003cwilliam@grzy.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-aiohttp"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-aiohttp.git"
+  ],
+  "Version": [
+    "3.8.5-1"
+  ]
+}

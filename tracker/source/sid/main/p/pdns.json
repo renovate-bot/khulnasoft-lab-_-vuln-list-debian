@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "pdns-server, pdns-tools, pdns-ixfrdist, pdns-backend-bind, pdns-backend-pipe, pdns-backend-ldap, pdns-backend-lmdb, pdns-backend-lua2, pdns-backend-geoip, pdns-backend-mysql, pdns-backend-odbc, pdns-backend-pgsql, pdns-backend-sqlite3, pdns-backend-remote, pdns-backend-tinydns"
+  ],
+  "Build-Depends": [
+    "architecture-is-64-bit, bison, curl, debhelper-compat (= 13), default-libmysqlclient-dev, dnsutils, flex, libboost-all-dev, libcdb-dev, libcurl4-openssl-dev, libgeoip-dev, libkrb5-dev, libldap2-dev, liblmdb-dev, libluajit-5.1-dev (\u003e= 2.1.0~beta3+dfsg-5.3) [amd64 arm64] | libluajit-5.1-dev [amd64] | liblua5.3-dev, libmaxminddb-dev, libp11-kit-dev, libpq-dev, libprotobuf-dev, libsodium-dev, libsqlite3-dev, libssl-dev, libsystemd-dev, libyaml-cpp-dev (\u003e= 0.5), pkg-config, po-debconf, protobuf-compiler, ragel, systemd, unixodbc-dev (\u003e= 2.3.1)"
+  ],
+  "Checksums-Sha256": [
+    "557f130f432643818cc7d1f6696fb009b714177bfce620a536dcbe0e1c58200c 3618 pdns_4.8.2-2.dsc 3b173fda4c51bb07b5a51d8c599eedd7962a02056b410e3c9d9d69ed97be35b9 1372214 pdns_4.8.2.orig.tar.bz2 9e781800cb56067df96dcf565fcb8847e3e387ecd8dedaa19b7825f5dd013842 488 pdns_4.8.2.orig.tar.bz2.asc c0a815621fb8ee32ecc9db094c9db07fa339882ff5e8fa8f22bc093502faaa55 46488 pdns_4.8.2-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pdns"
+  ],
+  "Files": [
+    "397958105dd7581058a7a18b1b172a43 3618 pdns_4.8.2-2.dsc 125b61b8e862b2fd73475b8b295ece18 1372214 pdns_4.8.2.orig.tar.bz2 432a3a8d2565c5f4dd579cb87a501e30 488 pdns_4.8.2.orig.tar.bz2.asc fcee89be3538614c78e70dbe61ad40f7 46488 pdns_4.8.2-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.powerdns.com/"
+  ],
+  "Maintainer": [
+    "pdns packagers \u003cpdns@packages.debian.org\u003e"
+  ],
+  "Package": [
+    "pdns"
+  ],
+  "Package-List": [
+    "pdns-backend-bind deb net optional arch=any pdns-backend-geoip deb net optional arch=any pdns-backend-ldap deb net optional arch=any pdns-backend-lmdb deb net optional arch=any pdns-backend-lua2 deb net optional arch=any pdns-backend-mysql deb net optional arch=any pdns-backend-odbc deb net optional arch=any pdns-backend-pgsql deb net optional arch=any pdns-backend-pipe deb net optional arch=any pdns-backend-remote deb net optional arch=any pdns-backend-sqlite3 deb net optional arch=any pdns-backend-tinydns deb net optional arch=any pdns-ixfrdist deb net optional arch=any pdns-server deb net optional arch=any pdns-tools deb net optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "mariadb-server, postgresql"
+  ],
+  "Uploaders": [
+    "Chris Hofstaedtler \u003czeha@debian.org\u003e, Marc Haber \u003cmh+debian-packages@zugschlus.de\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/pdns"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/pdns.git"
+  ],
+  "Version": [
+    "4.8.2-2"
+  ]
+}

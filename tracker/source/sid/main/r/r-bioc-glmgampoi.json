@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-bioc-glmgampoi"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-rcpp, r-bioc-delayedmatrixstats, r-cran-matrixstats, r-bioc-matrixgenerics, r-bioc-delayedarray, r-bioc-hdf5array, r-bioc-summarizedexperiment, r-bioc-singlecellexperiment, r-bioc-biocgenerics, r-cran-rlang, r-cran-vctrs, r-cran-rcpparmadillo, r-bioc-beachmat"
+  ],
+  "Checksums-Sha256": [
+    "be53b28016791d6de953bf6029f594af9f39de71ac1f090e0ca8a411b36df89d 2429 r-bioc-glmgampoi_1.12.2+dfsg-2.dsc 5d050430c513f6485a05b88d845a990398a243bc3f644cd63e610c25345bbdc5 1435220 r-bioc-glmgampoi_1.12.2+dfsg.orig.tar.xz c834a328f49c3e0306dc73af8ed30fa78654fc1e0fe3bad5605f95cc480f1d2d 3232 r-bioc-glmgampoi_1.12.2+dfsg-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-glmgampoi"
+  ],
+  "Files": [
+    "441984bd707d55bbd0b4c1b584c52d62 2429 r-bioc-glmgampoi_1.12.2+dfsg-2.dsc 77b527c6c2b12bf68b7904cc5c6fe17f 1435220 r-bioc-glmgampoi_1.12.2+dfsg.orig.tar.xz 6e6f16b7d1f2299b1432dd0f1525f2ff 3232 r-bioc-glmgampoi_1.12.2+dfsg-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/glmGamPoi/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-glmgampoi"
+  ],
+  "Package-List": [
+    "r-bioc-glmgampoi deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e, Michael R. Crusoe \u003ccrusoe@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-glmgampoi"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-glmgampoi.git"
+  ],
+  "Version": [
+    "1.12.2+dfsg-2"
+  ]
+}

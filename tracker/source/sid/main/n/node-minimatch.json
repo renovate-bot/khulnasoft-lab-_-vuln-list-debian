@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "node-minimatch"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-nodejs, node-brace-expansion \u003c!nocheck\u003e, node-tap (\u003e= 15) \u003c!nocheck\u003e, node-types-brace-expansion, ts-node"
+  ],
+  "Checksums-Sha256": [
+    "b7d42b0742fabed5096c2090e5a600969bcb12137a76c6b253d3a9dfc477994f 2161 node-minimatch_9.0.3-3.dsc 9940bdf82bc6d3734c32c918bf1fa1d7cd921b97263155b826d050fba87058c1 105730 node-minimatch_9.0.3.orig.tar.gz 4d4643f4bcbe5479ac540f338d5ff3cbdf4b06617a08ed442995e2381dc24927 4424 node-minimatch_9.0.3-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/n/node-minimatch"
+  ],
+  "Files": [
+    "3bff8601e3d2da4963cb418c9c196c5a 2161 node-minimatch_9.0.3-3.dsc ede161788bad25e4def359694804195b 105730 node-minimatch_9.0.3.orig.tar.gz 5f9388e5070ac7fe3eeab39c08eed903 4424 node-minimatch_9.0.3-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/isaacs/minimatch"
+  ],
+  "Maintainer": [
+    "Debian Javascript Maintainers \u003cpkg-javascript-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "node-minimatch"
+  ],
+  "Package-List": [
+    "node-minimatch deb javascript optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "javascript"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-nodejs"
+  ],
+  "Uploaders": [
+    "Jérémy Lal \u003ckapouer@melix.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/js-team/node-minimatch"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/js-team/node-minimatch.git"
+  ],
+  "Version": [
+    "9.0.3-3"
+  ]
+}

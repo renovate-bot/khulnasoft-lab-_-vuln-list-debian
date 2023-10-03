@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-chrono-tz-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-chrono-0.4-dev \u003c!nocheck\u003e, librust-chrono-tz-build-0.0.3+default-dev \u003c!nocheck\u003e, librust-phf-0.11+uncased-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "231805ad03c607ad99bcb9c7a637c80ecc9de4718241761499c75738eb127fe8 2349 rust-chrono-tz_0.6.3-1.dsc 29c39203181991a7dd4343b8005bd804e7a9a37afb8ac070e43771e8c820bbde 589734 rust-chrono-tz_0.6.3.orig.tar.gz 687d8e49e57285f9383b4826d66e1ddee3186472275d9b111eef9fd4830ce4a4 3940 rust-chrono-tz_0.6.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-chrono-tz"
+  ],
+  "Files": [
+    "35323bf8b1703f7a23a960141539503b 2349 rust-chrono-tz_0.6.3-1.dsc 8bd1d965afd01658e78faa1c9781b0f1 589734 rust-chrono-tz_0.6.3.orig.tar.gz e7457975be6b3e3b013a0088c8ea0a49 3940 rust-chrono-tz_0.6.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-chrono-tz"
+  ],
+  "Package-List": [
+    "librust-chrono-tz-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-chrono-0.4+alloc-dev, librust-serde-test-1+default-dev"
+  ],
+  "Uploaders": [
+    "Carlos F. Sanz \u003ccarlos@sanz.dev\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/chrono-tz"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/chrono-tz]"
+  ],
+  "Version": [
+    "0.6.3-1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libgettext-ocaml, libgettext-ocaml-dev"
+  ],
+  "Build-Depends": [
+    "camlp4, camlp4-extra, cppo, debhelper-compat (= 11), dh-ocaml (\u003e= 1.2.2), libbenchmark-ocaml-dev, libcamomile-ocaml-dev (\u003e= 0.8), libdune-ocaml-dev, libfileutils-ocaml-dev, liblablgtk3-ocaml-dev, libounit-ocaml-dev, ocaml-dune, ocaml-findlib, ocaml"
+  ],
+  "Checksums-Sha256": [
+    "9a14f7e5646e1ea4f4d7fd41f0d2a667a4b30143ddf7c6ff8c1c4ff281bd833e 2083 ocaml-gettext_0.4.2-2.dsc b4191fd28d938d1112ae4ac169772fdda99d6b03814234a0ec78274acfb1e5cd 110249 ocaml-gettext_0.4.2.orig.tar.gz a77e62637db29857938b7c4053ca23b94679d24fb378ee047f2e99acd435d107 4588 ocaml-gettext_0.4.2-2.debian.tar.xz"
+  ],
+  "Dgit": [
+    "5f004e855236cd2a21a153d4600409acc2f37ebd debian archive/debian/0.4.2-2 https://git.dgit.debian.org/ocaml-gettext"
+  ],
+  "Directory": [
+    "pool/main/o/ocaml-gettext"
+  ],
+  "Files": [
+    "4c1a1a17c3fcb8fe415b3e1893acc863 2083 ocaml-gettext_0.4.2-2.dsc d277c08ceab22404f01fbdbc74d5c747 110249 ocaml-gettext_0.4.2.orig.tar.gz 1fc6304c89f087cb6119298557aeae1e 4588 ocaml-gettext_0.4.2-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://forge.ocamlcore.org/projects/ocaml-gettext/"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "ocaml-gettext"
+  ],
+  "Package-List": [
+    "libgettext-ocaml deb ocaml optional arch=any libgettext-ocaml-dev deb ocaml optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "ocaml"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Kyle Robbertze \u003cpaddatrapper@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/ocaml-gettext"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/ocaml-gettext.git"
+  ],
+  "Version": [
+    "0.4.2-2"
+  ]
+}

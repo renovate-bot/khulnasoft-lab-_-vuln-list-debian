@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "lsp-plugins, lsp-plugins-clap, lsp-plugins-jack, lsp-plugins-r3d-glx, lsp-plugins-ladspa, lsp-plugins-lv2, lsp-plugins-vst"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), ladspa-sdk, libexpat1-dev, libgl-dev, libglu1-mesa-dev, libjack-dev | libjack-jackd2-dev, lv2-dev, libcairo2-dev, libsndfile1-dev, libxrandr-dev"
+  ],
+  "Checksums-Sha256": [
+    "20ac6220079d66c0e64fc4ee6ce93eb0d20412dcd4f2fb87af5bb17bc29dd437 2533 lsp-plugins_1.2.11-1.dsc f732ecd49eeb66431a550c4ec228630ac2922f26fdabae294d92d583f5157f6a 45310823 lsp-plugins_1.2.11.orig.tar.gz 5f90a7676c4c0dcb919e16dc7f53a4e0b3b20da29073c8c43f3b62402fcd8a81 8536 lsp-plugins_1.2.11-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/lsp-plugins"
+  ],
+  "Files": [
+    "1f7a667fd3b3461a2d5f9be5292077f9 2533 lsp-plugins_1.2.11-1.dsc 1e95c0b05a2e70fd639861d7ad9ecc8d 45310823 lsp-plugins_1.2.11.orig.tar.gz 7a30182dff04a9dcaf26378a15624314 8536 lsp-plugins_1.2.11-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://lsp-plug.in/"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "lsp-plugins"
+  ],
+  "Package-List": [
+    "lsp-plugins deb metapackages optional arch=any lsp-plugins-clap deb sound optional arch=any lsp-plugins-jack deb sound optional arch=any lsp-plugins-ladspa deb sound optional arch=any lsp-plugins-lv2 deb sound optional arch=any lsp-plugins-r3d-glx deb sound optional arch=any lsp-plugins-vst deb sound optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Dennis Braun \u003csnd@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/lsp-plugins"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/lsp-plugins.git"
+  ],
+  "Version": [
+    "1.2.11-1"
+  ]
+}

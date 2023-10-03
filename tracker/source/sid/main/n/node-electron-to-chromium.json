@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "node-electron-to-chromium"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-nodejs, ava \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "ff475548dc8346498d6f5af499926c6e7c73f1e466e5cc5bee389bb99f75d9a7 2203 node-electron-to-chromium_1.4.518-1.dsc 013ff3e417ecceacd0028a27933cf00a9da63b242199222d4d51be3ba5fdbb13 68973 node-electron-to-chromium_1.4.518.orig.tar.gz 0000df86db9c316bad09276cc6325714f1264497893ae9c4547266603718dae2 3360 node-electron-to-chromium_1.4.518-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/n/node-electron-to-chromium"
+  ],
+  "Files": [
+    "a94627b4372fa685f17860dc0d642606 2203 node-electron-to-chromium_1.4.518-1.dsc 203bc989e5dbb9daf03c59a4cf0400e9 68973 node-electron-to-chromium_1.4.518.orig.tar.gz c40cc71c8467185d043c4503ee05fa09 3360 node-electron-to-chromium_1.4.518-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.npmjs.com/package/electron-to-chromium"
+  ],
+  "Maintainer": [
+    "Debian Javascript Maintainers \u003cpkg-javascript-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "node-electron-to-chromium"
+  ],
+  "Package-List": [
+    "node-electron-to-chromium deb javascript optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "javascript"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-nodejs"
+  ],
+  "Uploaders": [
+    "Pirate Praveen \u003cpraveen@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/js-team/node-electron-to-chromium"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/js-team/node-electron-to-chromium.git"
+  ],
+  "Version": [
+    "1.4.518-1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-bioc-fmcsr"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-bioc-chemminer, r-cran-runit, r-bioc-biocgenerics"
+  ],
+  "Checksums-Sha256": [
+    "303cde4aa1b50e2767554a320edd22add82cfb80a4bcdeec00da5cc907031b80 2117 r-bioc-fmcsr_1.42.0+dfsg-1.dsc 13e579f5052754de244489e22558c42e587c2d87dc195c2be0e8b09a0f38e636 65296 r-bioc-fmcsr_1.42.0+dfsg.orig.tar.xz 9ca94dc6b821e88067632f94acf4053a15bf4a410944a288c6e584df69749d98 5628 r-bioc-fmcsr_1.42.0+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-bioc-fmcsr"
+  ],
+  "Files": [
+    "f9e99a5117e587e561c687a69c2195b2 2117 r-bioc-fmcsr_1.42.0+dfsg-1.dsc ae370800403b31cf6ca172c272ad23db 65296 r-bioc-fmcsr_1.42.0+dfsg.orig.tar.xz d161c7d1f7406483b0fcd3b8c957f552 5628 r-bioc-fmcsr_1.42.0+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bioconductor.org/packages/fmcsR/"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-bioc-fmcsr"
+  ],
+  "Package-List": [
+    "r-bioc-fmcsr deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-fmcsr"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-bioc-fmcsr.git"
+  ],
+  "Version": [
+    "1.42.0+dfsg-1"
+  ]
+}

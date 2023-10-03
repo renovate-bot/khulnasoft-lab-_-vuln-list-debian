@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-cran-plotly"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-ggplot2, r-cran-scales, r-cran-httr, r-cran-jsonlite, r-cran-magrittr, r-cran-digest, r-cran-viridislite, r-cran-base64enc, r-cran-htmltools, r-cran-htmlwidgets, r-cran-tidyr, r-cran-rcolorbrewer, r-cran-dplyr, r-cran-vctrs, r-cran-tibble, r-cran-lazyeval, r-cran-rlang, r-cran-crosstalk, r-cran-purrr, r-cran-data.table, r-cran-promises"
+  ],
+  "Checksums-Sha256": [
+    "89411b209c94bfa53368b00d347f27cd7fedd4f740c07cdb72733c830c6c9ec1 2644 r-cran-plotly_4.10.2+dfsg-2.dsc 1bb638407af99dcbc95d6aae14eb92d1a2b9583c75dcafd1c534af85a7a07569 1900664 r-cran-plotly_4.10.2+dfsg.orig.tar.xz d2d074d2217d934b921efc5b9526dc05f1699dff1989e889d64c9f6239b84346 1508236 r-cran-plotly_4.10.2+dfsg-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-plotly"
+  ],
+  "Files": [
+    "f414f93e1e4d3ed6815860b8ed71838c 2644 r-cran-plotly_4.10.2+dfsg-2.dsc 77acfc8586ce50007e115e4ef6073a9a 1900664 r-cran-plotly_4.10.2+dfsg.orig.tar.xz ea061c7f453327afe99b1bda5882a67a 1508236 r-cran-plotly_4.10.2+dfsg-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=plotly"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-plotly"
+  ],
+  "Package-List": [
+    "r-cran-plotly deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-ggthemes, r-cran-hexbin, r-cran-maps, r-cran-maptools, r-cran-png, r-cran-quantreg, r-cran-reshape2, r-cran-rsclient, r-cran-rversions, r-cran-sf, r-cran-testthat"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-plotly"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-plotly.git"
+  ],
+  "Version": [
+    "4.10.2+dfsg-2"
+  ]
+}

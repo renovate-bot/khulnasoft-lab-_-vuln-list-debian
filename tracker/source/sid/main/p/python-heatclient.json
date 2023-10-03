@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-heatclient"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 10), dh-python, openstack-pkg-tools (\u003e= 97~), python3-all, python3-pbr, python3-setuptools, python3-sphinx"
+  ],
+  "Build-Depends-Indep": [
+    "lsb-release, python3-babel, python3-cliff (\u003e= 2.14.1), python3-coverage, python3-fixtures, python3-hacking, python3-iso8601, python3-keystoneauth1, python3-openstackclient, python3-openstackdocstheme, python3-osc-lib, python3-oslo.i18n, python3-oslo.serialization, python3-oslo.utils, python3-prettytable, python3-requests, python3-requests-mock, python3-stestr, python3-subunit, python3-swiftclient, python3-tempest, python3-testscenarios, python3-testtools, python3-yaml, subunit"
+  ],
+  "Checksums-Sha256": [
+    "7fefbccc9e66106588e3fe8e9fbcdaac5e1f990fa3d9f04b9b5e0332b420609b 2779 python-heatclient_3.2.0-3.dsc 22e1cbfcc54735fdaa0669325fe3599dd8ee858d4ced07fa605e3f4657d46b36 119532 python-heatclient_3.2.0.orig.tar.xz c576a7f901a1ccf6d135051f8f5fc73ddc6d2c2bca6492e479437f698e7cfc47 10900 python-heatclient_3.2.0-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-heatclient"
+  ],
+  "Files": [
+    "899c33872cf80b9f3559ced38a37baf5 2779 python-heatclient_3.2.0-3.dsc 04c390c9dc55b37611df13bb82c54ae7 119532 python-heatclient_3.2.0.orig.tar.xz 181c38d6f730db5260172464913cd7fc 10900 python-heatclient_3.2.0-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/openstack/python-heatclient"
+  ],
+  "Maintainer": [
+    "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-heatclient"
+  ],
+  "Package-List": [
+    "python3-heatclient deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.4.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e, Prach Pongpanich \u003cprachpub@gmail.com\u003e, Corey Bryant \u003ccorey.bryant@canonical.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openstack-team/clients/python-heatclient"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openstack-team/clients/python-heatclient.git"
+  ],
+  "Version": [
+    "3.2.0-3"
+  ]
+}

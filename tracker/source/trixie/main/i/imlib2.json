@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libimlib2, libimlib2-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libbz2-dev, libfreetype-dev, libgif-dev, libheif-dev, libid3tag0-dev, libjpeg-dev, libjxl-dev [!s390x], libopenjp2-7-dev, libpng-dev, librsvg2-dev, libspectre-dev, libtiff-dev, libwebp-dev, libx11-dev, libx11-xcb-dev, libxcb-shm0-dev, libxcb1-dev, libxext-dev, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "3d63164dd90dcd9f8c939937e0a6676199e01308f3cd86a87cf86ad3dffb4ce8 2322 imlib2_1.12.0-2.dsc dc6927df42e3491a0e309f0a728459bbfba228e1551f1993b5bd359f895826f1 509400 imlib2_1.12.0.orig.tar.xz b30c1f970d87592ab393a75329ec51f3bd457cdf60eb32caab50065980087378 11488 imlib2_1.12.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/imlib2"
+  ],
+  "Files": [
+    "f17a2cda808052783c86e785fcb808e3 2322 imlib2_1.12.0-2.dsc 701d444db2939232e57c371ea2c998f3 509400 imlib2_1.12.0.orig.tar.xz b59059a98b58b63642d22f911fd56601 11488 imlib2_1.12.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://docs.enlightenment.org/api/imlib2/html/index.html"
+  ],
+  "Maintainer": [
+    "Markus Koschany \u003capo@debian.org\u003e"
+  ],
+  "Package": [
+    "imlib2"
+  ],
+  "Package-List": [
+    "libimlib2 deb libs optional arch=any libimlib2-dev deb libdevel optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/imlib2"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/imlib2.git"
+  ],
+  "Version": [
+    "1.12.0-2"
+  ]
+}

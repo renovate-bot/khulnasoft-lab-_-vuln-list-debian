@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-markovchain"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-igraph, r-cran-matrix (\u003e= 1.5-0), r-cran-expm, r-cran-rcpp, r-cran-rcppparallel, r-cran-rcpparmadillo, libtbb-dev (\u003e= 2021.5.0-12~)"
+  ],
+  "Checksums-Sha256": [
+    "6390ac98aaa6a0ff9258f15c170c621d02041422290c4635c7af03fb9b1b61d3 2400 r-cran-markovchain_0.9.4-1.dsc 179a9a080966a7ecaf7b28475028bb4386ac5d76b1ce61f29cb5413f7ddba839 801851 r-cran-markovchain_0.9.4.orig.tar.gz bd2d89bcd1b165ef26164df02a91d6dec85a7c68059993ad2e7c21113bb2d85d 3924 r-cran-markovchain_0.9.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-markovchain"
+  ],
+  "Files": [
+    "e733cf8413c32ed009ebd36d34b65ef2 2400 r-cran-markovchain_0.9.4-1.dsc 104f22265b1bfdd6b0cad8b7ea929ba0 801851 r-cran-markovchain_0.9.4.orig.tar.gz e63f6627b59d4538dc97ee7ebf71cfbb 3924 r-cran-markovchain_0.9.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=markovchain"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-markovchain"
+  ],
+  "Package-List": [
+    "r-cran-markovchain deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-bookdown, r-cran-ctmcd, r-cran-diagram, r-cran-knitr, r-cran-msm, r-cran-rmarkdown, r-cran-rsolnp, r-cran-testthat"
+  ],
+  "Uploaders": [
+    "Steffen Moeller \u003cmoeller@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-markovchain"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-markovchain.git"
+  ],
+  "Version": [
+    "0.9.4-1"
+  ]
+}

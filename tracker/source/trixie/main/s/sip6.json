@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "python3-sipbuild, sip-tools, sip6-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python (\u003e= 5.20211213), python3-all-dev, python3-packaging, python3-ply, python3-setuptools"
+  ],
+  "Build-Depends-Indep": [
+    "dh-sequence-sphinxdoc, python3-doc, python3-sphinx"
+  ],
+  "Checksums-Sha256": [
+    "a848e870c3614a3d9825521d268af836a4cd07ab5e0771e9ca29a54f0ab393bf 2285 sip6_6.7.11+dfsg-1.dsc a988c28ed6a7eef653e38f7bb350b334325076639549f37e5a31efe592612a37 425656 sip6_6.7.11+dfsg.orig.tar.xz 237f83c0fd7728f6f6e42465d79877486f8450c93c154ca40ee38eb46e333136 8588 sip6_6.7.11+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/sip6"
+  ],
+  "Files": [
+    "6f077cd3a8d12abda4fe9496680af584 2285 sip6_6.7.11+dfsg-1.dsc 31306dc5310be234987721872b7863a2 425656 sip6_6.7.11+dfsg.orig.tar.xz 16f60da66d2c29f422ac662091e27f45 8588 sip6_6.7.11+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://riverbankcomputing.com/software/sip/intro"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "sip6"
+  ],
+  "Package-List": [
+    "python3-sipbuild deb python optional arch=any sip-tools deb devel optional arch=all sip6-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Dmitry Shachnev \u003cmitya57@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/sip6"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/sip6.git"
+  ],
+  "Version": [
+    "6.7.11+dfsg-1"
+  ]
+}

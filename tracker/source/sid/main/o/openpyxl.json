@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-openpyxl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-pytest, python3-pil, python3-lxml, python3-et-xmlfile"
+  ],
+  "Checksums-Sha256": [
+    "abd89ed382824dabe0e9d185988b40f11887924fda1b89309f34f2999778ade8 1540 openpyxl_3.0.9-2.dsc 75f49654e568b677edde5ba54573ff518215ad02e8abd96785d3a7d3706133b9 2473835 openpyxl_3.0.9.orig.tar.gz 7d750a66ee8ff0699033c592e911370f36ebb98075dd72e6e90cf6c8a20cb870 5716 openpyxl_3.0.9-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/o/openpyxl"
+  ],
+  "Files": [
+    "ae4b264e7431bb0df883586038c81eaf 1540 openpyxl_3.0.9-2.dsc 5d657afea78cadcb0b979c44efbc288f 2473835 openpyxl_3.0.9.orig.tar.gz 53487a21cadb1560e2a82e59e116b926 5716 openpyxl_3.0.9-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://foss.heptapod.net/openpyxl/openpyxl"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "openpyxl"
+  ],
+  "Package-List": [
+    "python3-openpyxl deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Yaroslav Halchenko \u003cdebian@onerussian.com\u003e, Michael Hanke \u003cmichael.hanke@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/openpyxl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/openpyxl.git"
+  ],
+  "Version": [
+    "3.0.9-2"
+  ]
+}

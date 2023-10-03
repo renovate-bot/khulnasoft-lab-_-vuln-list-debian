@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "winff, winff-qt, winff-data, winff-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), fpc, lcl, lcl-qt5"
+  ],
+  "Build-Depends-Indep": [
+    "libreoffice"
+  ],
+  "Checksums-Sha256": [
+    "2fd073f1b647a0ff3cc3bed9a7350337603a4ed89e2b30a30c658b477018b1f1 1947 winff_1.5.5-10.dsc 3f67400ab8f7f43d2290dff3c5a0a8b8a966ba67cd971edb5d63e6a127d7a485 2622722 winff_1.5.5.orig.tar.gz e2d8463c357e7a2466597aee998ae7e9f7ae5a074f1dab0b23e3195684021a93 96568 winff_1.5.5-10.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/w/winff"
+  ],
+  "Files": [
+    "e5c54a19e8df518769ce3a59550cb6ca 1947 winff_1.5.5-10.dsc e802e32644930e998d8e6713207977db 2622722 winff_1.5.5.orig.tar.gz 261572000469a21b0d8bf25282f7767d 96568 winff_1.5.5-10.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/WinFF/winff"
+  ],
+  "Maintainer": [
+    "Peter Blackman \u003cpeter@pblackman.plus.com\u003e"
+  ],
+  "Package": [
+    "winff"
+  ],
+  "Package-List": [
+    "winff deb video optional arch=all winff-data deb video optional arch=all winff-doc deb doc optional arch=all winff-qt deb video optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "video"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "ffmpeg, libavcodec-extra, xmlstarlet"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pascal-team/winff"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pascal-team/winff.git"
+  ],
+  "Version": [
+    "1.5.5-10"
+  ]
+}

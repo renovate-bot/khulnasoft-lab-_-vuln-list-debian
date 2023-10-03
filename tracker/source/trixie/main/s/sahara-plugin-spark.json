@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-sahara-plugin-spark"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 11), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx"
+  ],
+  "Build-Depends-Indep": [
+    "openssh-client, python3-babel, python3-bandit, python3-bashate, python3-coverage, python3-eventlet, python3-fixtures, python3-hacking, python3-oslo.i18n, python3-oslo.log, python3-oslo.serialization, python3-oslo.utils, python3-oslotest, python3-requests, python3-sahara, python3-six, python3-stestr, python3-testscenarios, python3-testtools, subunit"
+  ],
+  "Checksums-Sha256": [
+    "cad788650e6aa6ee084205e71b6fe8abe90f6e8cac3c479a2a3c9c6a842ca18a 2534 sahara-plugin-spark_9.0.0-3.dsc bcd8350bb92b65fc69ab91ab56d1a3f029c7c8e5268c6d7bbee64ff83ac661dd 40828 sahara-plugin-spark_9.0.0.orig.tar.xz 7301a41a64c11ad58a53986ba492a00f6383e04c5fcf554c8987685d96385674 2756 sahara-plugin-spark_9.0.0-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/sahara-plugin-spark"
+  ],
+  "Files": [
+    "615c35f6305c27e25370ced5fc9173fe 2534 sahara-plugin-spark_9.0.0-3.dsc c6326017983474b9185ef2852c9c2f6c 40828 sahara-plugin-spark_9.0.0.orig.tar.xz 1c900d233cf60508d89dfc63e5f3141b 2756 sahara-plugin-spark_9.0.0-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://opendev.org/openstack/sahara-plugin-spark"
+  ],
+  "Maintainer": [
+    "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "sahara-plugin-spark"
+  ],
+  "Package-List": [
+    "python3-sahara-plugin-spark deb net optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openstack-team/services/sahara-plugin-spark"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openstack-team/services/sahara-plugin-spark.git"
+  ],
+  "Version": [
+    "9.0.0-3"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "i386 amd64"
+  ],
+  "Binary": [
+    "intel-cmt-cat"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 13), debhelper-compat (= 13), quilt"
+  ],
+  "Checksums-Sha256": [
+    "31a31219858908e42783ac60d0653a8f819e9847f6069fc2be8901b4c22b64f0 1809 intel-cmt-cat_23.08-1.dsc f5d963e1ae9c155d697fa6231e02dd4a7c327f8f4f82decc64978db27abad65c 569476 intel-cmt-cat_23.08.orig.tar.xz 292811c260f867e23064074e9dc41c5b2e45951d096c16141cdd63cfef9f2a47 4632 intel-cmt-cat_23.08-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/intel-cmt-cat"
+  ],
+  "Files": [
+    "786e23277dfdd39fdedb94e65cbf4cf2 1809 intel-cmt-cat_23.08-1.dsc c8f41436dfce795ae043125c6aa4b3e0 569476 intel-cmt-cat_23.08.orig.tar.xz f7b607e4fd34cb46801769b7469804a7 4632 intel-cmt-cat_23.08-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/01org/intel-cmt-cat"
+  ],
+  "Maintainer": [
+    "Colin Ian King \u003ccolin.i.king@gmail.com\u003e"
+  ],
+  "Package": [
+    "intel-cmt-cat"
+  ],
+  "Package-List": [
+    "intel-cmt-cat deb admin optional arch=i386,amd64"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Version": [
+    "23.08-1"
+  ]
+}

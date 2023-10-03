@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-leidenbase"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-igraph"
+  ],
+  "Checksums-Sha256": [
+    "9106832f44a4fda417374e4faf44561d8f22e613d5da7ada4389963b6bbe9263 2195 r-cran-leidenbase_0.1.25-1.dsc 9eaeb33597fb2926b0ec1723dec44a17e1a08919eac873fa48a6cd697036d5d3 3752162 r-cran-leidenbase_0.1.25.orig.tar.gz 9a894f966e08f81b11fdf8a1e59330f341790c2ad3c238e214e672c68495dcff 6472 r-cran-leidenbase_0.1.25-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-leidenbase"
+  ],
+  "Files": [
+    "f56f956370fd44017cf196bfc54f13c1 2195 r-cran-leidenbase_0.1.25-1.dsc ef7816783c53dcb4ed50e9a0aae5aa44 3752162 r-cran-leidenbase_0.1.25.orig.tar.gz f025c8e7aba5a38a640a444039dc46ba 6472 r-cran-leidenbase_0.1.25-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=leidenbase"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-leidenbase"
+  ],
+  "Package-List": [
+    "r-cran-leidenbase deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-knitr, r-cran-rmarkdown, r-cran-testthat"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-leidenbase"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-leidenbase.git"
+  ],
+  "Version": [
+    "0.1.25-1"
+  ]
+}

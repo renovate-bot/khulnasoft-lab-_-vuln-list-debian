@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "python3-orange3"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), pybuild-plugin-pyproject, python3-setuptools, cython3, python3-all-dev, python3-numpy, python3-scipy, python3-bottleneck, python3-openpyxl, python3-pandas, python3-sklearn, python3-chardet, python3-xlrd, python3-xlsxwriter, dh-exec"
+  ],
+  "Checksums-Sha256": [
+    "44fc4438a81213a37944f0f5ca00e7d2efc8a196c72fb1877c95aae69f46767b 2355 orange3_3.35.0+ds1-4.dsc 62011052fe5f7ebe33d2e6446b52601f09f1e45ea99d345ed4779e4fc027dfff 28279108 orange3_3.35.0+ds1.orig.tar.xz 7ef61f3439cdc9fd6b9d3012ab5ba84ed0de9eb63f76362a5197f180f630477c 3276 orange3_3.35.0+ds1-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/o/orange3"
+  ],
+  "Files": [
+    "a5302f4333058b26bc42881aaf622b2b 2355 orange3_3.35.0+ds1-4.dsc dcb49a8a2d9e1ff2bd9c07b71b71197b 28279108 orange3_3.35.0+ds1.orig.tar.xz ac82e0fdec6c35fa63b08e001184bbf2 3276 orange3_3.35.0+ds1-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://orangedatamining.com/"
+  ],
+  "Maintainer": [
+    "Debian PaN Maintainers \u003cdebian-pan-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "orange3"
+  ],
+  "Package-List": [
+    "python3-orange3 deb python optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2.0"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e, Picca Frédéric-Emmanuel \u003cpicca@debian.org\u003e, Roland Mas \u003clolando@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/orange3"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/orange3.git"
+  ],
+  "Version": [
+    "3.35.0+ds1-4"
+  ]
+}

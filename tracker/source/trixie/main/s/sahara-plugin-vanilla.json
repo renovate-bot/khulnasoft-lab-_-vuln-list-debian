@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-sahara-plugin-vanilla"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 11), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx"
+  ],
+  "Build-Depends-Indep": [
+    "openssh-client, python3-babel, python3-bandit, python3-bashate, python3-coverage, python3-eventlet, python3-fixtures, python3-hacking, python3-oslo.i18n, python3-oslo.log, python3-oslo.serialization, python3-oslo.utils, python3-oslotest, python3-requests, python3-sahara, python3-six, python3-stestr, python3-testscenarios, python3-testtools, subunit"
+  ],
+  "Checksums-Sha256": [
+    "505d8702bcc3e54b79317f7febe514acc9e16524558b7dae3b5e14601c0ec05b 2561 sahara-plugin-vanilla_9.0.0-3.dsc 1860929bd0d5c9c24fcbb7f45e9b05ee622f710c39406297ac7014db71790615 180792 sahara-plugin-vanilla_9.0.0.orig.tar.xz b9b5a6535709f42f79e9e6a32cf6803d8725062f1e9bd258edcb17e1ecf77511 2836 sahara-plugin-vanilla_9.0.0-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/sahara-plugin-vanilla"
+  ],
+  "Files": [
+    "6eb7f082592b3d9dd55bfa9d57bf0eb2 2561 sahara-plugin-vanilla_9.0.0-3.dsc 4a4c7e2627b646ea263ebad936efb910 180792 sahara-plugin-vanilla_9.0.0.orig.tar.xz 0ccea96c38feb26298384fe735fb616c 2836 sahara-plugin-vanilla_9.0.0-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://opendev.org/openstack/sahara-plugin-vanilla"
+  ],
+  "Maintainer": [
+    "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "sahara-plugin-vanilla"
+  ],
+  "Package-List": [
+    "python3-sahara-plugin-vanilla deb net optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.4.1"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openstack-team/services/sahara-plugin-vanilla"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openstack-team/services/sahara-plugin-vanilla.git"
+  ],
+  "Version": [
+    "9.0.0-3"
+  ]
+}

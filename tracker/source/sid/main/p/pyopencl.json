@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "python3-pyopencl, python-pyopencl-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-numpy3, dh-sequence-python3, mesa-common-dev, ocl-icd-opencl-dev | opencl-dev, opencl-c-headers, pybuild-plugin-pyproject, python3-all-dev, python3-pybind11 (\u003e= 2.5.0), python3-setuptools, pocl-opencl-icd [amd64 arm64 armel armhf i386 hurd-i386] \u003c!nocheck\u003e | mesa-opencl-icd \u003c!nocheck\u003e, python3-mako \u003c!nocheck\u003e, python3-pytest (\u003e= 7) \u003c!nocheck\u003e, python3-pytools (\u003e= 2021.2.7) \u003c!nocheck\u003e"
+  ],
+  "Build-Depends-Indep": [
+    "dh-sequence-sphinxdoc \u003c!nodoc\u003e, jdupes \u003c!nodoc\u003e, python-mako-doc \u003c!nodoc\u003e, python3-doc \u003c!nodoc\u003e, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-copybutton \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "3a22075d7675d5275b68981a240814fa5f86e94ba5392d4e6be87f99a337b24e 2775 pyopencl_2023.1.2-1.dsc eb00cd574049d592b679dcf8bfe7ab4a36c94a39fd1acb1a6b45d6c0d7be9a68 473684 pyopencl_2023.1.2.orig.tar.gz d3d788445396094587d6dd54e7c5434fe49bd5a13d222afb8ff05f9dba839984 26308 pyopencl_2023.1.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pyopencl"
+  ],
+  "Files": [
+    "83ed874ce64898041a3bf7a4f6af5f53 2775 pyopencl_2023.1.2-1.dsc fff1e4c1ebba8048b53d10e5432c0986 473684 pyopencl_2023.1.2.orig.tar.gz 733614a9e90ab56fe2826460d2d43cde 26308 pyopencl_2023.1.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://mathema.tician.de/software/pyopencl"
+  ],
+  "Maintainer": [
+    "Debian OpenCL Maintainers \u003cpkg-opencl-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "pyopencl"
+  ],
+  "Package-List": [
+    "python-pyopencl-doc deb doc optional arch=all profile=!nodoc python3-pyopencl deb python optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-pytest"
+  ],
+  "Uploaders": [
+    "Tomasz Rybak \u003cserpent@debian.org\u003e, Andreas Beckmann \u003canbe@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/opencl-team/python-pyopencl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/opencl-team/python-pyopencl.git"
+  ],
+  "Version": [
+    "2023.1.2-1"
+  ]
+}

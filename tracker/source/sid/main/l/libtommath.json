@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libtommath-doc, libtommath-dev, libtommath1"
+  ],
+  "Build-Depends": [
+    "autoconf, debhelper-compat (= 12), libtool"
+  ],
+  "Build-Depends-Indep": [
+    "ghostscript, libtiff-tools, texlive-latex-extra, texlive-latex-recommended"
+  ],
+  "Checksums-Sha256": [
+    "2add4970f2fcf38f857d6bad8a44901067c8a0a7fd934f0fef71ca4127e28320 2226 libtommath_1.2.1-1.dsc 068adaf5155d28d4ac976eb95ea0df1ecb362f20d777287154c22a24fdb35faa 242384 libtommath_1.2.1.orig.tar.gz d0f34137f0442806ff842bd2d69474e5f5daa8ab5a7a3456a2d4b4319c30beb1 20376 libtommath_1.2.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libt/libtommath"
+  ],
+  "Files": [
+    "6c6eec02457e70aa0ad17a8923dd90be 2226 libtommath_1.2.1-1.dsc 5928e9080ec529856ce93ce468ecbe75 242384 libtommath_1.2.1.orig.tar.gz dbd14d1358885a9d7c369d32c4d94fc9 20376 libtommath_1.2.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.libtom.net/LibTomMath/"
+  ],
+  "Maintainer": [
+    "Debian Rakudo Maintainers \u003cpkg-rakudo-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libtommath"
+  ],
+  "Package-List": [
+    "libtommath-dev deb libdevel optional arch=any libtommath-doc deb doc optional arch=all libtommath1 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential"
+  ],
+  "Uploaders": [
+    "Dominique Dumont \u003cdod@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/libtommath"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/libtommath.git"
+  ],
+  "Version": [
+    "1.2.1-1"
+  ]
+}

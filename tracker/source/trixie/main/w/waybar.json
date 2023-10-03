@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "waybar"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libwlroots-dev, libwayland-dev, libinput-dev, meson, pkgconf, libgtkmm-3.0-dev, libjsoncpp-dev, libsigc++-2.0-dev, libpulse-dev, libnl-3-dev, libspdlog-dev (\u003e= 1.8.0), cmake, libfmt-dev (\u003e= 5.3.0), libnl-genl-3-dev, libdbusmenu-gtk3-dev, libmpdclient-dev, scdoc (\u003e= 1.9.2), libgtk-layer-shell-dev, libgtk-layer-shell0, libxkbregistry-dev, libupower-glib-dev, libjack-jackd2-dev, libsndio-dev, libwireplumber-0.4-dev, libhowardhinnant-date-dev, libplayerctl-dev"
+  ],
+  "Checksums-Sha256": [
+    "1d91b302ae2ca0cbf42a26ce2d8d7138e65b57e5e339a4287e804349866de816 2378 waybar_0.9.22-1.dsc 701ef8ba94fdbb6bbda9eff25a577524b652368e00edb2b908a59daa6a329a0b 255896 waybar_0.9.22.orig.tar.gz 6818393b19a82a6303a092162b6c85ad01cb2229a481c93cf8c35dd259a47274 4432 waybar_0.9.22-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/w/waybar"
+  ],
+  "Files": [
+    "8ce531bf80316e94fe3efa438348f215 2378 waybar_0.9.22-1.dsc abba641ddaa5fab485ff4ec6b84b3851 255896 waybar_0.9.22.orig.tar.gz 66fb67fb4d92f9dd9081745019939cf7 4432 waybar_0.9.22-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/Alexays/Waybar/"
+  ],
+  "Maintainer": [
+    "Sway and related packages team \u003cteam+swaywm@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "waybar"
+  ],
+  "Package-List": [
+    "waybar deb x11 optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Birger Schacht \u003cbirger@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/swaywm-team/waybar"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/swaywm-team/waybar.git"
+  ],
+  "Version": [
+    "0.9.22-1"
+  ]
+}

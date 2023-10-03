@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-django-modeltranslation, python-django-modeltranslation-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all:any, python3-django, python3-pil, python3-pytest, python3-pytest-django, python3-pytest-sugar, python3-parameterized, python3-setuptools, python3-six, python3-sphinx, python3-sphinx-rtd-theme"
+  ],
+  "Checksums-Sha256": [
+    "baa3d6dc6ad0e769599bdaec6aefa84cafd44ed8a0d7dee2054c953c9b87031d 2510 django-modeltranslation_0.18.11-1.dsc 432a3bec7e09caafffadfa61d9f39994c95e6361bf560bb9b4fa8f9f7d29a683 123089 django-modeltranslation_0.18.11.orig.tar.gz bf7fc6026440be19c482d0f5156453f0bbdeb20c1f5283983c5f79e4c762aa8e 5472 django-modeltranslation_0.18.11-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/django-modeltranslation"
+  ],
+  "Files": [
+    "a66e8f73c7d3dcc1783c590232a6afbc 2510 django-modeltranslation_0.18.11-1.dsc c60b89801278ee47786b3606112f8d3b 123089 django-modeltranslation_0.18.11.orig.tar.gz aa327bbcc9078508bd430f8aaa3d1944 5472 django-modeltranslation_0.18.11-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/deschler/django-modeltranslation/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "django-modeltranslation"
+  ],
+  "Package-List": [
+    "python-django-modeltranslation-doc deb doc optional arch=all python3-django-modeltranslation deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Uploaders": [
+    "Sophie Brun \u003csophie@freexian.com\u003e, Raphaël Hertzog \u003chertzog@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/django-modeltranslation"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/django-modeltranslation.git"
+  ],
+  "Version": [
+    "0.18.11-1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-env-logger-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-humantime-2+default-dev (\u003e= 2.1-~~) \u003c!nocheck\u003e, librust-is-terminal-0.4+default-dev \u003c!nocheck\u003e, librust-log-0.4+default-dev \u003c!nocheck\u003e, librust-log-0.4+std-dev \u003c!nocheck\u003e, librust-regex-1+perf-dev \u003c!nocheck\u003e, librust-regex-1+std-dev \u003c!nocheck\u003e, librust-termcolor-1+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "3bfd9afb6c93b1727bbed8931aacb622d7b7199016c7d395a93499dedf2c5abc 2479 rust-env-logger_0.10.0-1.dsc 85cdab6a89accf66733ad5a1693a4dcced6aeff64602b634530dd73c1f3ee9f0 36574 rust-env-logger_0.10.0.orig.tar.gz b89c664273c4cf11f1b5e9e8ac1cc5d5f5019113fff8b8ebdbefa790f0919567 3532 rust-env-logger_0.10.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-env-logger"
+  ],
+  "Files": [
+    "57f21ed1d99f7d64bdadfec619094d07 2479 rust-env-logger_0.10.0-1.dsc b780fcc574c24ff09d291278b7d61dba 36574 rust-env-logger_0.10.0.orig.tar.gz 5d0ba47b55457d78daa3de45d139542f 3532 rust-env-logger_0.10.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-env-logger"
+  ],
+  "Package-List": [
+    "librust-env-logger-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/env-logger"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/env-logger]"
+  ],
+  "Version": [
+    "0.10.0-1"
+  ]
+}

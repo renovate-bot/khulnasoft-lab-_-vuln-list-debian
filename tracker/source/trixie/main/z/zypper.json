@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "zypper, zypper-common, zypper-doc"
+  ],
+  "Build-Depends": [
+    "asciidoctor, debhelper (\u003e= 10~), cdbs, cmake (\u003e= 3.1), libreadline-dev, libzypp-dev (\u003e= 17.31), libaugeas-dev, libboost-all-dev, librpm-dev"
+  ],
+  "Checksums-Sha256": [
+    "07c9b075406dd31de917bec43693d32eb076c6d0f0e8eafc02a2366376eb13ef 2122 zypper_1.14.63-1.dsc 39e308c27e9936c84d9393620aaab64d110f8e39b98f796b8b7551a994e3c7d4 11044747 zypper_1.14.63.orig.tar.gz 88cf5f3510dac7220b2bcde78d9968b8cf2d01855c2c73a7274e63d351c268fc 10036 zypper_1.14.63-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/z/zypper"
+  ],
+  "Files": [
+    "b7befd5ee8a87ba1f266833d08f99ea1 2122 zypper_1.14.63-1.dsc 3db782f2fdf94a486edb832461527ad0 11044747 zypper_1.14.63.orig.tar.gz bb30f2fea654d8650a9b21e04c513bd6 10036 zypper_1.14.63-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/openSUSE/zypper"
+  ],
+  "Maintainer": [
+    "Mike Gabriel \u003csunweaver@debian.org\u003e"
+  ],
+  "Package": [
+    "zypper"
+  ],
+  "Package-List": [
+    "zypper deb admin optional arch=any zypper-common deb admin optional arch=all zypper-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Luca Boccassi \u003cbluca@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/zypper"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/zypper.git"
+  ],
+  "Version": [
+    "1.14.63-1"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "fossil"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libsqlite3-dev (\u003e= 3.38.0), bash-completion, libfuse-dev, libreadline-dev, pkg-config, libssl-dev, tcl | tclsh, tcl-dev, zlib1g-dev | libz-dev"
+  ],
+  "Checksums-Sha256": [
+    "0d53af9aff6975e7b5983dbbe64c17b31b40c226b665e0cce42bf6da7b3fc0fe 1899 fossil_2.22-2.dsc 1103e5c88cd0f8ea78a4312400ea549cf0d5a856922d4cb201dc1bea538f6d02 4736904 fossil_2.22.orig.tar.xz 8b2baf72648417f46943afd0967af27092da910be0b780e8b4ff431210cdab4c 13828 fossil_2.22-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/fossil"
+  ],
+  "Files": [
+    "b67c5b494014b8b6332f0b98c2aa7e40 1899 fossil_2.22-2.dsc c7afb3483e1ccd03092a1c5d4c6a9617 4736904 fossil_2.22.orig.tar.xz dbaed8c0c8e077424898264e3edb64c5 13828 fossil_2.22-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://fossil-scm.org"
+  ],
+  "Maintainer": [
+    "Barak A. Pearlmutter \u003cbap@debian.org\u003e"
+  ],
+  "Package": [
+    "fossil"
+  ],
+  "Package-List": [
+    "fossil deb vcs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "vcs"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "tcl"
+  ],
+  "Version": [
+    "1:2.22-2"
+  ]
+}

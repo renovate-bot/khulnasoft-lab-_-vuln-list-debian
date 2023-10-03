@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libuunf-ocaml, libuunf-ocaml-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-ocaml, libcmdliner-ocaml-dev, libtopkg-ocaml-dev, libuucd-ocaml-dev, libuutf-ocaml-dev, ocaml-findlib, ocaml, ocamlbuild"
+  ],
+  "Checksums-Sha256": [
+    "7b236c35d2e4bafaf57654617072e322520e3faebe84316f08f1001606b960c9 1932 ocaml-uunf_15.0.0-4.dsc 50de301d396c2ce2132a18c7661106e2d15f8c9ff35156b763efbba5ccd8a02f 22065 ocaml-uunf_15.0.0.orig.tar.gz 467121a3a6c811970228be77fd744ff30b4274c7b2650ae65e68860d15f6fb02 4209884 ocaml-uunf_15.0.0-4.debian.tar.xz"
+  ],
+  "Dgit": [
+    "f41273ba8ae5c5cf6ea49cdd1348d01be970d6fe debian archive/debian/15.0.0-4 https://git.dgit.debian.org/ocaml-uunf"
+  ],
+  "Directory": [
+    "pool/main/o/ocaml-uunf"
+  ],
+  "Files": [
+    "02186e0b67f0438577c1b2d8bca60ac1 1932 ocaml-uunf_15.0.0-4.dsc 9dab89b224c3ddddc852dc82c1358b91 22065 ocaml-uunf_15.0.0.orig.tar.gz 0dfbf640205a8fc9fee8e1c4437485b4 4209884 ocaml-uunf_15.0.0-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://erratique.ch/software/uunf/"
+  ],
+  "Maintainer": [
+    "Debian OCaml Maintainers \u003cdebian-ocaml-maint@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "ocaml-uunf"
+  ],
+  "Package-List": [
+    "libuunf-ocaml deb ocaml optional arch=any libuunf-ocaml-dev deb ocaml optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Julien Puydt \u003cjpuydt@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ocaml-team/ocaml-uunf"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ocaml-team/ocaml-uunf.git"
+  ],
+  "Version": [
+    "15.0.0-4"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "fcitx5, fcitx5-data, fcitx5-frontend-all, fcitx5-modules, fcitx5-modules-dev, libfcitx5config-dev, libfcitx5config6, libfcitx5core-dev, libfcitx5core7, libfcitx5utils-dev, libfcitx5utils2"
+  ],
+  "Build-Depends": [
+    "appstream, cmake (\u003e= 3.6.0), dbus-daemon \u003c!nocheck\u003e, debhelper-compat (= 13), extra-cmake-modules, gettext, iso-codes, libbrotli-dev, libcairo2-dev, libdbus-1-dev [!linux-any], libegl1-mesa-dev, libenchant-2-dev, libevent-dev [!linux-any], libexpat1-dev, libfmt-dev, libgdk-pixbuf-2.0-dev, libjson-c-dev, libkvm-dev [kfreebsd-any], libpango1.0-dev, libsystemd-dev [linux-any], libwayland-bin [linux-any], libwayland-dev [linux-any], libwayland-egl-backend-dev [linux-any], libxcb-ewmh-dev, libxcb-icccm4-dev, libxcb-imdkit-dev (\u003e= 1.0.5~), libxcb-randr0-dev, libxcb-shape0-dev, libxcb-xfixes0-dev, libxcb-xinerama0-dev, libxcb-xkb-dev, libxcb1-dev, libxkbcommon-x11-dev, libxkbfile-dev, pkg-config, unicode-cldr-core, uuid-dev, wayland-protocols [linux-any]"
+  ],
+  "Checksums-Sha256": [
+    "50afb28803ac915bc02f9f8ab031df1ea63b8ae20104fa1e5fb0cb5930647776 3536 fcitx5_5.1.0-1.dsc 7e08a2914cf417afc5485820bc4e50b12a981502c63de7aa8663b7d6d91a2da8 7473400 fcitx5_5.1.0.orig.tar.xz 2d5446da5043aa8bed915ddcf6a57f490cc3d1cb384298fe375c90b7cb60f224 488 fcitx5_5.1.0.orig.tar.xz.asc c396f96f105c44cbe66cd0493aa4e31e5606a07a22f4350136978c322cdcda69 13584 fcitx5_5.1.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/fcitx5"
+  ],
+  "Files": [
+    "d65f9cd212cefd0c5ad66ac07408a83a 3536 fcitx5_5.1.0-1.dsc d41cda3650d3945cff828843d56f5d6c 7473400 fcitx5_5.1.0.orig.tar.xz f276dc2138f37e1c7f1ff04bfaf0314f 488 fcitx5_5.1.0.orig.tar.xz.asc ed1a4e258de5c30c11b5f8c3d1e4219b 13584 fcitx5_5.1.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/fcitx/fcitx5"
+  ],
+  "Maintainer": [
+    "Debian Input Method Team \u003cdebian-input-method@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "fcitx5"
+  ],
+  "Package-List": [
+    "fcitx5 deb utils optional arch=any fcitx5-data deb utils optional arch=all fcitx5-frontend-all deb metapackages optional arch=all fcitx5-modules deb utils optional arch=any fcitx5-modules-dev deb libdevel optional arch=any libfcitx5config-dev deb libdevel optional arch=any libfcitx5config6 deb libs optional arch=any libfcitx5core-dev deb libdevel optional arch=any libfcitx5core7 deb libs optional arch=any libfcitx5utils-dev deb libdevel optional arch=any libfcitx5utils2 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Boyuan Yang \u003cbyang@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/input-method-team/fcitx5"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/input-method-team/fcitx5.git"
+  ],
+  "Version": [
+    "5.1.0-1"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "foomuuri, foomuuri-firewalld"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, flake8, pycodestyle, pylint, python3, python3-dbus, python3-gi, python3-requests, python3-systemd"
+  ],
+  "Checksums-Sha256": [
+    "872623eccbc64b5a6625f4d0396bbb2d54aa45c629a7c50d0cf37ab8ea260ae0 2026 foomuuri_0.20-1.dsc a01e38c8110d033ddc0f1bf62a2a6d4c0271d3c6ca722240e59951653f145299 36424 foomuuri_0.20.orig.tar.gz 7af4d0a370d7d21f24e85cfc2f35741a31d499311c203b4cf14d2a60a4bff353 3016 foomuuri_0.20-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/foomuuri"
+  ],
+  "Files": [
+    "7cd12b501c3284478d9a683187d4de57 2026 foomuuri_0.20-1.dsc 47abaa6b348cf988d8ce56f4b5bb9073 36424 foomuuri_0.20.orig.tar.gz b0313a5c0757a7ea606dc4be0a19415d 3016 foomuuri_0.20-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/FoobarOy/foomuuri"
+  ],
+  "Maintainer": [
+    "Romain Francoise \u003crfrancoise@debian.org\u003e"
+  ],
+  "Package": [
+    "foomuuri"
+  ],
+  "Package-List": [
+    "foomuuri deb net optional arch=all foomuuri-firewalld deb net optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rfrancoise/foomuuri"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rfrancoise/foomuuri.git"
+  ],
+  "Version": [
+    "0.20-1"
+  ]
+}

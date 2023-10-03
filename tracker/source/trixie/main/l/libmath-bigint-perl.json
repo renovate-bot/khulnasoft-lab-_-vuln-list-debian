@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libmath-bigint-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "libscalar-list-utils-perl \u003c!nocheck\u003e, perl"
+  ],
+  "Checksums-Sha256": [
+    "79d73fd7c367256e79aa1dcef18428b7eae335d2d8ebc4bcee5f7824d5674a36 2224 libmath-bigint-perl_1.999842-1.dsc 54601c50c6993e7ee13d8c3ac3346cf15a4d8063149cdbbe86eb01e5610e4675 2874389 libmath-bigint-perl_1.999842.orig.tar.gz 7802a9e1261afc4120fd42eb2647038dce0b1286af13c3a7ed8bbdc534fab211 4292 libmath-bigint-perl_1.999842-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libm/libmath-bigint-perl"
+  ],
+  "Files": [
+    "774f1f70f1fb417b5b601acb7c8a6b26 2224 libmath-bigint-perl_1.999842-1.dsc 0c80f9090c5152df5f0b3ec2ad89f429 2874389 libmath-bigint-perl_1.999842.orig.tar.gz 081e4c0b1fbc7ee9f00cfff53ca366f9 4292 libmath-bigint-perl_1.999842-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://metacpan.org/release/Math-BigInt"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libmath-bigint-perl"
+  ],
+  "Package-List": [
+    "libmath-bigint-perl deb perl optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "perl"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "gregor herrmann \u003cgregoa@debian.org\u003e, Roland Rosenfeld \u003croland@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libmath-bigint-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libmath-bigint-perl.git"
+  ],
+  "Version": [
+    "1.999842-1"
+  ]
+}
