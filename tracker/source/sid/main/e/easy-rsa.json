@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "easy-rsa"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "1c867714be75e4dd1aad6e76ad2c93aaab589fb2c7d44f2adb222a81aa6c40e4 2117 easy-rsa_3.1.6-2.dsc ccd27c704692f2a9e24a11672d330ada585c94d6793cb68baf1165ed4e0fa757 81177 easy-rsa_3.1.6.orig.tar.gz e318b3b7558912bc7d83f1c51fff6da320a726be910af1e7021dc38eeeb7f2e2 488 easy-rsa_3.1.6.orig.tar.gz.asc 3e24572df54e9db8f98082c7bfdcea72015cae6c455e8e90ecd786f849a572b2 15060 easy-rsa_3.1.6-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/e/easy-rsa"
+  ],
+  "Files": [
+    "f878b2810098cd21ea607d0cec77a766 2117 easy-rsa_3.1.6-2.dsc c81721c095e18008776d38a6df010ec6 81177 easy-rsa_3.1.6.orig.tar.gz db82c9e1c2516904e812f66e847b4c9f 488 easy-rsa_3.1.6.orig.tar.gz.asc 807f7ceb5afeaba8abb0ed71cecba63e 15060 easy-rsa_3.1.6-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/OpenVPN/easy-rsa"
+  ],
+  "Maintainer": [
+    "Lance Lin \u003clq27267@gmail.com\u003e"
+  ],
+  "Package": [
+    "easy-rsa"
+  ],
+  "Package-List": [
+    "easy-rsa deb utils optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "haveged"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/easy-rsa"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/easy-rsa.git"
+  ],
+  "Version": [
+    "3.1.6-2"
+  ]
+}

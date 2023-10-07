@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-cran-markdown"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-commonmark (\u003e= 1.9.0), r-cran-xfun (\u003e= 0.38)"
+  ],
+  "Checksums-Sha256": [
+    "7539e2cf196928282df86012ee14dbcf1f2d7a3888945ac76fddf2ee171393f2 2248 r-cran-markdown_1.8+dfsg-1.dsc ffdc6fdc020df480b9d4d0d7ddf29663238f0ff0462b4a324bac56b42963ec4f 55004 r-cran-markdown_1.8+dfsg.orig.tar.xz fb798be9f49ec55a1c8ce22bd982d9eab1e3565c164b81e8c62bd2654998a640 14848 r-cran-markdown_1.8+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-markdown"
+  ],
+  "Files": [
+    "b9cc13555663d5f106779b56160e57c9 2248 r-cran-markdown_1.8+dfsg-1.dsc 3f88d165495b8d679aebda4e70ecaac4 55004 r-cran-markdown_1.8+dfsg.orig.tar.xz 402bb2b256135c585148f6273104772a 14848 r-cran-markdown_1.8+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=markdown"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-markdown"
+  ],
+  "Package-List": [
+    "r-cran-markdown deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "locales, r-cran-knitr, r-cran-rcurl, r-cran-rmarkdown, r-cran-yaml"
+  ],
+  "Uploaders": [
+    "Joost van Baal-Ilić \u003cjoostvb@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-markdown"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-markdown.git"
+  ],
+  "Version": [
+    "1.8+dfsg-1"
+  ]
+}

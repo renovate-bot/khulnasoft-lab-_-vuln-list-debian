@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "kmenuedit"
+  ],
+  "Build-Depends": [
+    "cmake (\u003e= 3.16~), debhelper-compat (= 13), extra-cmake-modules (\u003e= 5.102.0~), gettext, libkf5dbusaddons-dev (\u003e= 5.102.0~), libkf5doctools-dev (\u003e= 5.102.0~), libkf5globalaccel-dev (\u003e= 5.102.0~), libkf5i18n-dev (\u003e= 5.102.0~), libkf5iconthemes-dev (\u003e= 5.102.0~), libkf5itemviews-dev (\u003e= 5.102.0~), libkf5kio-dev (\u003e= 5.102.0~), libkf5sonnet-dev (\u003e= 5.102.0~), libkf5windowsystem-dev (\u003e= 5.102.0~), libkf5xmlgui-dev (\u003e= 5.102.0~), pkg-kde-tools (\u003e= 0.15.18~), qtbase5-dev (\u003e= 5.15.2~)"
+  ],
+  "Checksums-Sha256": [
+    "de2850e29a5513c41fb0d3698fafbaf05bfda79ffb4c553938b3c36436953307 2764 kmenuedit_5.27.8-1.dsc ae080a93f4300612d3f7832a903c4473b49ae40f880c944d1a7c2f399614f39f 932112 kmenuedit_5.27.8.orig.tar.xz cba763832487c7ab8c793d9cb49718849eecc3dd83a1367646afb160d72e912d 833 kmenuedit_5.27.8.orig.tar.xz.asc bdf3878a30b7c69c7aa48b6a99d61353043b83e11e1e2abbe4bcd26f6094ea04 15384 kmenuedit_5.27.8-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/k/kmenuedit"
+  ],
+  "Files": [
+    "65631743229e5c9ad69a06aa684d55ca 2764 kmenuedit_5.27.8-1.dsc 4db6f8a5687dfc90bb2b8eb531051566 932112 kmenuedit_5.27.8.orig.tar.xz 4f551f07e5247373e2f2fac29ec58b97 833 kmenuedit_5.27.8.orig.tar.xz.asc 9c0d26029f10c346b8dc53286ce16dda 15384 kmenuedit_5.27.8-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://invent.kde.org/plasma/kmenuedit"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "kmenuedit"
+  ],
+  "Package-List": [
+    "kmenuedit deb kde optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Norbert Preining \u003cnorbert@preining.info\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e, Scarlett Moore \u003csgmoore@kde.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/kde/kmenuedit"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/kde/kmenuedit.git"
+  ],
+  "Version": [
+    "4:5.27.8-1"
+  ]
+}

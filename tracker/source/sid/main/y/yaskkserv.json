@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "yaskkserv"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 9.20160709~), libgnutls28-dev, libsystemd-dev [linux-any]"
+  ],
+  "Checksums-Sha256": [
+    "44d322605d18a7526c7d24d4d4ca1627463fbb088f3cfb1991b51e22f9dc889b 1888 yaskkserv_1.1.1-2.dsc 7b17563f004115e66d056476209ac38323060c4f6e2245c3688742c0091ef733 75136 yaskkserv_1.1.1.orig.tar.xz b31ce58560899a3a68a8d3383c550a724f8669dc6c7e9ef96431155868a63c06 11792 yaskkserv_1.1.1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/y/yaskkserv"
+  ],
+  "Files": [
+    "4a334c0e3693c38c441b1619499b6b9f 1888 yaskkserv_1.1.1-2.dsc d94117597bb88378ad5d22484a6a832b 75136 yaskkserv_1.1.1.orig.tar.xz f9d48909048b2511923a00109c881fe6 11792 yaskkserv_1.1.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://umiushi.org/~wac/yaskkserv/"
+  ],
+  "Maintainer": [
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+  ],
+  "Package": [
+    "yaskkserv"
+  ],
+  "Package-List": [
+    "yaskkserv deb utils optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.4.0"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/yaskkserv"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/yaskkserv.git"
+  ],
+  "Version": [
+    "1.1.1-2"
+  ]
+}

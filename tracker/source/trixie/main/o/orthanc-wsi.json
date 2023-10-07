@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "orthanc-wsi"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), libcurl4-openssl-dev | libcurl4-dev, libdcmtk-dev, libopenjp2-7-dev, liborthancframework-dev (\u003e= 1.9.4), libtiff-dev, orthanc-dev, uuid-dev, yui-compressor, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "3fd750f903826277fc84bac5c9546b1cbe26e1acc9f20c372d97668e146b8f0b 2233 orthanc-wsi_2.0+dfsg-1.dsc dd8822320a172592162b698df423b56afedb688fa0df1e92f2bb8300d881e854 136288 orthanc-wsi_2.0+dfsg.orig.tar.xz 4e9a7ee6121e7e109f8a5a3a834c79b3bf6e77d90406f9d64fc05356b6f220e5 316428 orthanc-wsi_2.0+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/o/orthanc-wsi"
+  ],
+  "Files": [
+    "e1f89950c50060e2a2cad43e076b7222 2233 orthanc-wsi_2.0+dfsg-1.dsc af4702b161fee5bba6ccda5376d83903 136288 orthanc-wsi_2.0+dfsg.orig.tar.xz d214c3af86e98344dba5ea4d7fe44fd4 316428 orthanc-wsi_2.0+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.orthanc-server.com/static.php?page=wsi"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "orthanc-wsi"
+  ],
+  "Package-List": [
+    "orthanc-wsi deb science optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Sebastien Jodogne \u003cs.jodogne@gmail.com\u003e, Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/orthanc-wsi"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/orthanc-wsi.git"
+  ],
+  "Version": [
+    "2.0+dfsg-1"
+  ]
+}

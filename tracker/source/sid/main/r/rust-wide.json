@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "librust-wide-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-cargo, librust-safe-arch-0.7+bytemuck-dev \u003c!nocheck\u003e, librust-safe-arch-0.7+default-dev \u003c!nocheck\u003e, librust-bytemuck-1+default-dev \u003c!nocheck\u003e, libstring-shellquote-perl \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "f64980ff0a773cbe5cdca45ffce0401f82eace5704b89863081465ceda6acc3f 2162 rust-wide_0.7.12-1.dsc c138533b3dab20f084c47eeab05902987a098cb5144fe1709dd44366e56fb19b 80556 rust-wide_0.7.12.orig.tar.gz 586af71a61836174f145d9643fa861d830ef7677c322444969e2dac9e4bd3295 14616 rust-wide_0.7.12-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-wide"
+  ],
+  "Files": [
+    "9bafa3d0cedc2d09873d3826e6871e6e 2162 rust-wide_0.7.12-1.dsc d4fe362e6c07b3d5c5a93be129057d02 80556 rust-wide_0.7.12.orig.tar.gz 71d3180a26a22b92d87adc7988ad79cc 14616 rust-wide_0.7.12-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/lokathor/wide"
+  ],
+  "Maintainer": [
+    "Jonas Smedegaard \u003cdr@jones.dk\u003e"
+  ],
+  "Package": [
+    "rust-wide"
+  ],
+  "Package-List": [
+    "librust-wide-dev deb rust optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-wide-0.7+default-dev, librust-wide-0.7+std-dev, librust-wide-0.7-dev"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/rust-wide"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/rust-wide.git"
+  ],
+  "Version": [
+    "0.7.12-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "pbbamtools, libpbbam2.3.0, libpbbam-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-exec, d-shlibs, meson, pkg-config, cmake, libboost-dev, zlib1g-dev, libssl-dev, libhts-dev, libpbcopper-dev (\u003e\u003e 2.2.0), python3-cram, libgtest-dev \u003c!nocheck\u003e, samtools \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "a867fd6ca2d66aeb008a0a1ed33f1c727c844844d353dba81e54bd2c9a640f92 2296 pbbam_2.3.0+dfsg-1.dsc 92a5c01037008db5188e85ce77c7fc0a820f5036b2863874299dcf02f411b514 7822720 pbbam_2.3.0+dfsg.orig.tar.xz e3a6d869c5a992e41dcaf17a56bf6b3ac9d8ec5dbb06f88ab7577e77295fc4df 8948 pbbam_2.3.0+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pbbam"
+  ],
+  "Files": [
+    "dd0c63298ae614321065aabae14e3c28 2296 pbbam_2.3.0+dfsg-1.dsc 23df90da49a62ea9607d043e44799e80 7822720 pbbam_2.3.0+dfsg.orig.tar.xz 90741ecee789b5121b2cda1be8bc676a 8948 pbbam_2.3.0+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://pbbam.readthedocs.org/en/latest/index.html"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "pbbam"
+  ],
+  "Package-List": [
+    "libpbbam-dev deb libdevel optional arch=any libpbbam2.3.0 deb libs optional arch=any pbbamtools deb science optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/pbbam"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/pbbam.git"
+  ],
+  "Version": [
+    "2.3.0+dfsg-1"
+  ]
+}

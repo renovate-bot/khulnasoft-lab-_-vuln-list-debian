@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "ghc, ghc-prof, ghc-doc"
+  ],
+  "Build-Conflicts": [
+    "ccache"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), haskell-devscripts-minimal \u003c!cross\u003e, devscripts, grep-dctrl, pkg-config, ghc:native (\u003e= 9.0), libgmp-dev, llvm-15 [armel armhf], libffi-dev, libncurses-dev, python3-sphinx \u003c!cross\u003e, python3-sphinx-rtd-theme \u003c!cross\u003e, dpkg-dev (\u003e= 1.16.1.1)"
+  ],
+  "Build-Depends-Indep": [
+    "hscolour, fop"
+  ],
+  "Checksums-Sha256": [
+    "83e4d05fd9838636f98a1d1ba106cca772b7471ab7efe0c5f0d55247edefb509 2626 ghc_9.4.6-1.dsc 1b705cf52692f9d4d6707cdf8e761590f5f56ec8ea6a65e36610db392d3d24b9 28594616 ghc_9.4.6.orig.tar.xz 4a9a9ecf13c6f4fc5d1502632673f8c0ad210f6cdcbe288afcf8c0aff271bd77 659 ghc_9.4.6.orig.tar.xz.asc 8492a665b6c411afd7cda41cbf713b931e0caee2a7f696b0ed7ea4487d0e4acc 56488 ghc_9.4.6-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/ghc"
+  ],
+  "Files": [
+    "8c4fd1416dc8293334c4fad857e62eda 2626 ghc_9.4.6-1.dsc c6e763cd8ace8f0224b5c738cc06e320 28594616 ghc_9.4.6.orig.tar.xz 994d3a71d6f37121e9a06023a86e66db 659 ghc_9.4.6.orig.tar.xz.asc 4f811a2b1155f888c46390f55e85a993 56488 ghc_9.4.6-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://haskell.org/ghc/"
+  ],
+  "Maintainer": [
+    "Debian Haskell Group \u003cpkg-haskell-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "ghc"
+  ],
+  "Package-List": [
+    "ghc deb haskell optional arch=any ghc-doc deb doc optional arch=all ghc-prof deb haskell optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "haskell"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Clint Adams \u003cclint@debian.org\u003e, Ilias Tsitsimpis \u003ciliastsi@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/ghc"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/haskell-team/DHG_packages.git [p/ghc]"
+  ],
+  "Version": [
+    "9.4.6-1"
+  ]
+}

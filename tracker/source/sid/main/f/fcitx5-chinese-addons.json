@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "fcitx5-chinese-addons, fcitx5-chinese-addons-bin, fcitx5-chinese-addons-data, fcitx5-module-chttrans, fcitx5-module-cloudpinyin, fcitx5-module-cloudpinyin-dev, fcitx5-module-fullwidth, fcitx5-module-pinyinhelper, fcitx5-module-pinyinhelper-dev, fcitx5-module-punctuation, fcitx5-module-punctuation-dev, fcitx5-pinyin, fcitx5-pinyin-gui, fcitx5-table"
+  ],
+  "Build-Depends": [
+    "appstream, cmake (\u003e= 3.6.0), debhelper-compat (= 13), extra-cmake-modules, fcitx5-module-lua-dev, fcitx5-modules-dev (\u003e= 5.0.24), gettext, libboost-iostreams-dev, libcurl4-openssl-dev | libcurl-dev, libfcitx5-qt-dev, libfcitx5config-dev (\u003e= 5.0.24), libfcitx5core-dev (\u003e= 5.0.24), libfcitx5utils-dev (\u003e= 5.0.24), libfmt-dev, libime-bin (\u003e= 1.0.13), libimecore-dev (\u003e= 1.1), libimepinyin-dev (\u003e= 1.1), libimetable-dev (\u003e= 1.1), libopencc-dev (\u003e= 1.1~), pkg-config, qtbase5-dev, qtwebengine5-dev [amd64 arm64 armhf i386 mips64el]"
+  ],
+  "Checksums-Sha256": [
+    "cba06d5adf4fda0e765b5537b8d9457378563971ffeeda13ff2aa6f38606549f 3903 fcitx5-chinese-addons_5.1.1-1.dsc 4cc507774869b3e6e843aa1bedfda9a5a02de9b5caa9d1c7c7498678bdc8b922 882340 fcitx5-chinese-addons_5.1.1.orig.tar.xz fbd42efe01eaae7279d453392538b8ac2933df96c2390247bc41f2c75f038d95 488 fcitx5-chinese-addons_5.1.1.orig.tar.xz.asc 278e0d1a41450e139181f9a2379075363b4f1634b7443b212b86d92aaf77e637 9696 fcitx5-chinese-addons_5.1.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/fcitx5-chinese-addons"
+  ],
+  "Files": [
+    "fa3c2726abbc327aeee0aedf3dc0f4d5 3903 fcitx5-chinese-addons_5.1.1-1.dsc a49f29938f4ca6afcc27ba1d0b40057f 882340 fcitx5-chinese-addons_5.1.1.orig.tar.xz 86a93b1867154897412f4f017e03ac8d 488 fcitx5-chinese-addons_5.1.1.orig.tar.xz.asc 3c92035bcdcb5d538f89428d442e2657 9696 fcitx5-chinese-addons_5.1.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/fcitx/fcitx5-chinese-addons"
+  ],
+  "Maintainer": [
+    "Debian Input Method Team \u003cdebian-input-method@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "fcitx5-chinese-addons"
+  ],
+  "Package-List": [
+    "fcitx5-chinese-addons deb metapackages optional arch=all fcitx5-chinese-addons-bin deb utils optional arch=any fcitx5-chinese-addons-data deb utils optional arch=all fcitx5-module-chttrans deb utils optional arch=any fcitx5-module-cloudpinyin deb utils optional arch=any fcitx5-module-cloudpinyin-dev deb libdevel optional arch=any fcitx5-module-fullwidth deb utils optional arch=any fcitx5-module-pinyinhelper deb utils optional arch=any fcitx5-module-pinyinhelper-dev deb libdevel optional arch=any fcitx5-module-punctuation deb utils optional arch=any fcitx5-module-punctuation-dev deb libdevel optional arch=any fcitx5-pinyin deb utils optional arch=any fcitx5-pinyin-gui deb utils optional arch=any fcitx5-table deb utils optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Boyuan Yang \u003cbyang@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/input-method-team/fcitx5-chinese-addons"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/input-method-team/fcitx5-chinese-addons.git"
+  ],
+  "Version": [
+    "5.1.1-1"
+  ]
+}

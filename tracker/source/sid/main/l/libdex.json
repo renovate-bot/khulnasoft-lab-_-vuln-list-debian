@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libdex-1-1, libdex-dev, libdex-doc, gir1.2-dex-1"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, gi-docgen, libgirepository1.0-dev, libglib2.0-dev (\u003e= 2.68), libsysprof-capture-4-dev, meson (\u003e= 0.62.0), valac"
+  ],
+  "Checksums-Sha256": [
+    "6cff41c5c6ecfa5ec3f5ba541d8f95f71ae5d6b4abbb804f2b492a9fd9c0a7b1 2221 libdex_0.4.0-1.dsc 36b027e8a368325be7214b987763b1a3794ed29fb7a938ba6ecd93a3be21c4fb 95468 libdex_0.4.0.orig.tar.xz d3d0d661defb573bcde8c28e7d005785f3d1f386b2193797130c88f8734790c7 5520 libdex_0.4.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libd/libdex"
+  ],
+  "Files": [
+    "c18ea86664d94339e38a168db68e1bc8 2221 libdex_0.4.0-1.dsc ce9126c3ebc42c73471c331e4c6e6761 95468 libdex_0.4.0.orig.tar.xz 192a0d1d3ac44af61cd5ed627437f4e6 5520 libdex_0.4.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.gnome.org/GNOME/libdex"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libdex"
+  ],
+  "Package-List": [
+    "gir1.2-dex-1 deb introspection optional arch=any libdex-1-1 deb libs optional arch=any libdex-dev deb libdevel optional arch=any libdex-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/libdex"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/libdex.git"
+  ],
+  "Version": [
+    "0.4.0-1"
+  ]
+}

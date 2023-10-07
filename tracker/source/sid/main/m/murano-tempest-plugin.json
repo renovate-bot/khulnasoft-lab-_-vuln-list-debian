@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "murano-tempest-plugin"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 11), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "ad720d2876915ee827d5cc2bffa15b24c316b8a3177046abf9515045d9deaae9 2152 murano-tempest-plugin_2.6.0-3.dsc b605890a64f195c1b1dbc9a8cc8a53a19939f899bfbe70091159b9aa1e9e4c67 71220 murano-tempest-plugin_2.6.0.orig.tar.xz 1ffa6028830c0a4044d9155db3adb6e2c451346cab6da38dd609ace35ed9c390 2444 murano-tempest-plugin_2.6.0-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/murano-tempest-plugin"
+  ],
+  "Files": [
+    "bfbdb8e88648999e0e0a2a0eecc07c13 2152 murano-tempest-plugin_2.6.0-3.dsc a094bd90e920a5332ea740dba2e76ca0 71220 murano-tempest-plugin_2.6.0.orig.tar.xz db2ee01812d61826f1f6792b3a69db0c 2444 murano-tempest-plugin_2.6.0-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://opendev.org/openstack/murano-tempest-plugin"
+  ],
+  "Maintainer": [
+    "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "murano-tempest-plugin"
+  ],
+  "Package-List": [
+    "murano-tempest-plugin deb net optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openstack-team/tempest/murano-tempest-plugin"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openstack-team/tempest/murano-tempest-plugin.git"
+  ],
+  "Version": [
+    "2.6.0-3"
+  ]
+}

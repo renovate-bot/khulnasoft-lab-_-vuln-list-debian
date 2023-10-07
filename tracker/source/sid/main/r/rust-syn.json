@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-syn-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-proc-macro2-1+proc-macro-dev (\u003e= 1.0.62-~~) \u003c!nocheck\u003e, librust-proc-macro2-1-dev (\u003e= 1.0.62-~~) \u003c!nocheck\u003e, librust-quote-1+proc-macro-dev (\u003e= 1.0.27-~~) \u003c!nocheck\u003e, librust-quote-1-dev (\u003e= 1.0.27-~~) \u003c!nocheck\u003e, librust-unicode-ident-1+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "91748800d3fe4252a7d0629e266acc8f2876a419eb4b401d2f5854dc078d42d9 2811 rust-syn_2.0.26-1.dsc 45c3457aacde3c65315de5031ec191ce46604304d2446e803d71ade03308d970 241572 rust-syn_2.0.26.orig.tar.gz 33c39f5e0248234206bf2ff48bc69a04316d153d579debd47b95e2abd06c9b20 5376 rust-syn_2.0.26-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-syn"
+  ],
+  "Files": [
+    "beb956b04ee757015701fbc54059e670 2811 rust-syn_2.0.26-1.dsc 87dd6557259c3ffa08cb94f86fafb2ed 241572 rust-syn_2.0.26.orig.tar.gz f46845bd49b2b48548233b267d5862d6 5376 rust-syn_2.0.26-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-syn"
+  ],
+  "Package-List": [
+    "librust-syn-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-anyhow-1+default-dev, librust-automod-1+default-dev, librust-flate2-1+default-dev, librust-insta-1+default-dev, librust-rayon-1+default-dev, librust-ref-cast-1+default-dev, librust-regex-1+default-dev, librust-reqwest-0.11+blocking-dev, librust-reqwest-0.11+default-dev, librust-rustversion-1+default-dev, librust-tar-0.4+default-dev, librust-termcolor-1+default-dev, librust-walkdir-2+default-dev"
+  ],
+  "Uploaders": [
+    "nicoo \u003cnicoo@debian.org\u003e, Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/syn"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/syn]"
+  ],
+  "Version": [
+    "2.0.26-1"
+  ]
+}

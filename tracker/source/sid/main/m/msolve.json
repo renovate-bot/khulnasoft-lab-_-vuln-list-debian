@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "msolve"
+  ],
+  "Build-Depends": [
+    "biber, debhelper-compat (= 13), help2man, libflint-dev, libgmp-dev, libmpfr-dev, texlive-bibtex-extra, texlive-fonts-extra, texlive-fonts-recommended, texlive-latex-base, texlive-latex-extra, texlive-latex-recommended, texlive-plain-generic, texlive-science"
+  ],
+  "Checksums-Sha256": [
+    "6df6be19c35457f4800e87d3f458a012a6c4190adee52d0523dd019e9dbc2235 2142 msolve_0.5.0-2.dsc 08daa2fc7447ba7074b28a4d263ef05fad42dca5b30310971948307ee3ed38d3 460326 msolve_0.5.0.orig.tar.gz 675dbc2172fe8880288b2a3f6469b03a8a238b710de70db0835dcdcfb533c2a7 4088 msolve_0.5.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/msolve"
+  ],
+  "Files": [
+    "a00d96b17b2b61aecfd21f7ac4713b9a 2142 msolve_0.5.0-2.dsc 8d6f70541d1f12ce8072649227c5bf52 460326 msolve_0.5.0.orig.tar.gz 80c7857ccaa624ed1f8241a75d33985d 4088 msolve_0.5.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://msolve.lip6.fr/"
+  ],
+  "Maintainer": [
+    "Debian Math Team \u003cteam+math@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "msolve"
+  ],
+  "Package-List": [
+    "msolve deb math optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Doug Torrance \u003cdtorrance@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/math-team/msolve"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/math-team/msolve.git"
+  ],
+  "Version": [
+    "0.5.0-2"
+  ]
+}

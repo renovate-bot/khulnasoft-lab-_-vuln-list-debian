@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "swirc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), gettext, libcmocka-dev, libcurl4-openssl-dev | libcurl4-gnutls-dev | libcurl4-nss-dev, libhunspell-dev, libidn-dev, libncurses-dev, libnotify-dev, libssl-dev"
+  ],
+  "Checksums-Sha256": [
+    "73a0723e5c33eb9e79c08840bf4ccce27b98a84d418acded82c9e109b08439b7 2182 swirc_3.4.5-1.dsc c3758411d5b49bf0a71fb3a4953948a6d66b663b10e6f9bf7e9a9dc6ef1f491c 243684 swirc_3.4.5.orig.tar.xz 7256752775bf00c1d244a62544609318565f5260b83351b5e466687c6c3a337b 833 swirc_3.4.5.orig.tar.xz.asc c92dc209c7db1ffede47aaad70f9a3e7df9c6893d62012728601336fdc60c0d2 6228 swirc_3.4.5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/swirc"
+  ],
+  "Files": [
+    "6ada210eac0a7f6edba33836e8d895c8 2182 swirc_3.4.5-1.dsc 7868ad60c2710ce7d2e6d4422084418c 243684 swirc_3.4.5.orig.tar.xz 4d5995039788e14b48dcc9c149c40572 833 swirc_3.4.5.orig.tar.xz.asc cf54dfb9d50db52052b3e3a8124da102 6228 swirc_3.4.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.nifty-networks.net/swirc/"
+  ],
+  "Maintainer": [
+    "Markus Uhlin \u003cmarkus.uhlin@bredband.net\u003e"
+  ],
+  "Package": [
+    "swirc"
+  ],
+  "Package-List": [
+    "swirc deb net optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2.0"
+  ],
+  "Vcs-Browser": [
+    "https://github.com/uhlin/swirc"
+  ],
+  "Vcs-Git": [
+    "https://github.com/uhlin/swirc.git"
+  ],
+  "Version": [
+    "3.4.5-1"
+  ]
+}

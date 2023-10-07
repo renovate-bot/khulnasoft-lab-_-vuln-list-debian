@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-golang-x-crypto-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any (\u003e= 2:1.17~), golang-golang-x-sys-dev (\u003e= 0.9.0), golang-golang-x-term-dev (\u003e= 0.9.0), golang-golang-x-text-dev (\u003e= 0.10.0), openssh-server"
+  ],
+  "Checksums-Sha256": [
+    "f401f068329f3c302949ffd09fd07c529b2c16a0fd670dd5f2afae1955d65c97 2375 golang-go.crypto_0.10.0-1.dsc dd9b11665fd60c03c894a30f4b9ef35cbcdcdfbc33bf9e41aebb0333f23fd5a8 1574824 golang-go.crypto_0.10.0.orig.tar.xz fd8c0d3ed0fb8a4c41982710265f9a50a8692095ceadf73459fc6d2f046c8aae 72812 golang-go.crypto_0.10.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-go.crypto"
+  ],
+  "Files": [
+    "54aea5aca3cec0dba3e21d3cd3d623ae 2375 golang-go.crypto_0.10.0-1.dsc 0f0a4cc8a0f94704aab9bb1e62c1e308 1574824 golang-go.crypto_0.10.0.orig.tar.xz 20d812e86c0d5415e9a6aaf405f7ba37 72812 golang-go.crypto_0.10.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "golang.org/x/crypto"
+  ],
+  "Homepage": [
+    "https://golang.org/x/crypto"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-go.crypto"
+  ],
+  "Package-List": [
+    "golang-golang-x-crypto-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "golang"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Michael Stapelberg \u003cstapelberg@debian.org\u003e, Anthony Fok \u003cfoka@debian.org\u003e, Michael Hudson-Doyle \u003cmwhudson@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-go.crypto"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-go.crypto.git"
+  ],
+  "Version": [
+    "1:0.10.0-1"
+  ]
+}

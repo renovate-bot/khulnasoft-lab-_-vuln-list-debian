@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-pango-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-gio-0.18+default-dev \u003c!nocheck\u003e, librust-glib-0.18+default-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev \u003c!nocheck\u003e, librust-once-cell-1+default-dev \u003c!nocheck\u003e, librust-pango-sys-0.18+default-dev \u003c!nocheck\u003e, libpango1.0-dev \u003c!nocheck\u003e, libgirepository1.0-dev \u003c!nocheck\u003e, libharfbuzz-dev \u003c!nocheck\u003e, gir-rust-code-generator \u003c!nocheck\u003e, xmlstarlet \u003c!nocheck\u003e, rustc (\u003e= 1.70) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "89c7e0aa885166b4bf9eea09f24d18550adf0d9f129d52dbfb64525ce90afa94 2557 rust-pango_0.18.0-3.dsc 06a9e54b831d033206160096b825f2070cf5fda7e35167b1c01e9e774f9202d1 47499 rust-pango_0.18.0.orig.tar.gz 107bd5ed17f3a43b5a37f0a5255c9cbdc05c86afe3549e1a34f33765194b6943 4312 rust-pango_0.18.0-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-pango"
+  ],
+  "Files": [
+    "809fb57ce577e7f5910256b31531b629 2557 rust-pango_0.18.0-3.dsc 9d127368397a7cf7d86383731e1868d5 47499 rust-pango_0.18.0.orig.tar.gz ad09444e4b74a1b287b809b84fb2effa 4312 rust-pango_0.18.0-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gtk-rs.org/"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-pango"
+  ],
+  "Package-List": [
+    "librust-pango-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-gir-format-check-0.1+default-dev"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@riseup.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/pango"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/pango]"
+  ],
+  "Version": [
+    "0.18.0-3"
+  ]
+}

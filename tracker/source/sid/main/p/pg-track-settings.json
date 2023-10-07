@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "postgresql-16-pg-track-settings"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), postgresql-server-dev-all"
+  ],
+  "Checksums-Sha256": [
+    "df59d8d79213e2b42ac03cf7cf27b2cf37a072a3ab6a878a8bf5fafa457ce6da 2006 pg-track-settings_2.1.2-2.dsc 80edae0563bcdbe2b74034836cf2a567c8d39d18a3357eb4277ae3629512bd90 15798 pg-track-settings_2.1.2.orig.tar.gz fec82eab32e53a2fd81715b86a5e4065b5fa1c716a2b8a5ec74b2e8ec2d67479 2416 pg-track-settings_2.1.2-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pg-track-settings"
+  ],
+  "Files": [
+    "b193d54ede25514c54058e2957c22bdf 2006 pg-track-settings_2.1.2-2.dsc 61222d33e434583b13f700895e7d8921 15798 pg-track-settings_2.1.2.orig.tar.gz 0096f192b9e23e90a7569f9fde0071d4 2416 pg-track-settings_2.1.2-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://powa.readthedocs.io/"
+  ],
+  "Maintainer": [
+    "Julien Rouhaud \u003crjuju123@gmail.com\u003e"
+  ],
+  "Package": [
+    "pg-track-settings"
+  ],
+  "Package-List": [
+    "postgresql-16-pg-track-settings deb database optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "make"
+  ],
+  "Vcs-Browser": [
+    "https://github.com/rjuju/pg_track_settings"
+  ],
+  "Vcs-Git": [
+    "https://github.com/rjuju/pg_track_settings.git"
+  ],
+  "Version": [
+    "2.1.2-2"
+  ]
+}

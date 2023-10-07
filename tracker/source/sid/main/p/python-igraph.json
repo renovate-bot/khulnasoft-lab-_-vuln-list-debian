@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "python3-igraph"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), pkg-config, dh-python, libigraph-dev, python3-all-dev, python3-numpy, python3-setuptools, python3-texttable, python3-scipy, python3-pandas, python3-networkx, python3-graph-tool [amd64 arm64 ppc64el s390x ia64 ppc64]"
+  ],
+  "Checksums-Sha256": [
+    "cec02343a914f37c52afbcc12e2b7e279dfd9d727c3937e0aa113b9bfac60595 3099 python-igraph_0.10.8+ds-2.dsc 3d995e6e7a6ea83945493d23059cc4e4b44a55840247f09609a9cab5c17f2b98 341340 python-igraph_0.10.8+ds.orig.tar.xz 1044cc0b20c0c7560ca8e0f26157ba69ff115948454f4191bec44da09c61e2d3 5212 python-igraph_0.10.8+ds-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-igraph"
+  ],
+  "Files": [
+    "c81221e239751968e8a248732b41a19b 3099 python-igraph_0.10.8+ds-2.dsc 2c9483048a6fcbc3f16ebe98d3fc479b 341340 python-igraph_0.10.8+ds.orig.tar.xz 6d2a4245d791630461b5b52bc808725f 5212 python-igraph_0.10.8+ds-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://igraph.org/python/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-igraph"
+  ],
+  "Package-List": [
+    "python3-igraph deb python optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-graph-tool, python3-networkx, python3-numpy, python3-pandas, python3-scipy"
+  ],
+  "Uploaders": [
+    "Jerome Benoit \u003ccalculus@rezozer.net\u003e, TANIGUCHI Takaki \u003ctakaki@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-igraph"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-igraph.git"
+  ],
+  "Version": [
+    "0.10.8+ds-2"
+  ]
+}

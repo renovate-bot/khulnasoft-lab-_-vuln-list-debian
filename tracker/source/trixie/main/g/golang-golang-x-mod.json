@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-golang-x-mod-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any (\u003e= 2:1.17~)"
+  ],
+  "Checksums-Sha256": [
+    "35936e255a4fbd3b90615e2db2d967281951338ea9619e519bd66c031c76fee2 1542 golang-golang-x-mod_0.12.0-1.dsc 828280ca6da967bbf4a36339da360b20473375bd5a701b50a136bbcc771e72bc 123234 golang-golang-x-mod_0.12.0.orig.tar.gz 574dea1a165e2c9308591168e7d6f93274f260213bdcaa3d21d3f2321c563049 3348 golang-golang-x-mod_0.12.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-golang-x-mod"
+  ],
+  "Files": [
+    "a3feb90745479a0776fb696368860616 1542 golang-golang-x-mod_0.12.0-1.dsc 2797bf771b41c8ecd32adc18f560f84e 123234 golang-golang-x-mod_0.12.0.orig.tar.gz 0c564cb31f19767eaef46e99c4a9354b 3348 golang-golang-x-mod_0.12.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "golang.org/x/mod"
+  ],
+  "Homepage": [
+    "https://github.com/golang/mod"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-golang-x-mod"
+  ],
+  "Package-List": [
+    "golang-golang-x-mod-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "golang"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Anthony Fok \u003cfoka@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-golang-x-mod"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-golang-x-mod.git"
+  ],
+  "Version": [
+    "0.12.0-1"
+  ]
+}

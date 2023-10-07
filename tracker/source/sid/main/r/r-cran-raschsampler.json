@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-raschsampler"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev"
+  ],
+  "Checksums-Sha256": [
+    "128cf00c3d6fb54cb0a43f59d5f6a9c60045e60797240d8b5d9c25da52021020 2111 r-cran-raschsampler_0.8-9-1.dsc 43e339edd16033800c87423c5afd4f7fb451bd4ec5817a42fbde07bd14c99990 148543 r-cran-raschsampler_0.8-9.orig.tar.gz 4529b7a5cfad178748403f6ca287079f42ca0413f447afc2e4373ae70942413a 2540 r-cran-raschsampler_0.8-9-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-raschsampler"
+  ],
+  "Files": [
+    "c21981b4780ff5e35b47b0bb01342ef1 2111 r-cran-raschsampler_0.8-9-1.dsc 27d1277a12eb6dccf569dc36f6dea75a 148543 r-cran-raschsampler_0.8-9.orig.tar.gz 9cc3f815fb90b46e2077c1df6cd38c91 2540 r-cran-raschsampler_0.8-9-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=RaschSampler"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-raschsampler"
+  ],
+  "Package-List": [
+    "r-cran-raschsampler deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-r"
+  ],
+  "Uploaders": [
+    "Julian Gilbey \u003cjdg@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-raschsampler"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-raschsampler.git"
+  ],
+  "Version": [
+    "0.8-9-1"
+  ]
+}

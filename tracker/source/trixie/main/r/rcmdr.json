@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "r-cran-rcmdr"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), r-base-dev (\u003e= 4.3.1), dh-r, r-cran-car (\u003e= 3.0-1-0), r-cran-tcltk2, r-cran-rcmdrmisc (\u003e= 2.5-0), r-cran-abind, r-cran-relimp (\u003e= 1.0-5), r-cran-effects (\u003e= 3.0-1-0), r-cran-formatr"
+  ],
+  "Checksums-Sha256": [
+    "632392e99b7d9ee351cb1e066894fda5a0ef25bb02714a5494935d97b09d4020 1964 rcmdr_2.9-0-1.dsc de2e473de9a44b6eb7600620d6c90e446222820417a22507b131b5882b246eac 9407178 rcmdr_2.9-0.orig.tar.gz 5f714afec3afe6db3846d32f28e815bc06d8b1a1ebf198f69779ca53e3e6bee7 7932 rcmdr_2.9-0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rcmdr"
+  ],
+  "Files": [
+    "1ff48a0ce22caa46ae6f9ab2947f4208 1964 rcmdr_2.9-0-1.dsc 69c9bfcaf64ece909ee712505cc29e2d 9407178 rcmdr_2.9-0.orig.tar.gz ebcc317e2efe10638436fda34afcf877 7932 rcmdr_2.9-0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=Rcmdr"
+  ],
+  "Maintainer": [
+    "Dirk Eddelbuettel \u003cedd@debian.org\u003e"
+  ],
+  "Package": [
+    "rcmdr"
+  ],
+  "Package-List": [
+    "r-cran-rcmdr deb gnu-r optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "gnu-r"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/edd/r-cran-rcmdr"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/edd/r-cran-rcmdr.git"
+  ],
+  "Version": [
+    "2.9-0-1"
+  ]
+}

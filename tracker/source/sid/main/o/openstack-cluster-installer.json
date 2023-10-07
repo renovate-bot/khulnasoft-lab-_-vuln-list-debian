@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "openstack-cluster-installer, openstack-cluster-installer-agent, openstack-cluster-installer-cli, openstack-cluster-installer-common, openstack-cluster-installer-openstack-ci, openstack-cluster-installer-poc, openstack-cluster-installer-utils, puppet-module-oci"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 10), openstack-pkg-tools"
+  ],
+  "Checksums-Sha256": [
+    "92e2f6bf19115d87910d7b01cf136f8378b4bb02d3fc954f4eba68953c83d146 2514 openstack-cluster-installer_42.3.0.dsc d55132f2e46c8754cd9063b317d89f23fec53133f340fd4ec97769f5ac7f4a01 377412 openstack-cluster-installer_42.3.0.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/o/openstack-cluster-installer"
+  ],
+  "Files": [
+    "52e8ed7dbcc8824b868ced6509814f05 2514 openstack-cluster-installer_42.3.0.dsc f58db1d3de73aa8bccd3178a3d110cc2 377412 openstack-cluster-installer_42.3.0.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Homepage": [
+    "https://salsa.debian.org/openstack-team/debian/openstack-cluster-installer"
+  ],
+  "Maintainer": [
+    "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "openstack-cluster-installer"
+  ],
+  "Package-List": [
+    "openstack-cluster-installer deb net optional arch=all openstack-cluster-installer-agent deb net optional arch=all openstack-cluster-installer-cli deb net optional arch=all openstack-cluster-installer-common deb net optional arch=all openstack-cluster-installer-openstack-ci deb net optional arch=all openstack-cluster-installer-poc deb net optional arch=all openstack-cluster-installer-utils deb net optional arch=all puppet-module-oci deb net optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.1.4"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openstack-team/debian/openstack-cluster-installer"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openstack-team/debian/openstack-cluster-installer.git"
+  ],
+  "Version": [
+    "42.3.0"
+  ]
+}

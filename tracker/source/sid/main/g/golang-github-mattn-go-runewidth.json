@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-github-mattn-go-runewidth-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any, golang-github-rivo-uniseg-dev, unicode-data (\u003e= 15.0.0~)"
+  ],
+  "Checksums-Sha256": [
+    "cfbd471802ad9f384c9e54c0ea81d70344696ee2f100d1aa057437fad707606b 2417 golang-github-mattn-go-runewidth_0.0.15-1.dsc 44a5d37bd7119a9d288d7ff61cf3b4d42c2902c66b0d94136d41d2eb3cf2ba85 18284 golang-github-mattn-go-runewidth_0.0.15.orig.tar.gz 6f5ebb06e753082c5f0d45b9befe1564da90e9b147aaf617cf32acfec73c167c 9000 golang-github-mattn-go-runewidth_0.0.15-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-mattn-go-runewidth"
+  ],
+  "Files": [
+    "18655d0d2c2848714551a319ecd8b116 2417 golang-github-mattn-go-runewidth_0.0.15-1.dsc 3da9ee6fafe706e99bd88ac86023f6a5 18284 golang-github-mattn-go-runewidth_0.0.15.orig.tar.gz 03f114c57aa3d993831279ec537115e8 9000 golang-github-mattn-go-runewidth_0.0.15-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/mattn/go-runewidth"
+  ],
+  "Homepage": [
+    "https://github.com/mattn/go-runewidth"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-mattn-go-runewidth"
+  ],
+  "Package-List": [
+    "golang-github-mattn-go-runewidth-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "golang"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Dmitry Smirnov \u003conlyjob@debian.org\u003e, Tim Potter \u003ctpot@hpe.com\u003e, Anthony Fok \u003cfoka@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-github-mattn-go-runewidth"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-github-mattn-go-runewidth.git"
+  ],
+  "Version": [
+    "0.0.15-1"
+  ]
+}

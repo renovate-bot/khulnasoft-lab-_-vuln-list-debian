@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "xdvik-ja"
+  ],
+  "Build-Conflicts": [
+    "autoconf2.13"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dpkg-dev (\u003e= 1.16.1~), libtool, libkpathsea-dev (\u003e= 3.0), libptexenc-dev, libxaw7-dev, libxi-dev, libfreetype-dev, libfontconfig-dev, libgs-dev, zlib1g-dev, texlive-binaries, ghostscript, pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "75afaa8dcaefe767bbc7ac22953535a2e643241ed63a4e50a27ab4a78a0d1117 2081 xdvik-ja_22.87.06+j1.42-1.dsc 64842403e74847743099c971e1bdaa0a8c6d6ceeba42403ee9a74a3e4fc474d3 686956 xdvik-ja_22.87.06+j1.42.orig.tar.xz 37ba29adbb193c3d3ecf53c950103a4cf1641ceb57d7564db6db6cbc052126b8 129456 xdvik-ja_22.87.06+j1.42-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/x/xdvik-ja"
+  ],
+  "Files": [
+    "df814daa23de1e5a0198693bc1740963 2081 xdvik-ja_22.87.06+j1.42-1.dsc 3782c1d4f0f3d8447f5807bd1d1b5983 686956 xdvik-ja_22.87.06+j1.42.orig.tar.xz 5f1734e5b817512b5428de16db103609 129456 xdvik-ja_22.87.06+j1.42-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Youhei SASAKI \u003cuwabami@gfd-dennou.org\u003e"
+  ],
+  "Package": [
+    "xdvik-ja"
+  ],
+  "Package-List": [
+    "xdvik-ja deb tex optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "tex"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/uwabami/xdvik-ja"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/uwabami/xdvik-ja.git"
+  ],
+  "Version": [
+    "22.87.06+j1.42-1"
+  ]
+}

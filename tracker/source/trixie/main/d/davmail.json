@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "davmail, davmail-server"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), default-jdk, ant, ant-optional, javahelper"
+  ],
+  "Build-Depends-Indep": [
+    "libcommons-codec-java, libservlet-api-java, libhttpclient-java, libcommons-logging-java, libhtmlcleaner-java, libmail-java, libjcifs-java, libjackrabbit-java, liblog4j1.2-java, libwoodstox-java, libstax2-api-java, libswt-gtk-4-java, libslf4j-java, libjettison-java, libopenjfx-java, libjna-java"
+  ],
+  "Checksums-Sha256": [
+    "5bfb49f43e40dfce9cb091c13c059bded401f2301d6bdaea1f79a51d36f13e59 2377 davmail_6.1.0.3423-5.dsc 4d690936523c2309e6b2e6be8b30e381c8c11884a5ccf886508a885da1c52851 6230192 davmail_6.1.0.3423.orig.tar.gz bd96617dc5d9702771cf67ce5de8f725b632232e49abb5b1eb0c39be705d725d 16068 davmail_6.1.0.3423-5.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/davmail"
+  ],
+  "Files": [
+    "a538ecbae027578f0f743626903c927a 2377 davmail_6.1.0.3423-5.dsc bbb586fcc96f5d9914797cbf77f082fa 6230192 davmail_6.1.0.3423.orig.tar.gz ced614bd0e9e243f73a0e77c037960af 16068 davmail_6.1.0.3423-5.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://davmail.sourceforge.net/"
+  ],
+  "Maintainer": [
+    "Alexandre Rossi \u003cniol@zincube.net\u003e"
+  ],
+  "Package": [
+    "davmail"
+  ],
+  "Package-List": [
+    "davmail deb net optional arch=all davmail-server deb net optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "netcat-traditional"
+  ],
+  "Uploaders": [
+    "Geert Stappers \u003cstappers@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/davmail"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/davmail.git"
+  ],
+  "Version": [
+    "6.1.0.3423-5"
+  ]
+}

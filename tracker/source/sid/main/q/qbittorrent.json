@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "qbittorrent, qbittorrent-nox"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, libtorrent-rasterbar-dev (\u003e= 2.0.4~), libboost-dev, zlib1g-dev, qt6-base-dev, qt6-tools-dev, qt6-svg-dev, libxkbcommon-dev, systemd, ninja-build"
+  ],
+  "Checksums-Sha256": [
+    "3513350ad9882c8e23efc34a68f36e63e3a09212ff9465d0c569d154b2fb9392 1962 qbittorrent_4.5.5-1.dsc 8e84a5ba63c7203cfb2e5bb23e27d000120fb8e9dfb6e9f9a1064dce1b9294e9 4352524 qbittorrent_4.5.5.orig.tar.xz 7e5a1ab31e6330a275f75be7ce2148b02f0e107f33eae9787d5051e497a447a8 120848 qbittorrent_4.5.5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/q/qbittorrent"
+  ],
+  "Files": [
+    "2526cb5a40ce0000537b729ec3390a55 1962 qbittorrent_4.5.5-1.dsc b1e673f00c978f362fb3732396614d4b 4352524 qbittorrent_4.5.5.orig.tar.xz 2e8ec0565b3e61030ca9d7daf56279c3 120848 qbittorrent_4.5.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.qbittorrent.org/"
+  ],
+  "Maintainer": [
+    "Christian Marillat \u003cmarillat@debian.org\u003e"
+  ],
+  "Package": [
+    "qbittorrent"
+  ],
+  "Package-List": [
+    "qbittorrent deb net optional arch=any qbittorrent-nox deb net optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Version": [
+    "4.5.5-1"
+  ]
+}

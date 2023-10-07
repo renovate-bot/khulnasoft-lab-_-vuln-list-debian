@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-magick"
+  ],
+  "Build-Conflicts": [
+    "graphicsmagick-libmagick-dev-compat, libgraphicsmagick1-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-rcpp, r-cran-magrittr, r-cran-curl, libmagick++-dev"
+  ],
+  "Checksums-Sha256": [
+    "702c82cc6cbcda3a6eb89c3df25e9ff95684484de7b572cf47b08d1a80be9426 2383 r-cran-magick_2.7.5+dfsg-1.dsc 6de81588bed8ad799c96b9ef7b9be1049bf290c398ffca0153f2309993be26a7 95144 r-cran-magick_2.7.5+dfsg.orig.tar.xz ff65049e325f84ca4870592f601804fb3078a43d4292e20974e65c8f3330228c 3476 r-cran-magick_2.7.5+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-magick"
+  ],
+  "Files": [
+    "43b13000318ba0971231ff5016f2e294 2383 r-cran-magick_2.7.5+dfsg-1.dsc 349af8e43f0c97c4c56ffb1a1cfd594a 95144 r-cran-magick_2.7.5+dfsg.orig.tar.xz 47d35e561d94fc9d15fdf37ac63a4f4f 3476 r-cran-magick_2.7.5+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=magick"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-magick"
+  ],
+  "Package-List": [
+    "r-cran-magick deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-av, r-cran-ggplot2, r-cran-irdisplay, r-cran-jsonlite, r-cran-knitr, r-cran-pdftools, r-cran-rmarkdown, r-cran-rsvg, r-cran-spelling"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-magick"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-magick.git"
+  ],
+  "Version": [
+    "2.7.5+dfsg-1"
+  ]
+}

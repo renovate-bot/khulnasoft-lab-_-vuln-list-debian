@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-streamlink, python3-streamlink-doc, streamlink"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc, python3, pybuild-plugin-pyproject, python3-setuptools, python3-wheel, python3-certifi, python3-isodate, python3-lxml, python3-pycountry, python3-pycryptodome, python3-socks, python3-requests, python3-trio, python3-trio-websocket, python3-typing-extensions, python3-urllib3, python3-websocket, python3-docutils, python3-myst-parser, python3-sphinx, furo, python3-sphinx-design, jdupes, python3-freezegun, python3-pytest, python3-pytest-asyncio, python3-pytest-trio, python3-requests-mock"
+  ],
+  "Checksums-Sha256": [
+    "a030dd491b23c15b9b35bc8063a61e2bfa92f0555a952ae5150a56bd69db806f 2967 streamlink_6.2.1-1.dsc eb826692f6bb2f4a1a8a4d547024d0954ae270bdaeb3e3b908473aa55b209d12 692446 streamlink_6.2.1.orig.tar.gz d892e9a2eba3682fe7f7177f249713c221873b184f139fedd1dd6a9124bd552f 228 streamlink_6.2.1.orig.tar.gz.asc 84dfd80c20af32598c19a4e4d8760cd1f6904111b6175fee029e5e888f9453a9 16500 streamlink_6.2.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/streamlink"
+  ],
+  "Files": [
+    "64b102ce5aacf212346a79a75e123bf0 2967 streamlink_6.2.1-1.dsc 011fd72fd10d8c0ff740519e24dfa0f1 692446 streamlink_6.2.1.orig.tar.gz 46c0144e9a403357b2303efef8ef5316 228 streamlink_6.2.1.orig.tar.gz.asc cf7e6803e7fe54873664216027d77822 16500 streamlink_6.2.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://streamlink.github.io/"
+  ],
+  "Maintainer": [
+    "Alexis Murzeau \u003camubtdx@gmail.com\u003e"
+  ],
+  "Package": [
+    "streamlink"
+  ],
+  "Package-List": [
+    "python3-streamlink deb python optional arch=all python3-streamlink-doc deb doc optional arch=all streamlink deb video optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "bash, bsdmainutils, doc-base, man-db, openssl, python3-freezegun, python3-pytest, python3-pytest-asyncio, python3-pytest-trio, python3-requests-mock"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/amurzeau/streamlink"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/amurzeau/streamlink.git"
+  ],
+  "Version": [
+    "6.2.1-1"
+  ]
+}

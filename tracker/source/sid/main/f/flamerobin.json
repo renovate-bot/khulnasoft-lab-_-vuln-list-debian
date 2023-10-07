@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "flamerobin"
+  ],
+  "Build-Depends": [
+    "chrpath, cmake, debhelper-compat (= 13), firebird-dev, html2text, libwxgtk3.2-dev"
+  ],
+  "Checksums-Sha256": [
+    "dce9254219bc5aa34069976d907749ee5ff4cb4bd8644d249879c4568fd17371 1932 flamerobin_0.9.7.ds.1-1.dsc 36fa1dcb99b94093c2859cd55fad38799ae2f9a05f00f127ba725f680447ea8a 896928 flamerobin_0.9.7.ds.1.orig.tar.xz e7e6059c37ed71c439632a65dfa41a7118552f24788832b2b0496e122c8178d7 30120 flamerobin_0.9.7.ds.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/flamerobin"
+  ],
+  "Files": [
+    "9b4d774d4450621532caf6395c0c3a12 1932 flamerobin_0.9.7.ds.1-1.dsc 307b5430bb6a65752c2807e6bfaec1c5 896928 flamerobin_0.9.7.ds.1.orig.tar.xz ab852bf4da9e1f0eb96cadc9deb4b8e2 30120 flamerobin_0.9.7.ds.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.flamerobin.org/"
+  ],
+  "Maintainer": [
+    "Damyan Ivanov \u003cdmn@debian.org\u003e"
+  ],
+  "Package": [
+    "flamerobin"
+  ],
+  "Package-List": [
+    "flamerobin deb database optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "database"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/flamerobin"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/flamerobin.git"
+  ],
+  "Version": [
+    "0.9.7.ds.1-1"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "kwayland-integration"
+  ],
+  "Build-Depends": [
+    "cmake (\u003e= 3.16~), debhelper-compat (= 13), extra-cmake-modules (\u003e= 5.102.0~), libkf5idletime-dev (\u003e= 5.102.0~), libkf5wayland-dev (\u003e= 4:5.102.0~), libkf5windowsystem-dev (\u003e= 5.102.0~), libqt5waylandclient5-dev (\u003e= 5.15.2~), libwayland-dev (\u003e= 1.15~), pkg-config, pkg-kde-tools, qtbase5-dev (\u003e= 5.15.2~), qtbase5-private-dev, qtwayland5-dev-tools, qtwayland5-private-dev, wayland-protocols (\u003e= 1.21~)"
+  ],
+  "Checksums-Sha256": [
+    "76c3d0c512ce114a435e231def5cb0784ee6e339efc3a8b57c1e6e83e2dfabbf 2844 kwayland-integration_5.27.8-1.dsc 7a7db7a37c1d61fc33cf0ae814ad832e8755911021fc8d3caf366b5343687385 25776 kwayland-integration_5.27.8.orig.tar.xz d9336a819cc0bfa50af5a0f51028fb777bceb99847f8bbc5474ef98b799a4ecd 833 kwayland-integration_5.27.8.orig.tar.xz.asc bdbdc181fd1f964ae87c5cf81004cc1f8656574ab6f41b8daf3d6f121f6af1c3 14564 kwayland-integration_5.27.8-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/k/kwayland-integration"
+  ],
+  "Files": [
+    "fac8ca1fa29e0c979d7e773382a9c7d6 2844 kwayland-integration_5.27.8-1.dsc 41df9f343a43d7e1cd127d37fbab6d50 25776 kwayland-integration_5.27.8.orig.tar.xz 940303e07961095680180607335a6e2e 833 kwayland-integration_5.27.8.orig.tar.xz.asc daea593dbb12e8f8993c904c249c9418 14564 kwayland-integration_5.27.8-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://invent.kde.org/plasma/kwayland-integration"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "kwayland-integration"
+  ],
+  "Package-List": [
+    "kwayland-integration deb kde optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Norbert Preining \u003cnorbert@preining.info\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e, Scarlett Moore \u003csgmoore@kde.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/kde/kwayland-integration"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/kde/kwayland-integration.git"
+  ],
+  "Version": [
+    "5.27.8-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-rbibutils"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev"
+  ],
+  "Checksums-Sha256": [
+    "646c125e6b26539c5242acef123f0c15f1c04ba9264501c97ad3bcc42873cc54 2133 r-cran-rbibutils_2.2.15-1.dsc 6575ea06c0a71b1a5b6b7a027b440d71a785a2658e65f4c5ea6b2adc474953ce 873087 r-cran-rbibutils_2.2.15.orig.tar.gz d4d1d27119b74c74cc23b31d173e352764d7865151a016f27c8ceee67250a6ff 2856 r-cran-rbibutils_2.2.15-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-rbibutils"
+  ],
+  "Files": [
+    "8c5e15cd55022f0b090862fe3468e9fc 2133 r-cran-rbibutils_2.2.15-1.dsc aac5926aa327c781d3b06aa735ffd584 873087 r-cran-rbibutils_2.2.15.orig.tar.gz c3eebe6dd2730f7daa5c602d7fff0702 2856 r-cran-rbibutils_2.2.15-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=rbibutils"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-rbibutils"
+  ],
+  "Package-List": [
+    "r-cran-rbibutils deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-testthat"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-rbibutils"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-rbibutils.git"
+  ],
+  "Version": [
+    "2.2.15-1"
+  ]
+}

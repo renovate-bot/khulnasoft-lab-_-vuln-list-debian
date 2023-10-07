@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "suricata"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, libbpf-dev (\u003e= 1:0.7.0) [amd64 arm64 armel armhf i386 ppc64el s390x ppc64 sparc64 x32], clang [amd64 arm64 armel armhf i386 ppc64el s390x ppc64 sparc64 x32], llvm [amd64 arm64 armel armhf i386 ppc64el s390x ppc64 sparc64 x32], libcap-ng-dev, libelf-dev [amd64 arm64 armel armhf i386 ppc64el s390x ppc64 sparc64 x32], libevent-dev, libgeoip-dev, libhiredis-dev, libjansson-dev, libluajit-5.1-dev [i386 amd64 powerpc mips mipsel armel armhf], libhyperscan-dev (\u003e= 4.4.0) [i386 amd64 x32], rustc (\u003e= 1.61.0), cargo (\u003e= 0.29.0), liblz4-dev, libmagic-dev, libmaxminddb-dev, libnet1-dev | libnet-dev, libnetfilter-log-dev, libnetfilter-queue-dev, libnspr4-dev, libnss3-dev, libpcap-dev, libpcre2-dev, libyaml-dev, python3:any, zlib1g-dev | libz-dev, libhtp-dev (\u003e= 1:0.5.45), procps"
+  ],
+  "Checksums-Sha256": [
+    "4cbbe6a2c5891fa704f0b0cd373bd76ee56a01993d65898ec5efcdcfa8e19b58 2785 suricata_7.0.1-1.dsc 26cc8baa71bebea73636ae524d867cdbc5e8c06de5becf961047998724c5dea3 18155140 suricata_7.0.1.orig.tar.xz e22357c8d289d8ffa35babfb6247b7f1c7d96a2d44e2d50c004a0e4e2a3ef2a2 25868 suricata_7.0.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/suricata"
+  ],
+  "Files": [
+    "acf1ddc931ca246ee8d94c9f8bf80de7 2785 suricata_7.0.1-1.dsc baf603fc87cac7c7beb935fab36d7328 18155140 suricata_7.0.1.orig.tar.xz 47b20822e1497fd208bac6ab36f2f9d8 25868 suricata_7.0.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://suricata.io"
+  ],
+  "Maintainer": [
+    "Pierre Chifflier \u003cpollux@debian.org\u003e"
+  ],
+  "Package": [
+    "suricata"
+  ],
+  "Package-List": [
+    "suricata deb net optional arch=linux-any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, geoip-database, procps, systemd"
+  ],
+  "Uploaders": [
+    "Sascha Steinbiss \u003csatta@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-suricata-team/pkg-suricata"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-suricata-team/pkg-suricata.git"
+  ],
+  "Version": [
+    "1:7.0.1-1"
+  ]
+}

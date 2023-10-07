@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "rsyslog, rsyslog-mysql, rsyslog-pgsql, rsyslog-mongodb, rsyslog-elasticsearch, rsyslog-kafka, rsyslog-gssapi, rsyslog-gnutls, rsyslog-openssl, rsyslog-relp, rsyslog-czmq, rsyslog-hiredis, rsyslog-snmp, rsyslog-kubernetes"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-exec, autoconf-archive, zlib1g-dev, libzstd-dev (\u003e= 1.4.0), libhiredis-dev, default-libmysqlclient-dev, libpq-dev, libmongoc-dev, libcurl4-openssl-dev, librdkafka-dev (\u003e= 0.9.1), libkrb5-dev, libgnutls28-dev, libssl-dev, librelp-dev (\u003e= 1.4.0), libestr-dev (\u003e= 0.1.9), liblognorm-dev (\u003e= 2.0.3), libfastjson-dev (\u003e= 0.99.8), libczmq-dev (\u003e= 3.0.2), libsnmp-dev, uuid-dev, libsystemd-dev (\u003e= 209) [linux-any], pkg-config, bison, flex, procps \u003c!nocheck\u003e, python3 \u003c!nocheck\u003e, libfaketime \u003c!nocheck\u003e, systemd [linux-any] \u003c!nocheck\u003e, lsof [linux-any] \u003c!nocheck\u003e, logrotate \u003c!nocheck\u003e, iproute2 [linux-any] \u003c!nocheck\u003e, curl \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "72a05b52b5cad4a10f831d613d49ad2dc2eb584011d5ebceb2fdd1ce12a06eec 3313 rsyslog_8.2308.0-1.dsc 02086b9121e872cea69e5d0f6c8e2d8ebff33234b3cad5503665378d3af2e3c9 3346424 rsyslog_8.2308.0.orig.tar.gz 48b1a93fc8da8930ed8dacca7ecec8162e1328f635257760e49e70f1c4b30e73 30044 rsyslog_8.2308.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rsyslog"
+  ],
+  "Files": [
+    "00610377e97ff43c9037fe9994c347b1 3313 rsyslog_8.2308.0-1.dsc 63727475fa155c00c40375e90dfe3ba9 3346424 rsyslog_8.2308.0.orig.tar.gz 52e076d8be4710f737b3f4ed012d1a94 30044 rsyslog_8.2308.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.rsyslog.com/"
+  ],
+  "Maintainer": [
+    "Michael Biebl \u003cbiebl@debian.org\u003e"
+  ],
+  "Package": [
+    "rsyslog"
+  ],
+  "Package-List": [
+    "rsyslog deb admin optional arch=any rsyslog-czmq deb admin optional arch=any rsyslog-elasticsearch deb admin optional arch=any rsyslog-gnutls deb admin optional arch=any rsyslog-gssapi deb admin optional arch=any rsyslog-hiredis deb admin optional arch=any rsyslog-kafka deb admin optional arch=any rsyslog-kubernetes deb admin optional arch=any rsyslog-mongodb deb admin optional arch=any rsyslog-mysql deb admin optional arch=any rsyslog-openssl deb admin optional arch=any rsyslog-pgsql deb admin optional arch=any rsyslog-relp deb admin optional arch=any rsyslog-snmp deb admin optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "admin"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "coreutils, logcheck"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/rsyslog"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/rsyslog.git"
+  ],
+  "Version": [
+    "8.2308.0-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-units"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-rcpp, libudunits2-dev"
+  ],
+  "Checksums-Sha256": [
+    "305ef00ee5320dee9630c92daab70665831b88df93394bec6b7725a4788c29a4 2279 r-cran-units_0.8-3+dfsg-1.dsc 52f12efa8f1b4340bcd26b94b24e686278e12b64d039fc27568b8de58cb8a587 112724 r-cran-units_0.8-3+dfsg.orig.tar.xz 956c59f83f7f8a248bdc05e90e7ef43503a1ce548fe3d5db50a5d92cda47ea7c 3408 r-cran-units_0.8-3+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-units"
+  ],
+  "Files": [
+    "a30b1a6c111108d6bebf88b685969d21 2279 r-cran-units_0.8-3+dfsg-1.dsc 76d5c5c574c7d7dea51ec5e731fcfc81 112724 r-cran-units_0.8-3+dfsg.orig.tar.xz 31394c4f5e9a56f1cc14d86b9fa30cbd 3408 r-cran-units_0.8-3+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=units"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-units"
+  ],
+  "Package-List": [
+    "r-cran-units deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-dplyr, r-cran-ggplot2, r-cran-knitr, r-cran-magrittr, r-cran-pillar, r-cran-rmarkdown, r-cran-testthat, r-cran-vctrs, r-cran-vdiffr, r-cran-xml2"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-units"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-units.git"
+  ],
+  "Version": [
+    "0.8-3+dfsg-1"
+  ]
+}

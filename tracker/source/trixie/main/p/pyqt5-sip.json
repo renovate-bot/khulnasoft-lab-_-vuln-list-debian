@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "python3-pyqt5.sip"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all-dev, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "030632ad8639c96b59d49264adb754190e664ab989ef80f318a4490a43fa67a8 2108 pyqt5-sip_12.12.2-1.dsc 10d9bfa9f59f0fd1cad81be187479316ffc95684f573efea94512cb4257d2b17 123020 pyqt5-sip_12.12.2.orig.tar.gz e8e360637ca5cad0cc010a38af62eea9571bfd33aa3cbc695b54fab21e9a7fb5 3672 pyqt5-sip_12.12.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pyqt5-sip"
+  ],
+  "Files": [
+    "ae4fa8ed17a7a572ac6dddfafaa8cfea 2108 pyqt5-sip_12.12.2-1.dsc 45e0279aed03e5ea73518ce4e0fd3bbd 123020 pyqt5-sip_12.12.2.orig.tar.gz 9cea5574a976b64184d1fb0aa758dfbc 3672 pyqt5-sip_12.12.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.riverbankcomputing.com/software/sip/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "pyqt5-sip"
+  ],
+  "Package-List": [
+    "python3-pyqt5.sip deb python optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all-dbg"
+  ],
+  "Uploaders": [
+    "Dmitry Shachnev \u003cmitya57@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/pyqt5-sip"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/pyqt5-sip.git"
+  ],
+  "Version": [
+    "12.12.2-1"
+  ]
+}

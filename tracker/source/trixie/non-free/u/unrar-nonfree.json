@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Autobuild": [
+    "yes"
+  ],
+  "Binary": [
+    "unrar, libunrar5, libunrar-dev, libunrar-headers"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-exec"
+  ],
+  "Checksums-Sha256": [
+    "cf589330b82ce89d16c2c983b60d8573bd59f0d180a0860a5018f243d3e4914b 2316 unrar-nonfree_6.2.11-1.dsc a805e150d56445770f71a85c3fbdc9ab4b04fbe61b01cb57182d86fe3e7e6cec 246682 unrar-nonfree_6.2.11.orig.tar.gz 25ee27df5a9bf28790e27f7b92c7d1e2e03dc37a698dcdadd4bfb47f1a06aca3 13976 unrar-nonfree_6.2.11-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/non-free/u/unrar-nonfree"
+  ],
+  "Files": [
+    "f095e66be457a4de29c00fe7e444dae1 2316 unrar-nonfree_6.2.11-1.dsc 3467b2b423f8ce8eaa3dfc6e1119447c 246682 unrar-nonfree_6.2.11.orig.tar.gz 12a3aeb5e4180e5862fa550fc7c9fd48 13976 unrar-nonfree_6.2.11-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.rarlab.com/"
+  ],
+  "Maintainer": [
+    "UnRar maintainer team \u003cteam+unrar-nonfree@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "unrar-nonfree"
+  ],
+  "Package-List": [
+    "libunrar-dev deb non-free/libdevel optional arch=any libunrar-headers deb non-free/libdevel optional arch=all libunrar5 deb non-free/libs optional arch=any unrar deb non-free/utils optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "non-free/utils"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Martin Meredith \u003cmez@debian.org\u003e, Norbert Preining \u003cnorbert@preining.info\u003e, YOKOTA Hiroshi \u003cyokota.hgml@gmail.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://github.com/debian-calibre/unrar-nonfree"
+  ],
+  "Vcs-Git": [
+    "https://github.com/debian-calibre/unrar-nonfree.git"
+  ],
+  "Version": [
+    "1:6.2.11-1"
+  ]
+}

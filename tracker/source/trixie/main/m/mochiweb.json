@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "erlang-mochiweb"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), rebar3, erlang-dev, erlang-eunit, erlang-tools, erlang-crypto, erlang-xmerl, erlang-syntax-tools"
+  ],
+  "Checksums-Sha256": [
+    "6b4e642978020af32c1b9d6b973be2e6774f0d844e7e3fca9bfd8151852bc282 1833 mochiweb_3.2.0-1.dsc 8725c8ea3b6d27f959f4905cf37e6e0c6ea1aff7e87fe758a948ec78ef705657 139060 mochiweb_3.2.0.orig.tar.gz 98d6bd1892ddf9833fbc15b7214df6c33fbb72e73ee77816a3b5603b97c0474b 2588 mochiweb_3.2.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/mochiweb"
+  ],
+  "Files": [
+    "e23ab04996c0f18842c65afcf0d5ab58 1833 mochiweb_3.2.0-1.dsc b1f68550ec6c3ff416041ad2c45a1543 139060 mochiweb_3.2.0.orig.tar.gz a5e3cb8301bf8a2aafa988e56a84c15f 2588 mochiweb_3.2.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/mochi/mochiweb"
+  ],
+  "Maintainer": [
+    "Laszlo Boszormenyi (GCS) \u003cgcs@debian.org\u003e"
+  ],
+  "Package": [
+    "mochiweb"
+  ],
+  "Package-List": [
+    "erlang-mochiweb deb devel optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Version": [
+    "3.2.0-1"
+  ]
+}

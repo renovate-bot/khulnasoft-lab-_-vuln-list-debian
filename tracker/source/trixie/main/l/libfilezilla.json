@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libfilezilla-dev, libfilezilla-common, libfilezilla40"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libcppunit-dev, pkg-config, nettle-dev (\u003e= 3.1), libgnutls28-dev (\u003e= 3.7.0)"
+  ],
+  "Checksums-Sha256": [
+    "b7e86831179ae58505ba8bae67de91fb50a7534d92a27d978f10728df6952cf3 2100 libfilezilla_0.44.0-3.dsc 2a8f57a06b52f6413b47d6a5dfbe7e9e31c84cc0784076f2f7e395232b0bd461 541136 libfilezilla_0.44.0.orig.tar.xz cfd94862b3379e4ffa581dc1b8fe04be69cf4f898690f29f1225299b98134870 4684 libfilezilla_0.44.0-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libf/libfilezilla"
+  ],
+  "Files": [
+    "8e61efd1d8b6b75372bc054ecef0ecda 2100 libfilezilla_0.44.0-3.dsc 95ba2824ba325153c47c09e2acff748f 541136 libfilezilla_0.44.0.orig.tar.xz 2154d4ffff74a37f2676367f406a79e4 4684 libfilezilla_0.44.0-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://lib.filezilla-project.org/"
+  ],
+  "Maintainer": [
+    "Phil Wyett \u003cphilip.wyett@kathenas.org\u003e"
+  ],
+  "Package": [
+    "libfilezilla"
+  ],
+  "Package-List": [
+    "libfilezilla-common deb libs optional arch=all libfilezilla-dev deb libdevel optional arch=any libfilezilla40 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2.0"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/libfilezilla"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/libfilezilla.git"
+  ],
+  "Version": [
+    "0.44.0-3"
+  ]
+}

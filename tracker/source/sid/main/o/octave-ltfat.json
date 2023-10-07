@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "octave-ltfat-common, octave-ltfat"
+  ],
+  "Build-Depends": [
+    "default-jdk (\u003e= 2:1.8~), debhelper-compat (= 13), dh-sequence-octave, octave (\u003e\u003e 4.0.0~rc4-1)"
+  ],
+  "Checksums-Sha256": [
+    "b3ee94ba12ba8283539e89b10190430f26d26c153eb06f448dbe0c794b3e881e 2309 octave-ltfat_2.6.0+dfsg-1.dsc ed41c2878c24acbf6023ea87db54d282d48a2af16b6a4ea2d2b37650c3564c1c 2632092 octave-ltfat_2.6.0+dfsg.orig.tar.xz 8cd3fbd4da46ccb7b31c01f5fc52016abd2b3bc78ad8638f6929ccec0e92d378 9084 octave-ltfat_2.6.0+dfsg-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "716b964208733af5090153e550f7785568d98aea debian archive/debian/2.6.0+dfsg-1 https://git.dgit.debian.org/octave-ltfat"
+  ],
+  "Directory": [
+    "pool/main/o/octave-ltfat"
+  ],
+  "Files": [
+    "c4a84e80d8414b5d58a977cafb915614 2309 octave-ltfat_2.6.0+dfsg-1.dsc 4c539ed645a4639616e296f7d9793a54 2632092 octave-ltfat_2.6.0+dfsg.orig.tar.xz d25082966682f6a348ffdebc0bb17c6e 9084 octave-ltfat_2.6.0+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://ltfat.org/"
+  ],
+  "Maintainer": [
+    "Debian Octave Group \u003cteam+pkg-octave-team@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "octave-ltfat"
+  ],
+  "Package-List": [
+    "octave-ltfat deb math optional arch=any octave-ltfat-common deb math optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-octave"
+  ],
+  "Uploaders": [
+    "Rafael Laboissière \u003crafael@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-octave-team/octave-ltfat"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-octave-team/octave-ltfat.git"
+  ],
+  "Version": [
+    "2.6.0+dfsg-1"
+  ]
+}

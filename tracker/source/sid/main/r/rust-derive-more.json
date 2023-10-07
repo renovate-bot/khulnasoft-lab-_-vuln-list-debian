@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-derive-more-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-proc-macro2-1+default-dev \u003c!nocheck\u003e, librust-quote-1+default-dev \u003c!nocheck\u003e, librust-syn-1+default-dev \u003c!nocheck\u003e, librust-syn-1+extra-traits-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "99f004c8411ceb8f00ea8eb8f046316c190e4de08377e0034071832cf1ba53a3 2367 rust-derive-more_0.99.11-2.dsc 41cb0e6161ad61ed084a36ba71fbba9e3ac5aee3606fb607fe08da6acbcf3d8c 53812 rust-derive-more_0.99.11.orig.tar.gz b16f988e647837c330ddcf047380269cb104ca53793c24e45620076d42906400 4168 rust-derive-more_0.99.11-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-derive-more"
+  ],
+  "Files": [
+    "1c24ad86d1b86298a5433ba4054932d0 2367 rust-derive-more_0.99.11-2.dsc 81b2b181cd0ace3cd7f0e1091c76a34d 53812 rust-derive-more_0.99.11.orig.tar.gz 9d92bb4218336e950e12e1c2d28b3a43 4168 rust-derive-more_0.99.11-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-derive-more"
+  ],
+  "Package-List": [
+    "librust-derive-more-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/derive-more"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/derive-more]"
+  ],
+  "Version": [
+    "0.99.11-2"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "python3.11, python3.11-venv, libpython3.11-stdlib, python3.11-minimal, python3.11-nopie, libpython3.11-minimal, libpython3.11, python3.11-examples, python3.11-dev, libpython3.11-dev, libpython3.11-testsuite, idle-python3.11, python3.11-doc, python3.11-dbg, libpython3.11-dbg, python3.11-full"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 11), dpkg-dev (\u003e= 1.17.11), quilt, autoconf, lsb-release, sharutils, libreadline-dev | libeditreadline-dev, libncursesw5-dev (\u003e= 5.3), zlib1g-dev, libbz2-dev, liblzma-dev, libgdbm-dev, libdb-dev, tk-dev, blt-dev (\u003e= 2.4z), libssl-dev, libexpat1-dev, libbluetooth-dev [linux-any] \u003c!pkg.python3.11.nobluetooth\u003e, locales-all, libsqlite3-dev, libffi-dev (\u003e= 3.0.5) [!or1k !avr32], libgpm2 [linux-any], media-types | mime-support, netbase, bzip2, time, python3:any, python3.11:any \u003ccross\u003e, net-tools, xvfb \u003c!nocheck\u003e, xauth \u003c!nocheck\u003e, tzdata \u003c!nocheck\u003e, systemtap-sdt-dev, valgrind-if-available"
+  ],
+  "Build-Depends-Indep": [
+    "python3-sphinx, python3-docs-theme, texinfo"
+  ],
+  "Checksums-Sha256": [
+    "7b45f0faabef4e6dbb2aab017cc78db47b92832f1a1aa29dc9d4099366631ae4 3655 python3.11_3.11.6-2.dsc 0fab78fa7f133f4f38210c6260d90d7c0d5c7198446419ce057ec7ac2e6f5f38 20067204 python3.11_3.11.6.orig.tar.xz d1c5e980b6c58aed179abc388cd4d551355ee555f1bbef47f2f7bd5cd933c49b 213896 python3.11_3.11.6-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python3.11"
+  ],
+  "Files": [
+    "453a00e7ddcdfa1f50ecbddb868bc42f 3655 python3.11_3.11.6-2.dsc d0c5a1a31efe879723e51addf56dd206 20067204 python3.11_3.11.6.orig.tar.xz 3970bb79e487fabd6ade851d24469c34 213896 python3.11_3.11.6-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Matthias Klose \u003cdoko@debian.org\u003e"
+  ],
+  "Package": [
+    "python3.11"
+  ],
+  "Package-List": [
+    "idle-python3.11 deb python optional arch=all libpython3.11 deb libs optional arch=any libpython3.11-dbg deb debug optional arch=any libpython3.11-dev deb libdevel optional arch=any libpython3.11-minimal deb python optional arch=any libpython3.11-stdlib deb python optional arch=any libpython3.11-testsuite deb libdevel optional arch=all python3.11 deb python optional arch=any python3.11-dbg deb debug optional arch=any python3.11-dev deb python optional arch=any python3.11-doc deb doc optional arch=all python3.11-examples deb python optional arch=all python3.11-full deb python optional arch=any python3.11-minimal deb python optional arch=any python3.11-nopie deb python optional arch=any python3.11-venv deb python optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, python3-pip, python3-setuptools, python3-wheel-whl, shunit2, virtualenv"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/cpython-team/python3/tree/python3.11"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/cpython-team/python3.git -b python3.11"
+  ],
+  "Version": [
+    "3.11.6-2"
+  ]
+}

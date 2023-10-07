@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "go-sendxmpp"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any, golang-debian-mdosch-xmppsrv-dev (\u003e= 0.2.5~), golang-github-beevik-etree-dev (\u003e= 1.1.4~), golang-github-gabriel-vasile-mimetype-dev, golang-github-mattn-go-xmpp-dev (\u003e= 0.0~git20230322.7d82a38~), golang-github-pborman-getopt-dev, golang-github-protonmail-gopenpgp-dev"
+  ],
+  "Checksums-Sha256": [
+    "cd3564a055adfa1e34bea4deb0b63c8bd14979e0cfd9a0a5afa35df9a45be5f8 2354 go-sendxmpp_0.6.2-1.dsc edc8e1e0f295ba4ba99ba4e9202dc94829a5d4bb5cc34984038e11ed8c46768c 31293 go-sendxmpp_0.6.2.orig.tar.gz b255550b484475d1156bf29ef3cf124a82809ca53113e12f7431aabd71790124 2872 go-sendxmpp_0.6.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/go-sendxmpp"
+  ],
+  "Files": [
+    "c330ad4a276fd3b744cdec0f8b8765f2 2354 go-sendxmpp_0.6.2-1.dsc b0116b96d7946bbf1f175372229a6e5d 31293 go-sendxmpp_0.6.2.orig.tar.gz 94e95d5ed05dbf813d7b6413a6817dbd 2872 go-sendxmpp_0.6.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "salsa.debian.org/mdosch/go-sendxmpp"
+  ],
+  "Homepage": [
+    "https://salsa.debian.org/mdosch/go-sendxmpp"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "go-sendxmpp"
+  ],
+  "Package-List": [
+    "go-sendxmpp deb net optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Martin Dosch \u003cmartin@mdosch.de\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/go-sendxmpp"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/go-sendxmpp.git"
+  ],
+  "Version": [
+    "0.6.2-1"
+  ]
+}

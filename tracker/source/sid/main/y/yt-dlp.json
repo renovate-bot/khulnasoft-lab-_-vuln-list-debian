@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "yt-dlp"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python (\u003e= 5.20211213~), pandoc, pybuild-plugin-pyproject, python3-pkg-resources, python3-pytest \u003c!nocheck\u003e, python3-setuptools, zip"
+  ],
+  "Build-Depends-Indep": [
+    "python3"
+  ],
+  "Checksums-Sha256": [
+    "66200bc617b45a9111a387718cd88a47796a8e39373b01f6ba0eb6fabf2a32e4 2058 yt-dlp_2023.10.07-1.dsc d7af1d6b041a809a206123a07741bbc6f35d329d671a758c2bc02932f97d9eee 2526097 yt-dlp_2023.10.07.orig.tar.gz 63f63f6c98c7b3b48f483fa91fe92b0d3a25c9fbe61e19e7e741cbf771073968 5372 yt-dlp_2023.10.07-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/y/yt-dlp"
+  ],
+  "Files": [
+    "b6a9461b0810a821e40a3b53fd9e7502 2058 yt-dlp_2023.10.07-1.dsc 5d6a3365bc390340589b83b5cb4fe0dc 2526097 yt-dlp_2023.10.07.orig.tar.gz a65a9c99faf09c36e2cfde83b62d7b52 5372 yt-dlp_2023.10.07-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/yt-dlp/yt-dlp"
+  ],
+  "Maintainer": [
+    "Unit 193 \u003cunit193@debian.org\u003e"
+  ],
+  "Package": [
+    "yt-dlp"
+  ],
+  "Package-List": [
+    "yt-dlp deb web optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, python3-all"
+  ],
+  "Vcs-Browser": [
+    "https://codeberg.org/Unit193/yt-dlp"
+  ],
+  "Vcs-Git": [
+    "https://codeberg.org/Unit193/yt-dlp.git"
+  ],
+  "Version": [
+    "2023.10.07-1"
+  ]
+}

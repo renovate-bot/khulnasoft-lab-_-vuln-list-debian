@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any-amd64 any-arm64"
+  ],
+  "Binary": [
+    "libdynarmic6.5, libdynarmic-dev"
+  ],
+  "Build-Depends": [
+    "catch2, cmake (\u003e= 3.12), debhelper-compat (= 13), libboost-dev, libfmt-dev, libxbyak-dev [any-amd64], libzydis-dev (\u003e= 4.0.0) [any-amd64], llvm-dev, pkg-config, robin-map-dev, zlib1g-dev | libz-dev"
+  ],
+  "Checksums-Sha256": [
+    "b1ea07d263e0b37aa9f965a0f81d49ce8ee3a31fdc50749bf9201c84a8de3c0b 2330 dynarmic_6.5.0+ds-1.dsc 46a18274c7d15c9bcc9eced74d050af412728ebf037777083b76fb650b70acf8 441324 dynarmic_6.5.0+ds.orig.tar.xz 29aeb239a4cfba7248818dbbf1a7080bae61f9f960a8409aaafbe0cd93b507bb 7048 dynarmic_6.5.0+ds-1.debian.tar.xz"
+  ],
+  "Description": [
+    "ARM dynamic recompiler Dynarmic is a dynamic recompiler for the ARMv6K, ARMv7A architecture, with partial ARMv8 support. . In the pursuit of speed, some behavior not commonly depended upon is elided. Therefore this emulator does not match spec."
+  ],
+  "Directory": [
+    "pool/main/d/dynarmic"
+  ],
+  "Files": [
+    "0bac49e6defc3bfc3dea90d9560912a8 2330 dynarmic_6.5.0+ds-1.dsc 1a6c0b681687ce8ff2fbd67534dcaeba 441324 dynarmic_6.5.0+ds.orig.tar.xz 8520cbd8bba719b7516d7c2424800e56 7048 dynarmic_6.5.0+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/merryhime/dynarmic"
+  ],
+  "Maintainer": [
+    "Andrea Pappacoda \u003candrea@pappacoda.it\u003e"
+  ],
+  "Package": [
+    "dynarmic"
+  ],
+  "Package-List": [
+    "libdynarmic-dev deb libdevel optional arch=any-amd64,any-arm64 libdynarmic6.5 deb libs optional arch=any-amd64,any-arm64"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "c++-compiler, cmake, g++"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/dynarmic"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/dynarmic.git"
+  ],
+  "Version": [
+    "6.5.0+ds-1"
+  ]
+}

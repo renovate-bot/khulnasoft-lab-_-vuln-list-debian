@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "r-cran-gdtools"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-rcpp, r-cran-systemfonts, r-cran-htmltools, r-cran-gfonts, r-cran-curl, r-cran-fontquiver, libcairo2-dev"
+  ],
+  "Checksums-Sha256": [
+    "66cbf32e3594bccfb9a2029a1490318f6e270cc199d571e81de0476c1eb5033a 2212 r-cran-gdtools_0.3.3-1.dsc da5a189841475b1d69c94a30ff834eb44560c69e6c0ec0a257006e1f59e83483 69023 r-cran-gdtools_0.3.3.orig.tar.gz 776a7a03a914f8278bf653e52f857d0e620ae65aeee94b69cfeeb06744601b25 2552 r-cran-gdtools_0.3.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/r-cran-gdtools"
+  ],
+  "Files": [
+    "728b755018690c648c1e7b66eee11e3b 2212 r-cran-gdtools_0.3.3-1.dsc 3e41f8aef071adfe58e259e20b485be9 69023 r-cran-gdtools_0.3.3.orig.tar.gz fcccc3206e6257b0810a0a15643e217c 2552 r-cran-gdtools_0.3.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cran.r-project.org/package=gdtools"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "r-cran-gdtools"
+  ],
+  "Package-List": [
+    "r-cran-gdtools deb gnu-r optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-testthat"
+  ],
+  "Uploaders": [
+    "Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-gdtools"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/r-cran-gdtools.git"
+  ],
+  "Version": [
+    "0.3.3-1"
+  ]
+}

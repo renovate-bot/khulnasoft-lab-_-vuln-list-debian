@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "python3-pikepdf, pikepdf-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, libqpdf-dev (\u003e= 10.6.2), pybuild-plugin-pyproject, python3-all-dev, python3-pil, python3-pybind11 (\u003e= 2.4.3), python3-setuptools, python3-setuptools-scm, python3-sphinx, python3-sphinx-issues, python3-sphinx-rtd-theme, python3-matplotlib, python3-packaging, python3-ipython, python3-lxml, python3-tomli"
+  ],
+  "Checksums-Sha256": [
+    "b28c671ceaa7300dd8b601c2edef9a5bcf1daeb35f7fcef2dbfe9bf1031b70ae 2519 pikepdf_8.5.0+dfsg-1.dsc 721a268cebf05b69c73ddc4ff7c58ecb3f7d591de76ba880039f82c45c2515f7 2689724 pikepdf_8.5.0+dfsg.orig.tar.xz 9719f5a785be51507a29aa92e143780a0e32fe8913d1dcb677339d12815048a3 1926576 pikepdf_8.5.0+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pikepdf"
+  ],
+  "Files": [
+    "7b794f9362334dccf6c2cc546e00826b 2519 pikepdf_8.5.0+dfsg-1.dsc c1f0895f24cc638a4692d84b15c41523 2689724 pikepdf_8.5.0+dfsg.orig.tar.xz c47de36ed09ce7b8e840ebba93230e67 1926576 pikepdf_8.5.0+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/pikepdf/pikepdf"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "pikepdf"
+  ],
+  "Package-List": [
+    "pikepdf-doc deb doc optional arch=all python3-pikepdf deb python optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-attr, python3-hypothesis, python3-pil, python3-psutil, python3-pytest, python3-pytest-timeout, python3-pytest-xdist, python3-tomli"
+  ],
+  "Uploaders": [
+    "Vincent Cheng \u003cvcheng@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/pikepdf"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/pikepdf.git"
+  ],
+  "Version": [
+    "8.5.0+dfsg-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libnet-dns-sec-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libnet-dns-perl \u003c!nocheck\u003e, libssl-dev, libtest-simple-perl \u003c!nocheck\u003e, perl-xs-dev, perl:native"
+  ],
+  "Checksums-Sha256": [
+    "ed1d6b85de4f4a64e6a17a80b87c87d484e57c1e4f59cbdf9c50824b235f1277 2422 libnet-dns-sec-perl_1.22-1.dsc b64641a8eca72ee1866a1ebb5f9a001508268501a7c821addb0322f2a7afa9b0 44899 libnet-dns-sec-perl_1.22.orig.tar.gz 5f02019b14821be92670d9bcdd8ba9d03d14aa36749711c07dfa9b71b85f471e 4532 libnet-dns-sec-perl_1.22-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "389b7da6e146cf1930935b0b9e9f3fcd79d3dc9f debian archive/debian/1.22-1 https://git.dgit.debian.org/libnet-dns-sec-perl"
+  ],
+  "Directory": [
+    "pool/main/libn/libnet-dns-sec-perl"
+  ],
+  "Files": [
+    "d725140036e0b0a473b51e6408904aec 2422 libnet-dns-sec-perl_1.22-1.dsc eb6ccaaed217878bc9f867c5d1745fa8 44899 libnet-dns-sec-perl_1.22.orig.tar.gz 3215e440badf3361b41897c53ca881dd 4532 libnet-dns-sec-perl_1.22-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.net-dns.org/"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libnet-dns-sec-perl"
+  ],
+  "Package-List": [
+    "libnet-dns-sec-perl deb perl optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "perl"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "Ondřej Surý \u003condrej@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libnet-dns-sec-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libnet-dns-sec-perl.git"
+  ],
+  "Version": [
+    "1.22-1"
+  ]
+}

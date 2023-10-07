@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-snapbox-macros-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "cf5f71ed3351987a88a00ab22ef4c17f56f0bcd2cd49de77ac98bc99d4887d13 2286 rust-snapbox-macros_0.3.5-1.dsc 95f4ffd811b87da98d0e48285134b7847954bd76e843bb794a893b47ca3ee325 6327 rust-snapbox-macros_0.3.5.orig.tar.gz 662a4e81856cb9493756ddf3f0f8d8e548e280b5a7c05c51a22ce5396e2552a4 2700 rust-snapbox-macros_0.3.5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-snapbox-macros"
+  ],
+  "Files": [
+    "7083e04652209f5673bdab124ae0a65c 2286 rust-snapbox-macros_0.3.5-1.dsc a2cad906064ccc7c14d30b2d990c203d 6327 rust-snapbox-macros_0.3.5.orig.tar.gz e9ccd2d643af5a878ea2856981376623 2700 rust-snapbox-macros_0.3.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/assert-rs/trycmd/tree/main/crates/snapbox"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-snapbox-macros"
+  ],
+  "Package-List": [
+    "librust-snapbox-macros-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Daniel Kahn Gillmor \u003cdkg@fifthhorseman.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/snapbox-macros"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/snapbox-macros]"
+  ],
+  "Version": [
+    "0.3.5-1"
+  ]
+}

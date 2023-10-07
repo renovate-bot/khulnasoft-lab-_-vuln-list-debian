@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "endless-sky, endless-sky-data"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), g++ (\u003e= 4.6), libgl-dev, libglew-dev, libjpeg-dev, libopenal-dev, libpng-dev, libsdl2-dev, libmad0-dev, ninja-build, uuid-dev, xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "ef2a86b924a40b66013696f92fc12efac230d076d51e35188e6690d7df76a17e 2182 endless-sky_0.10.2-4.dsc ba9caf9f52ac915e77a3df62d7eb864f32dcdf1d63baf4f51fc9388bbab0bab7 254913337 endless-sky_0.10.2.orig.tar.gz 08e611d94a26c351eb9681f9fff6775eb0c378c5b9e4bb4aca5a4eaf5644f959 32692 endless-sky_0.10.2-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/e/endless-sky"
+  ],
+  "Files": [
+    "2833e8c7b209664661804d2cdc5e25c4 2182 endless-sky_0.10.2-4.dsc 3ba27e9a3215707409314f61a7482fba 254913337 endless-sky_0.10.2.orig.tar.gz c6c1d144c084128ed804d98a17ae99b5 32692 endless-sky_0.10.2-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://endless-sky.github.io"
+  ],
+  "Maintainer": [
+    "Debian Games Team \u003cpkg-games-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "endless-sky"
+  ],
+  "Package-List": [
+    "endless-sky deb games optional arch=any endless-sky-data deb games optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Damyan Ivanov \u003cdmn@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/games-team/endless-sky"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/games-team/endless-sky.git"
+  ],
+  "Version": [
+    "0.10.2-4"
+  ]
+}

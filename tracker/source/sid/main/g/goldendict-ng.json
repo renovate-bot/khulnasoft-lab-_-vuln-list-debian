@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "goldendict-ng"
+  ],
+  "Build-Depends": [
+    "cmake (\u003e= 3.25), debhelper-compat (= 13), libavformat-dev, libavutil-dev, libbz2-dev, libeb16-dev, libfmt-dev, libhunspell-dev, libjs-jquery, liblzma-dev, liblzo2-dev, libopencc-dev (\u003e= 1.1), libtomlplusplus-dev, libvorbis-dev, libx11-dev, libxtst-dev, libzim-dev, libzstd-dev, pkg-config, qt6-5compat-dev, qt6-base-dev, qt6-multimedia-dev, qt6-speech-dev, qt6-svg-dev, qt6-tools-dev, qt6-tools-dev-tools, qt6-webchannel-dev, qt6-webengine-dev, x11proto-record-dev, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "9166c748a889933f075695829175354b07c4a2298412ecb794ae2dc3838a6709 2363 goldendict-ng_23.07.25-1.dsc 1301a27324fc1eb307a5492caef23efe5a272deceb013e6505fe8339b9b7b3ab 4052600 goldendict-ng_23.07.25.orig.tar.xz ba7408d7f136ae3a02d98634e2ec34de15edb0aab5939828530769b97410f9da 22416 goldendict-ng_23.07.25-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/goldendict-ng"
+  ],
+  "Files": [
+    "ec648f8751a6ffbdc0079b238650c5d0 2363 goldendict-ng_23.07.25-1.dsc 522b7788d4be3b0ff7b8a50d033f1c22 4052600 goldendict-ng_23.07.25.orig.tar.xz 70d89d322a2aed15f678675491de12b1 22416 goldendict-ng_23.07.25-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/xiaoyifang/goldendict-ng"
+  ],
+  "Maintainer": [
+    "Boyuan Yang \u003cbyang@debian.org\u003e"
+  ],
+  "Package": [
+    "goldendict-ng"
+  ],
+  "Package-List": [
+    "goldendict-ng deb utils optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/goldendict-ng"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/goldendict-ng.git"
+  ],
+  "Version": [
+    "23.07.25-1"
+  ]
+}

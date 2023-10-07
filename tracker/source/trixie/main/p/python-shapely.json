@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "python3-shapely"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, libgeos-dev (\u003e= 3.3.0), pybuild-plugin-pyproject, python3-all, python3-all-dev, python3-matplotlib, python3-numpy, python3-pytest, python3-setuptools, cython3"
+  ],
+  "Checksums-Sha256": [
+    "90ee0bd55567506c2ef5690d488857b2cb5249d5d3fffe8b035b4638845684e5 2235 python-shapely_2.0.1-2.dsc 93d754ddf07f1607dc7189881518da2d8e6f19cba5bcd1969875a0101592531d 325843 python-shapely_2.0.1.orig.tar.gz 01b3a1c24794afda5b1b93bb1d90e62cc98ad9ec7d4946661d5f5f66664b05cd 10492 python-shapely_2.0.1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-shapely"
+  ],
+  "Files": [
+    "dd969e640e817e7c92165f251bde3649 2235 python-shapely_2.0.1-2.dsc 8ce1f7dc4062f05adb0bd13d27f88c18 325843 python-shapely_2.0.1.orig.tar.gz c103816a1f56b77bf36ef4f61e39a0a9 10492 python-shapely_2.0.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/shapely/shapely"
+  ],
+  "Maintainer": [
+    "Debian GIS Project \u003cpkg-grass-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "python-shapely"
+  ],
+  "Package-List": [
+    "python3-shapely deb python optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Pietro Battiston \u003cme@pietrobattiston.it\u003e, Bas Couwenberg \u003csebastic@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-gis-team/python-shapely"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-gis-team/python-shapely.git"
+  ],
+  "Version": [
+    "2.0.1-2"
+  ]
+}

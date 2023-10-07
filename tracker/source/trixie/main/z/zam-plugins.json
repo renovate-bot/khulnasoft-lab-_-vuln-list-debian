@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "zam-plugins"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dpf-source:native, ladspa-sdk, libgl-dev, libjack-dev | libjack-jackd2-dev, liblo-dev, libsamplerate0-dev, libzita-convolver-dev (\u003e= 4.0.0), pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "ae564261b20a651ee61131bdb07f65645fbb0f43c3b5958fc9e5ef5dd2175314 2226 zam-plugins_4.1+ds-3.dsc 6e5b492a518986b2eeb9f6ca3c984ac1022de369e295884877ff041d02e1ebcf 12713056 zam-plugins_4.1+ds.orig.tar.xz 293c1c024790d7e23170d02c6d1d95c899eecf7c90d77472b1fad4ae8ba9e74c 10604 zam-plugins_4.1+ds-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/z/zam-plugins"
+  ],
+  "Files": [
+    "bfb7a21a136b536422cb95621a23ce28 2226 zam-plugins_4.1+ds-3.dsc ac6aeddfcf0b4f7b5c3f88150fefcd85 12713056 zam-plugins_4.1+ds.orig.tar.xz 577855c396ffa7be3d7f5f4d4783114a 10604 zam-plugins_4.1+ds-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/zamaudio/zam-plugins"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "zam-plugins"
+  ],
+  "Package-List": [
+    "zam-plugins deb sound optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Jaromír Mikeš \u003cmira.mikes@seznam.cz\u003e, Adrian Knoth \u003cadi@drcomp.erfurt.thur.de\u003e, Dennis Braun \u003csnd@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/zam-plugins"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/zam-plugins.git"
+  ],
+  "Version": [
+    "4.1+ds-3"
+  ]
+}

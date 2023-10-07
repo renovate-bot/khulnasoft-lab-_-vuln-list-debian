@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-gdk4-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-cairo-rs-0.18+default-dev \u003c!nocheck\u003e, librust-gdk-pixbuf-0.18+default-dev \u003c!nocheck\u003e, librust-gdk4-sys-0.7+default-dev \u003c!nocheck\u003e, librust-gio-0.18+default-dev \u003c!nocheck\u003e, librust-gio-0.18+v2-66-dev \u003c!nocheck\u003e, librust-glib-0.18+default-dev \u003c!nocheck\u003e, librust-glib-0.18+v2-66-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev \u003c!nocheck\u003e, librust-pango-0.18+default-dev \u003c!nocheck\u003e, librust-pango-0.18+v1-46-dev \u003c!nocheck\u003e, libgtk-4-dev \u003c!nocheck\u003e, xmlstarlet \u003c!nocheck\u003e, libgirepository1.0-dev \u003c!nocheck\u003e, gir-rust-code-generator \u003c!nocheck\u003e, rustc (\u003e= 1.70) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "1e75b8f69dca832021eb19dbeaab15af43d666d8a3f07d44d7abfa69d0714cbe 2719 rust-gdk4_0.7.2-3.dsc 6982d9815ed6ac95b0467b189e81f29dea26d08a732926ec113e65744ed3f96c 88698 rust-gdk4_0.7.2.orig.tar.gz d1dae447ed365de851ff414bf570c17e6eaa2875e686e4a871430b3693ae9e7a 4272 rust-gdk4_0.7.2-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-gdk4"
+  ],
+  "Files": [
+    "48624b50c038ed9eae7f7923b751849f 2719 rust-gdk4_0.7.2-3.dsc 41fe9196932144484552e2905113250b 88698 rust-gdk4_0.7.2.orig.tar.gz 1d04219f3d3096515960182088e9af4a 4272 rust-gdk4_0.7.2-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gtk-rs.org/"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-gdk4"
+  ],
+  "Package-List": [
+    "librust-gdk4-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-gir-format-check-0.1+default-dev"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@riseup.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gdk4"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/gdk4]"
+  ],
+  "Version": [
+    "0.7.2-3"
+  ]
+}

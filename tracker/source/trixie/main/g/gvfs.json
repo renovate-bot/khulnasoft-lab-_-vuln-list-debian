@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "gvfs, gvfs-backends, gvfs-common, gvfs-daemons, gvfs-fuse, gvfs-libs"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-exec (\u003e= 0.13), dh-sequence-gnome, gsettings-desktop-schemas-dev (\u003e= 3.33.0), gtk-doc-tools, libarchive-dev, libavahi-client-dev (\u003e= 0.6), libavahi-glib-dev (\u003e= 0.6), libbluetooth-dev (\u003e= 4.0) [linux-any], libbluray-dev, libcap-dev [linux-any], libcdio-paranoia-dev (\u003e= 0.78.2) [linux-any], libdbus-1-dev, libexpat1-dev, libfuse3-dev (\u003e= 3.0.0) [!hurd-any], libgcr-3-dev, libgcrypt20-dev (\u003e= 1.2.2), libgdata-dev (\u003e= 0.18), libglib2.0-dev (\u003e= 2.70.0), libgoa-1.0-dev (\u003e= 3.17.1), libgphoto2-dev (\u003e= 2.5.0) [linux-any], libgudev-1.0-dev (\u003e= 147) [linux-any], libimobiledevice-dev (\u003e= 1.2) [!hurd-any], libltdl-dev, libmtp-dev (\u003e= 1.1.21) [linux-any], libnfs-dev (\u003e= 1.9.7), libplist-dev, libpolkit-gobject-1-dev [linux-any], libsecret-1-dev, libsmbclient-dev (\u003e= 3.4.0) [!hurd-any], libsoup-3.0-dev (\u003e= 3.0.0), libsystemd-dev [linux-any], libudisks2-dev (\u003e= 1.97) [linux-any], libusb-1.0-0-dev (\u003e= 1.0.21) [linux-any], libxml2-dev, meson (\u003e= 0.56.0), openssh-client, pkg-config, polkitd [linux-any], systemd (\u003e= 206) [linux-any]"
+  ],
+  "Checksums-Sha256": [
+    "99fe739e3e004e6c8a124ceef91d2902eb7349847d8a6d544627bcb6037903bd 3517 gvfs_1.52.0-1.dsc e40e2035a40bc51ce9e88eed05b025596e40bb4aaf9bc632d12ce74fdb30b1f6 1231912 gvfs_1.52.0.orig.tar.xz 691c8c98add438b1f684bc482dff78ea32bffd627f456a7e66da45542f9d9dd4 26120 gvfs_1.52.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gvfs"
+  ],
+  "Files": [
+    "cd3a6de307b5780d49ec9fbf55ef9229 3517 gvfs_1.52.0-1.dsc dc2809b21d27b02ebe5bb9aa2b9f1c1e 1231912 gvfs_1.52.0.orig.tar.xz 65fb1d9343ce9c8d6d6098540bebca72 26120 gvfs_1.52.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://wiki.gnome.org/Projects/gvfs"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "gvfs"
+  ],
+  "Package-List": [
+    "gvfs deb libs optional arch=any gvfs-backends deb gnome optional arch=any gvfs-common deb libs optional arch=all gvfs-daemons deb libs optional arch=any gvfs-fuse deb gnome optional arch=kfreebsd-any,linux-any gvfs-libs deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "apache2, apache2-dev, dbus, gir1.2-umockdev-1.0, libglib2.0-bin, openssh-client, polkitd, procps, python3-dbus, python3-gi, python3-twisted, samba, sudo, umockdev"
+  ],
+  "Uploaders": [
+    "Iain Lane \u003claney@debian.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Sebastien Bacher \u003cseb128@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/gvfs"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/gvfs.git"
+  ],
+  "Version": [
+    "1.52.0-1"
+  ]
+}

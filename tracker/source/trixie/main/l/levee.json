@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "levee"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 9), libncurses-dev"
+  ],
+  "Checksums-Sha256": [
+    "7397d5d856a77b385b404593b577abbbb1d8a5b598a7b07730c0361b4f6aad6f 1660 levee_3.5a-5.dsc eff1c937b1079c68725c26375969a8b51109b170bc1aba9529b989e32f7b34c8 67733 levee_3.5a.orig.tar.gz 0fd734f750dc5b5b1c9ec9623d9236be3032b256100b400e7bc07ae752b370d9 9500 levee_3.5a-5.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/levee"
+  ],
+  "Files": [
+    "ac996aea1e645d8110016024ca91bd51 1660 levee_3.5a-5.dsc b4a8a33844522047f640d68ea429c6a7 67733 levee_3.5a.orig.tar.gz 2044aeda6be4c7b8126325017dcb5638 9500 levee_3.5a-5.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.pell.portland.or.us/~orc/Code/levee"
+  ],
+  "Maintainer": [
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+  ],
+  "Package": [
+    "levee"
+  ],
+  "Package-List": [
+    "levee deb editors optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "editors"
+  ],
+  "Standards-Version": [
+    "3.9.8"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/levee"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/levee.git"
+  ],
+  "Version": [
+    "3.5a-5"
+  ]
+}

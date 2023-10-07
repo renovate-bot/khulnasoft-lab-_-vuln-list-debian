@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "cp2k, cp2k-data"
+  ],
+  "Build-Depends": [
+    "bc, bison, debhelper (\u003e= 10), default-jre-headless, flex, python3, gfortran, libblas-dev, libdbcsr-dev (\u003e= 2.6.0), libelpa-dev (\u003e= 2022.11.001-1), libfftw3-dev, libint2-dev (\u003e= 2.6.0-11), liblapack-dev, libsaxonb-java, libscalapack-mpi-dev (\u003e= 2), libsymspg-dev, libxc-dev (\u003e= 5.1.0), mpi-default-dev, pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "d362456e45d00da3a7944c642563be963cec6854d297caef8e6ad639905bee09 2259 cp2k_2023.2-1.dsc 90b6d777aeac5e18f15dad4a61181c575ca023783d484740e2728a0e05169188 80279452 cp2k_2023.2.orig.tar.gz 69a061ab9f691efc918c311fbc2663f5f2b53233856e08f657f46642f3bb0716 26736 cp2k_2023.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/cp2k"
+  ],
+  "Files": [
+    "ef25811b2ce30d858289e8c0d0003e91 2259 cp2k_2023.2-1.dsc 10134bde761b8212ac5929de9af881d1 80279452 cp2k_2023.2.orig.tar.gz 9352d9394ddab1006fcbb67d7cba491f 26736 cp2k_2023.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.cp2k.org"
+  ],
+  "Maintainer": [
+    "Debichem Team \u003cdebichem-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "cp2k"
+  ],
+  "Package-List": [
+    "cp2k deb science optional arch=any cp2k-data deb science optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "science"
+  ],
+  "Standards-Version": [
+    "4.4.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "libint2-2"
+  ],
+  "Uploaders": [
+    "Michael Banck \u003cmbanck@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debichem-team/cp2k"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debichem-team/cp2k.git"
+  ],
+  "Version": [
+    "2023.2-1"
+  ]
+}

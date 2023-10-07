@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libmojolicious-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-strip-nondeterminism"
+  ],
+  "Build-Depends-Indep": [
+    "libcpan-meta-yaml-perl \u003c!nocheck\u003e, libcpanel-json-xs-perl \u003c!nocheck\u003e, libfuture-asyncawait-perl (\u003e= 0.52) \u003c!nocheck\u003e, libio-socket-ip-perl \u003c!nocheck\u003e, libjs-bootstrap4 \u003c!nocheck\u003e, libjs-highlight.js \u003c!nocheck\u003e, libjs-jquery \u003c!nocheck\u003e, librole-tiny-perl \u003c!nocheck\u003e, perl"
+  ],
+  "Checksums-Sha256": [
+    "32acb0b5c9aa9f046dfda4c6938ba7d53b7829b332d0b1a91ff69374fdfa847d 2823 libmojolicious-perl_9.34+dfsg-1.dsc e7538bf520f0e00100043d3f63e1ad5e79629b6416184ecde43d0e5913e63ec8 600272 libmojolicious-perl_9.34+dfsg.orig.tar.xz 36a3d02cea38097e3e0c72fa3948815d736e8cca876f324594f235b1422544b8 18088 libmojolicious-perl_9.34+dfsg-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "499bdebc7fe345732e2628f03ec56ab671267b3a debian archive/debian/9.34+dfsg-1 https://git.dgit.debian.org/libmojolicious-perl"
+  ],
+  "Directory": [
+    "pool/main/libm/libmojolicious-perl"
+  ],
+  "Files": [
+    "ba2b7d8c83b3469e0580fab2f3092cca 2823 libmojolicious-perl_9.34+dfsg-1.dsc b70df5660e1e04725df0a0af391e1bf3 600272 libmojolicious-perl_9.34+dfsg.orig.tar.xz 16cdbb097629ea431974cd1d9097a879 18088 libmojolicious-perl_9.34+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://mojolicious.org"
+  ],
+  "Maintainer": [
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libmojolicious-perl"
+  ],
+  "Package-List": [
+    "libmojolicious-perl deb perl optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "perl"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "gregor herrmann \u003cgregoa@debian.org\u003e, Angel Abad \u003cangel@debian.org\u003e, Dominique Dumont \u003cdod@debian.org\u003e, CSILLAG Tamas \u003ccstamas@cstamas.hu\u003e, Nick Morrott \u003cnickm@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/modules/packages/libmojolicious-perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libmojolicious-perl.git"
+  ],
+  "Version": [
+    "9.34+dfsg-1"
+  ]
+}

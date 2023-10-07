@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "python3-astropy, python-astropy-doc, astropy-utils"
+  ],
+  "Build-Depends": [
+    "cython3, debhelper-compat (= 13), dh-python, graphviz \u003c!nodoc\u003e, libexpat1-dev, libjs-jquery \u003c!nodoc\u003e, libjs-jquery-datatables \u003c!nodoc\u003e, libjs-mathjax \u003c!nodoc\u003e, pkg-config, python3-all-dev, python3-astropy-sphinx-theme \u003c!nodoc\u003e, python3-configobj, python3-erfa, python3-extension-helpers, python3-h5py \u003c!nocheck\u003e, python3-jinja2, python3-matplotlib \u003c!nocheck\u003e, python3-numpy \u003c!nocheck\u003e, python3-ply, python3-pytest \u003c!nocheck\u003e, python3-pytest-astropy \u003c!nocheck\u003e, python3-pytest-mpl \u003c!nocheck\u003e, python3-pytzdata \u003c!nocheck\u003e, python3-scipy \u003c!nocheck\u003e, python3-setuptools, python3-setuptools-scm, python3-skimage \u003c!nocheck\u003e, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-astropy \u003c!nodoc\u003e, python3-sphinx-automodapi \u003c!nodoc\u003e, python3-yaml \u003c!nocheck\u003e, towncrier, wcslib-dev, zlib1g-dev, tzdata-legacy \u003c!nocheck\u003e, dh-strip-nondeterminism"
+  ],
+  "Checksums-Sha256": [
+    "1f85ff435dda9c66ca5a318ec38b09cb7c7c77496caf134ef95e4bcbcebc49b7 3122 astropy_5.3.4-1.dsc d490f7e2faac2ccc01c9244202d629154259af8a979104ced89dc4ace4e6f1d8 7811582 astropy_5.3.4.orig.tar.gz 7bf6f8cc49c0b8e9002bbc7ba3a4045a17ec890dd57f4e4efb0296fc2e61bba4 26152 astropy_5.3.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/astropy"
+  ],
+  "Files": [
+    "6371fd2b2a148e564510f81b91d494e3 3122 astropy_5.3.4-1.dsc 3e2dba0f9e1f83d0036690e21baf5f20 7811582 astropy_5.3.4.orig.tar.gz 90f40d7e2a48f7b2bb94b5b5cd4d2faf 26152 astropy_5.3.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://astropy.org"
+  ],
+  "Maintainer": [
+    "Debian Astronomy Maintainers \u003cdebian-astro-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "astropy"
+  ],
+  "Package-List": [
+    "astropy-utils deb science optional arch=all python-astropy-doc deb doc optional arch=all python3-astropy deb python optional arch=any profile=!nodoc"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-asdf, python3-h5py, python3-matplotlib, python3-pandas, python3-pytest, python3-pytest-astropy, python3-pytest-mpl, python3-pytzdata, python3-scipy, python3-skimage, python3-yaml, tzdata-legacy"
+  ],
+  "Uploaders": [
+    "Ole Streicher \u003colebole@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-astro-team/astropy"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-astro-team/astropy.git"
+  ],
+  "Version": [
+    "5.3.4-1"
+  ]
+}

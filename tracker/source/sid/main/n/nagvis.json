@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "nagvis, nagvis-demos"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), quilt, po-debconf"
+  ],
+  "Checksums-Sha256": [
+    "47f102f32513363e7a533358f0dfb5edff2038d0aa9e49088fd01ea0443d2101 2077 nagvis_1.9.37-1.dsc e3f6ab5b3ca0d605915eb80cbfda4cadc2d0f49cb7a6c3a36077593adde3315b 1765075 nagvis_1.9.37.orig.tar.gz f46826cb5f2c21308d06ddad2cddda4cc96da09eee30b11c07fe8c66018e268d 34712 nagvis_1.9.37-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/n/nagvis"
+  ],
+  "Files": [
+    "28497819cb5498d6c7e87abdbe3908ee 2077 nagvis_1.9.37-1.dsc 8fa64dab6007375a66b1a37be27b3e4b 1765075 nagvis_1.9.37.orig.tar.gz 62e508e16bff00dfa41b5423127b99d2 34712 nagvis_1.9.37-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.nagvis.org"
+  ],
+  "Maintainer": [
+    "Debian Nagios Maintainer Group \u003cpkg-nagios-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "nagvis"
+  ],
+  "Package-List": [
+    "nagvis deb net optional arch=all nagvis-demos deb net optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Markus Frosch \u003clazyfrosch@debian.org\u003e, Alexander Wirt \u003cformorer@debian.org\u003e, Jan Wagner \u003cwaja@cyconet.org\u003e, Adam Cecile \u003cacecile@le-vert.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/nagios-team/nagvis"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/nagios-team/nagvis.git"
+  ],
+  "Version": [
+    "1:1.9.37-1"
+  ]
+}

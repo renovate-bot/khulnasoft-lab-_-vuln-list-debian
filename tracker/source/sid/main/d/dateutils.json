@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "dateutils"
+  ],
+  "Build-Depends": [
+    "gperf, bison, flex, debhelper-compat (= 13), dh-buildinfo, quilt, dpkg-dev (\u003e= 1.16.1~), libltdl-dev, pkg-config, tzdata, texinfo, autoconf-archive"
+  ],
+  "Checksums-Sha256": [
+    "aec0f043fce383529253c19fca7b4280e79d08bb1cf81de516a76f1e145fad5c 2129 dateutils_0.4.10-2.dsc fc2c1eeb58928a94a47a8dfd294dc3751d540a00cac8441afebf165a838dd48d 303466 dateutils_0.4.10.orig.tar.gz 4d9da78bdfe424571de10749c193bd1295081ae814269fcea90c506baa9a61ea 6812 dateutils_0.4.10-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/dateutils"
+  ],
+  "Files": [
+    "8cd40a4c6bbd7181d9e1061ad107df64 2129 dateutils_0.4.10-2.dsc 81c5ce21741b7137fc8f36538ba977d9 303466 dateutils_0.4.10.orig.tar.gz 02b9238420ec1a228dc7742e6fe79e8e 6812 dateutils_0.4.10-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.fresse.org/dateutils"
+  ],
+  "Maintainer": [
+    "Thorsten Alteholz \u003cdebian@alteholz.de\u003e"
+  ],
+  "Package": [
+    "dateutils"
+  ],
+  "Package-List": [
+    "dateutils deb utils optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/alteholz/dateutils"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/alteholz/dateutils.git"
+  ],
+  "Version": [
+    "0.4.10-2"
+  ]
+}

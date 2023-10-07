@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "plasma-firewall"
+  ],
+  "Build-Depends": [
+    "cmake (\u003e= 3.16~), debhelper-compat (= 13), dh-sequence-python3, extra-cmake-modules (\u003e= 5.102.0~), gettext, libkf5auth-dev (\u003e= 5.102.0~), libkf5config-dev (\u003e= 5.102.0~), libkf5coreaddons-dev (\u003e= 5.102.0~), libkf5declarative-dev (\u003e= 5.102.0~), libkf5i18n-dev (\u003e= 5.102.0~), libkf5kcmutils-dev (\u003e= 5.102.0~), pkg-kde-tools (\u003e= 0.15.16), python3:any, qtbase5-dev (\u003e= 5.15.2~), qtdeclarative5-dev (\u003e= 5.15.2~), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "d68e4b5d92408c28c21fce2e16c769963fe8dedc8169a169afdcb0bd92512184 2845 plasma-firewall_5.27.8-1.dsc 6eb92cb9ae73b50a02febf69a5570790bee68bdfc616b48d08d009bd4c388917 363260 plasma-firewall_5.27.8.orig.tar.xz 01f26bb0ffc5b51e37f00fb2f7bd028655ebe5b02d4cf5f339dbb5deda137eb2 833 plasma-firewall_5.27.8.orig.tar.xz.asc 982b1dcd729ee96c2e063ccc365389db4023f5fbc222b1233d7b7a4d6df4acf2 15040 plasma-firewall_5.27.8-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/plasma-firewall"
+  ],
+  "Files": [
+    "99b28b14e96f541188c8e93337a8e8ad 2845 plasma-firewall_5.27.8-1.dsc 57681599b204bdbdfc176ee3d30678de 363260 plasma-firewall_5.27.8.orig.tar.xz 116965d3d20417a20ca41d663643d4c4 833 plasma-firewall_5.27.8.orig.tar.xz.asc 20e0e3fedb801de63d1e1b8c9b5718d5 15040 plasma-firewall_5.27.8-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://invent.kde.org/plasma/plasma-firewall"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "plasma-firewall"
+  ],
+  "Package-List": [
+    "plasma-firewall deb kde optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Norbert Preining \u003cnorbert@preining.info\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e, Pino Toscano \u003cpino@debian.org\u003e, Scarlett Moore \u003csgmoore@kde.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/kde/plasma-firewall"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/kde/plasma-firewall.git"
+  ],
+  "Version": [
+    "5.27.8-1"
+  ]
+}

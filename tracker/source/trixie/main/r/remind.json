@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "remind, remind-tools, tkremind"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libjsonparser-dev, libjson-maybexs-perl, libpango-perl, libcairo-perl, tzdata"
+  ],
+  "Checksums-Sha256": [
+    "70066a3b130f6c804ce61a931b983382a90d61e1996ba3a8496faa4ba97c2195 2434 remind_04.02.06-1.dsc 12150b3a1a42ac996dc1efd2abaee7e6100308c793a5c1aa69745f38e4735635 504145 remind_04.02.06.orig.tar.gz 5e8ee2eed8f6176a7b5e9e7e9574dbac6a1208e3068cd2430ee50978fdbe8d6f 8732 remind_04.02.06-1.debian.tar.xz"
+  ],
+  "Description": [
+    "sophisticated calendar and alarm program Remind allows you to remind yourself of upcoming events and appointments.  Each reminder or alarm can consist of a message sent to standard output, or a program to be executed. . It also features: sophisticated date calculation, moon phases, sunrise/sunset, Hebrew calendar, alarms, PostScript output, tcl/tk front-end and proper handling of holidays."
+  ],
+  "Directory": [
+    "pool/main/r/remind"
+  ],
+  "Files": [
+    "bda545020b40f23f17dad1b538f3bad1 2434 remind_04.02.06-1.dsc 77fb811e8c87aaab748e6ed59a0c3053 504145 remind_04.02.06.orig.tar.gz 5a05ffab575a3253a23739b5c9273929 8732 remind_04.02.06-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://dianne.skoll.ca/projects/remind/"
+  ],
+  "Maintainer": [
+    "Jochen Sprickerhof \u003cjspricke@debian.org\u003e"
+  ],
+  "Package": [
+    "remind"
+  ],
+  "Package-List": [
+    "remind deb utils optional arch=any remind-tools deb utils optional arch=any tkremind deb utils optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/remind"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/remind.git"
+  ],
+  "Version": [
+    "04.02.06-1"
+  ]
+}

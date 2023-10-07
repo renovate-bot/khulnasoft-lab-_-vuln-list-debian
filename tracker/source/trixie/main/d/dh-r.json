@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "dh-r, pkg-r-autopkgtest"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "d382af356c379df3951a09a3fa271c4011b038eb57626e0ad180715fad73b9b2 1738 dh-r_20230912.dsc c6643498559e0126b14499967796a9544de2b022a665cfc5009e2204ed29f47d 43524 dh-r_20230912.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/dh-r"
+  ],
+  "Files": [
+    "b1c42eac1ba133ec3e0a16663a4bdd70 1738 dh-r_20230912.dsc d088828e92a49d02594b469c59905344 43524 dh-r_20230912.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Debian R Packages Maintainers \u003cr-pkg-team@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "dh-r"
+  ],
+  "Package-List": [
+    "dh-r deb science optional arch=all pkg-r-autopkgtest deb science optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Gordon Ball \u003cgordon@chronitis.net\u003e, Andreas Tille \u003ctille@debian.org\u003e, Dylan Aïssi \u003cdaissi@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/r-pkg-team/dh-r"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/r-pkg-team/dh-r.git"
+  ],
+  "Version": [
+    "20230912"
+  ]
+}

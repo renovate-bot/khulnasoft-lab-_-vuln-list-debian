@@ -1,0 +1,50 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "desmume"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 9), libglade2-dev, libgtk2.0-dev, libsdl1.2-dev, libosmesa6-dev, libagg2-dev, intltool, libgtkglext1-dev, libtinyxml-dev, libsoundtouch-dev, dh-autoreconf"
+  ],
+  "Checksums-Sha256": [
+    "2028822f56db2962af349731ddd2b72b5c431c48a8f170d59bee829b2c4a5b3a 1769 desmume_0.9.11-5.dsc 3ab34ba6cc009566245025c1dd94bf449b6a1b416d24387cb42e183c78e38896 5359305 desmume_0.9.11.orig.tar.gz 39ac4c1cd25425b89452ca8e2730670ea3f48a495283b08d168562e98f4010b3 12276 desmume_0.9.11-5.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/desmume"
+  ],
+  "Files": [
+    "feed4939b4e17734afd5b3dfe76d3a8b 1769 desmume_0.9.11-5.dsc 269b5d4ddc5715720469a9d0efc53044 5359305 desmume_0.9.11.orig.tar.gz 29a6775af0c22c8d58e9a86b70a24664 12276 desmume_0.9.11-5.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://desmume.org/"
+  ],
+  "Maintainer": [
+    "Debian Games Team \u003cpkg-games-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "desmume"
+  ],
+  "Package-List": [
+    "desmume deb games optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "games"
+  ],
+  "Standards-Version": [
+    "3.9.6"
+  ],
+  "Uploaders": [
+    "Evgeni Golov \u003cevgeni@debian.org\u003e"
+  ],
+  "Version": [
+    "0.9.11-5"
+  ]
+}

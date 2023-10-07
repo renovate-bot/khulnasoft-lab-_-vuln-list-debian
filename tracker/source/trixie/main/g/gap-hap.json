@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "gap-hap"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), gap (\u003e= 4r7), gap-polycyclic, gap-crystcat, gap-fga, gap-aclib, gap-nq, gap-smallgrp-extra, gap-transgrp, imagemagick, libpng-tools, texlive-fonts-recommended, texlive-latex-extra"
+  ],
+  "Checksums-Sha256": [
+    "46a185e2437bf8693511d12fc7992b6350a7c04bc1ba896fa33d6b09dc927fa0 1900 gap-hap_1.58-1.dsc ad84ec3bfcd233d301ce0050d81c3b49c4c61d40946f1d1d2c7960e769475fc3 14793316 gap-hap_1.58.orig.tar.xz 57084bad1460fe9010f2fdfa063fb8439dd689a6680d08d637e8b3862f75633e 6944 gap-hap_1.58-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gap-hap"
+  ],
+  "Files": [
+    "c3b110f2bb72efb766662f490c0d5189 1900 gap-hap_1.58-1.dsc f10f3e9952fb942e93ebbae6d1635735 14793316 gap-hap_1.58.orig.tar.xz 49ff50a74123113ff7eb4eac05eb4b10 6944 gap-hap_1.58-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.gap-system.org/Packages/hap.html"
+  ],
+  "Maintainer": [
+    "Joachim Zobel \u003cjz-2017@heute-morgen.de\u003e"
+  ],
+  "Package": [
+    "gap-hap"
+  ],
+  "Package-List": [
+    "gap-hap deb math optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Version": [
+    "1.58-1"
+  ]
+}

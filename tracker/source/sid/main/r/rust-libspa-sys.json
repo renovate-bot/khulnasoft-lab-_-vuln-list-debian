@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-libspa-sys-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-bindgen-0.66-dev \u003c!nocheck\u003e, librust-cc-1+default-dev \u003c!nocheck\u003e, librust-system-deps-6+default-dev \u003c!nocheck\u003e, libpipewire-0.3-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "92a710ecbab03e24d7dcf45e5f790418940f0ee5c5c3206d078e10570e6be47a 2349 rust-libspa-sys_0.6.0-6.dsc 79cf5b88f52534df7ca88d451ae9628e22124e3cc5c60966465a7db479534c7a 5817 rust-libspa-sys_0.6.0.orig.tar.gz daa9b95dadafb7e4a91df36c2e92e29cb0ae313b328edd970022668a3eb51947 3272 rust-libspa-sys_0.6.0-6.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-libspa-sys"
+  ],
+  "Files": [
+    "380446821b79b7fe951840948c94b1df 2349 rust-libspa-sys_0.6.0-6.dsc cc4ae3a0093fb6340c96a1689127772e 5817 rust-libspa-sys_0.6.0.orig.tar.gz 5e7329ccbf154cf598cdc284a2c1cf9b 3272 rust-libspa-sys_0.6.0-6.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://pipewire.org"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-libspa-sys"
+  ],
+  "Package-List": [
+    "librust-libspa-sys-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@riseup.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/libspa-sys"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/libspa-sys]"
+  ],
+  "Version": [
+    "0.6.0-6"
+  ]
+}

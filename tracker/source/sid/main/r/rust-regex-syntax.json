@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-regex-syntax-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "c01c26d00726f958f588478307c040510afec601213b4ea94d71a09a8b0bc629 1661 rust-regex-syntax_0.7.5-1.dsc 1c7081a504d8f47915cd88912679b5ee2e0f96657bf048fe10ced1f2677caf20 343053 rust-regex-syntax_0.7.5.orig.tar.gz 05724cce12d681f43cb876c9e0d9925a89f980a3af53b41d1571c9fa7d26033d 4352 rust-regex-syntax_0.7.5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-regex-syntax"
+  ],
+  "Files": [
+    "777f8177f02a4bdfd3ffbc3896ff1d9b 1661 rust-regex-syntax_0.7.5-1.dsc e6c36969563e9f66aef6f04c54c7e7e2 343053 rust-regex-syntax_0.7.5.orig.tar.gz 1f0c3bb25a3336c506cd2488d4af5f12 4352 rust-regex-syntax_0.7.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-regex-syntax"
+  ],
+  "Package-List": [
+    "librust-regex-syntax-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Ximin Luo \u003cinfinity0@debian.org\u003e, Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e, Daniel Kahn Gillmor \u003cdkg@fifthhorseman.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/regex-syntax"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/regex-syntax]"
+  ],
+  "Version": [
+    "0.7.5-1"
+  ]
+}

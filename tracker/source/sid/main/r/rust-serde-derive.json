@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-serde-derive-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-proc-macro2-1+default-dev \u003c!nocheck\u003e, librust-quote-1+default-dev \u003c!nocheck\u003e, librust-syn-2+default-dev (\u003e= 2.0.25-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "5cf5876f93aed7e0c63173cc1e9e73e8f1edf377fd178f69f302a90c8dda8456 2432 rust-serde-derive_1.0.171-1.dsc 389894603bd18c46fa56231694f8d827779c0951a667087194cf9de94ed24682 55183 rust-serde-derive_1.0.171.orig.tar.gz 1caf1ed9f4ba987546522171c071f40204ce3560ef7b9d443fd837be98718597 3256 rust-serde-derive_1.0.171-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-serde-derive"
+  ],
+  "Files": [
+    "43e627f4d3e60353775faa4fb0dc40bc 2432 rust-serde-derive_1.0.171-1.dsc 8d6534a86a7ce720d7f1e1a907a933fe 55183 rust-serde-derive_1.0.171.orig.tar.gz b4a1a81b032bef269604daa6b36d56af 3256 rust-serde-derive_1.0.171-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://serde.rs"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-serde-derive"
+  ],
+  "Package-List": [
+    "librust-serde-derive-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-serde-1+default-dev"
+  ],
+  "Uploaders": [
+    "nicoo \u003cnicoo@debian.org\u003e, Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/serde-derive"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/serde-derive]"
+  ],
+  "Version": [
+    "1.0.171-1"
+  ]
+}

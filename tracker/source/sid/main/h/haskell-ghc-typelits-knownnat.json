@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libghc-ghc-typelits-knownnat-dev, libghc-ghc-typelits-knownnat-prof, libghc-ghc-typelits-knownnat-doc"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 10), haskell-devscripts-minimal | haskell-devscripts (\u003e= 0.13), cdbs, ghc, ghc-prof, libghc-ghc-tcplugins-extra-dev (\u003e= 0.3.1), libghc-ghc-tcplugins-extra-prof, libghc-ghc-typelits-natnormalise-dev (\u003e= 0.7.1), libghc-ghc-typelits-natnormalise-dev (\u003c\u003c 0.8), libghc-ghc-typelits-natnormalise-prof, libghc-tasty-dev (\u003e= 0.10), libghc-tasty-prof, libghc-tasty-hunit-dev (\u003e= 0.9), libghc-tasty-hunit-prof, libghc-tasty-quickcheck-dev (\u003e= 0.8), libghc-tasty-quickcheck-prof"
+  ],
+  "Build-Depends-Indep": [
+    "ghc-doc, libghc-ghc-tcplugins-extra-doc, libghc-ghc-typelits-natnormalise-doc"
+  ],
+  "Checksums-Sha256": [
+    "795192c27f806742a27debc1f2768f5d0a8699f066302974a4f6d8a402f8dc75 2962 haskell-ghc-typelits-knownnat_0.7.8-1.dsc 2723ee1dc9024a4a8ddf93dbb6082410fc05deeee7bd975c8ce5d7fed71bea22 25786 haskell-ghc-typelits-knownnat_0.7.8.orig.tar.gz 823c7b17f8d0cdb04a13b6e28da37d0f98eeb00e3417125b0b3e8bb09690c785 2772 haskell-ghc-typelits-knownnat_0.7.8-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/h/haskell-ghc-typelits-knownnat"
+  ],
+  "Files": [
+    "bd461c1d1883ef845791ca6c043f9184 2962 haskell-ghc-typelits-knownnat_0.7.8-1.dsc 819683f7e1bb7d17972a5e1680c7dafb 25786 haskell-ghc-typelits-knownnat_0.7.8.orig.tar.gz 85ca123a6b6e5a6c9cebcd4ec50d68e1 2772 haskell-ghc-typelits-knownnat_0.7.8-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://clash-lang.org/"
+  ],
+  "Maintainer": [
+    "Debian Haskell Group \u003cpkg-haskell-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "haskell-ghc-typelits-knownnat"
+  ],
+  "Package-List": [
+    "libghc-ghc-typelits-knownnat-dev deb haskell optional arch=any libghc-ghc-typelits-knownnat-doc deb doc optional arch=all libghc-ghc-typelits-knownnat-prof deb haskell optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Scott Talbert \u003cswt@techie.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-ghc-typelits-knownnat"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-ghc-typelits-knownnat]"
+  ],
+  "Version": [
+    "0.7.8-1"
+  ]
+}

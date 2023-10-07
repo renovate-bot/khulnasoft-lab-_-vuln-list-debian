@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-identify"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, help2man, python3-all, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "cf681a6c935911941dad2909b7b2c269bb27c8cf53822b0bdfe59754e51413f3 1996 identify_2.5.30-1.dsc 958857c7ed2e44bb8f94505706641ecb97898ce789210fd24675281e722030db 67888 identify_2.5.30.orig.tar.xz f1353c50a8f3cf003827fdbf41021e7874e78e9668602b6982a52b7608723cd4 3052 identify_2.5.30-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/identify"
+  ],
+  "Files": [
+    "dcd1b870f7b5b90815941de583a077f0 1996 identify_2.5.30-1.dsc 819d077669605ed7d74ff7a995c99fe0 67888 identify_2.5.30.orig.tar.xz 6ee8539ec2c5e4181731d63411a555cf 3052 identify_2.5.30-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/chriskuehl/identify"
+  ],
+  "Maintainer": [
+    "Daniel Baumann \u003cdaniel.baumann@progress-linux.org\u003e"
+  ],
+  "Package": [
+    "identify"
+  ],
+  "Package-List": [
+    "python3-identify deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://git.progress-linux.org/users/daniel.baumann/debian/packages/identify"
+  ],
+  "Vcs-Git": [
+    "https://git.progress-linux.org/users/daniel.baumann/debian/packages/identify"
+  ],
+  "Version": [
+    "2.5.30-1"
+  ]
+}
