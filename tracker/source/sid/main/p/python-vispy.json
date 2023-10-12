@@ -12,13 +12,13 @@
     "python3-numpydoc, python3-sphinx-bootstrap-theme, libjs-bootstrap, libjs-jquery"
   ],
   "Checksums-Sha256": [
-    "5a9506c489016d8ed9731e4db13421cdc084713f880f9cd0a9b9b213e9d54ec2 2607 python-vispy_0.13.0-1.dsc b59f7bcf6528c914bca6ceb4ad959984c6604bea34663012a72ab88ad8889eaf 2468138 python-vispy_0.13.0.orig.tar.gz 2b6a66a1330de166527e11d12dfade2695ef7a2833fdd43420d0879e21c7d7d1 78660 python-vispy_0.13.0-1.debian.tar.xz"
+    "448002e46a451817669feb439a1ab570c84abc4fb25fa4c793bd03e47c18c831 2026 python-vispy_0.14.1-2.dsc a83bfb0ed4b651a4a24242e5268081442d2f4bf848b8b9b04aa91c13f2b926b0 2494623 python-vispy_0.14.1.orig.tar.gz 1bf98904cb536dddb8c664e0ccf903a7198ec73823bde35d39ee505b83d90dfb 78704 python-vispy_0.14.1-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/p/python-vispy"
   ],
   "Files": [
-    "62174b15d6c99a2ff14828956b961572 2607 python-vispy_0.13.0-1.dsc 2bc3abda0d706e94cb9c725dfbf5c5d9 2468138 python-vispy_0.13.0.orig.tar.gz 1e374406a40511591ce7ab198758b5ff 78660 python-vispy_0.13.0-1.debian.tar.xz"
+    "bbd8c4757629cda35c45c089dc4a0b93 2026 python-vispy_0.14.1-2.dsc 7563cf8ffba6da8a20e1aac6a1ab6f62 2494623 python-vispy_0.14.1.orig.tar.gz f220df8053309cc3fdb55686f116697a 78704 python-vispy_0.14.1-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest-pkg-python"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/science-team/python-vispy.git"
   ],
   "Version": [
-    "0.13.0-1"
+    "0.14.1-2"
   ]
 }
