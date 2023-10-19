@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), dh-sequence-bash-completion, dh-sequence-python3, figlet \u003c!nocheck\u003e, help2man, libfile-homedir-perl \u003c!nocheck\u003e, libjs-bootstrap \u003c!nocheck\u003e, libjs-bootswatch \u003c!nocheck\u003e, libjs-chart.js \u003c!nocheck\u003e, libjs-d3 \u003c!nocheck\u003e, libtest-command-simple-perl \u003c!nocheck\u003e, libtest-expect-perl \u003c!nocheck\u003e, libtest-tempdir-tiny-perl \u003c!nocheck\u003e, perl \u003c!nocheck\u003e, python3, python3-click (\u003e= 8), python3-colorama, python3-html5lib, python3-jinja2 \u003c!nocheck\u003e, python3-jinja2-time \u003c!nocheck\u003e, python3-pyfiglet, python3-pygments, python3-pyparsing, python3-rdflib (\u003e= 6), python3-rdflib-jsonld, python3-requests, python3-setuptools, python3-sparqlwrapper, toilet-fonts \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "ec10e548be23b7e79f201c4cfcf55367b10dafd7734a92146168fcb0222d2e6d 2825 ontospy_2.1.1~dfsg-1.dsc d3fc677c23675d5691ea304183e2325b0e80c180bbdd83a538a0f4fee78a9f06 837436 ontospy_2.1.1~dfsg.orig.tar.xz 60347c5b0a84f29d96cdccdf642492f239fc94fb34e4f6960697ad04ba063d9a 14692 ontospy_2.1.1~dfsg-1.debian.tar.xz"
+    "15bd6e071715108bb9fa699db0eeb6165d0b5b3c687b14f799050b9481e697fa 2832 ontospy_2.1.1~dfsg2-2.dsc a0352448c9a9e75aa16e4f65198bbf2ef573efe0940e5182ac938dc5db32d167 800308 ontospy_2.1.1~dfsg2.orig.tar.xz 9b5295f567b525e0b90e78dccdc84f25c35bf2f931611fa75242ad15657a1b6e 12744 ontospy_2.1.1~dfsg2-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/o/ontospy"
   ],
   "Files": [
-    "53584e502beaa2a4224ecc35ed17f11f 2825 ontospy_2.1.1~dfsg-1.dsc 8f540df4cc1c336b36d8994f2913bd05 837436 ontospy_2.1.1~dfsg.orig.tar.xz f811b0d48d4adea339a8995b3b30f30f 14692 ontospy_2.1.1~dfsg-1.debian.tar.xz"
+    "3583ed6a4aa1f17a38bc2a80bddbd141 2832 ontospy_2.1.1~dfsg2-2.dsc eafdd68bc836b2e7a17a3449912cbac5 800308 ontospy_2.1.1~dfsg2.orig.tar.xz 019c2bd02ed52697a3aea8ee734b6422 12744 ontospy_2.1.1~dfsg2-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/ontospy.git"
   ],
   "Version": [
-    "2.1.1~dfsg-1"
+    "2.1.1~dfsg2-2"
   ]
 }
