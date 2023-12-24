@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-github-henrybear327-go-proton-api-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any, golang-github-bradenaw-juniper-dev, golang-github-emersion-go-message-dev, golang-github-emersion-go-vcard-dev, golang-github-gin-gonic-gin-dev, golang-github-go-resty-resty-dev, golang-github-google-uuid-dev, golang-github-masterminds-semver-dev, golang-github-protonmail-gluon-dev, golang-github-protonmail-go-crypto-dev, golang-github-protonmail-go-srp-dev, golang-github-protonmail-gopenpgp-dev, golang-github-puerkitobio-goquery-dev, golang-google-grpc-dev, golang-golang-x-exp-dev, golang-golang-x-net-dev, golang-golang-x-text-dev, golang-logrus-dev, protobuf-compiler, protoc-gen-go, protoc-gen-go-grpc, golang-github-stretchr-testify-dev \u003c!nocheck\u003e, golang-uber-goleak-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "883f931a80faeb4856fef3cc16e8b9e54ce7ab0dd04a66aae777c9488bf874a5 3102 golang-github-henrybear327-go-proton-api_1.0.0-3.dsc c91f304064df7f352fea4eeb5d28d6e78e2b6ee3408f275649d6fa1833070195 127097 golang-github-henrybear327-go-proton-api_1.0.0.orig.tar.gz 36f1f1dd83485a542ff5ee74ca4fda3d67990a93433f193ec093ed937522691d 4440 golang-github-henrybear327-go-proton-api_1.0.0-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-henrybear327-go-proton-api"
+  ],
+  "Files": [
+    "5c909601ace6d2b2b44ab277ca200a78 3102 golang-github-henrybear327-go-proton-api_1.0.0-3.dsc a7c32f192352f763bd43f1bb0f3f6e31 127097 golang-github-henrybear327-go-proton-api_1.0.0.orig.tar.gz 6ffb30079e3aa68433a781f942a84bc8 4440 golang-github-henrybear327-go-proton-api_1.0.0-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/henrybear327/go-proton-api"
+  ],
+  "Homepage": [
+    "https://github.com/henrybear327/go-proton-api"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-henrybear327-go-proton-api"
+  ],
+  "Package-List": [
+    "golang-github-henrybear327-go-proton-api-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Maytham Alsudany \u003cmaytha8thedev@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-github-henrybear327-go-proton-api"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-github-henrybear327-go-proton-api.git"
+  ],
+  "Version": [
+    "1.0.0-3"
+  ]
+}
