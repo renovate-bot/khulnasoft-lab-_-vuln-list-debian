@@ -1,15 +1,16 @@
 {
   "Header": {
     "Original": "CVE-2024-XXXX [RUSTSEC-2024-0345]",
-    "ID": "TEMP-0000000-DEF3AE",
+    "ID": "TEMP-1074352-DEF3AE",
     "Description": "[RUSTSEC-2024-0345]"
   },
   "Annotations": [
     {
-      "Original": "- rust-sequoia-openpgp \u003cunfixed\u003e",
+      "Original": "- rust-sequoia-openpgp \u003cunfixed\u003e (bug #1074352)",
       "Type": "package",
       "Package": "rust-sequoia-openpgp",
-      "Kind": "unfixed"
+      "Kind": "unfixed",
+      "BugNo": 1074352
     },
     {
       "Original": "[bookworm] - rust-sequoia-openpgp \u003cnot-affected\u003e (Vulnerable code not present)",
