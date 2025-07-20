@@ -9,13 +9,13 @@
     "debhelper (\u003e= 11~), dpkg-dev (\u003e= 1.17.14~), shellcheck \u003c!nocheck\u003e, pandoc"
   ],
   "Checksums-Sha256": [
-    "d5b825b6549eeddcd5f88d25f289dfdef3b2bc43aab6270360da056c4fdc5db8 1795 auto-apt-proxy_16.5.dsc beb019913cae76e1b06b02b8dce16dc057f891acfa1f29b36932401f0afe073b 20584 auto-apt-proxy_16.5.tar.xz"
+    "22aeda4b01d53a3c8889690615915c826ff647128c1adb71f62958a87bedcbb0 1803 auto-apt-proxy_16.8.dsc 7d9382f6db750966919bcfc0b555733db6bcd19f0337d4526c0c472f15eeff6b 21604 auto-apt-proxy_16.8.tar.xz"
   ],
   "Directory": [
     "pool/main/a/auto-apt-proxy"
   ],
   "Files": [
-    "d6956d18cf7974b7ddc4a7df32461f6a 1795 auto-apt-proxy_16.5.dsc f2cfdaaf19a53a20ed5699abdbd4cf26 20584 auto-apt-proxy_16.5.tar.xz"
+    "4fd3f907430c557ca93ed2326ffe7de4 1803 auto-apt-proxy_16.8.dsc bde82c7a82005c29851492582a9e0cdb 21604 auto-apt-proxy_16.8.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -45,7 +45,7 @@
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "approx, apt-cacher, apt-cacher-ng, clitest, newpid, ruby-rack, ruby-rackup, ruby-webrick"
+    "approx, apt-cacher, apt-cacher-ng, clitest, newpid, ruby-rack, ruby-rackup, ruby-webrick, systemd"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/auto-apt-proxy"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/auto-apt-proxy.git"
   ],
   "Version": [
-    "16.5"
+    "16.8"
   ]
 }

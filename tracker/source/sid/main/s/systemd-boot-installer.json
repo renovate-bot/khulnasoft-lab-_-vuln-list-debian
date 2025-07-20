@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), po-debconf"
   ],
   "Checksums-Sha256": [
-    "5457fa4ad5fd5fe162a7a49bf9158fe5ef69ce9f2d4a386ec8d464f459db3b41 1720 systemd-boot-installer_0.7.dsc 0a97b6f7359690820af0fd5f21246276f7553458320cfa5816655bdad670adc4 30216 systemd-boot-installer_0.7.tar.xz"
+    "ea192ad58412dcc2e7fa12a61e98d7fc1dc76ae11d50db1d01007cb481b3284b 1724 systemd-boot-installer_0.11.dsc 8f688910c87dceef6106f198c553ed370b96e27b7a579a504bbd02edcfa410b2 33400 systemd-boot-installer_0.11.tar.xz"
   ],
   "Directory": [
     "pool/main/s/systemd-boot-installer"
   ],
   "Files": [
-    "268163ce181f9c1e4703181b57dc532d 1720 systemd-boot-installer_0.7.dsc 9e42ead3181647d5b2dfedefa3b2722f 30216 systemd-boot-installer_0.7.tar.xz"
+    "2ba465219619cee5e49f6f370c96d057 1724 systemd-boot-installer_0.11.dsc e4c69207987a71d42de73e0dc64419bc 33400 systemd-boot-installer_0.11.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -45,6 +45,6 @@
     "https://salsa.debian.org/installer-team/systemd-boot-installer.git"
   ],
   "Version": [
-    "0.7"
+    "0.11"
   ]
 }

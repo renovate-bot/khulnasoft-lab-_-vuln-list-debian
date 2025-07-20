@@ -12,13 +12,13 @@
     "debhelper-compat (= 13)"
   ],
   "Checksums-Sha256": [
-    "abab7531591509f6d02a09af9839e788197fdec1189b655d8368725ab132b62e 2284 nvidia-cuda-samples_12.3~dfsg-1.dsc 0c250399f1c7128e7e1869ee70a5c3d7e0e641b14f924420c3876f4ddd328d05 88706424 nvidia-cuda-samples_12.3~dfsg.orig.tar.xz 593d8f1a88c8b5c28774730a03adda536b1191e9b116f0abc978280dc53f40b7 6660 nvidia-cuda-samples_12.3~dfsg-1.debian.tar.xz"
+    "ce40ca13fb6c82864964c67048f21123ebff157b4d7cdd10d5ccb239a4156241 2298 nvidia-cuda-samples_12.4.1~dfsg-1.dsc cf0de1c34fff31aed88b149e53362189c28a003b425fb6ad7ff978f5cccaf5b5 88736640 nvidia-cuda-samples_12.4.1~dfsg.orig.tar.xz b62d6c1342c4d9d75dfef36133e5b7799d33713140b6c960aaa47024a723aa35 7052 nvidia-cuda-samples_12.4.1~dfsg-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/contrib/n/nvidia-cuda-samples"
   ],
   "Files": [
-    "45733389b0128df4584d962b0ed885cd 2284 nvidia-cuda-samples_12.3~dfsg-1.dsc 1d61ca03d037859ca5a455a3c7c2d8d4 88706424 nvidia-cuda-samples_12.3~dfsg.orig.tar.xz ad986106e14ec3f355b660e9b8a39fcb 6660 nvidia-cuda-samples_12.3~dfsg-1.debian.tar.xz"
+    "52558d28b9db0617f24f518872028346 2298 nvidia-cuda-samples_12.4.1~dfsg-1.dsc cf7b850f9d9b0240784436ca29cb0b39 88736640 nvidia-cuda-samples_12.4.1~dfsg.orig.tar.xz eb357c82d5302adcb7208bde20294b6f 7052 nvidia-cuda-samples_12.4.1~dfsg-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -48,7 +48,7 @@
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "cmake, dkms, g++, g++-12, linux-doc, make, nvidia-cuda-toolkit, nvidia-cuda-toolkit-gcc, nvidia-openjdk-8-jre, openssl"
+    "cmake, dkms, g++, g++-13, linux-doc, make, nvidia-cuda-toolkit, nvidia-cuda-toolkit-gcc, nvidia-openjdk-8-jre, openssl"
   ],
   "Uploaders": [
     "Andreas Beckmann \u003canbe@debian.org\u003e,"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/nvidia-team/nvidia-cuda-samples.git"
   ],
   "Version": [
-    "12.3~dfsg-1"
+    "12.4.1~dfsg-1"
   ]
 }

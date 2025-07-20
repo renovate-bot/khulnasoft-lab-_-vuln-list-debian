@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-rocm-docs, python-rocm-docs-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-breathe, python3-fastjsonschema, python3-git, python3-github, python3-json5, python3-myst-nb, python3-pydata-sphinx-theme, python3-pytest, python3-setuptools, python3-sphinx, python3-sphinx-copybutton, python3-sphinx-design, python3-sphinx-notfound-page, python3-yaml, python3-doxysphinx (\u003e= 3.3.12-6~exp1), python3-mpire, python3-sphinx-book-theme (\u003e= 1.1.4), python3-sphinx-external-toc, python3-doc"
+  ],
+  "Checksums-Sha256": [
+    "65a40174b1afab26b1f6d8da6f80c1989e36c89948a1470b6c512610e2e3391b 2554 rocm-docs-core_1.21.1-1.dsc 26e8ea9343e63429dd5766bae24fca284251736f485f296d795af14badb6e87e 1373730 rocm-docs-core_1.21.1.orig.tar.gz b2ef429afb15f79e037240f2e127859fe6e5ce67f772c0fa1e0702f4f92103b5 13676 rocm-docs-core_1.21.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rocm-docs-core"
+  ],
+  "Files": [
+    "17d4372b2ece74d680fb8d30f3f645c5 2554 rocm-docs-core_1.21.1-1.dsc 8fa1c82889170852ac58486e3904951b 1373730 rocm-docs-core_1.21.1.orig.tar.gz 5b633a2afa4ef7d3be03ef41ed98b592 13676 rocm-docs-core_1.21.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ROCm/rocm-docs-core"
+  ],
+  "Maintainer": [
+    "Debian ROCm Team \u003cdebian-ai@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "rocm-docs-core"
+  ],
+  "Package-List": [
+    "python-rocm-docs-doc deb doc optional arch=all python3-rocm-docs deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Christian Bayle \u003cbayle@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rocm-team/rocm-docs-core"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rocm-team/rocm-docs-core.git"
+  ],
+  "Version": [
+    "1.21.1-1"
+  ]
+}

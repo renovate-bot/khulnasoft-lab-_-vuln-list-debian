@@ -9,13 +9,13 @@
     "debhelper-compat (= 12)"
   ],
   "Checksums-Sha256": [
-    "eb898e498fa802932c8171eafe69a5f94ae46d41a56df0a0bf69bc0bcebe0fbf 1103 tmperamental_1.4.dsc 58cd806c2ac6613bad307823ba01979e7c8b81e6a693b1daad5b52d4fc8f4ed2 5740 tmperamental_1.4.tar.xz"
+    "158823b11a4cb6866d0fdf1c32f567fe9b65ed9de2e2b4f498d4039a4f06c904 1387 tmperamental_1.6.dsc 7193a0e96e1fdbf46b668588f8df7d0e1484d60c1c588e78004414dfbaa1156a 5892 tmperamental_1.6.tar.xz"
   ],
   "Directory": [
     "pool/main/t/tmperamental"
   ],
   "Files": [
-    "eaf21cf534f8bad474f30bfedbfcf99c 1103 tmperamental_1.4.dsc 395555a3e9d9414e6e5bd102a7d5fc55 5740 tmperamental_1.4.tar.xz"
+    "39b7d2354ad18bc13837b4b0fff623f2 1387 tmperamental_1.6.dsc 87e88d1b12ab01a53c7b0fd95d611424 5892 tmperamental_1.6.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/debian/tmperamental.git"
   ],
   "Version": [
-    "1.4"
+    "1.6"
   ]
 }

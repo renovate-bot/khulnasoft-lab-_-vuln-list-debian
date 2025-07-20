@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), dh-sequence-kf6, dh-sequence-pkgkde-symbolshelper, cmake (\u003e= 3.16~), extra-cmake-modules (\u003e= 6.10.0~), gettext, libcap-dev, libcap2-bin, libddcutil-dev, libkf6auth-dev (\u003e= 6.10.0~), libkf6config-dev (\u003e= 6.10.0~), libkf6crash-dev (\u003e= 6.10.0~), libkf6dbusaddons-dev (\u003e= 6.10.0~), libkf6doctools-dev (\u003e= 6.10.0~), libkf6globalaccel-dev (\u003e= 6.10.0~), libkf6i18n-dev (\u003e= 6.10.0~), libkf6idletime-dev (\u003e= 6.10.0~), libkf6itemmodels-dev (\u003e= 6.10.0~), libkf6kcmutils-dev (\u003e= 6.10.0~), libkf6kio-dev (\u003e= 6.10.0~), libkf6notifications-dev (\u003e= 6.10.0~), libkf6runner-dev (\u003e= 6.10.0~), libkf6solid-dev (\u003e= 6.10.0~), libkf6windowsystem-dev (\u003e= 6.10.0~), libkf6xmlgui-dev (\u003e= 6.10.0~), libkirigami-dev (\u003e= 6.10.0~), libkscreen-dev (\u003e= 4:6.3.4~), liblayershellqtinterface-dev (\u003e= 6.3.4~), libplasma-dev (\u003e= 6.3.4~), libplasmaactivities-dev (\u003e= 6.3.4~), libudev-dev, libwayland-dev, libx11-dev, libx11-xcb-dev, libxcb-dpms0-dev, libxcb-randr0-dev, libxcb1-dev, libxrandr-dev, pkgconf, plasma-wayland-protocols (\u003e= 1.16~), plasma-workspace-dev (\u003e= 4:6.3.4~), qcoro-qt6-dev, qt6-base-dev (\u003e= 6.7.0~)"
   ],
   "Checksums-Sha256": [
-    "08234930f3e875c9ce31b6a91d3d7893279a3b525543a68733e04168c7d9d2e6 3646 powerdevil_6.3.4-1.dsc bb8fb337fd214793396707730b22b8f822135296a6b2ac0c28d774096ab22b5e 1202208 powerdevil_6.3.4.orig.tar.xz 97a3a75d4815a65a62650d3680f8cb7d77a0925a3b008a9f8471fba3981b6e29 833 powerdevil_6.3.4.orig.tar.xz.asc 19f46c3113653a5ce4df16d103fd29bc79bccffe8643f47377f03f200ccb958c 22552 powerdevil_6.3.4-1.debian.tar.xz"
+    "e47ef166f49fa925314b4845c15eabd4b7de142a3bd1cb888591615b9739a718 3577 powerdevil_6.3.6-1.dsc c8d8fe8c4dc0991e813fae3ed66c1c942f963d88e859395825a947257331aaf2 1199492 powerdevil_6.3.6.orig.tar.xz 7555da1e3b3a8e3bce1cc40b9566aa5af8e50f4024aef1657239e375e5dd7460 488 powerdevil_6.3.6.orig.tar.xz.asc fa96d2b170fea4ea637a75721dd52e6463ee1828e8234183c7d15efc42ff6724 26124 powerdevil_6.3.6-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/p/powerdevil"
   ],
   "Files": [
-    "9e85a0fb4f67f4b9656e37ed04dbd102 3646 powerdevil_6.3.4-1.dsc fd7418bb1d2ba7112928c22322b89404 1202208 powerdevil_6.3.4.orig.tar.xz f27b6efce17967d674d7e7810ff50d8d 833 powerdevil_6.3.4.orig.tar.xz.asc b9cb1df355f2d7a5eb86d1ef832ad251 22552 powerdevil_6.3.4-1.debian.tar.xz"
+    "6d900256e652c29dfddb0635385da920 3577 powerdevil_6.3.6-1.dsc 0247189a4d0db594eaa581dfc7629b83 1199492 powerdevil_6.3.6.orig.tar.xz 77ec90ac954508a04179dd33b74151d7 488 powerdevil_6.3.6.orig.tar.xz.asc 4fab13db4869b8dfee68ffaebb645f42 26124 powerdevil_6.3.6-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/powerdevil.git"
   ],
   "Version": [
-    "4:6.3.4-1"
+    "4:6.3.6-1"
   ]
 }

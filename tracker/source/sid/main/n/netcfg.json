@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), libdebconfclient0-dev, libdebian-installer4-dev, po-debconf, libiw-dev [!s390 !s390x !sparc !kfreebsd-any !hurd-any], check, libsubunit-dev"
   ],
   "Checksums-Sha256": [
-    "d95cecc4c3da3ff95e0d14b49c8a4acd1e3c289779dd6f45a931af9b4ae92c9f 1808 netcfg_1.195.dsc 1b5e285683d1cf36e6b56860c6c6aec34cb433fe91f3fc5081a06ed634e692b3 407356 netcfg_1.195.tar.xz"
+    "a9af522818aed0aba9d68aa51865eb25b45c127a9357f7eedac3f64b046e1f45 1804 netcfg_1.197.dsc 5c5a32cdb3bd48dbd119441a01f0f0e74633069cfe3afea056b56c703bc03825 407328 netcfg_1.197.tar.xz"
   ],
   "Directory": [
     "pool/main/n/netcfg"
   ],
   "Files": [
-    "472c1d0fe4ee83ab63d855834f428cca 1808 netcfg_1.195.dsc 4dbefba0a3cc951d5758490555e4353f 407356 netcfg_1.195.tar.xz"
+    "717d5f2950204ff51494bf5895339701 1804 netcfg_1.197.dsc d816fd6eda70a59339115207c6359704 407328 netcfg_1.197.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -45,6 +45,6 @@
     "https://salsa.debian.org/installer-team/netcfg.git"
   ],
   "Version": [
-    "1.195"
+    "1.197"
   ]
 }

@@ -9,13 +9,13 @@
     "debhelper (\u003e= 9), po-debconf (\u003e= 0.5.0), libdebian-installer4-dev, pkg-config, libdebconfclient0-dev (\u003e= 0.206), libnewt-dev, libtextwrap-dev, libgtk2.0-dev (\u003e= 2.18.7-2) \u003c!pkg.cdebconf-entropy.nogtk\u003e, dh-autoreconf"
   ],
   "Checksums-Sha256": [
-    "95a16ec32d436c6201392121277be8f39de3a30f58eaeda4773568186413b509 2144 cdebconf-entropy_0.57.dsc 42932379845cead6cf0bbb92f19ca0e170fe20c3ef56718a5d1d8273407fbf1c 48236 cdebconf-entropy_0.57.tar.xz"
+    "3ac5cc7fd848faae52cc86e16defa28c12ca48122baf38cf48c31102fdee926b 2140 cdebconf-entropy_0.59.dsc 3153e5a88d6a66883720f0fefbf4b21dc82380691417f7ec670dff8874644f32 48452 cdebconf-entropy_0.59.tar.xz"
   ],
   "Directory": [
     "pool/main/c/cdebconf-entropy"
   ],
   "Files": [
-    "6c0d7dcdc46f9d42960dcd4742ce1e7f 2144 cdebconf-entropy_0.57.dsc 0c96b6e9633402d32bf4582b12268bef 48236 cdebconf-entropy_0.57.tar.xz"
+    "0015e8ce6446c6c1cf011cc2d12f54c8 2140 cdebconf-entropy_0.59.dsc a2cac93525935a932f8c1988f75afb0c 48452 cdebconf-entropy_0.59.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -45,6 +45,6 @@
     "https://salsa.debian.org/installer-team/cdebconf-entropy.git"
   ],
   "Version": [
-    "0.57"
+    "0.59"
   ]
 }

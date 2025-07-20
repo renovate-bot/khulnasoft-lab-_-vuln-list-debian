@@ -12,19 +12,19 @@
     "libdpkg-dev, pkgconf"
   ],
   "Checksums-Sha256": [
-    "0b86c4aac953a1fad0012ef135863fddfc4f3e4816b57dc8d76913c81020e57d 1922 cruft-ng_0.9.68.dsc 8ac609175a8e841fa88a3068e9270b98723bf40095b7166605c9e98655c0ae7b 128420 cruft-ng_0.9.68.tar.xz"
+    "9ed88c39e16d9950861891c1b710ee127fb2af8ce502c0a28b92b133ce031aeb 1935 cruft-ng_0.9.71.dsc 816286c72e4edfd1f204f42855e4453e16b28baababb6f82c8c52b21f1d0c95f 129216 cruft-ng_0.9.71.tar.xz"
   ],
   "Directory": [
     "pool/main/c/cruft-ng"
   ],
   "Files": [
-    "ff7215f764c7e2d37d8012493738740c 1922 cruft-ng_0.9.68.dsc a0959a5c9775aa1159c26700c3cd5260 128420 cruft-ng_0.9.68.tar.xz"
+    "df1541718e4baba88a0aac722f2674be 1935 cruft-ng_0.9.71.dsc 9bd9d6aae667a207bec695b2c8b48a87 129216 cruft-ng_0.9.71.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
   ],
   "Homepage": [
-    "https://github.com/a-detiste/cruft-ng/"
+    "https://salsa.debian.org/pkg-security-team/cruft-ng"
   ],
   "Maintainer": [
     "Debian Security Tools \u003cteam+pkg-security@tracker.debian.org\u003e"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/pkg-security-team/cruft-ng.git"
   ],
   "Version": [
-    "0.9.68"
+    "0.9.71"
   ]
 }

@@ -9,19 +9,19 @@
     "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3, python3-docutils, python3-jinja2, python3-packaging, python3-passlib, python3-setuptools, python3-straight.plugin, python3-yaml"
   ],
   "Checksums-Sha256": [
-    "cf657c9d43d3bd02facbad72f1264582edb5f8ece2201c6b9d79c77aac7cb579 3374 ansible_12.0.0~a1+dfsg-1.dsc 90c3b2eef3207a481a4275e686d2c38cafe8ba2a040bb2282b3d59ffcabe1bc0 25798884 ansible_12.0.0~a1+dfsg.orig.tar.xz 6bd073b753046011df28336089d69848e74846972116b7bb9aa3f9bc821889bb 32968 ansible_12.0.0~a1+dfsg-1.debian.tar.xz"
+    "5f06dcdf1df02679f6ed513846ea656a6cb57f98b70fa6c59662f729e0719f8e 3407 ansible_12.0.0~a6+dfsg-1.dsc 8df513edfba46e0082cd028cb79baba120b1dd01737ca0e992f8dd0311fd80bf 25936184 ansible_12.0.0~a6+dfsg.orig.tar.xz 8d65ef8ca458527f3d780397dc4b378c0e463b58ed846dbcd67de92ee9899a57 32392 ansible_12.0.0~a6+dfsg-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/a/ansible"
   ],
   "Files": [
-    "e90a4b18be5ac9b4c3b3f9fd9e608031 3374 ansible_12.0.0~a1+dfsg-1.dsc 3a01c3f01b7e9f5a04547c7c11371cd5 25798884 ansible_12.0.0~a1+dfsg.orig.tar.xz 87bb155471abad738a3a72e75b63608d 32968 ansible_12.0.0~a1+dfsg-1.debian.tar.xz"
+    "8049481ab270fae86b18427398132680 3407 ansible_12.0.0~a6+dfsg-1.dsc 70cf0f1a3a3fd822805d447dd8f52c56 25936184 ansible_12.0.0~a6+dfsg.orig.tar.xz faa1ee7c03f5e3c7b921906f780cb75f 32392 ansible_12.0.0~a6+dfsg-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://www.ansible.com"
+    "https://github.com/ansible-community/ansible-build-data/"
   ],
   "Maintainer": [
     "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/ansible.git"
   ],
   "Version": [
-    "12.0.0~a1+dfsg-1"
+    "12.0.0~a6+dfsg-1"
   ]
 }

@@ -9,13 +9,13 @@
     "debhelper-compat (= 13)"
   ],
   "Checksums-Sha256": [
-    "377ecf2e02b15c84c1b36890e23034787899a9f8d567779aed34a68eba03fd13 1672 iso-scan_1.96.dsc 56c812fee8cbcc8a5c122d93d1dc1e708a379068f361a0f78ab4ba6eb3a50dd4 122660 iso-scan_1.96.tar.xz"
+    "713bc39fb8b6ff0b957ea64e6e016be46994cda08f072e9f16adefc01b58335c 1668 iso-scan_1.98.dsc 79de68f1f6012b23a052397ed4c0f6a3775ef040e0bd9f16fdcc8b9c66002017 123056 iso-scan_1.98.tar.xz"
   ],
   "Directory": [
     "pool/main/i/iso-scan"
   ],
   "Files": [
-    "5fe5821a4b03da5a1e1e879be06d3a29 1672 iso-scan_1.96.dsc c8d0a9653b29b5e08514309fcfb4e9b0 122660 iso-scan_1.96.tar.xz"
+    "a36cd5dbf5c280a124a0506e1051fa06 1668 iso-scan_1.98.dsc 7a2e0e44db47f93f72f03e53867f76e3 123056 iso-scan_1.98.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -45,6 +45,6 @@
     "https://salsa.debian.org/installer-team/iso-scan.git"
   ],
   "Version": [
-    "1.96"
+    "1.98"
   ]
 }

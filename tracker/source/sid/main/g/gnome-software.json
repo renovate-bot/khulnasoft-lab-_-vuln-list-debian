@@ -12,13 +12,16 @@
     "libgdk-pixbuf2.0-doc \u003c!nodoc\u003e, libglib2.0-doc \u003c!nodoc\u003e, libgtk-3-doc \u003c!nodoc\u003e, libjson-glib-doc \u003c!nodoc\u003e, libsoup-3.0-doc \u003c!nodoc\u003e"
   ],
   "Checksums-Sha256": [
-    "b1e855124bd8e112a08e2e148ab9677514f4b3a35555721b4041ee6720bc1a08 3980 gnome-software_48.1-1.dsc 084a985040294c36454b464a2144f981c0274906b4c49d71613e61ced6a96e8f 3368928 gnome-software_48.1.orig.tar.xz e04ba8b2f9a6eac5c85f45826ab663f626985086669870de8a8de97ce808c818 13848 gnome-software_48.1-1.debian.tar.xz"
+    "70c39972f1ac1ab43e96191d73304bc1c0c7bb272b6f71dd5f285e357ee950d0 4057 gnome-software_48.3-2.dsc 126971e8bc000ddc200178c8fac8f7114eed42de4a4e2012ba06b3ffe707e23a 3398204 gnome-software_48.3.orig.tar.xz 85fcb5b1030e41feae9db64307ed7eb7a33d5a05c81a4fa15161836a6e5f9db3 43136 gnome-software_48.3-2.debian.tar.xz"
+  ],
+  "Dgit": [
+    "c692a473c75325bb9050db1f004ba7214660bc0c debian archive/debian/48.3-2 https://git.dgit.debian.org/gnome-software"
   ],
   "Directory": [
     "pool/main/g/gnome-software"
   ],
   "Files": [
-    "e78f763af7fe2ccc53522b9e3b22b597 3980 gnome-software_48.1-1.dsc e26ef287b9638db82c4f851ccca0bd42 3368928 gnome-software_48.1.orig.tar.xz 98bf0acdaecb8b712afb84daaf4538d8 13848 gnome-software_48.1-1.debian.tar.xz"
+    "ffeee898361c2e5e2d38ec9890074f9f 4057 gnome-software_48.3-2.dsc fcbeea0412bfeef48ec926eb95819633 3398204 gnome-software_48.3.orig.tar.xz c3c4523258b2eb6e97bc4f812eb4053e 43136 gnome-software_48.3-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,7 +48,7 @@
     "4.7.0"
   ],
   "Uploaders": [
-    "Amin Bandali \u003cbandali@ubuntu.com\u003e, Gunnar Hjalmarsson \u003cgunnarhj@debian.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Matthias Klumpp \u003cmak@debian.org\u003e"
+    "Amin Bandali \u003cbandali@ubuntu.com\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Matthias Klumpp \u003cmak@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/gnome-software"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/gnome-team/gnome-software.git"
   ],
   "Version": [
-    "48.1-1"
+    "48.3-2"
   ]
 }

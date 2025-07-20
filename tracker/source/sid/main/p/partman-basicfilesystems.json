@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), dh-di, po-debconf"
   ],
   "Checksums-Sha256": [
-    "5038fe5f7c1739850e4ac5d56f7afc9f0825db40ad8d428cbbee9152580c0c45 1790 partman-basicfilesystems_172.dsc 35d89418dc838dd060e3fab6cf24b8cc33f3e3edc0ea6a5bd6a3a435affd81da 198156 partman-basicfilesystems_172.tar.xz"
+    "12f580f718a94dd4e975bf9483e651ee212cf8baa6ecdc732d9d8e3816baf651 1786 partman-basicfilesystems_174.dsc 4c569f5ce4cf40436f10002dafa73e1bad21046aeb08f9bc22bc0329a2e228cf 198216 partman-basicfilesystems_174.tar.xz"
   ],
   "Directory": [
     "pool/main/p/partman-basicfilesystems"
   ],
   "Files": [
-    "ac7adb581b2d7c6fce5b803fb9812549 1790 partman-basicfilesystems_172.dsc c235746119b7bafc16e51fc1cd07bf5a 198156 partman-basicfilesystems_172.tar.xz"
+    "33e98eb11db39a7f555d53e3cb472e9a 1786 partman-basicfilesystems_174.dsc 1cf0a476c1d05f584213143519d8afd0 198216 partman-basicfilesystems_174.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -45,6 +45,6 @@
     "https://salsa.debian.org/installer-team/partman-basicfilesystems.git"
   ],
   "Version": [
-    "172"
+    "174"
   ]
 }

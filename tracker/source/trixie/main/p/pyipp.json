@@ -12,13 +12,13 @@
     "python3-aiohttp \u003c!nocheck\u003e, python3-aresponses \u003c!nocheck\u003e, python3-async-timeout \u003c!nocheck\u003e, python3-backoff \u003c!nocheck\u003e, python3-covdefaults \u003c!nocheck\u003e, python3-deepmerge \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-asyncio \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-syrupy \u003c!nocheck\u003e, python3-yarl \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "4d76a7e2f4f7f5c28b9ad678bbbf3c92a7b276608a52afc4717afe714cf0e35a 2470 pyipp_0.17.0-1.dsc 3afdc02da376eef9e87eceb958dde8b209136e74587cdc2ba07b9e97871492a6 100804 pyipp_0.17.0.orig.tar.gz aa7582ba296946fdb6f0e757d9fa7bc0a011846faeaecdd7ae8aaeab6248e180 2532 pyipp_0.17.0-1.debian.tar.xz"
+    "b4733f19625f08c919f57fe6c9fcbd30f15fc0c00f7634920f4e37243d2a74cc 2390 pyipp_0.17.2-1.dsc 282f7c739d98021094b4c5a7024ed3428579ea7deeba1b54110c4b17dd70d3ad 115294 pyipp_0.17.2.orig.tar.gz 8a7b33017d29bec84f64183a8f88f79c918ce37e319cf6785d7c13ab9a65d37e 2408 pyipp_0.17.2-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/p/pyipp"
   ],
   "Files": [
-    "3363cdaaf48fb24f5e824437ccd6f787 2470 pyipp_0.17.0-1.dsc 849c6c14a4cb98a8a51bb27abd7d53c9 100804 pyipp_0.17.0.orig.tar.gz c35c1d489d44727d73fc4f97124ac377 2532 pyipp_0.17.0-1.debian.tar.xz"
+    "6770c410ad7ff74f56412f79faad7972 2390 pyipp_0.17.2-1.dsc 80752f3996846d75ffd085d193d0cd6a 115294 pyipp_0.17.2.orig.tar.gz 23aba09965953b7b0811d95a0c78d578 2408 pyipp_0.17.2-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,13 +42,10 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "python3-all, python3-aresponses, python3-pytest, python3-pytest-asyncio"
+    "autopkgtest-pkg-pybuild"
   ],
   "Uploaders": [
     "Edward Betts \u003cedward@4angle.com\u003e,"
@@ -60,6 +57,6 @@
     "https://salsa.debian.org/homeassistant-team/deps/pyipp.git"
   ],
   "Version": [
-    "0.17.0-1"
+    "0.17.2-1"
   ]
 }

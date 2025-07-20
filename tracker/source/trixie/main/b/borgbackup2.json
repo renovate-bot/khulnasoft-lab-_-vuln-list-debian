@@ -6,16 +6,16 @@
     "borgbackup2, borgbackup-is-borgbackup2, borgbackup2-doc"
   ],
   "Build-Depends": [
-    "cython3, debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc, fakeroot, libacl1-dev, libb2-dev, libjs-bootstrap, liblz4-dev, libxxhash-dev, libssl-dev, libzstd-dev, python3-dev, python3-argon2, python3-borghash (\u003e= 0.1.0-1), python3-borgstore, python3-packaging, python3-guzzle-sphinx-theme, python3-dateutil \u003c!nocheck\u003e, python3-llfuse [!hurd-any], python3-msgpack (\u003e= 1.0.3), python3-pkgconfig, python3-platformdirs (\u003e= 2.6), python3-pyfuse3 [!hurd-any], python3-pytest \u003c!nocheck\u003e, python3-pytest-benchmark \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-setuptools, python3-setuptools-scm, python3-sphinx"
+    "cython3, debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc, fakeroot, libacl1-dev, libb2-dev, libjs-bootstrap, liblz4-dev, libxxhash-dev, libssl-dev, libzstd-dev, python3-dev, python3-argon2, python3-borghash (\u003e= 0.1.0-1~), python3-borgstore (\u003e= 0.3.0-1~), python3-packaging, python3-guzzle-sphinx-theme, python3-sphinxcontrib.jquery, python3-dateutil \u003c!nocheck\u003e, python3-llfuse [!hurd-any], python3-msgpack (\u003e= 1.0.3), python3-pkgconfig, python3-platformdirs (\u003e= 2.6), python3-pyfuse3 [!hurd-any], python3-pytest \u003c!nocheck\u003e, python3-pytest-benchmark \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-setuptools, python3-setuptools-scm, python3-sphinx"
   ],
   "Checksums-Sha256": [
-    "a30adc4d8530a51e3fa721c749433a1c2351d33ef5125bc5f1dd936ca8be4331 3027 borgbackup2_2.0.0b14-3.dsc c19417ceb6aa1994239dc551ab2f11cf63b74f6d09c368c04e694c83e1e313a4 2682414 borgbackup2_2.0.0b14.orig.tar.gz 969dec3026616c160c36ec6f210f8aafa8dba97dc6dd91b3bf1fd57e14e14f81 862 borgbackup2_2.0.0b14.orig.tar.gz.asc 939f9a61d69a8810d9c8ec621fc4c98931bbc76861d89b85b840e3a7bf9dfd7f 26088 borgbackup2_2.0.0b14-3.debian.tar.xz"
+    "fdd9b12ee063c0e72fe87d83eb02dff3d6953aff06aac78019abfc120177e8e3 3072 borgbackup2_2.0.0b18-1.dsc 51abe06a0220956a458e52db48ab6b680508200f694a897d7576d2f1345af15d 2968625 borgbackup2_2.0.0b18.orig.tar.gz a60fb1d3165feb7ee09c44772100f0fab37ddef68ff3d29addb744dc2a1e1ae5 862 borgbackup2_2.0.0b18.orig.tar.gz.asc cf1d6f96fdab68e7486a3c5b8be687c0adc6d9431920ad288615e2f9b36c9fdf 25716 borgbackup2_2.0.0b18-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/b/borgbackup2"
   ],
   "Files": [
-    "6f062a128727bfc064c72a7055f2b788 3027 borgbackup2_2.0.0b14-3.dsc 217370b5a41e190a8edab0706699f567 2682414 borgbackup2_2.0.0b14.orig.tar.gz dc7d7caf31c2fe80460e5be762fa1845 862 borgbackup2_2.0.0b14.orig.tar.gz.asc 6d9cb021774f4d53f7b2511fd41c8816 26088 borgbackup2_2.0.0b14-3.debian.tar.xz"
+    "2967651b92a3561043089d4c5c060685 3072 borgbackup2_2.0.0b18-1.dsc 272213349d6e65411719ca073c71c7ed 2968625 borgbackup2_2.0.0b18.orig.tar.gz c71f1b79f9fc4d9b40ff910f35170577 862 borgbackup2_2.0.0b18.orig.tar.gz.asc 897bdeb49e2d723040ed285dd9395bf8 25716 borgbackup2_2.0.0b18-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/debian/borgbackup2.git"
   ],
   "Version": [
-    "2.0.0b14-3"
+    "2.0.0b18-1"
   ]
 }

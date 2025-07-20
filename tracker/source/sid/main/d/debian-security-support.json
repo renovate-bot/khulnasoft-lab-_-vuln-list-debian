@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), asciidoc, gettext, gawk, libfile-slurp-perl, libtemplate-perl, libtest-command-perl, libtest-differences-perl, mawk, original-awk, po-debconf, xmlto"
   ],
   "Checksums-Sha256": [
-    "7fa66c175e9a002aa8bf0e86d9c43d043351c4a5a8a3076d964696a1fe593aca 1908 debian-security-support_13+2025.05.07.dsc a3bcca7dfb8c4681c5afdd5bcfcdfea6766b30bf3bc25e2eb7f9b038d4849da1 36648 debian-security-support_13+2025.05.07.tar.xz"
+    "b002ddb0f840cadf4b627041c6008898738720ccbf09c0876d1193e63a8bc7be 1975 debian-security-support_13+2025.07.16.dsc c0dcfcfc6f209346197eea668bc46f3b1cd0a84efcfcc0b0c6586c11107467df 37644 debian-security-support_13+2025.07.16.tar.xz"
   ],
   "Directory": [
     "pool/main/d/debian-security-support"
   ],
   "Files": [
-    "06b170c9cd0bfc7fec2b74b617daa300 1908 debian-security-support_13+2025.05.07.dsc bc64c310f4993361b0ff8be591b51498 36648 debian-security-support_13+2025.05.07.tar.xz"
+    "8e476edb290b3d321e0f06f0ecf86df4 1975 debian-security-support_13+2025.07.16.dsc e4b090709d77b14c163f84a2326b68b4 37644 debian-security-support_13+2025.07.16.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -38,6 +38,12 @@
   "Standards-Version": [
     "4.7.2"
   ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "librust-strfmt-dev, sqv"
+  ],
   "Uploaders": [
     "Holger Levsen \u003cholger@debian.org\u003e, Utkarsh Gupta \u003cutkarsh@debian.org\u003e,"
   ],
@@ -48,6 +54,6 @@
     "https://salsa.debian.org/debian/debian-security-support.git"
   ],
   "Version": [
-    "1:13+2025.05.07"
+    "1:13+2025.07.16"
   ]
 }

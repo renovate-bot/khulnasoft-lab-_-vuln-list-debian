@@ -12,13 +12,13 @@
     "python3-msmb-theme, python3-pybtex, python3-sphinx-rtd-theme, python3-sphinx-sitemap, python3-sphinxcontrib.bibtex, libjs-mathjax"
   ],
   "Checksums-Sha256": [
-    "f24d97c49a689456817249da33ccacc332434a2223669554b8c6ecb78e4eadeb 2970 mdanalysis_2.9.0-7.dsc 216c62feeaa75b810c5f6d539243d90ddea866ac06dbf73e38f8a864bfb4fb7d 61025537 mdanalysis_2.9.0.orig.tar.gz 9ebe8ab2a1e2a9068de88548f7f47dde04e2775303a379e1c9999b481fdd44e8 13192 mdanalysis_2.9.0-7.debian.tar.xz"
+    "89347e2d211cadec312bbcdfccfc12f7f5863f3b68c326868c9905a8161122e6 2945 mdanalysis_2.9.0-12.dsc 216c62feeaa75b810c5f6d539243d90ddea866ac06dbf73e38f8a864bfb4fb7d 61025537 mdanalysis_2.9.0.orig.tar.gz 009904701eef5802492559d4293454a4c32f7b170c91243454409f6aaeffd701 13888 mdanalysis_2.9.0-12.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/m/mdanalysis"
   ],
   "Files": [
-    "de4a45db356420b913cc9792e6a20573 2970 mdanalysis_2.9.0-7.dsc 6bccd5d4b45aa8d56ea120c0674179fc 61025537 mdanalysis_2.9.0.orig.tar.gz ffeb0297100457ab95495d13e0870707 13192 mdanalysis_2.9.0-7.debian.tar.xz"
+    "8e60c29316edfbe8fafc0dca6675c0ac 2945 mdanalysis_2.9.0-12.dsc 6bccd5d4b45aa8d56ea120c0674179fc 61025537 mdanalysis_2.9.0.orig.tar.gz 028468422ba3555926d89cbcd7e5bcfc 13888 mdanalysis_2.9.0-12.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/debichem-team/mdanalysis.git"
   ],
   "Version": [
-    "2.9.0-7"
+    "2.9.0-12"
   ]
 }

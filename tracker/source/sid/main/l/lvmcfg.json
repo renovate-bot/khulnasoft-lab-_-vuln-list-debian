@@ -12,13 +12,13 @@
     "po-debconf"
   ],
   "Checksums-Sha256": [
-    "0406bf5d7fa98579337cacc6e33462fd72cf2a6290467727182cb717b05198d3 1696 lvmcfg_1.69.dsc 6b7cc08de5a1e8101471f9b3dda4f86cd2f2d877b4f2a6903196e341f5515278 163208 lvmcfg_1.69.tar.xz"
+    "761169eb07fab753dc350f709d0033f0aad77294c5d94fdb9554729e0b3044ba 1692 lvmcfg_1.71.dsc 24bbf0692127ac8d198a0440499c7c3cb010220fc49fccea08bea72a344c54fa 163424 lvmcfg_1.71.tar.xz"
   ],
   "Directory": [
     "pool/main/l/lvmcfg"
   ],
   "Files": [
-    "575e0143f3be43f9cd5bee3e33bd55fd 1696 lvmcfg_1.69.dsc c80e13390a2d629eaf1575539a48fe4a 163208 lvmcfg_1.69.tar.xz"
+    "7ca08228c96798951d45f016c1787f3a 1692 lvmcfg_1.71.dsc c4a8b2c37f6bc7b7d7d77801c2a4cf46 163424 lvmcfg_1.71.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/installer-team/lvmcfg.git"
   ],
   "Version": [
-    "1.69"
+    "1.71"
   ]
 }

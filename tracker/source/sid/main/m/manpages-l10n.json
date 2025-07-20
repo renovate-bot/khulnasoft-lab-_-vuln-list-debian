@@ -12,13 +12,13 @@
     "po4a (\u003e\u003e 0.71)"
   ],
   "Checksums-Sha256": [
-    "7a2326fae30402f8bd4f8fb78f0878f0fdabe8e77fb2907dec23599f78aa1240 3898 manpages-l10n_4.26.1-1.dsc 6df3851e36280831695b94f362a5cafa77ab5813861d14538dd8a84dcf4db2c2 132385485 manpages-l10n_4.26.1.orig.tar.bz2 142a286c123cf19862e0cfa55bedc75744c7e54d756d16a856c43b2206cc9c1e 82292 manpages-l10n_4.26.1-1.debian.tar.xz"
+    "9a27e16a67e76879c1c81a0e6971df0b20e8d58e48c396ce066a074b8d0b5fc6 3898 manpages-l10n_4.27.0-1.dsc acedc837feb5651ecd4dd33078585ec7bb9473c965f598a4b87059341e18addf 136828896 manpages-l10n_4.27.0.orig.tar.bz2 31909188e20f60a84e78cf344db3dad32f72aad059ad46955d6ce8664d707b09 85084 manpages-l10n_4.27.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/m/manpages-l10n"
   ],
   "Files": [
-    "2584763942ab399f6e0c7008631e90c3 3898 manpages-l10n_4.26.1-1.dsc 57d3fcba044855c408300adbbf2dcbb1 132385485 manpages-l10n_4.26.1.orig.tar.bz2 f7e21374664e122e3232a5ab14a7fe13 82292 manpages-l10n_4.26.1-1.debian.tar.xz"
+    "355998c892703c8bf05dd80ec54d8e80 3898 manpages-l10n_4.27.0-1.dsc 6b1bc11d3d7f8d344f2e6f9b16283d39 136828896 manpages-l10n_4.27.0.orig.tar.bz2 d8fa0d89c2605848226e648ced74514f 85084 manpages-l10n_4.27.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/manpages-l10n.git"
   ],
   "Version": [
-    "4.26.1-1"
+    "4.27.0-1"
   ]
 }

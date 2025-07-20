@@ -9,13 +9,13 @@
     "debhelper (\u003e= 9)"
   ],
   "Checksums-Sha256": [
-    "9cfd5d9c620079ba45ea6fe593830656c9d6ec25d670e1ad2a5fe169dc7df026 1667 zipl-installer_0.0.47.dsc e3ff7915536e6e0f989b3ea931a9ed22000a71d9a583c846de14b204b2279fff 24284 zipl-installer_0.0.47.tar.xz"
+    "e9830bc67dc6f91fe0124c89753c6b85e506d8dc705f69ae7a94d0ff7319787e 1663 zipl-installer_0.0.49.dsc dd1066ab6482e6f36eef917f2d5706bebd858c60fbca02b1e982e0ab08a8840f 24616 zipl-installer_0.0.49.tar.xz"
   ],
   "Directory": [
     "pool/main/z/zipl-installer"
   ],
   "Files": [
-    "926a70b6b0ca03680ce1ad0a2536bd2b 1667 zipl-installer_0.0.47.dsc 11a465e2bb4f7e136158588fe1654786 24284 zipl-installer_0.0.47.tar.xz"
+    "2a09d8d963827ca557ee6709e4e937e8 1663 zipl-installer_0.0.49.dsc 0cc0d7ac88488848a50cea3a8846f8f2 24616 zipl-installer_0.0.49.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -45,6 +45,6 @@
     "https://salsa.debian.org/installer-team/zipl-installer.git"
   ],
   "Version": [
-    "0.0.47"
+    "0.0.49"
   ]
 }

@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), dh-di, po-debconf"
   ],
   "Checksums-Sha256": [
-    "ce33c493a7a95c49c6f4c4b1e6e8099d6cc650d0219f520e5c28d2e061c97121 1751 partman-basicmethods_78.dsc 12ef1a8ceff9db842a32e244f527463c24e542c3afac34e03974751e06b6611b 44828 partman-basicmethods_78.tar.xz"
+    "28420e6178dfde7ace10744163d5321d5d83d05c64d485cc53627b19550f993e 1747 partman-basicmethods_80.dsc 626d92f7297b48fbf31bc794676812ef1c8ef1c05e84ada796ce79800f330147 44976 partman-basicmethods_80.tar.xz"
   ],
   "Directory": [
     "pool/main/p/partman-basicmethods"
   ],
   "Files": [
-    "a2edd55ea204dba67f3f838b27876f98 1751 partman-basicmethods_78.dsc 0f390dab1e5b40174da70d708666044d 44828 partman-basicmethods_78.tar.xz"
+    "63eabea5c96e96cf377fcbf695cb2e8c 1747 partman-basicmethods_80.dsc e9de6de2b507e552da23172ee76ac97e 44976 partman-basicmethods_80.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -45,6 +45,6 @@
     "https://salsa.debian.org/installer-team/partman-basicmethods.git"
   ],
   "Version": [
-    "78"
+    "80"
   ]
 }

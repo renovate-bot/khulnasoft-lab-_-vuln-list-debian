@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), libdebconfclient0-dev, libdebian-installer4-dev"
   ],
   "Checksums-Sha256": [
-    "b936a7b38d8424dd6af04622948b503cf2022308516da20390a0cbc68a9c5875 1893 base-installer_1.223.dsc 981db2d4eea06ecccb31af137653773ee5435096598a51e661375c897bbc5178 265836 base-installer_1.223.tar.xz"
+    "838280f04f0b24399b14621f26b80e4ef49a284c0aebe99a599eb070a304aa2f 1893 base-installer_1.225.dsc 5410cc806f136fc6a8a7dfbe9d3df55965f25666dba54b70b42e1ccde66fcee5 266036 base-installer_1.225.tar.xz"
   ],
   "Directory": [
     "pool/main/b/base-installer"
   ],
   "Files": [
-    "ada7435862edaebc00174ffcc68f74c4 1893 base-installer_1.223.dsc 515e79f0f43969dc5d10c275ef1c4d43 265836 base-installer_1.223.tar.xz"
+    "0beb10a1e6beaa925de3ff0af4b02170 1893 base-installer_1.225.dsc 99e0ee077d9c5bcaa4646b361f61fb99 266036 base-installer_1.225.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -45,6 +45,6 @@
     "https://salsa.debian.org/installer-team/base-installer.git"
   ],
   "Version": [
-    "1.223"
+    "1.225"
   ]
 }

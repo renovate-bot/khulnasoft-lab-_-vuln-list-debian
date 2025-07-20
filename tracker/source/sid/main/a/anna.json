@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), libdebconfclient0-dev, libdebian-installer4-dev"
   ],
   "Checksums-Sha256": [
-    "b4feecb294317300f953e076e63cae08ccee94d272d7a01b8bfab1cff487d2a5 1621 anna_1.97.dsc 1df1b48890abcbf171730e417e8bf02dda557e93322d81e42d0d3465b519430f 98172 anna_1.97.tar.xz"
+    "d43de8052a8ece7d5bdc45e33c704f6b407a1027c8341e539b4f108252de1d85 1617 anna_1.99.dsc 4ef229ecaf9560da7f28d6df7feccd69b0f998f36cce15e490b8acc0a11a80b4 98308 anna_1.99.tar.xz"
   ],
   "Directory": [
     "pool/main/a/anna"
   ],
   "Files": [
-    "bf28d6a4b3eb3d87cc4b056a4cf234ba 1621 anna_1.97.dsc 87bb40a8c4de966179cabecb324078e8 98172 anna_1.97.tar.xz"
+    "85ba55675adbe01c9c3268063997cd68 1617 anna_1.99.dsc 4637dde4ed416536296e87a0eb74c3ac 98308 anna_1.99.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -45,6 +45,6 @@
     "https://salsa.debian.org/installer-team/anna.git"
   ],
   "Version": [
-    "1.97"
+    "1.99"
   ]
 }

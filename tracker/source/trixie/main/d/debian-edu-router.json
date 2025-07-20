@@ -9,13 +9,13 @@
     "debhelper-compat (= 13)"
   ],
   "Checksums-Sha256": [
-    "505404ceac8c64eb511baebac00a0b4fbeef35eff6f50f3b9aeb6580926d7944 2571 debian-edu-router_2.13.0~beta4.dsc f81f27349b70a442c68cb23463ae1d4236380197ea8b3a3f3344575379bfbb07 1043448 debian-edu-router_2.13.0~beta4.tar.xz"
+    "80fe9b0eacf48c8cd8e065b623de91344b47c33027ab06f1fab657cc8f03645a 2547 debian-edu-router_2.13.3.dsc a0f7dc8d72acf9155436d38e78bd804be469118f7feafa8960c1b5c8009eed62 1148144 debian-edu-router_2.13.3.tar.xz"
   ],
   "Directory": [
     "pool/main/d/debian-edu-router"
   ],
   "Files": [
-    "349cf8e1d59f4c7cc27a584ac8c486bc 2571 debian-edu-router_2.13.0~beta4.dsc 311779657b14fa176734aaff2b209648 1043448 debian-edu-router_2.13.0~beta4.tar.xz"
+    "0829000ce21cbfe9ccb420203aa0719e 2547 debian-edu-router_2.13.3.dsc 8a7388faedc64807e2ae7a045f34c3b4 1148144 debian-edu-router_2.13.3.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/debian-edu/debian-edu-router.git"
   ],
   "Version": [
-    "2.13.0~beta4"
+    "2.13.3"
   ]
 }

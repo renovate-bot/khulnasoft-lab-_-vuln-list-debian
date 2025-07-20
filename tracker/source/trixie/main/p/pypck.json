@@ -12,13 +12,13 @@
     "python3-pytest \u003c!nocheck\u003e, python3-pytest-asyncio \u003c!nocheck\u003e, python3-sphinx \u003c!nodoc\u003e"
   ],
   "Checksums-Sha256": [
-    "c950097b2a14d51a47fbe95d541ca2ba145ea30ece844c162fbd31344ca4b6fc 2224 pypck_0.8.5-1.dsc 517bad5241d06eec4e0f2e239de3db7191c1bf80d117cdb4c0195d375931084e 59938 pypck_0.8.5.orig.tar.gz f730ff1b221fa9a80a60020d346f14f9c33be7ac6ef4e9bfd199d7b921fb8fac 2676 pypck_0.8.5-1.debian.tar.xz"
+    "0a3d8910cbedf6676667c97b056ed7aedb54e5a0f13bf0f86a442d9e779c83a6 2164 pypck_0.8.8-1.dsc 0a5c996fccc970ebfef9449bbb876018f0371e7ca62caed94b95bf95dcbdf2c7 62178 pypck_0.8.8.orig.tar.gz 9466abf2adaae0e0980e764b1b0d0496c5aa51c106f1b96cbb03cdfde4d3c175 2588 pypck_0.8.8-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/p/pypck"
   ],
   "Files": [
-    "c87c5f1e42dec3e129e4fe5471bf6d0a 2224 pypck_0.8.5-1.dsc 38de46d0ab8d6056ebff087e2fa7ed86 59938 pypck_0.8.5.orig.tar.gz 7360ce788422008fd5251c920a0c8439 2676 pypck_0.8.5-1.debian.tar.xz"
+    "f92a5bbb8b915e98ee84eded844855f1 2164 pypck_0.8.8-1.dsc f214ef1727ca0bba66452e4dcd0e9093 62178 pypck_0.8.8.orig.tar.gz 9d006adda68b7e46f473bfe3625debf6 2588 pypck_0.8.8-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,13 +42,10 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "python3-all, python3-pytest, python3-pytest-asyncio"
+    "autopkgtest-pkg-pybuild"
   ],
   "Uploaders": [
     "Edward Betts \u003cedward@4angle.com\u003e,"
@@ -60,6 +57,6 @@
     "https://salsa.debian.org/homeassistant-team/deps/pypck.git"
   ],
   "Version": [
-    "0.8.5-1"
+    "0.8.8-1"
   ]
 }

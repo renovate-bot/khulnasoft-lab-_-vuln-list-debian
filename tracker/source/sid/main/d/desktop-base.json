@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), inkscape, librsvg2-bin, optipng, fonts-quicksand"
   ],
   "Checksums-Sha256": [
-    "584b821d265d6907be7d5671fd5fccf5d43dee340ee3d5ba9c66cb87a5e322f7 1900 desktop-base_13.0.1.dsc 1d10b9ed106358abc3a47938e6459af37606e6252915479b86fe1e8d2716f95b 9128768 desktop-base_13.0.1.tar.xz"
+    "69e1d25ae8b48e5023b5393cf4575ec5fd09f7b0bff2c7dc6bdb9c2a1be496c0 1908 desktop-base_13.0.3.dsc c952f413f52a6a0fedb88b82b446de9aab43b1d81b095b41e4ada3b5845a15ff 7497368 desktop-base_13.0.3.tar.xz"
   ],
   "Directory": [
     "pool/main/d/desktop-base"
   ],
   "Files": [
-    "7e6309597cd914e20f48771873b984db 1900 desktop-base_13.0.1.dsc 3d696400d1df53a2aa60f4de68dce1a7 9128768 desktop-base_13.0.1.tar.xz"
+    "e1e1e4357c5c38762b096f7f4af6f663 1908 desktop-base_13.0.3.dsc 40c41c529d930a84c0198ecbdf7fc7a7 7497368 desktop-base_13.0.3.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/debian-desktop-team/desktop-base.git"
   ],
   "Version": [
-    "13.0.1"
+    "13.0.3"
   ]
 }

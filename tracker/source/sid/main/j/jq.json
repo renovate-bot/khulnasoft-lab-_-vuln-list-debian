@@ -6,16 +6,16 @@
     "jq, libjq1, libjq-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), bison, flex, libonig-dev, libtool, python3-jinja2, python3-yaml, python3-markdown, python3-lxml, python3-jsonschema, valgrind [amd64]"
+    "debhelper-compat (= 13), bison, flex, libonig-dev, libtool, python3-jinja2:native, python3-yaml:native, python3-markdown, python3-lxml:native, python3-jsonschema:native, valgrind [amd64] \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "ca72d9bf09570df9e6794af909bfa74efaba1d74481d2df54508f86c13dd1947 2000 jq_1.7.1-5.dsc fc75b1824aba7a954ef0886371d951c3bf4b6e0a921d1aefc553f309702d6ed1 1323338 jq_1.7.1.orig.tar.gz 674ffec0ebf4fd3f315543f9dc04364de0ce40a3c10850293b1c77b95685a729 14344 jq_1.7.1-5.debian.tar.xz"
+    "9507d2f23b0126bfbee9548cd4efa3f388a051cb684fe9d00dcd1cd391797a1b 2039 jq_1.8.1-3.dsc 51c4ec0913281d917f22a823d1ddcf17c9bc2be845fac987d5fe1d3ae78dd6a2 1409730 jq_1.8.1.orig.tar.gz 6aeef9bc954f8f457c08d46709ac3b826ede4148b3616db2f854f68f4a60cb69 14132 jq_1.8.1-3.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/j/jq"
   ],
   "Files": [
-    "f125de5397934221fce406434be638c4 2000 jq_1.7.1-5.dsc 6298967cd176a8e9f3e83b98f42295b6 1323338 jq_1.7.1.orig.tar.gz 16cc4e1ae68e839fb3f83a36a8561579 14344 jq_1.7.1-5.debian.tar.xz"
+    "c30ff932acfa2692be6ccd9fa38bc17b 2039 jq_1.8.1-3.dsc 0df1524fe928528b3c533c69d4ddfa23 1409730 jq_1.8.1.orig.tar.gz 4e1e96ccd375d95490d582d76fd70973 14132 jq_1.8.1-3.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/jq"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/debian/jq.git"
   ],
   "Version": [
-    "1.7.1-5"
+    "1.8.1-3"
   ]
 }

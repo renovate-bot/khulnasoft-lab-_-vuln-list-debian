@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), dh-sequence-python3, python3-dev, po-debconf, python3-setuptools"
   ],
   "Checksums-Sha256": [
-    "915b304a98b6650dbf0548d8fbff01a0aa2dc62dd471021b2a787f8ac565423d 2314 mlat-client-adsbfi_0.4.2+git20230831.a3d71c8-1.dsc aba76cac6bdaf27299073086641d254973bf6fbd7ae6316b504c8ec2bed4795a 59272 mlat-client-adsbfi_0.4.2+git20230831.a3d71c8.orig.tar.xz 63750aa458fb854081b5eafd6152818ac7e4049c1a95063454d9544306f0c628 14720 mlat-client-adsbfi_0.4.2+git20230831.a3d71c8-1.debian.tar.xz"
+    "6c0c42dd6a385922fadd01bfa6829cde30a8c172820832ab597247e31bc0f0f3 2314 mlat-client-adsbfi_0.4.2+git20230831.a3d71c8-3.dsc aba76cac6bdaf27299073086641d254973bf6fbd7ae6316b504c8ec2bed4795a 59272 mlat-client-adsbfi_0.4.2+git20230831.a3d71c8.orig.tar.xz df1880de73ddf0b853123a11f27b1b30b22c35b7f278a5164a8bf3d9ae17f876 16888 mlat-client-adsbfi_0.4.2+git20230831.a3d71c8-3.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/m/mlat-client-adsbfi"
   ],
   "Files": [
-    "32e836fc6a83ec787de56841945bb7b7 2314 mlat-client-adsbfi_0.4.2+git20230831.a3d71c8-1.dsc 1887e7b54c3da84c5d4aff826db07723 59272 mlat-client-adsbfi_0.4.2+git20230831.a3d71c8.orig.tar.xz 7c7d5c826338413ba879cf588e9d5bff 14720 mlat-client-adsbfi_0.4.2+git20230831.a3d71c8-1.debian.tar.xz"
+    "f3f3c5ee48ef3cd235f1522aa68e8b7b 2314 mlat-client-adsbfi_0.4.2+git20230831.a3d71c8-3.dsc 1887e7b54c3da84c5d4aff826db07723 59272 mlat-client-adsbfi_0.4.2+git20230831.a3d71c8.orig.tar.xz 154837322b8e99e9a7d72b1694660939 16888 mlat-client-adsbfi_0.4.2+git20230831.a3d71c8-3.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/alteholz/mlat-client-adsbfi.git"
   ],
   "Version": [
-    "0.4.2+git20230831.a3d71c8-1"
+    "0.4.2+git20230831.a3d71c8-3"
   ]
 }

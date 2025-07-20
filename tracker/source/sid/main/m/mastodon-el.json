@@ -9,16 +9,16 @@
     "debhelper-compat (= 13), dh-elpa, elpa-el-mock (\u003e= 1.25.1+git20220625.6cfbc9d-1~), elpa-persist (\u003e= 0.4), elpa-tp (\u003e= 0.7), git \u003c!nocheck\u003e, jdupes, texinfo"
   ],
   "Checksums-Sha256": [
-    "28396698873ba2a31010c518f95228f6ab56715e7d3536fbf0130ef55fd9eaf2 2278 mastodon-el_2.0.0-1.dsc ee70f51e4cc9241784a6a9d5a833a663a73ef2530006972318cdbc9b9cf8673f 711160 mastodon-el_2.0.0.orig.tar.gz 4fd9791a2109d3f4a001d3c2c0019b4559c65f5440a0257e67739220336a70af 4448 mastodon-el_2.0.0-1.debian.tar.xz"
+    "3e008e650626f359cd1416494df0843a3e2e36024962a5829843692865f9de8d 2278 mastodon-el_2.0.2-1.dsc e45fba737b6559b37bc6ee8d879480ba2a7e4b64638ca16d45790f59bec3c504 713944 mastodon-el_2.0.2.orig.tar.gz b1a7076460072eb653d2e910acaa76f43c3359139e30a564aac9b6a96abc3425 3916 mastodon-el_2.0.2-1.debian.tar.xz"
   ],
   "Dgit": [
-    "a25eb74066cd1a1ef0d484351d001a60b95de299 debian archive/debian/2.0.0-1 https://git.dgit.debian.org/mastodon-el"
+    "f4f5fe0ab9b591674b4902ad97358fe273d941e0 debian archive/debian/2.0.2-1 https://git.dgit.debian.org/mastodon-el"
   ],
   "Directory": [
     "pool/main/m/mastodon-el"
   ],
   "Files": [
-    "248ddee5940a1a9df54afb7d143538ed 2278 mastodon-el_2.0.0-1.dsc 50ca369a4246da82bd3580c928c8942b 711160 mastodon-el_2.0.0.orig.tar.gz a9fb89cca106d3ed6a66b7293a56baa8 4448 mastodon-el_2.0.0-1.debian.tar.xz"
+    "ec0f80a3ce85403adec8dea3fb7e3463 2278 mastodon-el_2.0.2-1.dsc 9037deb4f97b9b920005dafdd53af285 713944 mastodon-el_2.0.2.orig.tar.gz d4f3df50f16927be9b1faa8cbf3a6066 3916 mastodon-el_2.0.2-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/emacsen-team/mastodon-el.git"
   ],
   "Version": [
-    "2.0.0-1"
+    "2.0.2-1"
   ]
 }

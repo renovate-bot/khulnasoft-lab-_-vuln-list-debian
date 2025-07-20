@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), dh-di, po-debconf (\u003e= 0.5.0)"
   ],
   "Checksums-Sha256": [
-    "f7c010af93c3bf55904c6da6b2e6e6851cd12da2390e9e03ed6af7bd11f7291c 1688 partman-lvm_154.dsc eb8e79c310d4bcc53d7434fd8b448283db101a85891c54b7eff2e62d62ce3e1b 261464 partman-lvm_154.tar.xz"
+    "4298b73ee1697bcd39b82e2b790b1db22dfc9356dd24f03339a7276ff7fa82a0 1684 partman-lvm_156.dsc 22bced143f609124d9f8369effb33bdd8059c5072961e9fffba2b2f425b3eed6 261848 partman-lvm_156.tar.xz"
   ],
   "Directory": [
     "pool/main/p/partman-lvm"
   ],
   "Files": [
-    "465cfd4f9d26fb2f850e068f5573ed34 1688 partman-lvm_154.dsc 94119054a7b4505d6444e600f83dc16a 261464 partman-lvm_154.tar.xz"
+    "ffdef899b872eb5aa99adf3835caa554 1684 partman-lvm_156.dsc 7bbab1b606b96946ca331b7b86554aa2 261848 partman-lvm_156.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -45,6 +45,6 @@
     "https://salsa.debian.org/installer-team/partman-lvm.git"
   ],
   "Version": [
-    "154"
+    "156"
   ]
 }

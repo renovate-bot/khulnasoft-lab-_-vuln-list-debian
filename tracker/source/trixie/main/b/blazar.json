@@ -12,13 +12,13 @@
     "alembic, python3-alembic, python3-coverage, python3-ddt, python3-eventlet, python3-fixtures, python3-flask, python3-hacking, python3-iso8601, python3-keystoneauth1, python3-keystoneclient, python3-keystonemiddleware, python3-microversion-parse, python3-netaddr, python3-neutronclient, python3-novaclient, python3-openstackdocstheme, python3-oslo.concurrency, python3-oslo.config, python3-oslo.context, python3-oslo.db, python3-oslo.i18n, python3-oslo.log, python3-oslo.messaging, python3-oslo.middleware, python3-oslo.policy (\u003e= 4.5.0), python3-oslo.serialization, python3-oslo.service, python3-oslo.upgradecheck, python3-oslo.utils (\u003e= 7.0.0), python3-oslotest, python3-pecan, python3-requests, python3-retrying, python3-routes, python3-sqlalchemy, python3-stestr, python3-stevedore, python3-testscenarios, python3-testtools, python3-webob, python3-webtest, python3-wsme, subunit"
   ],
   "Checksums-Sha256": [
-    "d57170b12e41d81822e23f8551596297e2f928ce650a075ab521a2804264446b 3199 blazar_15.0.0-1.dsc 2207fbb729aa40f696d3481cff7224665f2a5f363945f69acb40035e8e68a12e 333852 blazar_15.0.0.orig.tar.xz 2602e3ed7e0bc0c80ce73995939c281e1f260a9f5065cd9c8435e169d1a24357 6692 blazar_15.0.0-1.debian.tar.xz"
+    "ed5f12d3c1e220af1b3b3257fd927e1e31f9abd23127709c5195ae9cf5a41798 3199 blazar_15.0.0-3.dsc 2207fbb729aa40f696d3481cff7224665f2a5f363945f69acb40035e8e68a12e 333852 blazar_15.0.0.orig.tar.xz 640cd0d82880c981d498c2baa6c7524a2f056bcc2f4c5e0d6eda9a0bf30bfe2d 7812 blazar_15.0.0-3.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/b/blazar"
   ],
   "Files": [
-    "32749914210bc3b6fed5adc8527ea2da 3199 blazar_15.0.0-1.dsc ed83bad3d69595c7f10ca3d328a4e29c 333852 blazar_15.0.0.orig.tar.xz a3ba891f8a3e9dc017b472ec310ca5fc 6692 blazar_15.0.0-1.debian.tar.xz"
+    "bebebbae1dd22ac0ef4e704fc51abd14 3199 blazar_15.0.0-3.dsc ed83bad3d69595c7f10ca3d328a4e29c 333852 blazar_15.0.0.orig.tar.xz 28c188d49d84c6503e5bb478afdbf4cb 7812 blazar_15.0.0-3.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/openstack-team/services/blazar.git"
   ],
   "Version": [
-    "15.0.0-1"
+    "15.0.0-3"
   ]
 }

@@ -12,13 +12,13 @@
     "python3-pytest \u003c!nocheck\u003e, python3-opuslib \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "042104cb2d115637131009259c0076249c77e78b81b5944b89fcc8a950e3a616 2271 python-voip-utils_0.3.1-1.dsc 9e0313352be2af80034f1099fcf3d5cce7700ee53c2e8bc5ea9348f18872c1e0 345289 python-voip-utils_0.3.1.orig.tar.gz e7a9e3e1cb45c2f081572401110b2d8f854d492481f2cab99e8e85684710aad3 2340 python-voip-utils_0.3.1-1.debian.tar.xz"
+    "b82bae21392bc7101d1bf379e313683afdd9fec2a9c9e97641d7f00ef0e186f1 2235 python-voip-utils_0.3.3-1.dsc 83efc03dbff7e43e3aacbd20618ff0d9bba9c68b4a0867dfabe597622c8cfed9 347232 python-voip-utils_0.3.3.orig.tar.gz 301897636fd64f8d48703ae06a3ed5179532bfaf09697c3e8dff05d9d0cbf576 2256 python-voip-utils_0.3.3-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/p/python-voip-utils"
   ],
   "Files": [
-    "18a6bed1df34e7d11c42f548fea055c8 2271 python-voip-utils_0.3.1-1.dsc 59f1fdfdbd39dd476f02b0c12887241c 345289 python-voip-utils_0.3.1.orig.tar.gz 192fc17c828c3a8cd7f372e9e856f386 2340 python-voip-utils_0.3.1-1.debian.tar.xz"
+    "df02ec53207ba579af7acba99ee36d14 2235 python-voip-utils_0.3.3-1.dsc 0a3806ff8f0bce90cb69629cb19be627 347232 python-voip-utils_0.3.3.orig.tar.gz aa04dd0c1a514f635f83b7384d1e3717 2256 python-voip-utils_0.3.3-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,13 +42,10 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "python3-all, python3-pytest"
+    "autopkgtest-pkg-pybuild"
   ],
   "Uploaders": [
     "Edward Betts \u003cedward@4angle.com\u003e,"
@@ -60,6 +57,6 @@
     "https://salsa.debian.org/homeassistant-team/deps/python-voip-utils.git"
   ],
   "Version": [
-    "0.3.1-1"
+    "0.3.3-1"
   ]
 }

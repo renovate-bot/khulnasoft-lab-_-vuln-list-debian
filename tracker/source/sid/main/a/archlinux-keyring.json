@@ -9,13 +9,13 @@
     "debhelper-compat (= 13)"
   ],
   "Checksums-Sha256": [
-    "b7d2b0c761b2db8896251aac61b252ec1386754547cc451d65272d52a151d491 1401 archlinux-keyring_0~20250123-1.dsc 456945c3befe6c926429c7c135c573f55b7896ca6b8c540280b382ef94df2fdb 1267373 archlinux-keyring_0~20250123.orig.tar.gz e5bf9031c68ad29168af4431449d3a264b1d4f4445f7f4687623f8a7319a2f0e 3336 archlinux-keyring_0~20250123-1.debian.tar.xz"
+    "fd176bb05cff5b0f7574638ea2022964189418d15669431588f733f146102516 1401 archlinux-keyring_0~20250716-1.dsc ff2561663690579bb0abfbb5cb16451a7c98f349de1706667d24c7daaa1825a1 1275789 archlinux-keyring_0~20250716.orig.tar.gz 981fbf8ae90cd8402bb1cd0ac5b850e4990d3d0ca5396a45763a91c05edb1576 3460 archlinux-keyring_0~20250716-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/a/archlinux-keyring"
   ],
   "Files": [
-    "af100a6d229ff35637024ca5a613432f 1401 archlinux-keyring_0~20250123-1.dsc ca5c63c2aef83b8b14367068931ba128 1267373 archlinux-keyring_0~20250123.orig.tar.gz 20a9a6320590abeb2218e5f505887530 3336 archlinux-keyring_0~20250123-1.debian.tar.xz"
+    "06e5bf69f1433fc216268128bb3c42ff 1401 archlinux-keyring_0~20250716-1.dsc 21f879563ef78ccb7da0071ba9830527 1275789 archlinux-keyring_0~20250716.orig.tar.gz b38e6ae53a4a754b89834ef74453b3a0 3460 archlinux-keyring_0~20250716-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/michel/archlinux-keyring.git"
   ],
   "Version": [
-    "0~20250123-1"
+    "0~20250716-1"
   ]
 }

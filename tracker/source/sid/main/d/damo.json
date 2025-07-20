@@ -9,13 +9,13 @@
     "architecture-is-64-bit, debhelper-compat (= 13), dh-sequence-python3, help2man, python3-all, python3-pytest, python3-setuptools"
   ],
   "Checksums-Sha256": [
-    "a5e196a8ea3db13b809b7b985d74f55384313947222f8766c0e3c2bf18a435f3 1420 damo_2.7.9-1.dsc 116f7a4a55b48ec8bfeb738a113602cbb988e3ff6a7773ad474ab74b460dac81 15216434 damo_2.7.9.orig.tar.gz 907c0d6d36a1b3653e496f198c3280b35daf09f3e6d6df73ccd64611eaa9d517 4188 damo_2.7.9-1.debian.tar.xz"
+    "1392747bfc286fc66d5bffb6aaaea699f4083427a949314b9162ef13f45e60b2 1420 damo_2.8.8-1.dsc 7824baf52b74905ed70f685ad0ac5a4060d5b11dae47e18abbaf79c0c86d2a34 15266540 damo_2.8.8.orig.tar.gz 4bfd0f4db59fee70df16d332ba85686f11298add49421f99cee9b39f53ed801b 4312 damo_2.8.8-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/d/damo"
   ],
   "Files": [
-    "fc8d365a84ab4983a46cee08950e9197 1420 damo_2.7.9-1.dsc 82e193a61f918648b79e60a73f769abd 15216434 damo_2.7.9.orig.tar.gz 17fa5bdb65da1f400d1f9b1b35699c1e 4188 damo_2.7.9-1.debian.tar.xz"
+    "3526bb46fca6a22b5af07ab6ad0f8462 1420 damo_2.8.8-1.dsc ed858e7dee8f62b565e3e7a9deeb6ad3 15266540 damo_2.8.8.orig.tar.gz a1e48efec130b5e73a1901a808211eba 4312 damo_2.8.8-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/python-team/packages/damo.git"
   ],
   "Version": [
-    "2.7.9-1"
+    "2.8.8-1"
   ]
 }

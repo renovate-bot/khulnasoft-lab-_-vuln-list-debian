@@ -6,16 +6,16 @@
     "whois"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), gettext, pkgconf, bash-completion, libidn2-dev (\u003e= 2.0.3)"
+    "debhelper-compat (= 13), gettext, pkgconf, bash-completion, libcrypt-dev, libidn2-dev"
   ],
   "Checksums-Sha256": [
-    "d9735db9ad079d4f8895dec7dba43ee64d150735dec900c5b2617d44ca7ea8f9 925 whois_5.5.23.dsc 35c04e46bd8435f46e446a817728b5fae2f0a389033a9383e5e20bb6e8fba14a 90920 whois_5.5.23.tar.xz"
+    "8c8916263b34911042d32eb976a3d69b0b6d978a74afec6fb6aae1e8c645cedc 924 whois_5.6.2.dsc 7fbcbc00b7aa321ac1af28a85d86d3ce7b11db1d4a2317b25407be04e506ead0 92184 whois_5.6.2.tar.xz"
   ],
   "Directory": [
     "pool/main/w/whois"
   ],
   "Files": [
-    "803e66de20a7f158c051974d28d05a71 925 whois_5.5.23.dsc 715c9bf22a0590fc810faf8a04b46b2d 90920 whois_5.5.23.tar.xz"
+    "4835e735002f11ddca17f909c02cd482 924 whois_5.6.2.dsc 377adc8d6236f962daef0919a7535e14 92184 whois_5.6.2.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -36,7 +36,7 @@
     "net"
   ],
   "Standards-Version": [
-    "4.6.2.0"
+    "4.7.2.0"
   ],
   "Vcs-Browser": [
     "https://github.com/rfc1036/whois"
@@ -45,6 +45,6 @@
     "https://github.com/rfc1036/whois.git"
   ],
   "Version": [
-    "5.5.23"
+    "5.6.2"
   ]
 }

@@ -9,13 +9,13 @@
     "debhelper-compat (= 12), gettext, libselinux1-dev"
   ],
   "Checksums-Sha256": [
-    "c5bdfe9574151124e186df816bb81bb2726ae3bdef81a1540dd98a44e801a4a3 1968 net-tools_2.10-1.1.dsc b262435a5241e89bfa51c3cabd5133753952f7a7b7b93f32e08cb9d96f580d69 229616 net-tools_2.10.orig.tar.xz 2d11a40e12f85bf16fb02d34922115a0317f18ce1256b019ce605492e41ee0b7 56488 net-tools_2.10-1.1.debian.tar.xz"
+    "488d32c1f9e0185b52aa1990b555e6ca103a5506cb4a126d448f9f5c94e3a6dc 2146 net-tools_2.10-1.3.dsc b262435a5241e89bfa51c3cabd5133753952f7a7b7b93f32e08cb9d96f580d69 229616 net-tools_2.10.orig.tar.xz abd9f82d3d31e0dccf626b4c4ec3474dd55b778dfa9511186843228b1063563d 59368 net-tools_2.10-1.3.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/n/net-tools"
   ],
   "Files": [
-    "cfc4d81c7b83914fe06b3ed20102fecf 1968 net-tools_2.10-1.1.dsc 78aae762c95e2d731faf88d482e4cde5 229616 net-tools_2.10.orig.tar.xz 7c822427af2b726c7d7d5251dbae0c0f 56488 net-tools_2.10-1.1.debian.tar.xz"
+    "4bdeaeaeb0a2f8a41eeb709ef3cb678e 2146 net-tools_2.10-1.3.dsc 78aae762c95e2d731faf88d482e4cde5 229616 net-tools_2.10.orig.tar.xz afe31cb7d5b2611d4310163fb25ee53a 59368 net-tools_2.10-1.3.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -41,6 +41,9 @@
   "Standards-Version": [
     "4.5.0"
   ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
   "Uploaders": [
     "Martina Ferrari \u003ctina@debian.org\u003e, Utkarsh Gupta \u003cutkarsh@debian.org\u003e"
   ],
@@ -51,6 +54,6 @@
     "https://salsa.debian.org/debian/net-tools.git"
   ],
   "Version": [
-    "2.10-1.1"
+    "2.10-1.3"
   ]
 }

@@ -1,21 +1,21 @@
 {
   "Architecture": [
-    "any all"
+    "any"
   ],
   "Binary": [
     "libggml, libggml-cpu, libggml-blas, libggml-hip, libggml-vulkan"
   ],
   "Build-Depends": [
-    "cmake, debhelper-compat (= 13), hipcc [amd64 arm64 ppc64el], libblas-dev, libhipblas-dev [amd64 arm64 ppc64el], librocblas-dev [amd64 arm64 ppc64el], pkgconf, libvulkan-dev, glslc"
+    "cmake, debhelper-compat (= 13), hipcc [amd64 arm64 ppc64el] \u003c!pkg.ggml.nohip\u003e, libblas-dev, libhipblas-dev [amd64 arm64 ppc64el] \u003c!pkg.ggml.nohip\u003e, librocblas-dev [amd64 arm64 ppc64el] \u003c!pkg.ggml.nohip\u003e, pkgconf, libvulkan-dev, glslc"
   ],
   "Checksums-Sha256": [
-    "f7b1775878e490e7d1c037e2ff0b982cfba15b1d2e80550aabbb6f70d5129121 2455 ggml_0.0~git20250502.17733de-1.dsc 9a596b0ab10ce3b00d72e3ef1748019e01353e53c19936f2c24951796bff7be3 1353292 ggml_0.0~git20250502.17733de.orig.tar.xz f18ceeb401ce4cfed40d4d35df6230e73dd36622850b19c531f83be4589e4dbf 6792 ggml_0.0~git20250502.17733de-1.debian.tar.xz"
+    "1dce4333d5e7e73e90b10811f4115a0890c8d85575e6079b622b16c582b7b2ee 2588 ggml_0.0~git20250712.d62df60-1.dsc 202079c976433881a3c1f20675bc5a4f9fdaabcab9901249310c810bbf37eb2b 1401372 ggml_0.0~git20250712.d62df60.orig.tar.xz 04d1749dc41380ee825d12ffa5d4cf985af574f3c26713e4839040bb035970d9 10364 ggml_0.0~git20250712.d62df60-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/g/ggml"
   ],
   "Files": [
-    "c10d3f165ec20e714ad9197955b8bc5d 2455 ggml_0.0~git20250502.17733de-1.dsc 98450690117c8c3a1de878cdd504a33e 1353292 ggml_0.0~git20250502.17733de.orig.tar.xz 076c62df02d91e97be3c6c6cef54528c 6792 ggml_0.0~git20250502.17733de-1.debian.tar.xz"
+    "52e4f2316eb687171c1a3e626813db7e 2588 ggml_0.0~git20250712.d62df60-1.dsc 7567a36fdc8a95851a417d89c1ed1130 1401372 ggml_0.0~git20250712.d62df60.orig.tar.xz 2f8af7a9a8ce269eaf4392f29bcf34a1 10364 ggml_0.0~git20250712.d62df60-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "ggml"
   ],
   "Package-List": [
-    "libggml deb science optional arch=all libggml-blas deb science optional arch=any libggml-cpu deb science optional arch=any libggml-hip deb science optional arch=amd64,arm64,ppc64el profile=!pkg.ggml.nohip libggml-vulkan deb science optional arch=any"
+    "libggml deb science optional arch=any libggml-blas deb science optional arch=any libggml-cpu deb science optional arch=any libggml-hip deb science optional arch=amd64,arm64,ppc64el profile=!pkg.ggml.nohip libggml-vulkan deb science optional arch=any"
   ],
   "Priority": [
     "optional"
@@ -40,6 +40,12 @@
   ],
   "Standards-Version": [
     "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "libopenblas0-pthread, pkg-rocm-tools"
   ],
   "Uploaders": [
     "Christian Kastner \u003cckk@debian.org\u003e"
@@ -51,6 +57,6 @@
     "https://salsa.debian.org/deeplearning-team/ggml.git"
   ],
   "Version": [
-    "0.0~git20250502.17733de-1"
+    "0.0~git20250712.d62df60-1"
   ]
 }

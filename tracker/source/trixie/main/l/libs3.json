@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), libxml2-dev, libcurl4-gnutls-dev, pkgconf"
   ],
   "Checksums-Sha256": [
-    "56f8b188c17e27edad7d225bb8f2a932dcf1e8217cdb170449f97a04f08dcf57 1774 libs3_2.0-4.dsc c99857bfbcc9ff47742119bc32f391f38a24acf40cf49902ef3b18b1f0e8c16d 105783 libs3_2.0.orig.tar.gz e8eb613487c3b2922d74604a36f70cb53f69d90aaf0833da7ad819c11b034078 3260 libs3_2.0-4.debian.tar.xz"
+    "1fd9f8307c87b146445fececb0f583582f084d36c55f66d84465fb58a457f032 1774 libs3_2.0-5.dsc c99857bfbcc9ff47742119bc32f391f38a24acf40cf49902ef3b18b1f0e8c16d 105783 libs3_2.0.orig.tar.gz d3b93344ff9e0c98193a9485a2ef02fa5b11a4ef7658d2c02192a3c8cbfe7205 4832 libs3_2.0-5.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/libs/libs3"
   ],
   "Files": [
-    "baaf2cff71c85d9286ef054253651abd 1774 libs3_2.0-4.dsc e52da69ddc11019e98cf8246fc55b4e1 105783 libs3_2.0.orig.tar.gz d30a363cd9de707149f50bfde23bbbf8 3260 libs3_2.0-4.debian.tar.xz"
+    "25628b69d8486c6b1ce55c4c29fc085b 1774 libs3_2.0-5.dsc e52da69ddc11019e98cf8246fc55b4e1 105783 libs3_2.0.orig.tar.gz addf259274698e1991da9ed87cfa77a4 4832 libs3_2.0-5.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,6 +42,6 @@
     "4.6.2"
   ],
   "Version": [
-    "2.0-4"
+    "2.0-5"
   ]
 }

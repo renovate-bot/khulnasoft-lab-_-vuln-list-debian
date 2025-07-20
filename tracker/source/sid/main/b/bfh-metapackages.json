@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), python3-docutils"
   ],
   "Checksums-Sha256": [
-    "70debfac834c8d7bfd512b6006b0d23a857e01873b7076772543cebd0dc9b3b0 1816 bfh-metapackages_20211009-33.dsc 54e1310e098f86e0d7583c6433d2163a619b409649e1ca9820c0ff69ecfe4200 13384 bfh-metapackages_20211009.orig.tar.xz 2668d39908c890b4acbc8eac7d8d4e6c93c774dc987695b3a8df0491e24dad0d 6604 bfh-metapackages_20211009-33.debian.tar.xz"
+    "7acc1a701ecbf6ae5771333aaf8d694698e1d92c0dec12346da38f2d3ef2b839 1816 bfh-metapackages_20211009-37.dsc 54e1310e098f86e0d7583c6433d2163a619b409649e1ca9820c0ff69ecfe4200 13384 bfh-metapackages_20211009.orig.tar.xz ff0a0c040d042b5d899433c23179b356383f58621538afb23f8d3bdc7452596b 6872 bfh-metapackages_20211009-37.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/b/bfh-metapackages"
   ],
   "Files": [
-    "d0c4f7539d91f3263a4d905eb9e72464 1816 bfh-metapackages_20211009-33.dsc a47d7f622a8183909901987538114562 13384 bfh-metapackages_20211009.orig.tar.xz a8463e941ec81ea987988b47c3b3e3c6 6604 bfh-metapackages_20211009-33.debian.tar.xz"
+    "d805bb554a4a34867927c0a992d5c8e6 1816 bfh-metapackages_20211009-37.dsc a47d7f622a8183909901987538114562 13384 bfh-metapackages_20211009.orig.tar.xz f48a7404c5cbc852c7cb2aac2d329118 6872 bfh-metapackages_20211009-37.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -48,6 +48,6 @@
     "https://git.progress-linux.org/users/daniel.baumann/debian/packages/bfh-metapackages"
   ],
   "Version": [
-    "20211009-33"
+    "20211009-37"
   ]
 }

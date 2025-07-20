@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), inkscape, librsvg2-bin, optipng, fonts-quicksand"
   ],
   "Checksums-Sha256": [
-    "4bb9c20e2771afc42f4471ba4b5c74ec294a1d5933e088bcc15568190f827c1e 1928 desktop-base_13.0.0~pre1.dsc 4dbaa608ce9381ac964ad410dcf52a5e7a7642dc942b7945528f0ba7030a325b 6113940 desktop-base_13.0.0~pre1.tar.xz"
+    "69e1d25ae8b48e5023b5393cf4575ec5fd09f7b0bff2c7dc6bdb9c2a1be496c0 1908 desktop-base_13.0.3.dsc c952f413f52a6a0fedb88b82b446de9aab43b1d81b095b41e4ada3b5845a15ff 7497368 desktop-base_13.0.3.tar.xz"
   ],
   "Directory": [
     "pool/main/d/desktop-base"
   ],
   "Files": [
-    "508fa96a5908f13feed6949f524d34c4 1928 desktop-base_13.0.0~pre1.dsc b97bf36e6e125cb16427de0ba29246dc 6113940 desktop-base_13.0.0~pre1.tar.xz"
+    "e1e1e4357c5c38762b096f7f4af6f663 1908 desktop-base_13.0.3.dsc 40c41c529d930a84c0198ecbdf7fc7a7 7497368 desktop-base_13.0.3.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -39,7 +39,7 @@
     "x11"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/debian-desktop-team/desktop-base.git"
   ],
   "Version": [
-    "13.0.0~pre1"
+    "13.0.3"
   ]
 }

@@ -12,13 +12,13 @@
     "python3-aiohttp \u003c!nocheck\u003e, python3-aiosqlite (\u003e= 0.16.0) \u003c!nocheck\u003e, python3-attr \u003c!nocheck\u003e, python3-crccheck \u003c!nocheck\u003e, python3-cryptography \u003c!nocheck\u003e, python3-serial-asyncio \u003c!nocheck\u003e, python3-setuptools \u003c!nocheck\u003e, python3-typing-extensions \u003c!nocheck\u003e, python3-voluptuous \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "036dbeb98c758467894112eae415fa145a492f03d631e03004ee2aece66ba883 2298 zigpy_0.79.0-1.dsc 7c69508d58fa3b6e6fbdbeb2a832cf0ac12b2af346b30fccda95b6566c963e2a 468639 zigpy_0.79.0.orig.tar.gz 1b49369c8f3c9cadfb26d0c688a4d7f0279642c1b95a3e9aae24065e209b84af 2976 zigpy_0.79.0-1.debian.tar.xz"
+    "3a1985b16df3f73936bb81560435bc3dc21e710e4eaaf90213faab49c2428ae9 2298 zigpy_0.80.1-2.dsc 3473024aaa58bbb43381b8c8207a163aec17f7da250786081f6cb9500dc20320 471219 zigpy_0.80.1.orig.tar.gz a98f5b6d669bc5b28f7a9a322a1a8a0b29f963eec72f9762753da1335aa58760 3060 zigpy_0.80.1-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/z/zigpy"
   ],
   "Files": [
-    "1d98b78fb80193c43dfcf7408363a5da 2298 zigpy_0.79.0-1.dsc df97eb7386c99baf9e8407dd1e4c82e9 468639 zigpy_0.79.0.orig.tar.gz 3ddac3ca02b95b93a2288943a6c1aee6 2976 zigpy_0.79.0-1.debian.tar.xz"
+    "3c6a63703c9e4baea214f880cf63825b 2298 zigpy_0.80.1-2.dsc 8ace89970d75f7c75d5ca03f85572c45 471219 zigpy_0.80.1.orig.tar.gz 23a4f67fe4b7f5de34b549572c70888c 3060 zigpy_0.80.1-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/homeassistant-team/deps/zigpy.git"
   ],
   "Version": [
-    "0.79.0-1"
+    "0.80.1-2"
   ]
 }

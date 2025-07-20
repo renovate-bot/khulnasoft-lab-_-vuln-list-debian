@@ -6,16 +6,16 @@
     "gstreamer1.0-fdkaac"
   ],
   "Build-Depends": [
-    "debhelper, debhelper-compat (= 13), dpkg-dev (\u003e= 1.15.1), pkg-config (\u003e= 0.11.0), meson (\u003e= 0.59), xvfb, xauth, libglib2.0-dev (\u003e= 2.56), libgstreamer1.0-dev (\u003e= 1.20.0), libgstreamer-plugins-base1.0-dev (\u003e= 1.20.0), gstreamer1.0-plugins-base (\u003e= 1.20.0), gstreamer1.0-plugins-good (\u003e= 1.20.0), libfdk-aac-dev [amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x]"
+    "debhelper, debhelper-compat (= 13), dpkg-dev (\u003e= 1.15.1), pkgconf, meson (\u003e= 0.59), xvfb, xauth, libglib2.0-dev (\u003e= 2.56), libgstreamer1.0-dev (\u003e= 1.20.0), libgstreamer-plugins-base1.0-dev (\u003e= 1.20.0), gstreamer1.0-plugins-base (\u003e= 1.20.0), gstreamer1.0-plugins-good (\u003e= 1.20.0), libfdk-aac-dev [amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x]"
   ],
   "Checksums-Sha256": [
-    "903f815599eca8d00018f7d407432e3ab31327c088dcb88bdb72d4e86f64ea11 2480 gst-plugins-bad1.0-contrib_1.20.0-1.1.dsc 015b8d4d9a395ebf444d40876867a2034dd3304b3ad48bc3a0dd0c1ee71dc11d 6203880 gst-plugins-bad1.0-contrib_1.20.0.orig.tar.xz bd77ec794bb7a10fcbd9b93adda96077ca145c77c3e5c402070fd71ccfdeb189 34004 gst-plugins-bad1.0-contrib_1.20.0-1.1.debian.tar.xz"
+    "3ddca1de4bb07484ac17048679bf877b931ed1550dc7693b3f3f7c94fadc200b 2678 gst-plugins-bad1.0-contrib_1.26.2-1.dsc cb116bfc3722c2de53838899006cafdb3c7c0bc69cd769b33c992a8421a9d844 7758304 gst-plugins-bad1.0-contrib_1.26.2.orig.tar.xz 0d0b939f7c8db98b2ae70c96d001c1f11893a7bf65c11328f41faf694065417b 32532 gst-plugins-bad1.0-contrib_1.26.2-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/contrib/g/gst-plugins-bad1.0-contrib"
   ],
   "Files": [
-    "cb56714da140e6b99796ac06ad504d9a 2480 gst-plugins-bad1.0-contrib_1.20.0-1.1.dsc 00dade0bc7b2b54643db92c8f4bdd4ab 6203880 gst-plugins-bad1.0-contrib_1.20.0.orig.tar.xz f95647334d294d7d4c8e062d5cb1fcd3 34004 gst-plugins-bad1.0-contrib_1.20.0-1.1.debian.tar.xz"
+    "202b4870e82c3a3000a6bf2123d98637 2678 gst-plugins-bad1.0-contrib_1.26.2-1.dsc 1c77144089f81e47e2f5e079d094222f 7758304 gst-plugins-bad1.0-contrib_1.26.2.orig.tar.xz ccee7f92488cc89d6837f4338bfa9c1f 32532 gst-plugins-bad1.0-contrib_1.26.2-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "contrib/misc"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.7.2"
   ],
   "Uploaders": [
-    "Sebastian Dröge \u003cslomo@debian.org\u003e, Sjoerd Simons \u003csjoerd@debian.org\u003e"
+    "Sebastian Dröge \u003cslomo@debian.org\u003e, Sjoerd Simons \u003csjoerd@debian.org\u003e, Marc Leeman \u003cmarc.leeman@gmail.com\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gstreamer-team/gst-plugins-bad1.0-contrib/"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/gstreamer-team/gst-plugins-bad1.0-contrib.git"
   ],
   "Version": [
-    "1.20.0-1.1"
+    "1.26.2-1"
   ]
 }

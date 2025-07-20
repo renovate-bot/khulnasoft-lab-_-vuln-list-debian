@@ -12,13 +12,13 @@
     "dh-sequence-sphinxdoc \u003c!nodoc\u003e, python3-bluetooth-data-tools \u003c!nocheck\u003e, python3-bluetooth-sensor-state-data (\u003e= 1.8.0) \u003c!nocheck\u003e, python3-myst-parser \u003c!nodoc\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-asyncio \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-sensor-state-data \u003c!nocheck\u003e, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e"
   ],
   "Checksums-Sha256": [
-    "95eb57dc04c7b0755e2ea459f07fe55f9ab0f60238d0af0b5760a630f4eeb018 2485 inkbird-ble_0.16.1-1.dsc b0a132696ab417ec71bdb742c23f04115dc902f26f26d0af8a77085617ddf60e 74299 inkbird-ble_0.16.1.orig.tar.gz 1a776d733e3a74b0ed8000965b480543e4c03ccadfd6e5e28a053e6ff23c72ab 4132 inkbird-ble_0.16.1-1.debian.tar.xz"
+    "f103c8b8eefb27f6772ce58b5e29de5b9578f06a8be28194704fb2f1d6fa7570 2478 inkbird-ble_1.0.0-1.dsc aed89eee09469cd12b505a60f93e8fbd75dae13e528c988faece9a3bc56637f7 75347 inkbird-ble_1.0.0.orig.tar.gz 59d869c709cd26404958945cadffe18ac227ac348dc64f7f4225bba8cbc41a8b 4156 inkbird-ble_1.0.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/i/inkbird-ble"
   ],
   "Files": [
-    "4bbb397d6ae8aef0fd183020f063e7f8 2485 inkbird-ble_0.16.1-1.dsc a87c0549c63fa03fa848c5416728b9e7 74299 inkbird-ble_0.16.1.orig.tar.gz 9055cf8aac844af13bbe30064ae70219 4132 inkbird-ble_0.16.1-1.debian.tar.xz"
+    "f9500fc5987ad643844c72263c286e27 2478 inkbird-ble_1.0.0-1.dsc 7fc260c8019b0ed0aada85114162ce30 75347 inkbird-ble_1.0.0.orig.tar.gz 8d7b0e0cb33f81399494dfb2e3eed376 4156 inkbird-ble_1.0.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/homeassistant-team/deps/inkbird-ble.git"
   ],
   "Version": [
-    "0.16.1-1"
+    "1.0.0-1"
   ]
 }

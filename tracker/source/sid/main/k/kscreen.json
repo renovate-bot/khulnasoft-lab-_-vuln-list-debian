@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), dh-sequence-kf6, dh-sequence-pkgkde-symbolshelper, cmake (\u003e= 3.16~), extra-cmake-modules (\u003e= 6.10.0~), gettext, libkf6config-dev (\u003e= 6.10.0~), libkf6dbusaddons-dev (\u003e= 6.10.0~), libkf6i18n-dev (\u003e= 6.10.0~), libkf6kcmutils-dev (\u003e= 6.10.0~), libkf6svg-dev (\u003e= 6.10.0~), libkf6xmlgui-dev (\u003e= 6.10.0~), libkscreen-dev (\u003e= 4:6.3.4~), liblayershellqtinterface-dev (\u003e= 6.3.4~), libplasma-dev (\u003e= 6.3.4~), libx11-xcb-dev, libxcb-util-dev, libxcb1-dev, libxi-dev, libxkbcommon-dev, qt6-base-dev (\u003e= 6.7.0~), qt6-base-private-dev (\u003e= 6.6.0+dfsg~), qt6-sensors-dev (\u003e= 6.7.0~)"
   ],
   "Checksums-Sha256": [
-    "8c901daa278766f5651a3743bac2c906c4aa08425912636c7d8119f48ec19e08 2891 kscreen_6.3.4-1.dsc 99af84cb5b8e14a8945dfff20e7acd4245cae9f1c7cd311f3eee8dd22c100b25 226552 kscreen_6.3.4.orig.tar.xz 261669ad46fd572fd12b3122a4b5cf9158aa747f138c35c4a047b33150eee51d 833 kscreen_6.3.4.orig.tar.xz.asc 9bf56e2fb09e4ed14e4e77ec784b295c2272a536c8a2e0dc5f5a81d5eb12944e 16832 kscreen_6.3.4-1.debian.tar.xz"
+    "890b1f21fd7c59f20b6d14742c414ecdb37fa081cb988c972bc2d389b545d6b7 2822 kscreen_6.3.6-1.dsc c1739bee79f199ae9908a6d04d53ed1038fa8db7c915b0adae68baf6135e518d 226040 kscreen_6.3.6.orig.tar.xz b9bb4f5cd539abc8d5bbad5888f23f311a5fe76ba99175ba267a6376719ca4e8 488 kscreen_6.3.6.orig.tar.xz.asc 9ac1d83b8d032e2ba677619f1b8e7a62f5c168aae426ce45ca90f3c49d265ddb 18800 kscreen_6.3.6-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/k/kscreen"
   ],
   "Files": [
-    "eb9fc6a65427bd0507f1ec817c307eca 2891 kscreen_6.3.4-1.dsc 16372996b0dd659b956531702e068205 226552 kscreen_6.3.4.orig.tar.xz 5da63304692aa48d98299fe0cb0ca0cc 833 kscreen_6.3.4.orig.tar.xz.asc 952fd75bdd1033063dd8337a25621588 16832 kscreen_6.3.4-1.debian.tar.xz"
+    "3696e905a736e9af114e780511d44c5d 2822 kscreen_6.3.6-1.dsc 95e8d9a25f536b4cf74e93b5a84f8486 226040 kscreen_6.3.6.orig.tar.xz 089175ab79b905e3ea37d856b006026f 488 kscreen_6.3.6.orig.tar.xz.asc 1bc1b5625c2432b19a4d787232beddc0 18800 kscreen_6.3.6-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/kscreen.git"
   ],
   "Version": [
-    "4:6.3.4-1"
+    "4:6.3.6-1"
   ]
 }

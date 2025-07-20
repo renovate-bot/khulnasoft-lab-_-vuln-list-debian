@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), po-debconf"
   ],
   "Checksums-Sha256": [
-    "c55e2ce2c5ec370c5dd8efd7b18386f6de413ccd27d53be1b8a75acb8abb26a3 1763 user-setup_1.104.dsc 15b05a2d7247dcd8f13eae973783ace0ec0caa5d7a04c977835d601bc762cab8 131152 user-setup_1.104.tar.xz"
+    "66bb97ebf38d035659456ceda49e9639a9795ff0f2f7919ed8e825838f6fe579 1759 user-setup_1.107.dsc afa686f3766e8ceefd910a4e3a98fbeda0cf5fe7064a5d59aa391f3acf59a3f1 132252 user-setup_1.107.tar.xz"
   ],
   "Directory": [
     "pool/main/u/user-setup"
   ],
   "Files": [
-    "63019e827a960d4ccc530e6b0f3fcfa8 1763 user-setup_1.104.dsc 9a1ad59629504307602de388aa6a89f6 131152 user-setup_1.104.tar.xz"
+    "90a0893b3526220a180950a4bfa56e83 1759 user-setup_1.107.dsc 52f4f636f0fa70ed35ab2324f55d263e 132252 user-setup_1.107.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/installer-team/user-setup.git"
   ],
   "Version": [
-    "1.104"
+    "1.107"
   ]
 }

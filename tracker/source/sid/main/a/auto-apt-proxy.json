@@ -9,13 +9,13 @@
     "debhelper (\u003e= 11~), dpkg-dev (\u003e= 1.17.14~), shellcheck \u003c!nocheck\u003e, pandoc"
   ],
   "Checksums-Sha256": [
-    "afa6bc65125847837e2559a8540c685dcb854428825b21c177e0f01bff5b4036 1803 auto-apt-proxy_16.6.dsc 4845ed634d7d51dd037e5c823a17a4571f6e6543c6c7ca19a16df400610f1a73 21048 auto-apt-proxy_16.6.tar.xz"
+    "22aeda4b01d53a3c8889690615915c826ff647128c1adb71f62958a87bedcbb0 1803 auto-apt-proxy_16.8.dsc 7d9382f6db750966919bcfc0b555733db6bcd19f0337d4526c0c472f15eeff6b 21604 auto-apt-proxy_16.8.tar.xz"
   ],
   "Directory": [
     "pool/main/a/auto-apt-proxy"
   ],
   "Files": [
-    "c11e867860b70649b79f7074e2b27c7d 1803 auto-apt-proxy_16.6.dsc ec2066212c3f9b1a447bb6a181521c6d 21048 auto-apt-proxy_16.6.tar.xz"
+    "4fd3f907430c557ca93ed2326ffe7de4 1803 auto-apt-proxy_16.8.dsc bde82c7a82005c29851492582a9e0cdb 21604 auto-apt-proxy_16.8.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/auto-apt-proxy.git"
   ],
   "Version": [
-    "16.6"
+    "16.8"
   ]
 }

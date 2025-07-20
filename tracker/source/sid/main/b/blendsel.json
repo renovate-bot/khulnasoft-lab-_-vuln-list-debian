@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), gettext, po-debconf"
   ],
   "Checksums-Sha256": [
-    "1db387e7d34eb4322f7d190c87a9925da2fd0f5600928d285427595f7c813c66 2115 blendsel_0.8.dsc 585f59a203da31b5e88a3ce984d637942792307608de18041a27b642a76957d8 72180 blendsel_0.8.tar.xz"
+    "64346f9079d25c34454a856ec8434ac0498c4f762d5f884fe281ea927aeb94cc 2119 blendsel_0.10.dsc b78a1d68b4e9ab6ebc621e664e6bca7b567cb1a2d5b3fc4279efb5d8bc051a42 73164 blendsel_0.10.tar.xz"
   ],
   "Directory": [
     "pool/main/b/blendsel"
   ],
   "Files": [
-    "7db16f79f63707dbab01175cfdb7f283 2115 blendsel_0.8.dsc 8d3b7e65041fb80f876b8a2931d6231d 72180 blendsel_0.8.tar.xz"
+    "c29986ec634f3455254bc1a5d9dae186 2119 blendsel_0.10.dsc 470461a1183a53dbf8572c1f7fe88d13 73164 blendsel_0.10.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/installer-team/blendsel.git"
   ],
   "Version": [
-    "0.8"
+    "0.10"
   ]
 }

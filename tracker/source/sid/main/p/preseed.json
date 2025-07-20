@@ -9,13 +9,13 @@
     "debhelper-compat (= 13)"
   ],
   "Checksums-Sha256": [
-    "acc112dc6518bf78f7088663b0181a8cf9cd24550402faf77023111dc24c58bd 1891 preseed_1.123.dsc 7f402fb9be3738da3d0e643da3530b32ab69b026251cd714f3e40a3b7ed2ac33 88764 preseed_1.123.tar.xz"
+    "809504f76052823abf595abe2b6b20496d16ce7860cc71de254b812f14c910e4 1887 preseed_1.125.dsc bb02b5272a0596e375d3040004e4a94284c6232d9f771d62cba36b286335d7f1 89060 preseed_1.125.tar.xz"
   ],
   "Directory": [
     "pool/main/p/preseed"
   ],
   "Files": [
-    "436d934e80f9b647d4906234e8480e95 1891 preseed_1.123.dsc f14f6231f802dc1ddf65fa0a7d949221 88764 preseed_1.123.tar.xz"
+    "feb109b9dfc44660dc5d44ce7a51d4d3 1887 preseed_1.125.dsc 2006a05ad58471e4364827f67912a00a 89060 preseed_1.125.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -45,6 +45,6 @@
     "https://salsa.debian.org/installer-team/preseed.git"
   ],
   "Version": [
-    "1.123"
+    "1.125"
   ]
 }

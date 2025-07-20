@@ -12,13 +12,13 @@
     "fonts-freefont-otf, latexmk, python3-sphinx, python3-sphinx-rtd-theme, texlive-fonts-extra, texlive-latex-recommended, texlive-xetex, xindy"
   ],
   "Checksums-Sha256": [
-    "e8dd050461a8d8d1984a82472b62273f4bf3e731e8e67ce22a3311d6be321664 3155 bind9_9.20.8-6.dsc 3004d99c476beab49a986c2d49f902e2cd7766c9ab18b261e8b353cabf3a04b5 5661928 bind9_9.20.8.orig.tar.xz 230d24b3f29ed745f86ddd93f67687619fac1c231f766fd83a408ea45bae71ba 833 bind9_9.20.8.orig.tar.xz.asc a43a88c52722d0e6ec3e60884a453f145fbd9bd35a197ba1e4382c7fbe4c4c93 61488 bind9_9.20.8-6.debian.tar.xz"
+    "003737641af65bfb76c4b449957afbbca180948f23b740845cde9d3fb317c3ba 3165 bind9_9.20.11-1.dsc 4da2d532e668bc21e883f6e6d9d3d81794d9ec60b181530385649a56f46ee17a 5674856 bind9_9.20.11.orig.tar.xz 2479c6500158bd025e69e0793a7d5f87a1a0f474c1331545c2c400a6ba388f65 833 bind9_9.20.11.orig.tar.xz.asc 2317a70a47f8d0615929acbe54ca9042fce5a5615d9ff7760e78aa6a8e1f5bee 61684 bind9_9.20.11-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/b/bind9"
   ],
   "Files": [
-    "4263fe436d817d61e497dbc0c66cc45c 3155 bind9_9.20.8-6.dsc 85c410e3438a6a1b07eb887a20614a57 5661928 bind9_9.20.8.orig.tar.xz 4f94bd7f4ce895be9040054ddc01caef 833 bind9_9.20.8.orig.tar.xz.asc 0122dc4ff976772f81d28ad8b944e807 61488 bind9_9.20.8-6.debian.tar.xz"
+    "e86429a8de77f9a15ace01256e0f253a 3165 bind9_9.20.11-1.dsc 84b6a72244271f0d79bc6922cf7e7ed9 5674856 bind9_9.20.11.orig.tar.xz e0f8944f8b91a151cbc8fe8274f9c4f7 833 bind9_9.20.11.orig.tar.xz.asc 14b33517cb7e079339e64c95ac9e31aa 61684 bind9_9.20.11-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -54,9 +54,9 @@
     "https://salsa.debian.org/dns-team/bind9"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/dns-team/bind9.git -b debian/9.19"
+    "https://salsa.debian.org/dns-team/bind9.git -b debian/9.20"
   ],
   "Version": [
-    "1:9.20.8-6"
+    "1:9.20.11-1"
   ]
 }

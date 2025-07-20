@@ -12,13 +12,13 @@
     "dh-sequence-dkms, linux-headers-amd64 [amd64] \u003c!nocheck\u003e, linux-headers-arm64 [arm64] \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "33d1091f2b6cc2c5b9f9f3f5c185c689150860b101ac8f4bd2e75d8579f76480 2681 nvidia-open-gpu-kernel-modules_535.216.03-4.dsc 4d17db499bd09bfffc449bf97c270006bff68951b5495eff70fadcb03734be5e 12516832 nvidia-open-gpu-kernel-modules_535.216.03.orig.tar.xz 6580799ac182eec2cb2353874efb99a5fd4a9ac6dcac75b2918e1b1360008a8c 36772 nvidia-open-gpu-kernel-modules_535.216.03-4.debian.tar.xz"
+    "f167afb90b7de30bc33097e7bcaa068e97b155e177739dc4f8f6d15d550e55b9 2681 nvidia-open-gpu-kernel-modules_550.163.01-1.dsc 332c3f50b08af9269a4c80910a793989b701a953608c80c75f2ec1433ec16450 13552400 nvidia-open-gpu-kernel-modules_550.163.01.orig.tar.xz 670a5172d041b8c69b9fe5e29e4dc87bab2bd8b9bda92cd3c9bc55f0f1f49df2 34212 nvidia-open-gpu-kernel-modules_550.163.01-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/contrib/n/nvidia-open-gpu-kernel-modules"
   ],
   "Files": [
-    "73703f330a3d0ca51caeb922f4ee3bd1 2681 nvidia-open-gpu-kernel-modules_535.216.03-4.dsc d8fef2a6cecb0fb9a13eff7542ebee23 12516832 nvidia-open-gpu-kernel-modules_535.216.03.orig.tar.xz 62d26a3342c8832169359affbab8adfd 36772 nvidia-open-gpu-kernel-modules_535.216.03-4.debian.tar.xz"
+    "3454710b8273219e398e105a96c7707a 2681 nvidia-open-gpu-kernel-modules_550.163.01-1.dsc 9f78606c0cc47dc78fe03c09c6f09f29 13552400 nvidia-open-gpu-kernel-modules_550.163.01.orig.tar.xz 1e38f2fc07eec1de4a903da115511184 34212 nvidia-open-gpu-kernel-modules_550.163.01-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/nvidia-team/nvidia-open-gpu-kernel-modules.git"
   ],
   "Version": [
-    "535.216.03-4"
+    "550.163.01-1"
   ]
 }

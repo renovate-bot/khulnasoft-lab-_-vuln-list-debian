@@ -6,16 +6,16 @@
     "grub-efi-amd64-signed"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 10.1~), sbsigntool [amd64 arm64 i386], grub-efi-amd64-unsigned (= 2.12-7)"
+    "debhelper (\u003e= 10.1~), sbsigntool [amd64 arm64 i386], grub-efi-amd64-unsigned (= 2.12-9)"
   ],
   "Checksums-Sha256": [
-    "e1331850ddf79a4add6ca0891bd8e0372fa220001f767f6bc3733282faf7c0fd 1783 grub-efi-amd64-signed_1+2.12+7.dsc a0f66a66fed5542b5d2bd2e548924630864dc24b15d55d8aabdf94a2d46af01c 4772 grub-efi-amd64-signed_1+2.12+7.tar.xz"
+    "40b841bf33ea3cb970bf6cb20256884e579161069aa9a919a7ec26fd2376918f 1783 grub-efi-amd64-signed_1+2.12+9.dsc a29a96a48893f9359a94e350a5e7760255e77ee9007fdf6b944f4991f65e2108 4772 grub-efi-amd64-signed_1+2.12+9.tar.xz"
   ],
   "Directory": [
     "pool/main/g/grub-efi-amd64-signed"
   ],
   "Files": [
-    "40d92f203c963d823ec189c146188651 1783 grub-efi-amd64-signed_1+2.12+7.dsc e3e0a77cfa80bed2b8be857e371db694 4772 grub-efi-amd64-signed_1+2.12+7.tar.xz"
+    "fd29f576da5ee9641dcf30f8c709ec31 1783 grub-efi-amd64-signed_1+2.12+9.dsc bfd480ff132e498d6761df045d7de09b 4772 grub-efi-amd64-signed_1+2.12+9.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -42,6 +42,6 @@
     "Felix Zielcke \u003cfzielcke@z-51.de\u003e, Jordi Mallach \u003cjordi@debian.org\u003e, Steve McIntyre \u003c93sam@debian.org\u003e, Julian Andres Klode \u003cjak@debian.org\u003e, Mate Kukri \u003cmate.kukri@canonical.com\u003e"
   ],
   "Version": [
-    "1+2.12+7"
+    "1+2.12+9"
   ]
 }

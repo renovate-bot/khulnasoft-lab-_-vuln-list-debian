@@ -12,13 +12,13 @@
     "dblatex, docbook-xml, docbook-xsl, fonts-liberation2, fonts-vlgothic, fonts-wqy-microhei, libxml2-utils, locales-all | locales, po4a, texlive-lang-all, latex-cjk-all, texlive-xetex, w3m, xsltproc, zip"
   ],
   "Checksums-Sha256": [
-    "3ff22593e9eb5607b9e668da3443109ef1ef277663ec5f81f8cb761cf7277b24 2060 debian-history_13.4.dsc 2bc6b3e1729de715bfbbd0ee4a77af878c7dfd892f35ddd601a5db8965eb9f94 644876 debian-history_13.4.tar.xz"
+    "fe5cd5f18ceb027726a27a70f094a9d618c1f27053ed25459f260a9b96760873 2060 debian-history_13.7.dsc e7a359acf25ae665bc022a9130995929946568132de2bf7918c65c1f5cc71785 647252 debian-history_13.7.tar.xz"
   ],
   "Directory": [
     "pool/main/d/debian-history"
   ],
   "Files": [
-    "893e97b74db72a942ed567fd5f7d5cda 2060 debian-history_13.4.dsc afe04843c2f344725f2162726b93cffb 644876 debian-history_13.4.tar.xz"
+    "9eb647669764e88f0363f7e0bd5dce56 2060 debian-history_13.7.dsc a43e431d8bd3177161602aaba0f1b065 647252 debian-history_13.7.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/publicity-team/debian-history.git"
   ],
   "Version": [
-    "13.4"
+    "13.7"
   ]
 }

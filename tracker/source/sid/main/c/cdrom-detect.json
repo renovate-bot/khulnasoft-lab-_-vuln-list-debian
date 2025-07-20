@@ -12,13 +12,13 @@
     "po-debconf"
   ],
   "Checksums-Sha256": [
-    "df2acb1482ac625cf5d63d4e8568c84e908317ae16909f793a48319c54d044c0 1680 cdrom-detect_1.112.dsc b58eaa57079b82c69c625d355664777e8f8ea2a1cd03cc64f5b2fc4544a07214 138880 cdrom-detect_1.112.tar.xz"
+    "25c6822f45b626361c128d847d040db5664bff1fb37588db106ebf755b828b8d 1676 cdrom-detect_1.114.dsc c573c850891f77361586d51657ff5da832f8960153378b6a949290a6a21e9a82 139116 cdrom-detect_1.114.tar.xz"
   ],
   "Directory": [
     "pool/main/c/cdrom-detect"
   ],
   "Files": [
-    "534bf746c435bcc8aee3dbd1e5d5b11b 1680 cdrom-detect_1.112.dsc 823b3c3ed9c2f4131b4ca5900f285aa8 138880 cdrom-detect_1.112.tar.xz"
+    "0f2770bdd7f1bbc19ea8c1b774624e3c 1676 cdrom-detect_1.114.dsc 80c773dc9a807c1daa8945d6a79dfcaf 139116 cdrom-detect_1.114.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/installer-team/cdrom-detect.git"
   ],
   "Version": [
-    "1.112"
+    "1.114"
   ]
 }

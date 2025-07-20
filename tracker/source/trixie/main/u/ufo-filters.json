@@ -9,19 +9,25 @@
     "debhelper-compat (= 13), dh-sequence-sphinxdoc \u003c!nodoc\u003e, cmake, libclfft-dev, libglib2.0-dev, libgsl0-dev | libgsl-dev, libhdf5-dev, libtiff-dev, libufo-dev (\u003e= 0.16), ocl-icd-opencl-dev, python3, python3-sphinx, python3-sphinx-rtd-theme, python3-sphinxcontrib.bibtex"
   ],
   "Checksums-Sha256": [
-    "812f48199b6f8defc433aef200f413ed43119e067cc540908f5c6abaa8384686 2735 ufo-filters_0.16.0.267.gd856f91+dfsg1-1.dsc f263c2303bd4e1ee9dbe428bb0aacc71b82497be495a2e0ac43d4e81035fae41 239892 ufo-filters_0.16.0.267.gd856f91+dfsg1.orig.tar.xz 022d4952baf785a26d4c18e25391b9eece1a60a73cd0b7e94e0945b18599151e 4172 ufo-filters_0.16.0.267.gd856f91+dfsg1-1.debian.tar.xz"
+    "b45a13483582dc7a2e34b2d548667e654f09619f1ba381cd43d0cebfa879e51b 2959 ufo-filters_0.17.0.76.g691aa0e+dfsg1-2.dsc e06fe755ef906aa32e763ceaa7fc2401b8c3d7a7fd364857a93148573e70415e 250648 ufo-filters_0.17.0.76.g691aa0e+dfsg1.orig.tar.xz 5d12fe48dd8edd5073d1d562ea38d7e3a9dc5d4bea0aa50e343dc1c9bfdbfde9 6184 ufo-filters_0.17.0.76.g691aa0e+dfsg1-2.debian.tar.xz"
   ],
   "Dgit": [
-    "97cf9b8fb5cc42f3aca9a3273eeb66c17d8c244e debian archive/debian/0.16.0.267.gd856f91+dfsg1-1 https://git.dgit.debian.org/ufo-filters"
+    "ed3eda892d0ed29a8be77a22b86f8a90920f4bcf debian archive/debian/0.17.0.76.g691aa0e+dfsg1-2 https://git.dgit.debian.org/ufo-filters"
   ],
   "Directory": [
     "pool/main/u/ufo-filters"
   ],
   "Files": [
-    "6bb114b97d3b7f5696c9c17221abe3f6 2735 ufo-filters_0.16.0.267.gd856f91+dfsg1-1.dsc 542f383f75d0ea81bb13e31be03f70eb 239892 ufo-filters_0.16.0.267.gd856f91+dfsg1.orig.tar.xz fe9dd5e36f9cc7b21f6b5216fd677238 4172 ufo-filters_0.16.0.267.gd856f91+dfsg1-1.debian.tar.xz"
+    "760ad585f31310dbf659b79dd6148f29 2959 ufo-filters_0.17.0.76.g691aa0e+dfsg1-2.dsc ce4a9d99f6e1bf50a8ea49824ecfcf73 250648 ufo-filters_0.17.0.76.g691aa0e+dfsg1.orig.tar.xz 0fe63862858012673b95c639d1a7bc11 6184 ufo-filters_0.17.0.76.g691aa0e+dfsg1-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Git-Tag-Info": [
+    "tag=f17be4f732675170d7731e8a9277e81c36646755 fp=d9b453b799b8830d945e6a0a5bf54e5e12b900bb"
+  ],
+  "Git-Tag-Tagger": [
+    "Picca Frédéric-Emmanuel \u003cpicca@debian.org\u003e"
   ],
   "Homepage": [
     "http://ufo.kit.edu/"
@@ -44,6 +50,12 @@
   "Standards-Version": [
     "4.6.2"
   ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "ca-certificates, git, libufo-bin, pocl-opencl-icd"
+  ],
   "Uploaders": [
     "Picca Frédéric-Emmanuel \u003cpicca@debian.org\u003e, Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e, Serge Cohen \u003cserge1cohen@free.fr\u003e,"
   ],
@@ -54,6 +66,6 @@
     "https://salsa.debian.org/science-team/ufo-filters.git"
   ],
   "Version": [
-    "0.16.0.267.gd856f91+dfsg1-1"
+    "0.17.0.76.g691aa0e+dfsg1-2"
   ]
 }

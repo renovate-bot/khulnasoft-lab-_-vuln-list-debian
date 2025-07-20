@@ -12,13 +12,13 @@
     "fortune-mod, recode"
   ],
   "Checksums-Sha256": [
-    "1cd6ba47f932bcdbc28852baefe31809cbe6daf00b7b73d0c243da8718153a05 2439 fortunes-it_2.14-1.dsc 499a4b340cf1b990692e24b59576fb41e6745f1e578a027970036f126b0f4708 751583 fortunes-it_2.14.orig.tar.gz 7b3d4a148a91e1d8bb63f26c722eb5cd5d1783fb39d7b1192383a59ce7fade56 833 fortunes-it_2.14.orig.tar.gz.asc 925e1c83fbfc0d4c4ae2ab82fe104ba41cbe6393504721935fca6d6c402279e8 17136 fortunes-it_2.14-1.debian.tar.xz"
+    "ce8957657189895e75544afc657ef6590809efb16720f6093f9df1b0728c56ec 2439 fortunes-it_2.16-1.dsc df9fc98f09e5ffe755915796a3e60d2a10eb3a459d78063c10eb58b8db381c3c 751957 fortunes-it_2.16.orig.tar.gz d4bc143384ee4335c15c9eb6f43347aa5eaee7b14e67d0e76f54ec91e3f4f57f 833 fortunes-it_2.16.orig.tar.gz.asc e63270b1c79bae4dbe7fc1a509e4851ccdcf3254619d2c095452e37f5eec802a 17172 fortunes-it_2.16-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/f/fortunes-it"
   ],
   "Files": [
-    "b70fd6e301478b893cfa99b0f76db94d 2439 fortunes-it_2.14-1.dsc 9c16ea0718176fe3520f558a1d2ec3b6 751583 fortunes-it_2.14.orig.tar.gz 2e1e50bfe012be2590b5dae90d24ffaf 833 fortunes-it_2.14.orig.tar.gz.asc 0feaf005f343cefae03bf52d51f48e12 17136 fortunes-it_2.14-1.debian.tar.xz"
+    "f84467e82654da0848910eb3202b750a 2439 fortunes-it_2.16-1.dsc 87227208a800f71d1f9b8724a437e3d6 751957 fortunes-it_2.16.orig.tar.gz 894b0b7ca52ffa963cf6896505ffd6d5 833 fortunes-it_2.16.orig.tar.gz.asc c077ff5881fd7fbe4cde2c42fa561180 17172 fortunes-it_2.16-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -51,6 +51,6 @@
     "https://codeberg.org/fortunes-it/fortunes-it.git"
   ],
   "Version": [
-    "2.14-1"
+    "2.16-1"
   ]
 }

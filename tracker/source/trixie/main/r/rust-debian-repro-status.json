@@ -9,16 +9,16 @@
     "debhelper-compat (= 13), dh-sequence-cargo, help2man"
   ],
   "Build-Depends-Arch": [
-    "cargo:native, rustc:native, libstd-rust-dev, librust-anyhow-1+default-dev, librust-clap-4+default-dev, librust-clap-4+derive-dev, librust-colored-2+default-dev, librust-indicatif-0.17+default-dev, librust-rebuilderd-common-0.22+default-dev, librust-reqwest-0.12+default-tls-dev, librust-reqwest-0.12+http2-dev, librust-reqwest-0.12+json-dev, librust-serde-json-1+default-dev, librust-tokio-1+default-dev, librust-tokio-1+fs-dev, librust-tokio-1+macros-dev, librust-tokio-1+process-dev, librust-tokio-1+rt-multi-thread-dev"
+    "cargo:native, rustc:native, libstd-rust-dev, librust-anyhow-1+default-dev, librust-clap-4+default-dev, librust-clap-4+derive-dev, librust-colored-2+default-dev, librust-indicatif-0.17+default-dev, librust-rebuilderd-common-0.23+default-dev, librust-reqwest-0.12+default-tls-dev, librust-reqwest-0.12+http2-dev, librust-reqwest-0.12+json-dev, librust-serde-json-1+default-dev, librust-tokio-1+default-dev, librust-tokio-1+fs-dev, librust-tokio-1+macros-dev, librust-tokio-1+process-dev, librust-tokio-1+rt-multi-thread-dev"
   ],
   "Checksums-Sha256": [
-    "0a9ae5f18b854134efcb79ca8e31266f43108f46b6c8c90369a52630a9f795ba 2735 rust-debian-repro-status_0.2.1-1.dsc 348a25f7ffe1b80da04c021e44d43761caa1fc88d9e594dc4e6432c5d870cc91 18793 rust-debian-repro-status_0.2.1.orig.tar.gz f9bb8790ac03523baa62c44f67b3afd10f9cdff9d5608fa5992d98ecf85a3329 3348 rust-debian-repro-status_0.2.1-1.debian.tar.xz"
+    "7036bf162d74c2b4c2b0dda35be81c828fb7393f112660a79638a71bc302b5ef 2734 rust-debian-repro-status_0.3.1-2.dsc cb41a33e3b3952ba2226041cc80a9908e095fcea16b5c0ab8b91deff381b0c5a 20047 rust-debian-repro-status_0.3.1.orig.tar.gz 4031826c87886fb05eb7183f692cb63586f75a248674403b3e47f4d4260b3bfc 3448 rust-debian-repro-status_0.3.1-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/rust-debian-repro-status"
   ],
   "Files": [
-    "338f5efb7e6d358846dbcbe08ea932fd 2735 rust-debian-repro-status_0.2.1-1.dsc 606498b0f54a5f812af752ae0d8b49c8 18793 rust-debian-repro-status_0.2.1.orig.tar.gz 81189054ee6693290c02447d2e15dc8a 3348 rust-debian-repro-status_0.2.1-1.debian.tar.xz"
+    "5db2657bd0264b8fa60cdad67d54d752 2734 rust-debian-repro-status_0.3.1-2.dsc 2aca5d8e64a96dfe6db30a5b56ecf840 20047 rust-debian-repro-status_0.3.1.orig.tar.gz a4dbcc2b8837a3760fe7c894f4cb5c24 3448 rust-debian-repro-status_0.3.1-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/debian-repro-status]"
   ],
   "Version": [
-    "0.2.1-1"
+    "0.3.1-2"
   ]
 }

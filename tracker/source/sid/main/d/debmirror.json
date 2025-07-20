@@ -9,16 +9,16 @@
     "debhelper-compat (= 13), libdigest-md5-perl, libdigest-sha-perl, liblockfile-simple-perl, libnet-perl, libwww-perl"
   ],
   "Checksums-Sha256": [
-    "eea471b62f4add9e6481d9c9dca55dc36834b5e7d4247afebf63a9993828574e 1718 debmirror_2.45.dsc 91a44eaf2c8393440aad402f41dc38e529910d5eb1bec0fee700896bcecfae7e 57328 debmirror_2.45.tar.xz"
+    "c07f07a1a75fed46e09534fc263c0fcd5e0dc92d8599de4cd088eb1b683dbfe9 1741 debmirror_2.47.dsc 5202b89be915cd24ebdc3021c7159b587050c4dc3eb9de2eb599d098b16e54df 57524 debmirror_2.47.tar.xz"
   ],
   "Dgit": [
-    "0677baf9644b4271dee72f2c4dd1b87471db3a07 debian archive/debian/1%2.45 https://git.dgit.debian.org/debmirror"
+    "a609b3b0c5ff60a37ba59ff2529ba692952aa942 debian archive/debian/1%2.47 https://git.dgit.debian.org/debmirror"
   ],
   "Directory": [
     "pool/main/d/debmirror"
   ],
   "Files": [
-    "d1f631604212853c57430e8a41021388 1718 debmirror_2.45.dsc 4182718f32705f18c620bd7632e34668 57328 debmirror_2.45.tar.xz"
+    "5fa3b6c3308633684f61b44a8b84880b 1741 debmirror_2.47.dsc 92985e244027d395df5919d4dfef021c 57524 debmirror_2.47.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -41,6 +41,9 @@
   "Standards-Version": [
     "3.9.8"
   ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/debmirror"
   ],
@@ -48,6 +51,6 @@
     "https://salsa.debian.org/debian/debmirror.git"
   ],
   "Version": [
-    "1:2.45"
+    "1:2.47"
   ]
 }

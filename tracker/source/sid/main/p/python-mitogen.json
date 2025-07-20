@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-psutil \u003c!nocheck\u003e, python3-setuptools"
   ],
   "Checksums-Sha256": [
-    "ec0f858d2acca0f235a1a5f777c0653f996978150eca2492e4d390f3bbfced53 1809 python-mitogen_0.3.23-1.dsc 5e7b5d0bb951da12648e5512bdd0f7d9fdbd30596361fdccb85987ff11b4af76 1295245 python-mitogen_0.3.23.orig.tar.gz d4e74a37b064ea36dd140f5a4817ef64c0c29de831f19e598583ab073e4dc2e2 11168 python-mitogen_0.3.23-1.debian.tar.xz"
+    "300956bf2e0001d3d676ca61b27d414863d17512a6d0b14af8671af0c05a87cf 1830 python-mitogen_0.3.25~a2-1.dsc 1eff64e9886e6bfa12e8d15e752a1932e822ad74abe9acbe9599c22ce5963f3f 1288339 python-mitogen_0.3.25~a2.orig.tar.gz 6fe0ffc4027d844c331462579ed2ee79c0d0b699ed0182257170dbbc1c986097 10440 python-mitogen_0.3.25~a2-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/p/python-mitogen"
   ],
   "Files": [
-    "b4c9dfe38d324552673eab9f474b3470 1809 python-mitogen_0.3.23-1.dsc dba33c6efba19fd9c24ceb50379d2c21 1295245 python-mitogen_0.3.23.orig.tar.gz 0e6b53e6101e7d1788413f0435ece3fb 11168 python-mitogen_0.3.23-1.debian.tar.xz"
+    "1284f7a62bfbd5dc4dac4c661309c61e 1830 python-mitogen_0.3.25~a2-1.dsc adaed61a6a2462147d6c05fbf4ff1c2e 1288339 python-mitogen_0.3.25~a2.orig.tar.gz 8dc1eaf263e2dd328bcede02ad4095ad 10440 python-mitogen_0.3.25~a2-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/python-mitogen.git"
   ],
   "Version": [
-    "0.3.23-1"
+    "0.3.25~a2-1"
   ]
 }
