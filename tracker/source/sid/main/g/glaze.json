@@ -9,7 +9,7 @@
     "debhelper-compat (= 13), cmake"
   ],
   "Checksums-Sha256": [
-    "5d58870748a84d27a806b2fd247bb53ccbfdd7cbadd2b86fab32347783bcfe35 2033 glaze_4.4.3-1.dsc d0dd03f156f95860bf9c2957da0704ee0f7651e21089ff34e3d26fa0190e8684 555987 glaze_4.4.3.orig.tar.gz e27012bed8db17de694ba7db82721ecb9a35837bcfee47fd36d8b67c2b084573 3116 glaze_4.4.3-1.debian.tar.xz"
+    "63b29f175d7c25730141c0552db9dd9c27ec1ad6ca231c5515259b5ed29beb38 2029 glaze_5.5.5-1.dsc c2ae536d634aa12f49ac7521f169d2891af55b3376648cbb0053daadb78b6ef1 743088 glaze_5.5.5.orig.tar.gz b6805cf8efa46a11113991812a279c348d27aa768c9df6efc8df502bfa67a61e 3436 glaze_5.5.5-1.debian.tar.xz"
   ],
   "Description": [
     "High-performance C++ JSON serialization library Glaze is a high-performance C++ library for JSON and other structured formats, it provides efficient serialization and deserialization."
@@ -18,7 +18,7 @@
     "pool/main/g/glaze"
   ],
   "Files": [
-    "ae4f516e0949d047cd79fea2fa4fcb1f 2033 glaze_4.4.3-1.dsc 20356147354accf7947a09a0d288fa19 555987 glaze_4.4.3.orig.tar.gz bdd4ebee2fc787106ee9648b95d208fb 3116 glaze_4.4.3-1.debian.tar.xz"
+    "e813a3fef035b927d537dfe1807d73bd 2029 glaze_5.5.5-1.dsc aa11212fe7d166b4e6002ba157d9b757 743088 glaze_5.5.5.orig.tar.gz 987c551201a6ca5ee947d88f00af0e15 3436 glaze_5.5.5-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,15 +42,15 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/carlo711/glaze"
+    "https://salsa.debian.org/debian/glaze"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/carlo711/glaze.git"
+    "https://salsa.debian.org/debian/glaze.git"
   ],
   "Version": [
-    "4.4.3-1"
+    "5.5.5-1"
   ]
 }
